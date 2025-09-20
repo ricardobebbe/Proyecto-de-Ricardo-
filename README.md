@@ -11,7 +11,7 @@
 - 🛠️ Creador de servidores privados de **Mu Online** (Season 6 - 0.97k)
 - 💡 Apasionado por la programación, scripting y la personalización de juegos
 - 🌍 Comprometido con compartir conocimiento y ayudar a la comunidad hispanohablante
-- 🐉 Actualmente trabajando en: **Proyecto de Ricardo** — Un servidor Mu Online 0.97k Kayito totalmente personalizado
+- 🐉 Actualmente trabajando en: **Proyecto de Ricardo** — Un servidor Mu Online 0.97k totalmente personalizado
 
 ---
 
@@ -25,8 +25,8 @@
 
 ## 🗂️ Proyecto Destacado
 
-### [⚔️ Proyecto de Ricardo — Servidor Mu Online 0.97k Kayito](https://github.com/ricardobebbe/Proyecto-de-Ricardo-)
-> Un servidor privado de **Mu Online**, basado en **MuEmu 0.97k Kayito**, en constante evolución.  
+### [⚔️ Proyecto de Ricardo — Servidor Mu Online 0.97k](https://github.com/ricardobebbe/Proyecto-de-Ricardo-)
+> Un servidor privado de **Mu Online**, en constante evolución.  
 > ✅ Configuración inicial lista  
 > 🧩 Próximamente: Items personalizados, eventos, tasas épicas y más.
 

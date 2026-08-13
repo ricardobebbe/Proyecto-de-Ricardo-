@@ -1,0 +1,35 @@
+//Message                                                                                                 Type   Count   Opacity   Delay   Red   Green   Blue   Speed   RepeatTime
+"[!] El STAFF nunca te pedirá tu contraseña"                                                              0      0       0         0      0     0       0      0       240
+"[!] Evento PvP todos los Jueves a partir de las 19:00"                                                    0      0       0         0      0     0       0      0       240
+"[!] Síguenos en Facebook"                                                                                  0      0       0         0      0     0       0      0       240
+"[!] Distribuir puntos /f /a /v /e /c"                                                                     0      0       0         0      0     0       0      0       240
+"[!] Aprovecha las promociones! [Mu]RDDLV siempre haciendo lo mejor para ti"                                0      0       0         0      0     0       0      0       240
+"[!] Contribuye, ayuda a que estemos online!"                                                               0      0       0         0      0     0       0      0       240
+"[!] No te pierdas las noticias que aparecen en el chat"                                                   0      0       0         0      0     0       0      0       240
+"[!] Sé VIP Oro y disfruta de sus ventajas, así ayudas al servidor a crecer juntos"                        0      0       0         0      0     0       0      0       240
+"[!] Para cambiar el chat presiona F6"                                                                     0      0       0         0      0     0       0      0       240
+//"[!] Haz tu tienda offline /offstore"                                                                       0      0       0         0      0     0       0      0       240
+//"[!] Evento Máquina del Tiempo una vez al mes en la Noche del Búho con participación de GM y ADM, eventos y premios tops" 0      0       0         0      0     0       0      0       240
+"[!] Sé cordial, haz un juego limpio, todos ganamos"                                                       0      0       0         0      0     0       0      0       240
+"[!] Hay mucha información importante en nuestra página de Facebook"                                       0      0       0         0      0     0       0      0       240
+"[!] Reporta a usuarios que utilicen programas maliciosos."                                                0      0       0         0      0     0       0      0       240
+"[!] Lee las reglas y evita vergüenzas."                                                                   0      0       0         0      0     0       0      0       240
+"[!] El equipo [Mu]RDDLV agradece tu preferencia, ¡buen juego!"                                            0      0       0         0      0     0       0      0       240
+"[!] Nunca des tu contraseña a nadie, ¡mantén tu cuenta segura!"                                           0      0       0         0      0     0       0      0       240
+//"[!] Resets Acumulativos Free [1000] VIP Plata [500] VIP Oro [350]"                                        0      0       0         0      0     0       0      0       240
+
+//"[!] /re auto para aceptar solicitudes de grupo automáticamente"                                           0      0       0         0      0     0       0      0       240
+"[!] /limpiar para limpiar tu inventario"                                                                   0      0       0         0      0     0       0      0       240
+"[!] /info <nombre> para saber información sobre otros jugadores"                                           0      0       0         0      0     0       0      0       240
+"[!] El STAFF no se responsabiliza por pérdida de items"                                                   0      0       0         0      0     0       0      0       240
+"[!] Evento de drop en fechas conmemorativas"                                                               0      0       0         0      0     0       0      0       240
+//"[!] Usa la tecla 'X' para abrir la tienda"                                                                  0      0       0         0      0     0       0      0       240
+//"[!] Evento Rey del MU, conquista el castillo con tu guild en Devias 3"                                     0      0       0         0      0     0       0      0       240
+"[!] Evita ser robado al ser desconectado, usa el comando /Lock <contraseña> /Unlock para desbloquear"       0      0       0         0      0     0       0      0       240
+                       
+                       
+"[!] www.mumisiones.com"                                                                                       0      0       0         0      0     0       0      0       240
+"[Mu]RDDLV, ¡tu aventura comienza aquí!"                                                                     0      0       0         0      0     0       0      0       240
+
+"[ ! ] Entre em BLOOD CASTLE e venham conhecer "                                                                          1      0       0         0      0     0       0      0       240
+"[ ! ] Entre em DEVIL SQUARE e venha conhecer "                                                                           1      0       0         0      0     0       0      0       240

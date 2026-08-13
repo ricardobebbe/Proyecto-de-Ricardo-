@@ -1,0 +1,82 @@
+﻿Build started 04/02/2022 18:44:54.
+Project "C:\Socer Zeus UP17\GetMainInfo\GetMainInfo\GetMainInfo.vcxproj" on node 2 (build target(s)).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+InitializeBuildStatus:
+  Creating "FREE\GetMainInfo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W0 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D GAMESERVER_PREMIUM=0 /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"FREE\GetMainInfo-Free.pch" /Fo"FREE\\" /Fd"FREE\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+  stdafx.cpp
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W0 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D GAMESERVER_PREMIUM=0 /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"FREE\GetMainInfo-Free.pch" /Fo"FREE\\" /Fd"FREE\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Util\CCRC32.Cpp CustomBuyVip.cpp CustomCloak.cpp CustomCommandInfo.cpp CustomCrossBow.cpp CustomEffectDynamic.cpp CustomEffectRemake.cpp CustomEventTimeText.cpp CustomGloves.cpp CustomItem.cpp CustomItemPosition.cpp CustomJewel.cpp CustomMessage.cpp CustomMonster.cpp CustomNpcName.cpp CustomPet.cpp CustomPetEffect.cpp CustomWIngEffect.cpp CustomWing.cpp Fog.cpp GetMainInfo.cpp InfoLog.cpp ItemManager.cpp ItemValue.cpp MemScript.cpp ModelEffect.cpp SmokeEffect.cpp
+  CCRC32.Cpp
+  CustomBuyVip.cpp
+  CustomCloak.cpp
+  CustomCommandInfo.cpp
+  CustomCrossBow.cpp
+  CustomEffectDynamic.cpp
+  CustomEffectRemake.cpp
+  CustomEventTimeText.cpp
+  CustomGloves.cpp
+  CustomItem.cpp
+  CustomItemPosition.cpp
+  CustomJewel.cpp
+  CustomMessage.cpp
+  CustomMonster.cpp
+  CustomNpcName.cpp
+  CustomPet.cpp
+  CustomPetEffect.cpp
+  CustomWIngEffect.cpp
+  CustomWing.cpp
+  Fog.cpp
+  Compiling...
+  GetMainInfo.cpp
+  InfoLog.cpp
+  ItemManager.cpp
+  ItemValue.cpp
+  MemScript.cpp
+  ModelEffect.cpp
+  SmokeEffect.cpp
+ResourceCompile:
+  All outputs are up-to-date.
+Link:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Socer Zeus UP17\GetMainInfo\Release\GetMainInfo-Free.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"FREE\GetMainInfo-Free.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Socer Zeus UP17\GetMainInfo\Release\GetMainInfo-Free.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Socer Zeus UP17\GetMainInfo\Release\GetMainInfo-Free.lib" /MACHINE:X86 FREE\GetMainInfo.res
+  FREE\CCRC32.obj
+  FREE\CustomBuyVip.obj
+  FREE\CustomCloak.obj
+  FREE\CustomCommandInfo.obj
+  FREE\CustomCrossBow.obj
+  FREE\CustomEffectDynamic.obj
+  FREE\CustomEffectRemake.obj
+  FREE\CustomEventTimeText.obj
+  FREE\CustomGloves.obj
+  FREE\CustomItem.obj
+  FREE\CustomPetEffect.obj
+  FREE\ItemManager.obj
+  FREE\CustomItemPosition.obj
+  FREE\CustomJewel.obj
+  FREE\CustomMessage.obj
+  FREE\CustomMonster.obj
+  FREE\CustomNpcName.obj
+  FREE\CustomPet.obj
+  FREE\CustomWing.obj
+  FREE\CustomWIngEffect.obj
+  FREE\Fog.obj
+  FREE\GetMainInfo.obj
+  FREE\InfoLog.obj
+  FREE\ItemValue.obj
+  FREE\MemScript.obj
+  FREE\ModelEffect.obj
+  FREE\SmokeEffect.obj
+  FREE\stdafx.obj
+  Generating code
+  Finished generating code
+  GetMainInfo.vcxproj -> C:\Socer Zeus UP17\GetMainInfo\Release\GetMainInfo-Free.exe
+Manifest:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Socer Zeus UP17\GetMainInfo\Release\GetMainInfo-Free.exe;#1" /manifest "FREE\GetMainInfo-Free.exe.intermediate.manifest"
+FinalizeBuildStatus:
+  Deleting file "FREE\GetMainInfo.unsuccessfulbuild".
+  Touching "FREE\GetMainInfo.lastbuildstate".
+Done Building Project "C:\Socer Zeus UP17\GetMainInfo\GetMainInfo\GetMainInfo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.78

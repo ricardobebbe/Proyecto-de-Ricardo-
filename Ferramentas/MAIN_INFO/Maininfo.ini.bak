@@ -1,0 +1,327 @@
+[MainInfo]
+CustomerName = 
+LauncherType = 0
+LauncherName = Launcher
+IpAddress = 192.168.15.90
+IpAddressPort = 44405
+ClientVersion = 1.04.05 
+ClientSerial = TbYehR2hFUPBKgX2
+WindowName = [MU]LEPO 97D+2.0i
+ScreenShotPath = ScreenShots\Screen(%02d_%02d-%02d-%02d)-%04d.jpg
+ClientName = Main.exe
+AntiHackName= //MHPVerify.dll
+PluginName1 = //MHPClient.dll
+PluginName2 =  
+PluginName3 = 
+PluginName4 = 
+PluginName5 = 
+CameraName =
+ServerName1 = Server 1
+ServerName2 = Manutençao
+ServerName3 = Premium No-PVP
+ServerName4 = Server 1
+
+
+[HelperInfo]
+HelperActiveAlert = 0
+HelperActiveLevel = 0
+
+[CharacterInfo]
+DWMaxAttackSpeed = 32767
+DKMaxAttackSpeed = 65767
+FEMaxAttackSpeed = 32767
+MGMaxAttackSpeed = 32767
+DLMaxAttackSpeed = 32767
+SUMaxAttackSpeed = 32767
+RFMaxAttackSpeed = 32767
+
+[ReconnectInfo]
+ReconnectTime = 300000
+
+
+[TimeZone]
+//===============================================================
+//-- ZONA HORARIA GMT
+//===============================================================
+TIME_GMT = -05
+
+[Custom]
+//===============================================================
+//-- Delect Character Levl
+//-- Delect Character Max Level
+//===============================================================
+DelectCharacter = 300
+
+//===============================================================
+//-- Quartidade De Main.exe Abrir
+//===============================================================
+MaxGameInstances = 4
+
+//===============================================================
+//-- Remover Classes
+//  0 ->  No Remove
+//  1 ->  Remove SU/DL/RF
+//  2 ->  Remove SU/RF
+//  3 ->  Remove RF
+//===============================================================
+RemoveClass = 2
+
+//===============================================================
+//-- Custom Rank User (Patentes)
+// Types when mouse over
+//  0 ->  Complete
+//  1 ->  No show Stats
+//  2 ->  No Show Logo
+//  3 ->  No Show Stats/Logo
+//  4 ->  Show Logo Over Head
+//===============================================================
+RankUserType = 0
+RankUserShowOverHead = 0
+RankUserShowReset = 3
+RankUserShowMasterReset = 1
+RankUserOnlyOnSafeZone = 1
+RankUserNeedAltKey = 1
+
+//===============================================================
+//-- Desativa Master Skill Tree
+//===============================================================
+DisableMasterSkillTree = 0
+
+//===============================================================
+//-- Habilitar Cs Skills
+//-- habilitar in Common.dat
+//===============================================================
+EnableCsSkillsAllMaps = 1
+
+//===============================================================
+//-- Remover Recuo Reflect 
+//===============================================================
+DisableReflectEffect = 0
+
+//===============================================================
+//-- Enable Print Screen + logo
+//-- Change Data\Custom\Interface\MU-logo.OZT to your MU logo
+// 0 = Disabled
+// 1 = Left Top position
+// 2 = Right Top position
+// 3 = Left Buttom position
+// 4 = Right Buttom position
+// 5 = Center position
+//===============================================================
+PrintLogo = 3
+
+//===============================================================
+//-- Ativar Custom Menu
+// CustomMenuSwitch: 0 Disable / 1 Enable
+// CustomMenuType: Type: 1 - Logo; 2 - Button
+//===============================================================
+CustomMenuSwitch = 1
+CustomMenuType = 2
+EnableEventTimeButton = 1
+EnableVipShopButton = 1
+EnableRankingButton = 1
+EnableCommandButton = 1
+EnableOptionButton = 1
+EnableCoinStatus = 1
+
+//===============================================================
+//-- Ativar Premium Shop 
+//(Habilitar o shopping para comprar Vip)
+//===============================================================
+EnableVipShop = 0
+VipTypes = 0
+
+//===============================================================
+//-- Ativar New Shop Value System
+//===============================================================
+EnableShopValueSystem = 1
+
+//===============================================================
+//-- Ativar Custom Store Buttons
+//===============================================================
+EnableStoreBlessButtom = 1
+EnableStoreSoulButtom = 1
+EnableStoreChaosButtom = 1
+EnableStoreCoin1Buttom = 1
+EnableStoreCoin2Buttom = 1
+EnableStoreCoin3Buttom = 1
+EnableOffStoreButtom = 1
+
+//================================================================
+//-- Ativar Custom Monster System
+//================================================================
+CustomMonsterEnable = 1
+
+//================================================================
+//-- 0: S6 ORIGINAL
+//-- 1: Interface 97/99
+//-- 2: Interface S2/S3
+//-- 3: Interface ex700
+//-- 4: Interface legends
+//=================================
+CustomInterfaceType = 1
+//=================================
+//-- Interface S2/S3
+//-- 1: Ativado
+//-- 0: Dezativado
+//=================================
+CustomRemoveCoord = 0
+
+//=================================
+//-- Enable MONITOR FPS/MS
+//-- 0: Desativado
+//-- 1: Ativado
+//=================================
+MonitorFPS = 0
+MonitorMS  = 0
+
+//=================================
+//-- Increase FPS Limit
+//-- Values:
+//-- 40 = Max 26 FPS (Default Value)
+//-- 34 = Max 31 FPS (Best Value)
+//-- 32 = Max 33 FPS
+//-- 30 = Max 34 FPS
+//-- 25 = Max 40 FPS
+//=================================
+LimitFPS = 34
+
+//===============================================================
+//-- Ativar Custom Mercado Negro
+// Type: 1 - Logo; 2 - Button
+//===============================================================
+MercadoNegro = 1
+
+[Effect]
+//=================================
+//-- Ativa Effect item +15
+//-- 0: Desativado
+//-- 1: Ativado
+//=================================
+EffectPlus15 = 0
+
+[Disable]
+//=================================
+//-- Desativa Party HP Bar
+//-- 0: Ativado
+//-- 1: Desativado Bar Ícone 
+//-- 2: Desativado All
+//=================================
+DisablePartyHpBar = 1
+
+//=================================
+//-- Desativa GensButtom [Key B]
+//-- 0: Ativado
+//-- 1: Desativado
+//=================================
+DisableGens = 1
+
+//=================================
+//-- Desativa ViewMap [Key TAP]
+//-- 0: Ativado
+//-- 1: Desativado
+//=================================
+DisableTabMap = 1
+
+//=================================
+//-- Desativa DisableMuHelper
+//-- 0: Ativado
+//-- 1: Desativado
+//=================================
+DisableHelper = 1
+
+//=================================
+//-- Desativa Advance
+//-- 0: Ativado
+//-- 1: Desativado
+//=================================
+DisableAdvance = 1
+
+//=================================
+//-- Desativa CustomClaws
+//-- 0: Ativado
+//-- 1: Desativado
+//=================================
+DisableCustomClaws = 0
+
+//=================================
+//-- Desativa CustomBow
+//-- 0: Ativado
+//-- 1: Desativado
+//=================================
+DisableCustomBow = 0
+
+//=================================
+//-- Desativa CustomCloack
+//-- 0: Ativado
+//-- 1: Desativado
+//=================================
+DisableCustomCloack = 0
+
+//=================================
+//-- Desativa CustomPosition
+//-- 0: Ativado
+//-- 1: Desativado
+//=================================
+DisableCustomPosition = 0
+
+//=================================
+//-- Desativa CustomPet
+//-- 0: Ativado
+//-- 1: Desativado
+//=================================
+DisableCustomPet = 0
+
+//=================================
+//-- Desativa EffectRemake
+//-- 0: Ativado
+//-- 1: Desativado
+//=================================
+DisableEffectRemake = 1
+
+//=================================
+//-- Desativa SocketInvetori
+//-- 0: Ativado
+//-- 1: Desativado
+//=================================
+DisableSocketInvetori = 1
+
+//=================================
+//-- Desativa Buttons (F) (M) (R)
+//-- 0: Ativado
+//-- 1: Desativado
+//=================================
+DisableRepeirInInventory = 1
+DisableButtonOpenStore = 0
+DisableButtonInventoryExt = 1
+DisableButtonQuestInStats = 1
+DisableButtonPetsInStats = 1
+DisableButtonSkillMaster = 1
+DisableMmoves = 0
+DisableF = 1
+
+//=================================
+//-- Desativa MuunSystem
+//-- 0: Desativado
+//-- 1: Ativado
+//=================================
+DisableMuunSystem = 1
+
+[UPGRADE]
+//=================================
+//-- Habilitar Inventario zen UPGRADE
+//-- 0: Desativado
+//-- 1: Ativado
+//=================================
+InventoryUPGRADE = 1
+
+//=================================
+//-- Habilitar SelectCharS13
+//-- Habilitar Animaciones en SelectChar
+//-- Copiar world 77 y Object77
+//-- 1: Ativado
+//-- 0: Desativado
+//=================================
+SelectCharAnimate = 1
+SelectCharS13 = 0
+CustomSelectServerX700 = 1

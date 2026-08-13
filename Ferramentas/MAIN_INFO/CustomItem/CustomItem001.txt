@@ -1,0 +1,725 @@
+﻿//=======================================================================================================
+//Programaçao Por By:RDDLV Mu Misiones  (@) 22/06/2026
+//FILES PREMIUN :RDDLV 
+//=======================================================
+// Index     = ItemIndex: (Type * 512) + Index;
+// R         = ColorRed;
+// G         = ColorGreen;
+// B         = ColorBlue;
+// ModelName = "Name" file bmd of the model;
+//=======================================================
+//Index	R	G	B	ModelName
+//=======================================================
+//=========================
+// Set Novos
+//=========================
+3682	150     80      0	"HelmMale200"		         //Especial 01
+3683	180     100     0	"HelmMale201"		         //Especial 02 
+3684	180     100     0	"HelmMale202"		         //Especial 03
+3685	180     100     0	"HelmMale203"		         //Especial 04
+3686	0       0       200	"HelmMale204"		         //Especial 05
+3687	180     100     00	"HelmMale205"		         //Especial 06
+3688	180     100     00	"HelmMale206"		         //Especial 07
+
+4194	150     80      0	"ArmorMale200"		         //Especial 01
+4195	180     100     0	"ArmorMale201"		         //Especial 02
+4196	180     100     0	"ArmorMale202"		         //Especial 03
+4197	180     100     0       "ArmorMale203"		         //Especial 04
+4198	0       0       200	"ArmorMale204"		         //Especial 05
+4199	180     100     00	"ArmorMale205"		         //Especial 06
+4200	180     100     00	"ArmorMale206"		         //Especial 07
+
+4706	150     80      0	"PantMale200"		         //Especial 01
+4707	180     100     0	"PantMale201"		         //Especial 02
+4708	180     100     0	"PantMale202"		         //Especial 03
+4709	180     100     0	"PantMale203"		         //Especial 04
+4710	0       0       200	"PantMale204"		         //Especial 05
+4711	180     100     00	"PantMale205"		         //Especial 06
+4712	180     100     00	"PantMale206"		         //Especial 07
+
+5218	150     80      0	"GloveMale200"	                 //Especial 01
+5219	180     100     0	"GloveMale201"	                 //Especial 02
+5220	180     100     0	"GloveMale202"		         //Especial 03
+5221	180     100     0	"GloveMale203"	                 //Especial 04
+5222	0       0       200	"GloveMale204"	                 //Especial 05
+5223	180     100     00	"GloveMale205"	                 //Especial 06
+5224	180     100     00	"GloveMale206"	                 //Especial 07
+
+5730	150     80      0	"BootMale200"		        //Especial 01
+5731	180     100     0	"BootMale201"		        //Especial 02
+5732	180     100     0	"BootMale202"		        //Especial 03
+5733	180     100     0	"BootMale203"		        //Especial 04
+5734	0       0       200	"BootMale204"		        //Especial 05
+5735	180     100     00	"BootMale205"		        //Especial 06
+5736	180     100     00	"BootMale206"		        //Especial 07
+
+3722	0	0 	0	"HelmMale221"		        //Helm Love 2.0 [M]
+3723	0	0 	0	"HelmMale222"		        //Helm Love 2.0 [F]
+3724	-1	-1	-1	"HelmMale237"			//Helm Dark Pirate [M]
+3725	0	0 	0	"HelmMale218"		        //Helm Of Apocalipse 2.0
+3727	0	0 	0	"HelmMale219"		        //Helm Natalino [M]
+3728	0	0 	0	"HelmMale220"		        //Helm Natalino [F]
+
+4234	0	0 	0	"ArmorMale221"		        //Armor Love 2.0 [M]
+4235	0	0 	0	"ArmorMale222"		        //Armor Love 2.0 [F]
+4236	-1	-1	-1	"ArmorMale237"			//Armor Dark Pirate [M]
+4237	0	0 	0	"ArmorMale218"			//Armor Of Apocalipse 2.0
+4239	0	0 	0	"ArmorMale219"		        //Armor Natalino [M]
+4240	0	0 	0	"ArmorMale220"		        //Armor Natalino [F]
+
+4746	0	0 	0	"PantMale221"		        //Pants Love 2.0 [M]
+4747	0	0 	0	"PantMale222"		        //Pants Love 2.0 [F]
+4748	-1	-1	-1	"PantMale237"			//Pants Dark Pirate [M]
+4749	0	0 	0	"PantMale218"			//Pants Of Apocalipse 2.0
+4751	0	0 	0	"PantMale219"		        //Pants Natalino [M]
+4752	0	0 	0	"PantMale220"		        //Pants Natalino [F]
+
+5258	0	0 	0	"GloveMale221"		        //Glove Love 2.0 [M] 
+5259	0	0 	0	"GloveMale222"		        //Glove Love 2.0 [F]
+5260	-1	-1	-1	"GloveMale237"			//Gloves Dark Pirate [M]
+5261	0	0 	0	"GloveMale218"			//Gloves Of Apocalipse 2.0
+5263	0	0 	0	"GloveMale219"		        //Gloves Natalino [M]
+5264	0	0 	0	"GloveMale220"		        //Gloves Natalino [F]
+
+5770	0	0 	0	"BootMale221"		        //Boots Love 2.0 [M]
+5771	0	0 	0	"BootMale222"		        //Boots Love 2.0 [F]
+5772	-1	-1	-1	"BootMale237"			//Boot Dark Pirate [M]
+5773	0	0 	0	"BootMale218"			//Boot Of Apocalipse 2.0
+5775	0	0 	0	"BootMale219"		        //Gloves Natalino [M]
+5776	0	0 	0	"BootMale220"		        //Gloves Natalino [F]
+
+3734	122	147	99	"HelmMale225"		        //Helm Of Snow
+3735	122	147	99	"HelmMale226"		        //Helm Of Gold
+3736	122	147	99	"HelmMale227"		        //Helm Of Gold 2.0
+3737	122	147	99	"HelmMale109_alice"		//Holyangel Summoner
+3738	145     242     255	"HelmMale230"		        //Helm Diamond
+3739	0	0	0	"HelmMale228"		        //Helm Blood Vampire 
+3740	70      70      70	"HelmMale229"		        //Helm Of Steel 2.0 [M]
+
+4246	122	147	99	"ArmorMale225"			//Armor Of Snow
+4247	122	147	99	"ArmorMale226"			//Armor Of Gold
+4248	122	147	99	"ArmorMale227"		        //Armor Of Gold 2.0
+4249	122	147	99	"ArmorMale109_alice"		//Armor Of Elf
+4250	145     242     255	"ArmorMale230"			//Armor Diamond [RL]
+4251	0	0	0	"ArmorMale228"			//Armor Blood Vampire
+4252	70      70      70	"ArmorMale229"			//Armor Of Steel 2.0 [M]
+
+4758	122	147	99	"PantMale225"			//Pants Of Snow
+4759	122	147	99	"PantMale226"			//Pants Of Gold
+4760	122	147	99	"PantMale227"		        //Pants Of Gold 2.0
+4761	122	147	99	"PantMale109_alice"		//Pants Of Elf
+4762	145     242     255	"PantMale230"			//Pants Of Diamond [RL]
+4763	0	0	0	"PantMale228"			//Pants Blood Vampire
+4764	70      70      70	"PantMale229"			//Pants Of Steel 2.0 [M]
+
+5270	122	147	99	"GloveMale225"			//Gloves Of Snow
+5271	122	147	99	"GloveMale226"			//Gloves Of Gold
+5272	122	147	99	"GloveMale227"			//Gloves Of Gold 2.0
+5273	122	147	99	"GloveMale109"			//Gloves Of Elf
+5274	145     242     255	"GloveMale230"			//Gloves Of Diamond [RL]
+5275	0	0	0	"GloveMale228"			//Gloves Blood Vampire
+5276	70      70      70	"GloveMale229"			//Gloves Of Steel 2.0 [M]
+
+5782	122	147	99	"BootMale225"			//Boots Of Snow
+5783	122	147	99	"BootMale226"			//Boots Of Gold
+5784	122	147	99	"BootMale227"			//Boots Of Gold 2.0
+5785	122	147	99	"BootMale109"			//Boots Of Elf
+5786	145     242     255	"BootMale230"			//Boots Of Diamond [RL]
+5787	0	0	0	"BootMale228"			//Boots Blood Vampire
+5788	70      70      70	"BootMale229"			//Boots Of Steel 2.0 [M]
+
+3690	180     100     00	"HelmMale207"		         //Especial 08
+3691	150     80      0	"HelmMale208"		         //Especial 01-X [Ex]
+3692	180     100     0	"HelmMale209"		         //Especial 02-X [Ex]
+3693	205     0       0	"HelmMale210"		         //Dark Raven
+3694	00	40	00	"HelmMale211"		         //Helm Of Cup
+3695	0       0       0	"HelmMale212"		         //Helm Of War
+3696	0       0       0	"HelmMale223"		         //Helm Love Black [RL]
+3698	0       0       0	"HelmMale224"		         //Helm Majestick 2.0 [RL]
+3699	-1	-1	-1	"HelmMale238"		         //Helm Dark Pirate [F]
+
+4202	180     100     00	"ArmorMale207"		        //Especial 08
+4203	150     80      0	"ArmorMale208"			//Especial 01-X [Ex]
+4204	180     100     0	"ArmorMale209"		        //Especial 02-X [Ex]
+4205	205     0       0	"ArmorMale210"		        //Dark Raven
+4206	00	40	00	"ArmorMale211"			//Armor Of Cup
+4207	0       0       0	"ArmorMale212"			//Armor Of War
+4208	0       0       0	"ArmorMale223"			//Armor Love Black [RL]
+4210	0       0       0	"ArmorMale224"		        //Armor Majestick 2.0 [RL]
+4211	-1	-1	-1	"ArmorMale238"			//Armor Dark Pirate [F]
+
+4714	180     100     00	"PantMale207"		        //Especial 08
+4715	150     80      0	"PantMale208"			//Especial 01-X [Ex]
+4716	180     100     0	"PantMale209"		        //Especial 02-X [Ex]
+4717	205     0       0	"PantMale210"		        //Dark Raven
+4718	00	40	00	"PantMale211"			//Pants Of Cup
+4719	0       0       0	"PantMale212"			//Pant Of War
+4720	0       0       0	"PantMale223"			//Pants Love Black [RL]
+4722	139     0       0	"PantMale224"		        //Pants Majestick 2.0 [RL]
+4723	-1	-1	-1	"PantMale238"			//Pants Dark Pirate [F]
+
+5226	180     100     00	"GloveMale207"	                //Especial 08
+5227	150     80      0	"GloveMale208"			//Especial 01-X [Ex]
+5228	180     100     0	"GloveMale209"		        //Especial 02-X [Ex]
+5229	205     0       0	"GloveMale210"		        //Dark Raven
+5230	00	40	00	"GloveMale211"			//Glove Of Cup
+5231	0       0       0	"GloveMale212"			//Glove Of War
+5232	0       0       0	"GloveMale223"		        //Glove Love Black [RL]
+5234	139     0       0	"GloveMale224"			//Glove Majestick 20.[RL]
+5235	-1	-1	-1	"GloveMale238"			//Glove Dark Pirate [F]
+
+5738	180     100     00	"BootMale207"		        //Especial 08
+5739	150     80      0	"BootMale208"			//Especial 01-X [Ex]
+5740	180     100     0	"BootMale209"		        //Especial 02-X [Ex]
+5741	205     0       0	"BootMale210"		        //Dark Raven
+5742	00	40	00	"BootMale211"			//Boots Of Cup
+5743	0       0       0	"BootMale212"			//Boots Of War
+5744	0       0       0	"BootMale223"			//Boots Love Black [RL]
+5746	139     0       0	"BootMale224"		        //Boots Majestick 2.0 [RL]
+5747	-1	-1	-1	"BootMale238"			//Boots Dark Pirate [F]
+
+3748	70      70      70	"HelmMale231"		        //Helm Of Steel 2.0 [F]
+3749	-1      -1      -1	"HelmMale232"		        //Helm Of Horus [M]
+3750	-1	-1	-1	"HelmMale233"		        //Helm Of Isis  [F]
+3751	00	00	00	"HelmMale234"		        //Helm Of Zeus
+3752	70      70      70	"HelmMale235"		        //Helm Of Holy [M]
+3753	70      70      70	"HelmMale236"		        //Helm Of Holy [F]
+3754	0	0	0	"HelmMale249"		        //Helm Light Hawk [M]
+3755	00	00	00	"HelmMale250"		        //Helm Light Hawk [F]
+3757	230	0	255	"HelmMale248"		        //Helm GrandSoul Rosa 
+
+4260	70      70      70	"ArmorMale231"		        //Armor Of Steel 2.0 [F]
+4261	-1      -1      -1	"ArmorMale232"			//Armor Of Horus [M]
+4262	-1	-1	-1	"ArmorMale233"			//Armor Of Isis  [F]
+4263	00	00	00	"ArmorMale234"			//Armor Of Zeus
+4264	70      70      70	"ArmorMale235"		        //Armor Of Holy [M]
+4265	70      70      70	"ArmorMale236"			//Armor Of Holy [F]
+4266	0       0       0	"ArmorMale249"		        //Armor Light Hawk [M]
+4267	00      00      00	"ArmorMale250"		        //Armor Light Hawk [F] 
+4268	127	127	127	"ArmorMale117"			//BlueEyes Elf
+4269	254	00	255	"ArmorMale248"		        //Armor GrandSoul Rosa 
+
+4772	70      70      70	"PantMale231"		        //Pants Of Steel 2.0 [F]
+4773	-1      -1      -1	"PantMale232"			//Pants Of Horus [M]
+4774	-1	-1	-1	"PantMale233"			//Pants Of Isis  [F]
+4775	-1	-1	-1	"PantMale234"			//Pants Of Zeus
+4776	70      70      70	"PantMale235"		        //Pants Of Holy [M]
+4777	70      70      70	"PantMale236"			//Pants Of Holy [F]
+4778	0       0       0	"PantMale249"		        //Pants Light Hawk [M]
+4779	00      00      00	"PantMale250"		        //Pants Light Hawk [F]
+4780	127	127	127	"PantMale117"			//BlueEyes Elf
+4781	254	00	255	"PantMale248"		        //Pants GrandSoul Rosa 
+
+5284	70      70      70	"GloveMale231"		        //Gloves Of Steel 2.0 [F]
+5285	-1      -1      -1	"GloveMale232"			//Gloves Of Horus [M]
+5286	-1	-1	-1	"GloveMale233"			//Gloves Of Isis  [F]
+5287	-1	-1	-1	"GloveMale234"			//Gloves Of Zeus
+5288	70      70      70	"GloveMale235"		        //Gloves Of Holy [M]
+5289	70      70      70	"GloveMale236"			//Gloves Of Holy [F]
+5290	0       0       0	"GloveMale249"			//Gloves Light Hawk [M]
+5291	00      00      00	"GloveMale250"			//Gloves Light Hawk [F]
+5293	254	00	255	"GloveMale248"		        //Gloves GrandSoul Rosa 
+
+5796	70      70      70	"BootMale231"		        //Boots Of Steel 2.0 [F]
+5797	-1      -1      -1	"BootMale232"			//Boots Of Horus [M]
+5798	-1	-1	-1	"BootMale233"			//Boots Of Horus [F]
+5799	-1	-1	-1	"BootMale234"			//Boots Of Zeus
+5800	70      70      70	"BootMale235"		        //Boots Of Holy [M]
+5801	70      70      70	"BootMale236"			//Boots Of Holy [F]
+5802	0       0       0	"BootMale249"		        //Boots Light Hawk [M]
+5803	00      00      00	"BootMale250"		        //Boots Light Hawk [F]
+5804	127	127	127	"BootMale117"			//BlueEyes Elf
+5805	254	00	255	"BootMale248"		        //Boots GrandSoul Rosa 
+
+3773	00	00	00	"HelmMale239"		        //Helm Of Zeus 1.0 [M]
+3774	00	00	00	"HelmMale240"		        //Helm Of Zeus 1.0 [F]
+3775	0       0       0	"HelmMale241"		        //Helm Fire King 2.0 [M]
+3776	0       0       0	"HelmMale242"		        //Helm Fire King 2.0 [F]
+3777	0       0       0	"HelmMale243"		        //Helm Fire Gren [M]
+3778	0       0       0	"HelmMale244"		        //Helm Fire Gren [F]
+////3779	0       0       0	"HelmMale245"		        //Helm Fantasy
+3782	0       0       0	"HelmMale252"		        //Helm Of Blue White
+
+
+4285	00	00	00	"ArmorMale239" 			//Armor Of Zeus 1.0 [M]
+4286	00	00	00	"ArmorMale240" 			//Armor Of Zeus 1.0 [F]
+4287	0       0       0	"ArmorMale241"		        //Armor Fire King 2.0 [M]
+4288	0       0       0	"ArmorMale242"		        //Armor Fire King 2.0 [F]
+4289	0       0       0	"ArmorMale243"		        //Armor Fire Gren [M]
+4290	0       0       0	"ArmorMale244"		        //Armor Fire Gren [F]
+////4291	0       0       0	"ArmorMale245"			//Armor Fantasy
+4294	0       0       0	"ArmorMale252" 			//Armor Of Blue White
+
+4797	00	00	00	"PantMale239" 			//Pants Of Zeus 1.0 [M]
+4798	00	00	00	"PantMale240" 			//Pants Of Zeus 1.0 [F]
+4799	0       0       0	"PantMale241"		        //Pants Fire King 2.0 [M]
+4800	0       0       0	"PantMale242"		        //Pants Fire King 2.0 [F]
+4801	0       0       0	"PantMale243"		        //Pants Fire Gren [M]
+4802	0       0       0	"PantMale244"		        //Pants Fire Gren [F]
+////4803	0       0       0	"PantMale245" 			//Pants Fantasy
+4806	0       0       0	"PantMale252" 			//Pants Of Blue White
+
+5309	00	00	00	"GloveMale239"			//Gloves Of Zeus 1.0 [M]
+5310	00	00	00	"GloveMale240"			//Gloves Of Zeus 1.0 [F]
+5311	0       0       0	"GloveMale241"		        //Gloves Fire King 2.0 [M]
+5312	0       0       0	"GloveMale242"		        //Gloves Fire King 2.0 [F]
+5313	0       0       0	"GloveMale243"		        //Gloves Fire Gren [M]
+5314	0       0       0	"GloveMale244"		        //Gloves Fire Gren [F]
+////5315	0       0       0	"GloveMale245"		        //Gloves Fantasy
+5318	0       0       0	"GloveMale252"		        //Gloves Of Blue White
+
+5821	00	00	00	"BootMale239"			//Boots Of Zeus 1.0 [M]
+5822	00	00	00	"BootMale240"			//Boots Of Zeus 1.0 [F]
+5823	0       0       0	"BootMale241"		        //Boots Fire King 2.0 [M]
+5824	0       0       0	"BootMale242"		        //Boots Fire King 2.0 [F]
+5825	0       0       0	"BootMale243"		        //Boots Fire Gren [M]
+5826	0       0       0	"BootMale244"		        //Boots Fire Gren [F]
+////5827	0       0       0	"BootMale245"			//Boots Fantasy
+5830	0       0       0	"BootMale252"		 	//Boots Of Blue White
+
+//All Saron
+3783	0	0	0	"helmmale300"			
+4295	0 	0	0	"armormale300"			
+4807	0 	0	0	"pantmale300"			
+5319	0 	0	0	"glovemale300"
+5831	0 	0	0	"bootmale300"
+	
+3784	0	0	0	"helmmale303"			
+4296	0 	0	0	"armormale303"			
+4808	0 	0	0	"pantmale303"			
+5320	0 	0	0	"glovemale303"
+5832	0 	0	0	"bootmale303"
+	
+3785	0	0	0	"helmmale301"			
+4297	0 	0	0	"armormale301"			
+4809	0 	0	0	"pantmale301"			
+5321	0 	0	0	"glovemale301"
+5833	0 	0	0	"bootmale301"
+	
+3786	0	0	0	"helmmale302"			
+4298	0 	0	0	"armormale302"			
+4810	0 	0	0	"pantmale302"			
+5322	0 	0	0	"glovemale302"
+5834	0 	0	0	"bootmale302"
+	
+3787	210     23      0	"HelmMale217"			//Helm Armaggedon			
+4299	210     23      0	"ArmorMale217"			//Armor Armaggedon			
+4811	210     23      0	"PantMale217"			//Pants Armaggedon			
+5323	210     23      0	"GloveMale217"			//Gloves Armaggedon
+5835    210     23      0	"BootMale217"			//Boot Armaggedon
+
+3788	00	00	00	"HelmMale500"			//Helm Of New 2022			
+4300	00	00	00	"ArmorMale500"			//Armor Of New 2022			
+4812	00	00	00	"PantMale500"			//Pants Of New 2022			
+5324	00	00	00	"GloveMale500"			//Gloves Of New 2022
+5836    00	00	00	"BootMale500"			//Boot Of New 2022
+
+3780	0	0	0	"HelmMale251"			//Helm BloodRed2022 [M]			
+4292	0	0	0	"ArmorMale251"			//Armor BloodRed2022 [M]			
+4804	0	0	0	"PantMale251"			//Pants BloodRed2022 [M]			
+5316	0	0	0	"GloveMale251"			//Gloves BloodRed2022 [M]
+5828    0	0	0	"BootMale251"			//Boot BloodRed2022 [M]
+
+3758	0	0	0	"HelmMale253"			//Helm BloodRed2022 [F]			
+4270	0	0	0	"ArmorMale253"			//Armor BloodRed2022 [F]			
+4782	0	0	0	"PantMale253"			//Pants BloodRed2022 [F]			
+5294	0	0	0	"GloveMale253"			//Gloves BloodRed2022 [F]
+5806    0	0	0	"BootMale253"			//Boot BloodRed2022 [F]
+
+3759	0	0	0	"HelmMale254"			//Helm Of Blue White [F]			
+4271	0	0	0	"ArmorMale254"			//Armor Of Blue White [F]			
+4783	0	0	0	"PantMale254"			//Pants Of Blue White [F]			
+5295	0	0	0	"GloveMale254"			//Gloves Of Blue White [F]
+5807    0	0	0	"BootMale254"			//Boot Of Blue White [F]
+
+3760	0	0	0	"HelmMale255"			//Helm Of Black Gold [M]			
+4272	0	0	0	"ArmorMale255"			//Armor Of Black Gold [M]			
+4784	0	0	0	"PantMale255"			//Pants Of Black Gold [M]			
+5296	0	0	0	"GloveMale255"			//Gloves Of Black Gold [M]
+5808    0	0	0	"BootMale255"			//Boot Of Black Gold [M]
+
+3761	0	0	0	"HelmMale256"			//Helm Red Fire [M]			
+4273	0	0	0	"ArmorMale256"			//Armor Red Fire [M]			
+4785	0	0	0	"PantMale256"			//Pants Red Fire [M]			
+5297	0	0	0	"GloveMale256"			//Gloves Red Fire [M]
+5809    0	0	0	"BootMale256"			//Boot Red Fire [M]
+
+3762	-1	-1	-1	"HelmMale257"			//Helm Ligh Blue [M]			
+4274	-1	-1	-1	"ArmorMale257"			//Armor Ligh Blue [M]			
+4786	-1	-1	-1	"PantMale257"			//Pants Ligh Blue [M]			
+5298	-1	-1	-1	"GloveMale257"			//Gloves Ligh Blue [M]
+5810    -1	-1	-1	"BootMale257"			//Boot Ligh Blue [M]
+
+3763	-1	-1	-1	"HelmMale258"			//Helm Of Black Gold [F]			
+4275	-1	-1	-1	"ArmorMale258"			//Armor Of Black Gold [F]			
+4787	-1	-1	-1	"PantMale258"			//Pants Of Black Gold [F]			
+5299	-1	-1	-1	"GloveMale258"			//Gloves Of Black Gold [F]
+5811    -1	-1	-1	"BootMale258"			//Boot Of Black Gold [F]
+
+3764	-1	-1	-1	"HelmMale259"			//Helm Red Fire [F]			
+4276	-1	-1	-1	"ArmorMale259"			//Armor Red Fire [F]			
+4788	-1	-1	-1	"PantMale259"			//Pants Red Fire [F]			
+5300	-1	-1	-1	"GloveMale259"			//Gloves Red Fire [F]
+5812    -1	-1	-1	"BootMale259"			//Boot Red Fire [F]
+
+3765	-1	-1	-1	"HelmMale260"			//Helm Ligh Blue [F]			
+4277	-1	-1	-1	"ArmorMale260"			//Armor Ligh Blue [F]			
+4789	-1	-1	-1	"PantMale260"			//Pants Ligh Blue [F]			
+5301	-1	-1	-1	"GloveMale260"			//Gloves Ligh Blue [F]
+5813    -1	-1	-1	"BootMale260"			//Boot Ligh Blue [F]
+
+3766	70       70      70	"HelmMale261"			//Helm Of Rabbit [RL]			
+4278	70       70      70	"ArmorMale261"			//Armor Of Rabbit [RL]			
+4790	70       70      70	"PantMale261"			//Pants Of Rabbit [RL]			
+5302	70       70      70	"GloveMale261"			//Gloves Of Rabbit [RL]
+5814    70       70      70	"BootMale261"			//Boot Of Rabbit [RL]
+
+3767	70       70      70	"HelmMale262"			//Helm BlackRabbit Lunar			
+4279	70       70      70	"ArmorMale262"			//Armor BlackRabbit Lunar			
+4791	70       70      70	"PantMale262"			//Pants BlackRabbit Lunar			
+5303	70       70      70	"GloveMale262"			//Gloves BlackRabbit Lunar
+5815    70       70      70	"BootMale262"			//Boot BlackRabbit Lunar
+
+3768	-1	-1	-1	"HelmMale263"			//Helm Of War 2.0 [M]			
+4280	-1	-1	-1	"ArmorMale263"			//Armor Of War 2.0 [M]			
+4792	-1	-1	-1	"PantMale263"			//Pants Of War 2.0 [M]	 		
+5304	-1	-1	-1	"GloveMale263"			//Gloves Of War 2.0 [M]
+5816    -1	-1	-1	"BootMale263"			//Boot Of War 2.0 [M]
+
+3769	-1	-1	-1	"HelmMale264"			//Helm Of War 2.0 [F]			
+4281	-1	-1	-1	"ArmorMale264"			//Armor Of War 2.0 [F]			
+4793	-1	-1	-1	"PantMale264"			//Pants Of War 2.0 [F]	 		
+5305	-1	-1	-1	"GloveMale264"			//Gloves Of War 2.0 [F]
+5817    -1	-1	-1	"BootMale264"			//Boot Of War 2.0 [F]
+
+3770	-1	-1	-1	"HelmMale265"			//Helm Of Abaddon [M]			
+4282	-1	-1	-1	"ArmorMale265"			//Armor Of Abaddon [M]			
+4794	-1	-1	-1	"PantMale265"			//Pants Of Abaddon [M]	 		
+5306	-1	-1	-1	"GloveMale265"			//Gloves Of Abaddon [M]
+5818    -1	-1	-1	"BootMale265"			//Boot Of Abaddon [M]
+
+3771	-1	-1	-1	"HelmMale266"			//Helm Of Abaddon [F]			
+4283	-1	-1	-1	"ArmorMale266"			//Armor Of Abaddon [F]			
+4795	-1	-1	-1	"PantMale266"			//Pants Of Abaddon [F]	 		
+5307	-1	-1	-1	"GloveMale266"			//Gloves Of Abaddon [F]
+5819    -1	-1	-1	"BootMale266"			//Boot Of Abaddon [F]
+
+3729	-1	-1	-1	"HelmMale267"			//Helm Of Marinheiro [M]			
+4241	-1	-1	-1	"ArmorMale267"			//Armor Of Marinheiro [M]			
+4753	-1	-1	-1	"PantMale267"			//Pants Of Marinheiro [M]	 		
+5265	-1	-1	-1	"GloveMale267"			//Gloves Of Marinheiro [M]
+5777    -1	-1	-1	"BootMale267"			//Boot Of Marinheiro [M]
+
+3730	-1	-1	-1	"HelmMale268"			//Helm Of Marinheiro [F]			
+4242	-1	-1	-1	"ArmorMale268"			//Armor Of Marinheiro [F]			
+4754	-1	-1	-1	"PantMale268"			//Pants Of Marinheiro [F]	 		
+5266	-1	-1	-1	"GloveMale268"			//Gloves Of Marinheiro [F]
+5778    -1	-1	-1	"BootMale268"			//Boot Of Marinheiro [F]
+
+3731	-1	-1	-1	"HelmMale269"			//Helm Of Holy V2 [M]			
+4243	-1	-1	-1	"ArmorMale269"			//Armor Of Holy V2 [M]			
+4755	-1	-1	-1	"PantMale269"			//Pants Of Holy V2 [M]	 		
+5267	-1	-1	-1	"GloveMale269"			//Gloves Of Holy V2 [M]
+5779    -1	-1	-1	"BootMale269"			//Boot Of Holy V2 [M]
+
+3732	-1	-1	-1	"HelmMale270"			//Helm Of Holy V2 [F]			
+4244	-1	-1	-1	"ArmorMale270"			//Armor Of Holy V2 [F]			
+4756	-1	-1	-1	"PantMale270"			//Pants Of Holy V2 [F]	 		
+5268	-1	-1	-1	"GloveMale270"			//Gloves Of Holy V2 [F]
+5780    -1	-1	-1	"BootMale270"			//Boot Of Holy V2 [F]
+
+3733	-1	-1	-1	"HelmMale271"			//Helm Rei Do PvP [F]			
+4245	-1	-1	-1	"ArmorMale271"			//Armor Rei Do PvP [F]			
+4757	-1	-1	-1	"PantMale271"			//Pants Rei Do PvP [F]	 		
+5269	-1	-1	-1	"GloveMale271"			//Gloves Rei Do PvP [F]
+5781    -1	-1	-1	"BootMale271"			//Boot Rei Do PvP [F]
+//=========================
+// Weapons
+//=========================
+//-- Blessed
+1049	253	255	119	"absolute_septer"		//Blessed Divine Arch Scepter
+1058	253	255	119	"Absolute_Mace"			//Blessed Divine Arch Sword
+1059	253	255	119	"Bless_Absolute_Mace"		//Blessed Divine Arch Sword
+1563	253	255	119	"blessedabsolute_lance"		//Darkangel Lance
+2609	253	255	119	"absolute02_staff"		//Darkangel Staff
+//-- Darkangel
+1050	255	226 	115	"Darkangel_Scepter"		//Darkangel Scepter
+1057	255	226 	115	"DarkAngel_Mace"		//Darkangel Runic Mace
+1560	255	226 	115	"Darkangel_Lance"		//Darkangel Lance
+2612	255	226 	115	"DarkangelStick"		//Darkangel Stick
+//-- Holyangel
+1062	255	197	57	"HolyAngel_Mace"		//Holyangel Rune Mace
+1561	255	197	57	"HolyAngelLance"		//Holyangel Lance
+2614	255	197	57	"HolyAngelStick"		//Holyangel Stick
+//-- Awakening Soul
+1060	239	154	70	"seoulRoad_septer"		//Soul Scepter
+1564	239	154	70	"sd_soullance01_final"		//Soul Lance
+2615	239	154	70	"sd_SoulWizardStaff01_max7"	//Soul Staff
+2616	239	154	70	"sd_soulsummoner"		//Soul Stick
+//-- Blue Eyes
+79	127	127	127	"blue_eye_magicsword01"		//Blue Eye Magic Sword
+1565	127	127	127	"hs_blueeyelance"		//Blue Eye Lance
+2621	127	127	127	"blue_eye_ws"			//Blue Eye Staff
+2622	127	127	127	"blueeye_summoner"		//Blue Eye Stick
+//--
+7730	0	0	0	"SummonScroll"			//summon scroll
+
+//-- ex700
+29	255	162	31	"balhalla_sword"		//Sonic Blade
+1043	00 	00      00      "mace154"			//Mace Of War
+1044	255 	255 	255 	"hornofsteel"			//Horn of Steal
+1548	127 	127 	127 	"MagmaSpear"			//Magmus Peer
+2595	127	127	127	"MiracleStaff"			//Miracle Staff
+
+//=========================
+// Sword 97D+2.0 DT 21/10/21 By Zeus Revolutions Team
+//=========================
+37 	-1	-1	-1 	"Sword518"		//Sword Dark Pirate
+42	255     0       0   	"Sword505"		//Sword Of Dark Raver
+44	00	40	00	"Sword506"		//Sword Of Cup
+51	139     0       0	"Sword509"	        //Sword Majestick 2.0
+54	180     100     00	"Sword507"		//Sword Of War
+55	0	0 	0	"Sword508"	        //Sword Natalino
+57	255	197	57	"Sword512"              //Sword Of Gold 2.0
+58	0	0 	0	"Sword513"              //Sword of Blood Vampire
+62	239	154	70	"Sword510"		//Sword Of Snow
+63	239	154	70	"Sword511"	        //Sword Of Gold
+65	-1	-1	-1	"sword500"		//Saron
+66	-1	-1	-1	"sword501"		//Sword Of Gren V2
+67	255	100     00	"sword502"		//Love 2.0
+68      210     23      0       "sword503"              //Sword Armagedor
+69      0       0       0       "sword504"              //Sword Apocalipse 2.0 
+78	70      70      70	"Sword514"              //Sword Of Steel 2.0
+82	-1	-1	-1	"Sword515"              //Sword Of Horus
+83	-1	-1	-1	"Sword516"              //Sword Of Zeus
+84	70      70      70	"Sword517"              //Sword Of Holy
+85 	180     100     00 	"MaceOfKing"		//Mace Of King [RL]
+86 	180     100     00 	"Soram"		        //Soran Hammer [RL]
+87	-1	-1	-1	"Sword519"              //Sword Of Zeus 1.0
+88	239	154	70	"Sword520"              //Sword Of New 2022
+89	0       0       0	"Sword521"              //Sword Fire King 2.0
+90	-1	-1	-1 	"Sword522"		//Sword Fire Gren
+////91	00	00	00 	"Sword523"		//Sword Of Fantasy
+92	00	00	00 	"Sword524"		//Sword Light Halk
+93	00	00	00 	"Sword525"		//Sword Of BoodRed 2022
+94	00	00	00 	"Sword526"		//Sword Of Blue White
+95	00	00	00 	"Sword527"		//Sword Of Black Gold
+96	00	00	00 	"Sword528"		//Sword Red Fire
+97	-1	-1	-1 	"Sword529"		//Sword Ligh Blue
+98	-1	-1	-1 	"Sword530"		//Sword Of Rabbit [RL]
+99	-1	-1	-1 	"Sword531"		//Sword Of War 2.0
+100	-1	-1	-1 	"Sword532"		//Sword Of War 2.0
+101	-1	-1	-1 	"Sword533"		//Sword Of Abaddon
+102	-1	-1	-1 	"Sword534"		//Sword Of Marinheiro
+103	-1	-1	-1 	"Sword535"		//Sword Of Holy V2
+104	-1	-1	-1 	"Sword536"		//Sword Rei Do PvP
+//=========================
+// AXE 97D+2.0 DT 21/10/21 By Zeus Revolutions Team
+//=========================
+521	-1	-1	-1	"axe500"		//Saron
+522	-1	-1	-1	"Axe501"		//Axe Of Gren
+523	70      70      70	"Axe502"		//Axe Of Holly
+524	239	154	70	"Axe503"		//Axe Of New 2022
+525	-1	-1	-1	"Axe504"		//Axe Fire Gren
+526	-1	-1	-1	"Axe505"		//Axe Of Blue White
+527	-1	-1	-1	"Axe506"		//Axe Red Fire
+528	-1	-1	-1	"Axe507"		//Axe Ligh Blue
+529	-1	-1	-1	"Axe508"		//Axe Ligh Blue
+//=========================
+// Mace + Scepter 97D+2.0 DT 21/10/21 By Zeus Revolutions Team
+//=========================
+1063	-1	-1	-1	"mace509"		//Mace Dark Pirate
+1064	239	154	70	"mace504"		//Mace Of Gold [RL]
+1065	239	154	70	"mace503"		//Mace Of Snow [RL]
+1066	-1	-1	-1	"mace500"		//Mace Of Saron
+1067	-1	-1	-1	"Scepter500"		//Scepter Of Saron
+1068	-1	-1	-1	"mace501"		//Mace Of Gren
+1069	-1	-1	-1	"Scepter501"		//Scepter Of Gren
+1070	210     23      0	"mace502"		//Mace Of Armagedom
+1046	-1	-1	-1	"mace501"		//Mace Of Gren V2 
+1051	-1	-1	-1	"mace514"	        //Scepter Fire Gren
+1071	-1	-1	-1	"mace505"		//Mace Of Horus
+1072	-1	-1	-1	"mace506"		//Mace Of Zeus
+1073	70      70      70	"mace507"		//Mace Of Holly
+1074	70      70      70	"mace508"		//Scepter Of Holly
+1075	-1	-1	-1	"mace510"		//Mace Of Zeus 1.0
+1076	0	0	0	"mace511"		//Mace Blood Vampire
+1077	239	154	70	"mace512"		//Mace Of New 2022
+1078	0	0	0	"mace513"		//Scepter Fire King 2.0
+////1079	0	0	0	"mace520"		//Mace Of Fantasy
+1080	0	0	0	"mace521"		//Mace Light Halk
+1081	0	0	0	"mace522"		//Mace Steel 2.0
+1082	0	0	0	"mace523"		//Lança Steel 2.0
+1083	0	0	0	"mace524"		//Mace Of BoodRed 2022
+1084	0	0	0	"mace525"		//Mace Of Blue White
+1085	0	0	0	"mace526"		//Mace Of Black Gold 01
+1086	0	0	0	"mace527"		//Mace Of Black Gold 02
+1087	0	0	0	"mace528"		//Mace Red Fire
+1088	0	0	0	"mace529"		//Mace Ligh Blue
+1089	0	0	0	"mace530"		//Scepter Ligh Blue
+1090	0	0	0	"mace531"		//Mace Of Rabbit [RL]
+1091	0	0	0	"mace532"		//Mace Of War 2.0
+1092	0	0	0	"mace533"		//Mace Of Abaddon
+1093	0	0	0	"mace534"		//Scepter Of Abaddon
+1094	0	0	0	"mace535"		//Mace Of Marinheiro
+1095	0	0	0	"mace536"		//Mace Of Holy v2
+1096	0	0	0	"mace537"		//Mace Rei Do PvP
+//=========================
+// Shield 97D+2.0 DT 21/10/21 By Zeus Revolutions Team
+//=========================
+3112	205     0       0	"shield502"             //Shield Of DarkRaven
+3113	00	40	00	"shield503"             //Shield Of Cup
+3114	00	00      00      "shield505"             //Shield Of War
+3115	210     23      0	"shield504"             //Shield Of Armagedon
+3116	0	0	0	"shield506"             //Shield Of Apocalpse
+3117	139     0       0	"shield507"             //Shield Of Majestick 2.0
+3118	-1	-1	-1	"shield500"		//Shield Of Saron
+3119	-1	-1	-1	"shield501"		//Shield Of Gren
+3120	-1	-1	-1	"shield508"		//Shield Of Snow
+3121	-1	-1	-1	"shield509"		//Shield Of Gold [RL]
+3122	255	197	57	"shield510"		//Shield Of Gold 2.0
+3123	0	0	0	"shield511"		//Shield Blood Vampire 
+3124	70      70      70	"shield512"		//Shield Of Steel 2.0 
+3125	-1	-1	-1	"shield513"		//Shield Of Horus
+3126	-1	-1	-1	"shield514"		//Shield Of Zeus
+3127	70      70      70	"shield515"		//Shield Of Holly
+3128	-1	-1	-1	"shield516"		//Shield Dark Pirate
+3129	-1	-1	-1	"shield517"		//Shield Of Zeus 1.0
+3130	239	154	70	"shield518"		//Shield Of New 2022
+3131	0	0	0	"shield519"		//Shield Fire King 2.0
+3132	-1	-1	-1	"shield520"		//Shield Fire Gren
+////3133	0	0	0	"shield521"		//Shield Of Fantasy
+3134	0	0	0	"shield522"		//Shield Light Halk
+3135	0	0	0	"shield523"		//Shield Of BoodRed 2022
+3136	0	0	0	"shield524"		//Shield Of Blue White
+3137	0	0	0	"shield525"		//Shield Of Black Gold
+3138	0	0	0	"shield526"		//Shield Red Fire
+3139	0	0	0	"shield527"		//Shield Ligh Blue
+3140	0	0	0	"shield528"		//Shield Of Rabbit [RL]
+3141	0	0	0	"shield529"		//Shield Of War 2.0 [RL]
+3142	0	0	0	"shield530"		//Shield Of Abaddon
+3143	0	0	0	"shield531"		//Shield Of Marinheiro
+3144	0	0	0	"shield532"		//Shield Of Holy v2
+3145	0	0	0	"shield533"		//Shield Rei Do PvP
+//=========================
+// STaff 97D+2.0 DT 21/10/21 By Zeus Revolutions Team
+//=========================
+2597	0	0 	0	"staff505"              //Staff Blood Vampire
+2613	-1	-1	-1	"staff513"	        //Staff Fire Gren
+2623	-1	-1	-1	"staff500"		//Staff Of Saron
+2624	-1	-1	-1	"staff501"		//Staff Of Gren
+2625	-1	-1	-1	"staff507"		//Staff Of Horus
+2626	00	00	00	"staff508"		//Staff Of Zeus
+2627	70      70      70	"staff509"		//Staff Of Holly
+2601	210     23      0	"staff502"	        //Staff Of Armagedom
+2603	0	0	0	"staff503"	        //Staff Of Apocalese
+2610	70      70      70	"staff506"	        //Staff Of Steel 2.0
+2611	0	0 	0	"staff504"              //Staff Natalino
+2628	00	00	00	"staff510"		//Staff Of Zeus 1.0
+2629	239	154	70	"staff511"		//Staff Of New 2022
+2630	0	0 	0	"staff512"		//Staff Fire King 2.0
+2631	0	0 	0	"staff514"		//Staff Of BoodRed 2022
+2632	0	0 	0	"staff515"		//Staff Of Blue White
+2633	0	0 	0	"staff516"		//Staff Of Black Gold
+2634	0	0 	0	"staff517"		//Staff Red Fire
+2635	0	0 	0	"staff518"		//Staff Ligh Blue
+2636	0	0 	0	"staff519"		//Staff Of Rabbit [RL]
+2637	0	0 	0	"staff520"		//Staff Of War 2.0
+2638	0	0 	0	"staff521"		//Staff Of Abaddon
+2639	0	0 	0	"staff522"		//Staff Of Marinheiro
+2640	0	0 	0	"staff523"		//Staff Of Holy v2
+2641	0	0 	0	"staff524"		//Staff Rei Do PvP
+//--- ItemMix
+6805	10	10	10	"nudldisivna"
+6806	10	10	10	"hs_hammerB"
+6807	10	10	10	"hs_hammerA"
+6808	10	10	10	"MixMaterial"
+6809	10	10	10	"3cha_lightstone"
+6810	10	10	10	"James_anvil"
+6811	10	10	10	"holyangelanvil"
+6821	10	10	10	"GarudaFeather"
+6822	10	10	10	"GarudaFlame"
+6823	10	10	10	"goldarms01"
+6824	10	10	10	"spellstone1"
+6825	10	10	10	"spellstone2"
+6826	10	10	10	"spellstone3"
+6827	10	10	10	"petegg"
+6829	10	10	10	"FrostSoul"
+6830	10	10	10	"BlueEyeAnvil"
+6831	10	10	10	"sd_AwakeningSoul01"
+6832	10	10	10	"soulanvil"
+
+//-- custom book
+2584	0	0	0	"Yigye1Book"
+2585	0	0	0	"Yigye2Book"
+2586	0	0	0	"HolyBook"
+2587	0	0	0	"AwakeningBook"
+2588	0	0	0	"Yigye5Book"
+7880	0	0	0	"Ghosthorse_item_mask01"
+
+//--Custom QUIVER
+2082	0	0	0	"hs_quiverlv1"
+7338	0	0	0	"RudeBox_green"
+7339	0	0	0	"RudeBox_blue"
+7340	0	0	0	"RudeBox_red"
+
+//--Pedants Rings
+2099	0       0	0	"Ring100"  //Gren V2
+2100	0       0	0	"pend100"  //Gren V2
+2102	0       0	0	"Ring101"  //Of War
+2103	00      00	00	"pend101"  //Of War
+2120	210     23      0	"Ring102"  //Of Armagedom
+2121	210     23      0	"pend102"  //Of Armagedom
+2122	0       0	0	"Ring103"  //Of Apocalpse
+2123	0       0	0	"pend103"  //Of Apocalpse
+2124	0       0	0	"Ring104"  //Of Natalino
+2125	0       0	0	"pend104"  //Of Natalino
+2126	0       0	0	"Ring105"  //Of Gold [RL]
+2127	0       0	0	"pend105"  //Of Gold [RL]
+2128	70      70      70	"Ring106"  //Of Steel 2.0
+2129	70      70      70	"pend106"  //Of Steel 2.0
+2130	-1	-1	-1	"Ring107"  //Of Horus
+2131	-1	-1	-1	"pend107"  //Of Horus
+2132	-1	-1	-1	"Ring108"  //Of Zeus
+2133	-1	-1	-1	"pend108"  //Of Zeus
+2134	70      70      70	"Ring109"  //Of Holly
+2135	70      70      70	"pend109"  //Of Holly
+2136	-1	-1	-1	"Ring110"  //Dark Pirate
+2137	-1	-1	-1	"pend110"  //Dark Pirate
+2138	0	0	0	"Ring111"  //Of New 2022
+2139	-1	-1	-1	"pend111"  //Of New 2022
+2140	0	0	0	"Ring112"  //Fire Gren
+2141	-1	-1	-1	"pend112"  //Fire Gren
+////2142	0	0	0	"Ring113"  //Fantasy
+////2143	0	0	0	"pend113"  //Fantasy
+2144	0	0	0	"Ring114"  //Light Halk
+2145	0	0	0	"pend114"  //Light Halk
+2146	0	0	0	"Ring115"  //BoodRed 2022
+2147	0	0	0	"pend115"  //BoodRed 2022
+2148	0	0	0	"RingZeus"  //BoodRed 2022
+2149	0	0	0	"pendBlue"  //BoodRed 2022
+2150	0	0	0	"Ring200"  //Rabbit Lunar
+2151	0	0	0	"pend200"  //Rabbit Lunar
+2152	0	0	0	"Ring201"  //Abaddon
+2153	0	0	0	"pend202"  //Abaddon
+2154	0	0	0	"Ring203"  //Marinheiro
+2155	0	0	0	"pend204"  //Marinheiro
+2156	0	0	0	"Ring205"  //Holy V2
+2157	0	0	0	"pend206"  //Holy V2
+
+//--BOX Geral
+7341      -1      -1       -1          "boxhawk"
+7342      -1      -1       -1          "boxwishgold"
+7343      -1      -1       -1          "box"
+7344      -1      -1       -1          "BxYTALFAKong"
+7345      70       70      70          "boxRabbit"
+7346      -1      -1       -1          "boxAbaddon"
+//--JEWEL CHAOS MIX
+7410     -1      -1       -1          "Jewel"
+7411     -1      -1       -1          "jewel1"
+7412     -1      -1       -1          "jewel2"
+//-- MONEDAS JMKZEN (SECCION 14)
+7194	 0        0        0	      "jmkzen1"
+7195	 0        0        0	      "jmkzen2"
+7198	 0        0        0	      "jmkzen3"
+end

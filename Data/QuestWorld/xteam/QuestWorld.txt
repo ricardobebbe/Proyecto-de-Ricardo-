@@ -1,0 +1,2 @@
+//Index   Group   Number   StartType   MonsterClass   CurrentState   NextIndex1   NextState1   NextIndex2   NextState2   NextIndex3   NextState3   RequireIndex   RequireGroup   RequireState   RequireMinLevel   RequireMaxLevel   RequireFamily   RequireCooldown   DW      DK      FE      MG      DL      SU      RF
+end

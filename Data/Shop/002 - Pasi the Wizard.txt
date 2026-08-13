@@ -1,0 +1,35 @@
+//Index Type   	Level   Dur   	Skill   Luck   Option   ExcOp	SetOp	JoH	OEx	Socket1	Socket2	Socket3	Socket4	Socket5
+7 	2 	9 	255 	0 	1 	1 	0	0       0       0       255     255     255     255     255   //Pad Helm
+7 	3 	9	255 	0 	1 	1 	0	0       0       0       255     255     255     255     255   //Legendary Helm
+15 	3 	0 	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Fireball Spell
+15 	10	0	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Power Wave Spell
+15 	1 	0 	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Meteorite Spell
+15 	5 	0 	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Teleport Spell
+8 	2 	9 	255 	0	1 	1 	0	0       0       0       255     255     255     255     255   //Pad Armor
+8 	3 	9	255 	0 	1 	1 	0	0       0       0       255     255     255     255     255   //Legendary Armor
+15 	2 	0 	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Lightning Spell
+15 	6 	0 	255	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Ice Spell
+15 	0 	0	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Poison Spell
+9 	2 	9 	255 	0 	1 	1	0	0       0       0       255     255     255     255     255   //Pad Pants
+9 	3 	9	255 	0 	1 	1 	0	0       0       0       255     255     255     255     255   //Legendary Pants
+15 	4 	0 	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Flame Spell
+15 	8 	0 	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Evil Spirits Spell
+15 	9 	0 	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Hell Fire Spell
+15 	11 	0 	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Aqua Beam Spell
+10 	2 	9	255 	0 	1 	1 	0	0       0       0       255     255     255     255     255   //Pad Gloves
+10 	3 	9	255 	0 	1 	1	0	0       0       0       255     255     255     255     255   //Legendary Gloves
+15 	12 	0 	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Blast Spell
+15 	13 	0 	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Scroll of Inferno
+15 	14 	0 	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Scroll of Mass Teleport
+15 	15 	0 	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Scroll of Mana Shield
+15 	16 	0 	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Scroll of Decay
+11 	2 	9	255 	0 	1 	1	0	0       0       0       255     255     255     255     255   //Pad Boots
+11 	3 	9	255 	0 	1 	1 	0	0       0       0       255     255     255     255     255   //Legendary Boots
+15 	17 	0 	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Scroll of Ice Storm
+15 	18 	0 	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Scroll of Nova
+15 	28 	0 	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Scroll of Electic Storm
+15 	29 	0 	255 	0 	0 	0 	0	0       0       0       255     255     255     255     255   //Scroll of Lighting Storm
+5 	12 	9	255 	0 	1 	1 	0	0       0       0       255     255     255     255     255   //Grand Viper Staff
+5 	13	9	255 	0 	1 	1 	0	0       0       0       255     255     255     255     255   //Platina Wing Staff
+15   	7       0       1       0       0       0       0	0	0	0	255	255	255	255	255
+end

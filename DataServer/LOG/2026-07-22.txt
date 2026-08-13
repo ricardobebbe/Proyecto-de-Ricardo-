@@ -1,0 +1,30 @@
+15:40:54 [SocketManager] Servidor iniciado na porta [55960]
+15:40:59 [ServerManager][0] AddServer (127.0.0.1)
+15:40:59 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+15:45:27 [SocketManager] Servidor iniciado na porta [55960]
+15:45:31 [ServerManager][0] AddServer (127.0.0.1)
+15:45:31 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+16:06:30 [SocketManager] Servidor iniciado na porta [55960]
+16:06:34 [ServerManager][0] AddServer (127.0.0.1)
+16:06:34 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+16:10:00 [ServerManager][0] DelServer (127.0.0.1)
+16:10:33 [ServerManager][0] AddServer (127.0.0.1)
+16:10:33 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+17:10:01 [ServerManager][0] DelServer (127.0.0.1)
+17:10:53 [ServerManager][0] AddServer (127.0.0.1)
+17:10:53 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+20:12:07 UPDATE Character SET cLevel=350,Class=16,LevelUpPoint=10010,Experience=174662634,Strength=32765,Dexterity=32765,Vitality=32765,Energy=32765,Leadership=0,Inventory=?,MagicList=?,Money=443884933,Life=99028.000000,MaxLife=99028.000000,Mana=32949.000000,MaxMana=32949.000000,BP=54062.000000,MaxBP=54062.000000,Shield=170907.000000,MaxShield=170907.000000,MapNumber=6,MapPosX=63,MapPosY=124,MapDir=5,PkCount=0,PkLevel=3,PkTime=0,Quest=?,EffectList=?,FruitAddPoint=0,FruitSubPoint=0,ExtInventory=0 WHERE AccountID='ziza' AND Name='GRATIDAO'
+20:12:07 [QueryManager] State (01000), Diagnostic: [Microsoft][ODBC SQL Server Driver][DBMSLPCN]ConnectionWrite (send()).
+20:12:07 [QueryManager] State (08S01), Diagnostic: [Microsoft][ODBC SQL Server Driver][DBMSLPCN]Error general de red. Consulte la documentación de la red.
+20:12:13 [ServerManager][0] DelServer (127.0.0.1)
+20:20:50 [ServerManager][0] AddServer (127.0.0.1)
+20:20:50 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+21:10:00 [ServerManager][0] DelServer (127.0.0.1)
+21:10:09 [ServerManager][1] AddServer (127.0.0.1)
+21:10:09 [ServerManager][1] ServerInfo (V.97x) (55901) (0)
+22:10:00 [ServerManager][1] DelServer (127.0.0.1)
+22:10:10 [ServerManager][0] AddServer (127.0.0.1)
+22:10:10 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+23:10:00 [ServerManager][0] DelServer (127.0.0.1)
+23:10:09 [ServerManager][1] AddServer (127.0.0.1)
+23:10:09 [ServerManager][1] ServerInfo (V.97x) (55901) (0)

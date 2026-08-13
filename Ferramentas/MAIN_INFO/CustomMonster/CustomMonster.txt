@@ -1,0 +1,16 @@
+// ----------------------------------------------------------------------------------
+// Type = 0: NPC
+// Type = 1: Monster
+// ----------------------------------------------------------------------------------
+// MonsterID | Type 	| Name 					| Dir 					| Folder 				| BMDFile 		| Size
+// ----------------------------------------------------------------------------------
+ 704		        0	    "NPC banco"	                           "Data\\Monster\\"	                               "Monster\\"	         "Monster223"     1.00
+ 701		        0	    "Entrada Team vs Team"	               "Data\\Custom\\Monster\\Monster\\"	"Custom\\Monster\\Monster\\"	         "NPC_032"		 1.00
+ 702		        0	    "Resets"	                           "Data\\Custom\\Monster\\Monster\\"	"Custom\\Monster\\Monster\\"	        "Monster225"      1.40
+ 464		        0	    "NPC PK"	                          "Data\\Monster\\"	                               "Monster\\"                        "Monster224"		 1.00
+ 379		        0	    "Bob the Dealer"	                   "Data\\Custom\\Monster\\Monster\\"     "Custom\\Monster\\Monster\\"           "NpcClerk"    	 1.00
+ 709		        1	    "Tantallo +5"	                       "Data\\Custom\\Monster\\Monster\\"	"Custom\\Monster\\Monster\\"	         "NPC_032"		 1.50
+ 710		        1	    "Boss +2"	                           "Data\\Custom\\Monster\\Monster\\"	"Custom\\Monster\\Monster\\"	         "NPC_032"		 1.20
+ 711		        1	    "Boss +3"	                           "Data\\Custom\\Monster\\Monster\\"	"Custom\\Monster\\Monster\\"	         "NPC_032"		 1.30
+ 712		        1	    "Boss +4"	                           "Data\\Custom\\Monster\\Monster\\"	"Custom\\Monster\\Monster\\"	         "NPC_032"		 1.40
+end

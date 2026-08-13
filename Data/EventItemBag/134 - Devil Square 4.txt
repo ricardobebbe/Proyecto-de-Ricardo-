@@ -1,0 +1,65 @@
+0
+//EventName             DropZen   ItemDropRate   ItemDropCount   SetItemDropRate   ItemDropType   Fireworks	DropInventory
+"Devil Square 4"	1000      100		 4		 0		   0		  0		1
+end
+
+1
+//Section   Type   MinLevel   MaxLevel   Skill   Luck   Option   Excellent
+	14      13      0       0       0       0       0       0
+	7	9	0	0	0	1	0	2	//Plate Helm
+	8	9	0	0	0	1	0	2	//Plate Armor
+	9	9	0	0	0	1	0	2	//Plate Pants
+	10	9	0	0	0	1	0	2	//Plate Gloves
+	11	9	0	0	0	1	0	2	//Plate Boots
+	7	25	0	0	0	1	0	2	//Light Plate Helm
+	8	25	0	0	0	1	0	2	//Light Plate Armor
+	9	25	0	0	0	1	0	2	//Light Plate Pants
+	10	25	0	0	0	1	0	2	//Light Plate Gloves
+	11	25	0	0	0	1	0	2	//Light Plate Boots
+	7	13	0	0	0	1	0	2	//Spirit Helm
+	8	13	0	0	0	1	0	2	//Spirit Armor
+	9	13	0	0	0	1	0	2	//Spirit Pants
+	10	13	0	0	0	1	0	2	//Spirit Gloves
+	11	13	0	0	0	1	0	2	//Spirit Boots
+	7	1	0	0	0	1	0	2	//Dragon Helm
+	8	1	0	0	0	1	0	2	//Dragon Armor
+	9	1	0	0	0	1	0	2	//Dragon Pants
+	10	1	0	0	0	1	0	2	//Dragon Gloves
+	11	1	0	0	0	1	0	2	//Dragon Boots
+	7	7	0	0	0	1	0	2	//Sphinx Helm
+	8	7	0	0	0	1	0	2	//Sphinx Armor
+	9	7	0	0	0	1	0	2	//Sphinx Pants
+	10	7	0	0	0	1	0	2	//Sphinx Gloves
+	11	7	0	0	0	1	0	2	//Sphinx Boots
+	0 	9	0	0	1	1	0	2	//Sword of Salamander
+	0  	10	0	0	1	1	0	2	//Light Saber
+	0 	11	0	0	1	1	0	2	//Legendary Sword
+	0 	12	0	0	1	1	0	2	//Healical Sword
+	0 	13	0	0	1	1	0	2	//Double Blade
+	0 	14	0	0	1	1	0	2	//Lighting Sword
+	0 	15	0	0	1	1	0	2	//Giant Sword
+	1  	5	0	0	1	1	0	2	//Battle Axe
+	1  	6	0	0	1	1	0	2	//Nikea Axe
+	1  	7	0	0	1	1	0	2	//Larkan Axe
+	1  	8	0	0	1	1	0	2	//Crescent Axe
+	2  	5	0	0	1	1	0	2	//Crystal Sword
+	2  	6	0	0	1	1	0	2	//Chaos Dragon Axe
+	2  	8	0	0	1	1	0	2	//Battle Scepter
+	3  	5	0	0	1	1	0	2	//Double Poleaxe
+	3  	6	0	0	1	1	0	2	//Halberd
+	3  	7	0	0	1	1	0	2	//Berdysh
+	3 	8	0	0	1	1	0	2	//Great Scythe
+	4  	6	0	0	1	1	0	2	//Chaos Nature Bow
+	4  	11	0	0	1	1	0	2	//Light Crossbow
+	5  	5	0	0	1	1	0	2	//Legendary Staff
+	5  	6	0	0	1	1	0	2	//Staff of Resurrection
+	5  	7	0	0	1	1	0	2	//Chaos Lighting Staff
+	6  	6	0	0	1	1	0	2	//Skull Shield
+	6  	7	0	0	1	1	0	2	//Spiked Shield
+	6  	8	0	0	1	1	0	2	//Tower Shield
+	6  	10	0	0	1	1	0	2	//Large Round Shield
+	13      23      0       0       1       0       0       3	//Ring of Wind
+	13      24      0       0       1       0       0       3	//Ring of Magic
+	13      27      0       0       1       0       0       3	//Pendant of Water
+	13      28      0       0       1       0       0       3	//Pendant of Ability
+end

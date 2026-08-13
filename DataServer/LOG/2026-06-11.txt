@@ -1,0 +1,25 @@
+03:30:12 [SocketManager] Servidor iniciado na porta [55960]
+03:30:16 [ServerManager][0] AddServer (127.0.0.1)
+03:30:16 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+03:45:44 [SocketManager] Servidor iniciado na porta [55960]
+03:45:48 [ServerManager][0] AddServer (127.0.0.1)
+03:45:48 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+04:23:52 [SocketManager] WSAAccept() failed with error: 10061
+07:14:09 [SocketManager] Servidor iniciado na porta [55960]
+07:14:13 [ServerManager][0] AddServer (127.0.0.1)
+07:14:13 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+15:26:51 [SocketManager] Servidor iniciado na porta [55960]
+15:26:55 [ServerManager][0] AddServer (127.0.0.1)
+15:26:55 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+17:50:05 [SocketManager] Servidor iniciado na porta [55960]
+17:50:08 [ServerManager][0] AddServer (127.0.0.1)
+17:50:08 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+17:58:36 [SocketManager] Servidor iniciado na porta [55960]
+17:58:39 [ServerManager][0] AddServer (127.0.0.1)
+17:58:39 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+18:05:08 [SocketManager] Servidor iniciado na porta [55960]
+18:05:11 [ServerManager][0] AddServer (127.0.0.1)
+18:05:11 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+18:21:54 [SocketManager] Servidor iniciado na porta [55960]
+18:21:58 [ServerManager][0] AddServer (127.0.0.1)
+18:21:58 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)

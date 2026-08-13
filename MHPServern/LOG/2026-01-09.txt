@@ -1,0 +1,200 @@
+20:32:01 [SocketManager] Server started at port [55619]
+20:32:01 [MHPServerInfo] Config loaded successfully
+20:32:01 [MHPServerInfo] DumpList loaded successfully
+20:32:01 [MHPServerInfo] ChecksumList loaded successfully
+20:32:01 [MHPServerInfo] InternalList loaded successfully
+20:32:01 [MHPServerInfo] WindowList loaded successfully
+20:32:01 [MHPServerInfo] BlackList loaded successfully
+20:41:30 [SocketManager] Server started at port [55619]
+20:41:30 [MHPServerInfo] Config loaded successfully
+20:41:30 [MHPServerInfo] DumpList loaded successfully
+20:41:30 [MHPServerInfo] ChecksumList loaded successfully
+20:41:30 [MHPServerInfo] InternalList loaded successfully
+20:41:30 [MHPServerInfo] WindowList loaded successfully
+20:41:30 [MHPServerInfo] BlackList loaded successfully
+20:47:00 [ClientManager][0] AddClient (192.168.0.105)
+20:47:00 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+20:22:32 [SocketManager] Server started at port [55619]
+20:22:32 [MHPServerInfo] Config loaded successfully
+20:22:32 [MHPServerInfo] DumpList loaded successfully
+20:22:32 [MHPServerInfo] ChecksumList loaded successfully
+20:22:32 [MHPServerInfo] InternalList loaded successfully
+20:22:32 [MHPServerInfo] WindowList loaded successfully
+20:22:32 [MHPServerInfo] BlackList loaded successfully
+20:23:43 [ClientManager][0] AddClient (192.168.0.105)
+20:23:43 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+20:26:49 [ClientManager][0] DelClient (192.168.0.105)
+20:21:02 [SocketManager] Server started at port [55619]
+20:21:02 [MHPServerInfo] Config loaded successfully
+20:21:02 [MHPServerInfo] DumpList loaded successfully
+20:21:02 [MHPServerInfo] ChecksumList loaded successfully
+20:21:02 [MHPServerInfo] InternalList loaded successfully
+20:21:02 [MHPServerInfo] WindowList loaded successfully
+20:21:02 [MHPServerInfo] BlackList loaded successfully
+20:18:53 [SocketManager] Server started at port [55619]
+20:18:53 [MHPServerInfo] Config loaded successfully
+20:18:53 [MHPServerInfo] DumpList loaded successfully
+20:18:53 [MHPServerInfo] ChecksumList loaded successfully
+20:18:53 [MHPServerInfo] InternalList loaded successfully
+20:18:53 [MHPServerInfo] WindowList loaded successfully
+20:18:53 [MHPServerInfo] BlackList loaded successfully
+20:23:01 [ClientManager][0] AddClient (192.168.0.105)
+20:23:01 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+20:31:26 [SocketManager] Server started at port [55619]
+20:31:26 [MHPServerInfo] Config loaded successfully
+20:31:26 [MHPServerInfo] DumpList loaded successfully
+20:31:26 [MHPServerInfo] ChecksumList loaded successfully
+20:31:26 [MHPServerInfo] InternalList loaded successfully
+20:31:26 [MHPServerInfo] WindowList loaded successfully
+20:31:26 [MHPServerInfo] BlackList loaded successfully
+20:59:16 [SocketManager] Server started at port [55619]
+20:59:16 [MHPServerInfo] Config loaded successfully
+20:59:16 [MHPServerInfo] DumpList loaded successfully
+20:59:16 [MHPServerInfo] ChecksumList loaded successfully
+20:59:16 [MHPServerInfo] InternalList loaded successfully
+20:59:16 [MHPServerInfo] WindowList loaded successfully
+20:59:16 [MHPServerInfo] BlackList loaded successfully
+21:00:12 [ClientManager][0] AddClient (192.168.0.105)
+21:00:12 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+21:03:44 [ClientManager][0] DelClient (192.168.0.105)
+21:27:16 [SocketManager] Server started at port [55619]
+21:27:16 [MHPServerInfo] Config loaded successfully
+21:27:16 [MHPServerInfo] DumpList loaded successfully
+21:27:16 [MHPServerInfo] ChecksumList loaded successfully
+21:27:16 [MHPServerInfo] InternalList loaded successfully
+21:27:16 [MHPServerInfo] WindowList loaded successfully
+21:27:16 [MHPServerInfo] BlackList loaded successfully
+21:27:36 [ClientManager][0] AddClient (192.168.0.105)
+21:27:36 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+21:07:26 [SocketManager] Server started at port [55619]
+21:07:26 [MHPServerInfo] Config loaded successfully
+21:07:26 [MHPServerInfo] DumpList loaded successfully
+21:07:26 [MHPServerInfo] ChecksumList loaded successfully
+21:07:26 [MHPServerInfo] InternalList loaded successfully
+21:07:26 [MHPServerInfo] WindowList loaded successfully
+21:07:26 [MHPServerInfo] BlackList loaded successfully
+21:54:56 [SocketManager] Server started at port [55619]
+21:54:56 [MHPServerInfo] Config loaded successfully
+21:54:56 [MHPServerInfo] DumpList loaded successfully
+21:54:56 [MHPServerInfo] ChecksumList loaded successfully
+21:54:56 [MHPServerInfo] InternalList loaded successfully
+21:54:56 [MHPServerInfo] WindowList loaded successfully
+21:54:56 [MHPServerInfo] BlackList loaded successfully
+22:02:11 [SocketManager] Server started at port [55619]
+22:02:11 [MHPServerInfo] Config loaded successfully
+22:02:11 [MHPServerInfo] DumpList loaded successfully
+22:02:11 [MHPServerInfo] ChecksumList loaded successfully
+22:02:11 [MHPServerInfo] InternalList loaded successfully
+22:02:11 [MHPServerInfo] WindowList loaded successfully
+22:02:11 [MHPServerInfo] BlackList loaded successfully
+23:26:35 [SocketManager] Server started at port [55619]
+23:26:36 [MHPServerInfo] Config loaded successfully
+23:26:36 [MHPServerInfo] DumpList loaded successfully
+23:26:36 [MHPServerInfo] ChecksumList loaded successfully
+23:26:36 [MHPServerInfo] InternalList loaded successfully
+23:26:36 [MHPServerInfo] WindowList loaded successfully
+23:26:36 [MHPServerInfo] BlackList loaded successfully
+23:32:14 [SocketManager] Server started at port [55619]
+23:32:14 [MHPServerInfo] Config loaded successfully
+23:32:14 [MHPServerInfo] DumpList loaded successfully
+23:32:14 [MHPServerInfo] ChecksumList loaded successfully
+23:32:14 [MHPServerInfo] InternalList loaded successfully
+23:32:14 [MHPServerInfo] WindowList loaded successfully
+23:32:14 [MHPServerInfo] BlackList loaded successfully
+23:45:12 [SocketManager] Server started at port [55619]
+23:45:12 [MHPServerInfo] Config loaded successfully
+23:45:12 [MHPServerInfo] DumpList loaded successfully
+23:45:12 [MHPServerInfo] ChecksumList loaded successfully
+23:45:12 [MHPServerInfo] InternalList loaded successfully
+23:45:12 [MHPServerInfo] WindowList loaded successfully
+23:45:12 [MHPServerInfo] BlackList loaded successfully
+23:50:01 [SocketManager] Server started at port [55619]
+23:50:01 [MHPServerInfo] Config loaded successfully
+23:50:01 [MHPServerInfo] DumpList loaded successfully
+23:50:01 [MHPServerInfo] ChecksumList loaded successfully
+23:50:01 [MHPServerInfo] InternalList loaded successfully
+23:50:01 [MHPServerInfo] WindowList loaded successfully
+23:50:01 [MHPServerInfo] BlackList loaded successfully
+23:51:08 [SocketManager] Server started at port [55619]
+23:51:08 [MHPServerInfo] Config loaded successfully
+23:51:08 [MHPServerInfo] DumpList loaded successfully
+23:51:08 [MHPServerInfo] ChecksumList loaded successfully
+23:51:08 [MHPServerInfo] InternalList loaded successfully
+23:51:08 [MHPServerInfo] WindowList loaded successfully
+23:51:08 [MHPServerInfo] BlackList loaded successfully
+23:54:04 [SocketManager] Server started at port [55619]
+23:54:04 [MHPServerInfo] Config loaded successfully
+23:54:04 [MHPServerInfo] DumpList loaded successfully
+23:54:04 [MHPServerInfo] ChecksumList loaded successfully
+23:54:04 [MHPServerInfo] InternalList loaded successfully
+23:54:04 [MHPServerInfo] WindowList loaded successfully
+23:54:04 [MHPServerInfo] BlackList loaded successfully
+21:36:37 [SocketManager] Server started at port [55619]
+21:36:37 [MHPServerInfo] Config loaded successfully
+21:36:37 [MHPServerInfo] DumpList loaded successfully
+21:36:37 [MHPServerInfo] ChecksumList loaded successfully
+21:36:37 [MHPServerInfo] InternalList loaded successfully
+21:36:37 [MHPServerInfo] WindowList loaded successfully
+21:36:37 [MHPServerInfo] BlackList loaded successfully
+22:01:36 [SocketManager] Server started at port [55619]
+22:01:36 [MHPServerInfo] Config loaded successfully
+22:01:36 [MHPServerInfo] DumpList loaded successfully
+22:01:36 [MHPServerInfo] ChecksumList loaded successfully
+22:01:36 [MHPServerInfo] InternalList loaded successfully
+22:01:36 [MHPServerInfo] WindowList loaded successfully
+22:01:36 [MHPServerInfo] BlackList loaded successfully
+22:05:23 [ClientManager][0] AddClient (192.168.1.215)
+22:05:23 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+22:43:24 [ClientManager][0] DelClient (192.168.1.215)
+22:46:59 [ClientManager][0] AddClient (192.168.1.215)
+22:46:59 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+23:03:28 [ClientManager][0] DelClient (192.168.1.215)
+23:55:11 [ClientManager][0] AddClient (192.168.1.215)
+23:55:11 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+23:55:12 [ClientManager][1] AddClient (192.168.1.215)
+23:55:12 [ClientManager][1] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+23:55:33 [ClientManager][0] DelClient (192.168.1.215)
+20:29:04 [SocketManager] Server started at port [55619]
+20:29:04 [MHPServerInfo] Config loaded successfully
+20:29:04 [MHPServerInfo] DumpList loaded successfully
+20:29:04 [MHPServerInfo] ChecksumList loaded successfully
+20:29:04 [MHPServerInfo] InternalList loaded successfully
+20:29:04 [MHPServerInfo] WindowList loaded successfully
+20:29:04 [MHPServerInfo] BlackList loaded successfully
+20:30:42 [SocketManager] Server started at port [55619]
+20:30:42 [MHPServerInfo] Config loaded successfully
+20:30:42 [MHPServerInfo] DumpList loaded successfully
+20:30:42 [MHPServerInfo] ChecksumList loaded successfully
+20:30:42 [MHPServerInfo] InternalList loaded successfully
+20:30:42 [MHPServerInfo] WindowList loaded successfully
+20:30:42 [MHPServerInfo] BlackList loaded successfully
+20:34:34 [ClientManager][0] AddClient (192.168.1.215)
+20:34:34 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+20:47:55 [ClientManager][0] DelClient (192.168.1.215)
+22:07:06 [SocketManager] Server started at port [55619]
+22:07:06 [MHPServerInfo] Config loaded successfully
+22:07:06 [MHPServerInfo] DumpList loaded successfully
+22:07:06 [MHPServerInfo] ChecksumList loaded successfully
+22:07:06 [MHPServerInfo] InternalList loaded successfully
+22:07:06 [MHPServerInfo] WindowList loaded successfully
+22:07:06 [MHPServerInfo] BlackList loaded successfully
+22:07:52 [ClientManager][0] AddClient (192.168.1.215)
+22:07:52 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+22:09:10 [ClientManager][0] DelClient (192.168.1.215)
+22:10:31 [ClientManager][0] AddClient (192.168.1.215)
+22:10:31 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+22:11:23 [ClientManager][0] DelClient (192.168.1.215)
+22:23:44 [ClientManager][0] AddClient (192.168.1.215)
+22:23:44 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+22:25:06 [ClientManager][0] DelClient (192.168.1.215)
+22:25:17 [ClientManager][0] AddClient (192.168.1.215)
+22:25:17 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+22:29:28 [ClientManager][0] DelClient (192.168.1.215)
+22:38:58 [ClientManager][0] AddClient (192.168.1.215)
+22:38:58 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+22:54:52 [ClientManager][0] DelClient (192.168.1.215)
+23:13:26 [ClientManager][0] AddClient (192.168.1.215)
+23:13:26 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+23:41:23 [ClientManager][0] DelClient (192.168.1.215)
+23:45:18 [ClientManager][0] AddClient (192.168.1.215)
+23:45:18 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)

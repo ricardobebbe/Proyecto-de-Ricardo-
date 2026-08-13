@@ -1,0 +1,6 @@
+00:10:11 [ServerList] GameServer offline (Trade+Bau) (0)
+00:11:10 [ServerList] GameServer online (Trade+Bau) (0)
+02:50:44 [SocketManager] Servidor iniciado na porta [44405]
+02:50:44 [ServerList] ServerList carregado com sucesso
+02:50:48 [ServerList] JoinServer online
+02:50:51 [ServerList] GameServer online (Trade+Bau) (0)

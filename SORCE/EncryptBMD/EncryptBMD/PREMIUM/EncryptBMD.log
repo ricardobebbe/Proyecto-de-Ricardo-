@@ -1,0 +1,59 @@
+﻿Build started 03/09/2022 11:16:42.
+     1>Project "C:\SRC ZEUS UP20 +SLOTS PETS\EncryptBMD\EncryptBMD\EncryptBMD.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "PREMIUM\EncryptBMD.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D GAMESERVER_PREMIUM=1 /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"PREMIUM\EncryptBMD.pch" /Fo"PREMIUM\\" /Fd"PREMIUM\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D GAMESERVER_PREMIUM=1 /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"PREMIUM\EncryptBMD.pch" /Fo"PREMIUM\\" /Fd"PREMIUM\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Util\CCRC32.Cpp cCPetRenderMesh.cpp CustomEffectDynamic.cpp CustomMonsterGlow.cpp CustomPetEffect.cpp CustomWIngEffect.cpp EncryptBMD.cpp InfoLog.cpp ItemTooltip.cpp JCRendernoItemGlow.cpp MemScript.cpp MonsterEffect.cpp MultiSelect.cpp tooltipbuff.cpp
+         CCRC32.Cpp
+         cCPetRenderMesh.cpp
+         CustomEffectDynamic.cpp
+         CustomMonsterGlow.cpp
+         CustomPetEffect.cpp
+     1>c:\src zeus up20 +slots pets\encryptbmd\encryptbmd\CustomPetEffect.h(4): warning C4005: 'MAX_CUSTOPETEFFECT' : macro redefinition
+                 c:\src zeus up20 +slots pets\encryptbmd\encryptbmd\stdafx.h(9) : see previous definition of 'MAX_CUSTOPETEFFECT'
+         CustomWIngEffect.cpp
+         EncryptBMD.cpp
+     1>c:\src zeus up20 +slots pets\encryptbmd\encryptbmd\CustomPetEffect.h(4): warning C4005: 'MAX_CUSTOPETEFFECT' : macro redefinition
+                 c:\src zeus up20 +slots pets\encryptbmd\encryptbmd\stdafx.h(9) : see previous definition of 'MAX_CUSTOPETEFFECT'
+         InfoLog.cpp
+         ItemTooltip.cpp
+         JCRendernoItemGlow.cpp
+         MemScript.cpp
+         MonsterEffect.cpp
+         MultiSelect.cpp
+         tooltipbuff.cpp
+       ResourceCompile:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"PREMIUM\EncryptBMD.res" EncryptBMD.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\SRC ZEUS UP20 +SLOTS PETS\EncryptBMD\Release\EncryptBMD.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"PREMIUM\EncryptBMD.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\SRC ZEUS UP20 +SLOTS PETS\EncryptBMD\Release\EncryptBMD.pdb" /SUBSYSTEM:CONSOLE /STACK:"4097152","4097152" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\SRC ZEUS UP20 +SLOTS PETS\EncryptBMD\Release\EncryptBMD.lib" /MACHINE:X86 PREMIUM\EncryptBMD.res
+         PREMIUM\CCRC32.obj
+         PREMIUM\cCPetRenderMesh.obj
+         PREMIUM\CustomEffectDynamic.obj
+         PREMIUM\CustomMonsterGlow.obj
+         PREMIUM\CustomPetEffect.obj
+         PREMIUM\CustomWIngEffect.obj
+         PREMIUM\EncryptBMD.obj
+         PREMIUM\InfoLog.obj
+         PREMIUM\ItemTooltip.obj
+         PREMIUM\JCRendernoItemGlow.obj
+         PREMIUM\MemScript.obj
+         PREMIUM\MonsterEffect.obj
+         PREMIUM\MultiSelect.obj
+         PREMIUM\stdafx.obj
+         PREMIUM\tooltipbuff.obj
+         Generating code
+         Finished generating code
+         EncryptBMD.vcxproj -> C:\SRC ZEUS UP20 +SLOTS PETS\EncryptBMD\Release\EncryptBMD.exe
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\SRC ZEUS UP20 +SLOTS PETS\EncryptBMD\Release\EncryptBMD.exe;#1" /manifest PREMIUM\EncryptBMD.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "PREMIUM\EncryptBMD.unsuccessfulbuild".
+         Touching "PREMIUM\EncryptBMD.lastbuildstate".
+     1>Done Building Project "C:\SRC ZEUS UP20 +SLOTS PETS\EncryptBMD\EncryptBMD\EncryptBMD.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.03

@@ -1,0 +1,11 @@
+{
+  "version": "1.0.8",
+  "server_name": "MU MISIONES",
+  "web_url": "www.MuMisiones.com",
+  "connect_server_ip": "200.58.120.45",
+  "connect_server_port": 55901,
+  "patches": [
+    { "file": "update_001.zip", "version": "1.0.1", "size": 1048576, "crc32": "A1B2C3D4" },
+    { "file": "update_002.zip", "version": "1.0.2", "size": 2097152, "crc32": "E5F67890" }
+  ]
+}

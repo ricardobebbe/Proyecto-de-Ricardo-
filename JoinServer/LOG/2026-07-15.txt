@@ -1,0 +1,12 @@
+00:10:00 [ServerManager][0] DelServer (127.0.0.1)
+00:12:47 [ServerManager][0] AddServer (127.0.0.1)
+00:12:47 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+02:18:12 [SocketManager] Servidor iniciado na porta [55970]
+02:18:15 [ServerManager][0] AddServer (127.0.0.1)
+02:18:15 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+02:47:23 [SocketManager] Servidor iniciado na porta [55970]
+02:47:26 [ServerManager][0] AddServer (127.0.0.1)
+02:47:26 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+03:03:12 [SocketManager] Servidor iniciado na porta [55970]
+03:03:15 [ServerManager][0] AddServer (127.0.0.1)
+03:03:15 [ServerManager][0] ServerInfo (V.97x) (55901) (0)

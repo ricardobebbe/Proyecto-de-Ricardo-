@@ -1,0 +1,12 @@
+SiteAdress=http://192.168.1.215/
+ServerIP=192.168.1.215
+GameServerPort=55901
+StartFile=main.exe
+ClientVersion=1.0.8
+PatchURL=http://192.168.1.215/WEB_SERVER_PATCHES/
+LauncherTitle=MU MISIONES
+CreatorName=RDDLV
+TimeZone=3
+SqlUser=sa
+SqlPass=1234
+SqlDb=MuOnline

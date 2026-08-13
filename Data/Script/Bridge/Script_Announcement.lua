@@ -1,0 +1,69 @@
+-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-- Configurado por RDDLV - 97x Edition
+-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+require "System\\ScriptCore"
+
+BridgeFunctionAttach("OnReadScript","ScriptAnnouncement_ReadScript");
+BridgeFunctionAttach("OnTimerThread","ScriptAnnouncement_TimerThread");
+BridgeFunctionAttach("OnCharacterEntry","ScriptAnnouncement_CharacterEntry");
+
+local SYSTEM_NAME    = {};
+local SYSTEM_CONFIGS = {
+    Query               = {},
+    Message             = {},
+    Count               = 1,
+    TimerReload         = 0,
+    NumberAnnouncement  = 0
+};
+
+function ScriptAnnouncement_ReadScript()
+    SYSTEM_CONFIGS.TimerReload          = 60;   -- Tempo em minutos para atualização dos rankings;
+    SYSTEM_CONFIGS.NumberAnnouncement   = 3;   -- Número de anúncios;
+
+    SYSTEM_CONFIGS.Query[1] = string.format("SELECT top 1 name FROM character order by ResetCount desc");
+    SYSTEM_CONFIGS.Query[2] = string.format("SELECT top 1 name FROM character order by MasterResetCount desc");
+    SYSTEM_CONFIGS.Query[3] = string.format("SELECT top 1 name FROM character order by Kills desc");
+
+    SYSTEM_CONFIGS.ReloadRaking();
+
+    SYSTEM_CONFIGS.Message[1] = "TOP 1 - RESETS: "..SYSTEM_NAME[1].." online!";
+    SYSTEM_CONFIGS.Message[2] = "TOP 1 - MASTER RESETS: "..SYSTEM_NAME[2].." online!";
+    SYSTEM_CONFIGS.Message[3] = "TOP 1 - Kills: "..SYSTEM_NAME[3].." online!";
+end
+
+function ScriptAnnouncement_TimerThread()
+    if (SYSTEM_CONFIGS.Count%(SYSTEM_CONFIGS.TimerReload*60) == 0) then
+        SYSTEM_CONFIGS.ReloadRaking();
+        SYSTEM_CONFIGS.Count = 1;
+    else
+        SYSTEM_CONFIGS.Count = SYSTEM_CONFIGS.Count + 1;
+    end
+end
+
+function ScriptAnnouncement_CharacterEntry(aIndex)
+    SYSTEM_CONFIGS.GetUser(aIndex);
+end
+
+function SYSTEM_CONFIGS.ReloadRaking()
+    for pos = 1, SYSTEM_CONFIGS.NumberAnnouncement, 1 do
+        SQLQuery(SYSTEM_CONFIGS.Query[pos]);
+        SQLFetch()          
+        SQLClose()
+
+        SYSTEM_NAME[pos] = SQLGetString("name");
+    end
+end
+
+function SYSTEM_CONFIGS.GetUser(aIndex)
+    for x = 1, SYSTEM_CONFIGS.NumberAnnouncement, 1 do
+        if (SYSTEM_NAME[x] == GetObjectName(aIndex)) then    
+            NoticeSendToAll(1, string.format(SYSTEM_CONFIGS.Message[x]));
+            break;
+        end
+    end
+    return 0;
+end
+
+LogColor(1, "[Script_Announcement] Carregado Com Sucesso!")

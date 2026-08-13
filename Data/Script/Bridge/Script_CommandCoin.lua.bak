@@ -1,0 +1,29 @@
+-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-- Programaçao Por By:Zeus Revolutions 22/06/21
+-- Files-Premium Zeus Revolutions 97D+2.0 Donwgrand 1.04e
+-- Contato [E-MAIL]: Luis.zs@hotmail.com (17) 991047335 
+-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-- |Todos Diretos Reselvados © 2020 Zeus Revolutions Team
+-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+require "System\\ScriptCore"
+
+BridgeFunctionAttach("OnCommandManager", "Coin_CommandManager");
+
+Coin_CommandManager = function(aIndex, code, arg)	
+
+	if code == 130 then
+		SQLQuery("SELECT leilao FROM MEMB_INFO WHERE memb___id = '"..GetObjectAccount(aIndex).."'");
+		SQLFetch();
+		local aValue = tonumber(SQLGetNumber("leilao"));
+		SQLClose();
+	
+		NoticeSend(aIndex, 1, string.format("[Leilão]: Você possui %d moedas de Leilão.", aValue));
+		return 1;
+		
+	end
+
+	return 0;
+end
+
+LogColor(1, "[Script_CommandCoin]Carregado Com Sucesso!")

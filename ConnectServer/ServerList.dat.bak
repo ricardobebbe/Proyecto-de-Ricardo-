@@ -1,0 +1,6 @@
+//ServerCode	ServerName	      ServerAddress	  ServerPort	ServerType
+0		"Trade+Bau"	      "SEU-IP"	  55901		"SHOW"
+19		"GameServer_CS"       "SEU-IP"	  55919		"HIDE"
+20              "Sport"               "SEU-IP"     55903         "SHOW"
+1               "Manutençao"          "SEU-IP"     55902         "SHOW"
+end

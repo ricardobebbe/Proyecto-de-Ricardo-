@@ -1,0 +1,344 @@
+<!--
+//==========================================================================================================================================
+//Programaçao :Por By:RDDLV Mu MiSiones © Copyright 2026
+//FILES PREMIUN
+// Arquivo de configuração do MuServer RDDLV
+//==========================================================================================================================================
+//   
+-->
+
+<CommandManager>
+<!-- COMANDOS DE PLAEYRS  -->
+	<Command Index="0" Delay="0" GameMaster="-1" Syntax="/move" Description="Use: /move <Map name>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="1" Delay="0" GameMaster="-1" Syntax="/war" Description="Use: /guildwar <Guild name>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="2" Delay="0" GameMaster="-1" Syntax="/soccer" Description="Use: /guildsoccer <Guild name>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="3" Delay="0" GameMaster="-1" Syntax="/post" Description="Use: /post msg global <'on', 'off' or 'auto'>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="4" Delay="0" GameMaster="-1" Syntax="/offpvp" Description="Use: /offpvp  <Attack>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="5" Delay="0" GameMaster="-1" Syntax="/f" Description="Use: /f <Amount>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="6" Delay="0" GameMaster="-1" Syntax="/a" Description="Use: /a <Amount> or /addagi auto <Amount>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="7" Delay="0" GameMaster="-1" Syntax="/v" Description="Use: /v <Amount> or /addvit auto <Amount>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="8" Delay="0" GameMaster="-1" Syntax="/e" Description="Use: /e <Amount> or /addene auto <Amount>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="9" Delay="0" GameMaster="-1" Syntax="/c" Description="Use: /c <Amount> or /addcmd auto <Amount> Only for Dark Lord">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="10" Delay="0" GameMaster="-1" Syntax="/pk" Description="Use: '/pk' Limpar level pk.">
+		<Setting AccountLevel="0" Enable="1" MinLevel="1" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="11" Delay="0" GameMaster="-1" Syntax="/zen" Description="Use: /money <Amount>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="12" Delay="0" GameMaster="-1" Syntax="/evo" Description="Use: '/evo' to evolve">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="13" Delay="0" GameMaster="-1" Syntax="/bau" Description="Use: /ware <nº of chest>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="14" Delay="0" GameMaster="-1" Syntax="/reset" Description="Use: /reset or /reset auto <Str> <Agi> <Vit> <Ene> <Cmd>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="15" Delay="0" GameMaster="-1" Syntax="/mreset" Description="Use: '/mreset' to do a master reset.">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="16" Delay="0" GameMaster="-1" Syntax="/store" Description="Use: /store <'bless', 'soul', 'chaos', 'wcc', 'wcp' or 'gp'>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="17" Delay="0" GameMaster="-1" Syntax="/offstore" Description="Use: '/offstore' to sell while disconnected.">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="18" Delay="0" GameMaster="-1" Syntax="/offattack" Description="Use: '/offattack' to leave AFK being disconnected.">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="19" Delay="0" GameMaster="-1" Syntax="/limpar" Description="Use: '/clearinv' to clean your inventory.">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="20" Delay="0" GameMaster="-1" Syntax="/readd" Description="Use: '/readd' to reset your points">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="21" Delay="0" GameMaster="-1" Syntax="/attack" Description="Use: /packwcc <Amount of WCoinC>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="10" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="22" Delay="0" GameMaster="-1" Syntax="/pick" Description="Use: /packwcp <Amount of WCoinP>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="10000" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="23" Delay="0" GameMaster="-1" Syntax="/lock" Description="Use: /packgp <Amount of GoblinPoints>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="24" Delay="0" GameMaster="-1" Syntax="/unlock" Description="Use: /treereset or /treereset <1, 2, 3>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="25" Delay="0" GameMaster="-1" Syntax="/pack" Description="Use: /gift <Gift code>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="26" Delay="0" GameMaster="-1" Syntax="/unpack" Description="Use: /marry <target player>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="50" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="50" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="50" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="50" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="27" Delay="0" GameMaster="-1" Syntax="/marry" Description="Use: '/accept' to accept a marriage proposal">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="28" Delay="0" GameMaster="-1" Syntax="/abrirbau" Description="Use: '/bau">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="29" Delay="0" GameMaster="-1" Syntax="/resp" Description="Use: '/eventos'">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="30" Delay="0" GameMaster="-1" Syntax="/participar" Description="Use: '/eventos">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="31" Delay="0" GameMaster="-1" Syntax="/queroir" Description="Use: '/Eventos.">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="32" Delay="0" GameMaster="-1" Syntax="/rei" Description="Use: '/Eventos.' To buy plan VIP.">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<!-- COMANDOS SISTEMA EM LUA IN-GAME -->
+	<Command Index="92" Delay="0" GameMaster="-1" Syntax="/lance" Description="Use: /zumbi <MonsterIndex>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="203" Delay="0" GameMaster="-1" Syntax="/r" Description="Use: /zumbi <MonsterIndex>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="86" Delay="0" GameMaster="-1" Syntax="/zumbi" Description="Use: /zumbi <MonsterIndex>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+<!-- COMANDOS GAME MASTER -->
+	<Command Index="100" Delay="0" GameMaster="8" Syntax="/gmove" Description="Use: /gmmove <Target> <Map> <PosX> <PosY>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="101" Delay="0" GameMaster="8" Syntax="/!" Description="Use: /gmpost <Message>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="102" Delay="0" GameMaster="8" Syntax="/track" Description="Use: /track <Target>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="103" Delay="0" GameMaster="8" Syntax="/trace" Description="Use: /trace <Target>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="104" Delay="0" GameMaster="8" Syntax="/disconnect" Description="Use: /disconnect <Target>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="105" Delay="0" GameMaster="8" Syntax="/firework" Description="Use: '/firework' to launch fireworks">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="106" Delay="0" GameMaster="8" Syntax="/make" Description="Use: /make <Cat> <Index> <Level> <Skill> <Luck> <Jol> <Exc> <Set> <Socket>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="107" Delay="0" GameMaster="32" Syntax="/drop" Description="Use: /drop <Cat> <Index> <Level> <Skill> <Luck> <Jol> <Exc> <Set> <Socket>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="108" Delay="0" GameMaster="8" Syntax="/skin" Description="Use: /skin <Target> <MonsterIndex>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="109" Delay="0" GameMaster="8" Syntax="/setmoney" Description="Use: /setmoney <Target> <Amount>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="110" Delay="0" GameMaster="32" Syntax="/roletarussa" Description="Use: '/hide' to hide from others">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="111" Delay="0" GameMaster="32" Syntax="/escesc" Description="Use: /edit <Target> <Level> <Points> <Str> <Agi> <Vit> <Ene> <Cmd>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="112" Delay="0" GameMaster="32" Syntax="/matamata" Description="Use: /setcoin <Target> <WCC Amount> <WCP Amount> <GP Amount>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="113" Delay="0" GameMaster="8" Syntax="/veloz" Description="Use: /setpk <Target> <Level PK>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="114" Delay="0" GameMaster="8" Syntax="/pvp" Description="Use: /setvip <Target> <Vip Days> <AccountLevel>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="115" Delay="0" GameMaster="8" Syntax="/pegapega" Description="Use: /moveall <Map> <PosY> <PosY>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="116" Delay="0" GameMaster="8" Syntax="/moveall" Description="Use: /moveguild <GuildName> <Map> <PosX> <PosY>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="117" Delay="0" GameMaster="8" Syntax="/moveguild" Description="Use: /moveguild <MonsterIndex>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+	<Command Index="118" Delay="0" GameMaster="8" Syntax="/makemob" Description="Use: /makemob <MonsterIndex>">
+		<Setting AccountLevel="0" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="1" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="2" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+		<Setting AccountLevel="3" Enable="1" MinLevel="0" MaxLevel="-1" MinReset="0" MaxReset="-1" Money="0" WCoinC="0" WCoinP="0" GoblinPoint="0" />
+	</Command>
+</CommandManager>

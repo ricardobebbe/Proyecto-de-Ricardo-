@@ -1,0 +1,32 @@
+00:11:42 [SocketManager] Servidor iniciado na porta [55960]
+00:11:46 [ServerManager][0] AddServer (127.0.0.1)
+00:11:46 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+01:10:01 [ServerManager][0] DelServer (127.0.0.1)
+01:11:12 [ServerManager][0] AddServer (127.0.0.1)
+01:11:13 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+02:48:43 [SocketManager] Servidor iniciado na porta [55960]
+02:48:47 [ServerManager][0] AddServer (127.0.0.1)
+02:48:47 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+03:10:01 [ServerManager][0] DelServer (127.0.0.1)
+03:13:40 [ServerManager][0] AddServer (127.0.0.1)
+03:13:40 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+06:33:05 [ServerManager][0] DelServer (127.0.0.1)
+08:26:49 [ServerManager][0] AddServer (127.0.0.1)
+08:26:49 SELECT ItemCount FROM GameServerInfo WHERE Number=0
+08:26:49 [QueryManager] State (01000), Diagnostic: [Microsoft][ODBC SQL Server Driver][DBMSLPCN]ConnectionWrite (send()).
+08:26:49 [QueryManager] State (08S01), Diagnostic: [Microsoft][ODBC SQL Server Driver][DBMSLPCN]Error general de red. Consulte la documentación de la red.
+08:26:49 INSERT INTO GameServerInfo (Number,ItemCount,ZenCount,AceItemCount) VALUES (0,0,0,0)
+08:26:49 [QueryManager] State (23000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Violation of PRIMARY KEY constraint 'PK_GameServerInfo'. Cannot insert duplicate key in object 'dbo.GameServerInfo'. The duplicate key value is (0).
+08:26:49 [QueryManager] State (01000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated.
+08:26:49 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+09:10:00 [ServerManager][0] DelServer (127.0.0.1)
+09:11:48 [ServerManager][0] AddServer (127.0.0.1)
+09:11:49 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+09:16:38 [SocketManager] Servidor iniciado na porta [55960]
+09:16:42 [ServerManager][0] AddServer (127.0.0.1)
+09:16:42 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+13:08:49 [ServerManager][0] DelServer (127.0.0.1)
+15:35:23 [SocketManager] Servidor iniciado na porta [55960]
+15:35:27 [ServerManager][0] AddServer (127.0.0.1)
+15:35:27 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+16:10:00 [ServerManager][0] DelServer (127.0.0.1)

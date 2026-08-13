@@ -1,0 +1,214 @@
+[GameServerInfo]
+;==================================================
+;  97x Settings
+;==================================================
+DisabledSD = 1
+
+;==================================================
+; Announce Chaos Mix Settings
+;==================================================
+AnnounceChaosMix = 0
+AnnounceChaosMixText = %s colocar o item %s +15
+
+;==================================================
+; Custom Arena Settings
+;==================================================
+CustomArenaSwitch = 0
+CustomArenaVictimScoreDecrease = 10
+CustomArenaKillerScoreIncrease = 100
+CustomArenaText1 = [%s] vai fechar em %d minute(s)
+CustomArenaText2 = [%s] fechar
+CustomArenaText3 = [%s] vai come�ar em %d minute(s)
+CustomArenaText4 = [%s] Come�ou
+CustomArenaText5 = [%s] terminado
+CustomArenaText6 = [%s] %s � o vencedor
+CustomArenaText7 = [%s] Voc� entrou no %d Voc� entrou n�o %d points
+CustomArenaText8 = Voc� n�o pode entrar na arena
+CustomArenaText9 = Esta arena n�o est� aberta no momento
+CustomArenaText10 = N�mero m�ximo excedido de players
+CustomArenaText11 = Voc� deve ser pelo menos Level %d
+CustomArenaText12 = Voc� deve ser um m�ximo de Level %d
+CustomArenaText13 = Voc� deve ser pelo menos Master Level %d
+CustomArenaText14 = Voc� deve estar no m�ximo Master Level %d
+CustomArenaText15 = Voc� deve ser pelo menos %d Resets
+CustomArenaText16 = Voc� precisa ter um m�ximo de %d Resets
+CustomArenaText17 = Voc� deve ser, pelo menos, %d Master Resets
+CustomArenaText18 = Voc� precisa ter um m�ximo de %d Master Resets
+CustomArenaText19 = Sua classe n�o � permitida no arena
+
+;==================================================
+; Custom Event Drop Settings
+;==================================================
+CustomEventDropSwitch = 0
+CustomEventDropText1 = [%s] Vai come�ar em %d minute(s)
+CustomEventDropText2 = [%s] Come�ou
+CustomEventDropText3 = [%s] Terminado
+
+;==================================================
+; Custom NPC Talk
+;==================================================
+CustomNpcTalkBaul = -1
+CustomNpcTalkQuest = 602
+CustomNpcTalkGoblin = -1
+CustomNpcTalkTrainer = -1
+CustomNpcTalkGuard = -1
+CustomNpcTalkNixie = 601
+
+;==================================================
+; Custom MuHelper Settings
+;==================================================
+MuOffHelperTime_AL0 = 10
+MuOffHelperTime_AL1 = 10
+MuOffHelperTime_AL2 = 10
+MuOffHelperTime_AL3 = 10
+MuOffHelperEnabled_AL0 = 1
+MuOffHelperEnabled_AL1 = 1
+MuOffHelperEnabled_AL2 = 1
+MuOffHelperEnabled_AL3 = 1
+
+;==================================================
+; Custom Store Settings
+;==================================================
+CustomStoreMapZone = -1
+CustomStoreTime_AL0 = 0
+CustomStoreTime_AL1 = 0
+CustomStoreTime_AL2 = 0
+CustomStoreTime_AL3 = 0
+CustomStoreCommandJoBSyntax = bless
+CustomStoreCommandJoSSyntax = soul
+CustomStoreCommandJoCSyntax = chaos
+CustomStoreCommandWCCSyntax = wcc
+CustomStoreCommandWCPSyntax = wcp
+CustomStoreCommandWCGSyntax = wcg
+CustomStoreJoBName = .::BLESS STORE::.
+CustomStoreJoSName = .::SOUL STORE::.
+CustomStoreJoCName = .::CHAOS STORE::.
+CustomStoreWCCName = .::WCC STORE::.
+CustomStoreWCPName = .::WCP STORE::.
+CustomStoreWCGName = .::WCG STORE::.
+
+;==================================================
+; Custom Store Offline Settings
+;==================================================
+CustomStoreOfflineGPGain = 0
+CustomStoreOfflineMapZone = -1
+
+;==================================================
+; Custom Attack Settings
+;==================================================
+CustomAttackTime_AL0 = 10000
+CustomAttackTime_AL1 = 10000
+CustomAttackTime_AL2 = 10000
+CustomAttackTime_AL3 = 10000
+CustomAttackDelay = 1
+CustomAttackAutoPotionDelay = 1
+CustomAttackAutoBuff_AL0 = 1
+CustomAttackAutoBuff_AL1 = 1
+CustomAttackAutoBuff_AL2 = 1
+CustomAttackAutoBuff_AL3 = 1
+CustomAttackAutoBuffDelay =  100
+CustomAttackAutoResume_AL0 = 1
+CustomAttackAutoResume_AL1 = 1
+CustomAttackAutoResume_AL2 = 1
+CustomAttackAutoResume_AL3 = 1
+
+;==================================================
+; Custom Attack Offline Settings
+;==================================================
+CustomAttackOfflineGPGain = 0
+
+;==================================================
+; Custom Online Lottery Settings
+;==================================================
+CustomOnlineLotterySwitch = 1
+CustomOnlineLotteryText1 = %s em %d minuto(s)
+CustomOnlineLotteryText2 = %s foi o vencedor do sorteio. Parab�ns!
+CustomOnlineLotteryText3 = %s n�o teve vencedor
+CustomOnlineLotteryNoOff = 1
+
+;==================================================
+; Custom Quest Settings
+;==================================================
+CustomQuestSwitch = 0
+
+;==================================================
+; Custom RankUser Settings (CustomRankUser.txt)
+; Type Reset = 0, Type Master Reset = 1, Type Level = 2
+;==================================================
+CustomRankUserSwitch = 1
+CustomRankUserType = 0
+CustomRankUserRewardSwitch = 1
+CustomRankUserNoticeToAll = 1
+CustomRankUserNoticeToUser = 1
+
+;==================================================
+; Custom Death Message
+;==================================================
+CustomDeathMessageSwitch = 1
+
+;==================================================
+; Custom Quiz
+;==================================================
+CustomQuizSwitch = 1
+
+;==================================================
+; Custom NpcCollector Settings (CustomNpcCollector.txt)
+;==================================================
+CustomNpcCollectorSwitch = 1
+
+;==================================================
+; RDDLVMercador Settings CustomRDDLVMercador.xml
+;==================================================
+CustomRDDLVMercadorSwitch = 1
+CustomRDDLVMercadorEnable_AL0 = 1
+CustomRDDLVMercadorEnable_AL1 = 1
+CustomRDDLVMercadorEnable_AL2 = 1
+CustomRDDLVMercadorEnable_AL3 = 1
+
+;==================================================
+; Custom Ranking Settings (CustomRanking.txt) F8 in game
+;==================================================
+CustomRankingSwitch = 1
+
+;==================================================
+; Custom EventTime Settings H in game
+;==================================================
+CustomEventTimeSwitch = 1
+
+;==================================================
+; Custom Guild Warehouse
+; Member Status to use: 
+; 0 All Members
+; 32 Battle Master+
+; 64 Guild Assistente+ 
+; 128 Guild Master+
+;==================================================
+GuildWarehouseEnable = 1
+GuildWarehouseStatus = 0
+
+;==================================================
+; Custom Shop MessageBox
+;==================================================
+; Types:
+; 0: Desativado
+; 1: S� para coins
+; 2: Todas as compras
+;==================================================
+CustomShopMessageBox = 0
+
+;==================================================
+; Custom Quest Settings (CustomNpcQuest.txt)
+;==================================================
+CustomNpcQuestSwitch = 0
+
+;==================================================
+; NewBoard Notice enter game 1 = On/Off = 0 
+;==================================================
+NewsWindowOnLogin = 1
+
+;==================================================
+; Custom Lucky Wheel 
+; Roleta Russa Interface (CustoLuckyWheel.txt)
+;==================================================
+LuckyWheelSwitch = 1
+LuckyWheelWCoinsValue = 10

@@ -1,0 +1,32 @@
+/////////////////////////////////////////////////////////////////////////////
+//NPC NAME - 000 - Hanzo the Blacksmith
+/////////////////////////////////////////////////////////////////////////////
+//Index Type   	Level   Dur   	Skill Luck  Option  ExcOp SetOp	  JoH	  OEx	 Socket1  Socket2 Socket3 Socket4 Socket5
+13      0       9       255     0     0     0       0     0       0       0       255     255     255     255     255  //Guardian Angel
+13      1       9       255     0     0     0       0     0       0       0       255     255     255     255     255  //Imp
+13      2       9       255     0     0     0       0     0       0       0       255     255     255     255     255  //Horn of Uniria
+13      3       9       255     0     0     0       0     0       0       0       255     255     255     255     255  //Horn of Dinorant
+14      3       0       255     0     0     0       0     0       0       0       255     255     255     255     255  //Large Healing Potion
+14      6       0       255     0     0     0       0     0       0       0       255     255     255     255     255  //Large Mana Potion
+8       15      9       255     1     1     1       0     0       0       0       255     255     255     255     255  //Storm Crow Armor
+8       20      9       255     1     1     1       0     0       0       0       255     255     255     255     255  //Thunder Hawk Armor
+8       23      9       255     1     1     1       0     0       0       0       255     255     255     255     255  //Hurricane Armor
+8       37      9       255     1     1     1       0     0       0       0       255     255     255     255     255  //Valiant Armor
+9       15      9       255     1     1     1       0     0       0       0       255     255     255     255     255  //Storm Crow Pants
+9       20      9       255     1     1     1       0     0       0       0       255     255     255     255     255  //Thunder Hawk Pants
+9       23      9       255     1     1     1       0     0       0       0       255     255     255     255     255  //Hurricane Pants
+9       37      9       255     1     1     1       0     0       0       0       255     255     255     255     255  //Valiant Pants
+10      15      9       255     1     1     1       0     0       0       0       255     255     255     255     255  //Storm Crow Gloves
+10      20      9       255     1     1     1       0     0       0       0       255     255     255     255     255  //Thunder Hawk Gloves
+10      23      9       255     1     1     1       0     0       0       0       255     255     255     255     255  //Hurricane Gloves
+10      37      9       255     1     1     1       0     0       0       0       255     255     255     255     255  //Valiant Gloves
+11      15      9       255     1     1     1       0     0       0       0       255     255     255     255     255  //Storm Crow Boots
+11      20      9       255     1     1     1       0     0       0       0       255     255     255     255     255  //Thunder Hawk Boots
+11      23      9       255     1     1     1       0     0       0       0       255     255     255     255     255  //Hurricane Boots
+11      37      9       255     1     1     1       0     0       0       0       255     255     255     255     255  //Valiant Boots
+0       23      9       255     1     1     1       0     0	  0	  0	  255	  255	  255	  255	  255  //Explosion Blade
+12      47      0       220     0     0     0       0     0	  0	  0	  255	  255	  255	  255	  255  //Orb of Sword Slash
+12      16      0       255     0     0     0       0     0	  0	  0	  255	  255	  255	  255	  255  //Power Slash
+15      29      0       255     0     0     0       0     0	  0	  0	  255	  255	  255	  255	  255  //Scroll of Lighting Storm
+12      47      0       255     0     0     0       0     0	  0	  0	  255	  255	  255	  255	  255  //Orb of Sword Slash
+end

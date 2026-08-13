@@ -1,0 +1,22 @@
+USE [MuOnlineS6]
+GO
+
+/** Object:  Table [dbo].[MuunInventory]    Script Date: 03/10/2022 00:25:26 **/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[MuunInventory](
+	[Name] [varchar](10) NOT NULL,
+	[Items] [varbinary](3840) NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO

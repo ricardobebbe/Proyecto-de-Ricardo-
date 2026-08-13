@@ -1,0 +1,1703 @@
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+| Perfect Dev Emulator 
+| www.perfectdev.com.br
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+| As funções abaixo podem ser usadas para criação de scripts customs.
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+| © 2022 Perfect Dev Team
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+SendTimeLimit()
+GetTickCount()
+GetMaxIndex()
+GetMinUserIndex()
+GetMaxUserIndex()
+GetMinMonsterIndex()
+GetMaxMonsterIndex()
+GetGameServerCode()
+GetGameServerVersion()
+GetGameServerProtocol()
+GetGameServerCurUser()
+GetGameServerMaxUser()
+GetObjectConnected()
+GetObjectIpAddress()
+GetObjectHardwareId()
+GetObjectType()
+GetObjectAccount()
+GetObjectPassword()
+GetObjectName()
+GetObjectPersonalCode()
+GetObjectClass()
+GetObjectChangeUp()
+GetObjectLevel()
+GetObjectLevelUpPoint()
+GetObjectMoney()
+GetObjectStrength()
+GetObjectDexterity()
+GetObjectVitality()
+GetObjectEnergy()
+GetObjectLeadership()
+GetObjectExtraStrength()
+GetObjectExtraDexterity()
+GetObjectExtraVitality()
+GetObjectExtraEnergy()
+GetObjectExtraLeadership()
+GetObjectDefaultStrength()
+GetObjectDefaultDexterity()
+GetObjectDefaultVitality()
+GetObjectDefaultEnergy()
+GetObjectDefaultLeadership()
+GetObjectLive()
+GetObjectLife()
+GetObjectMaxLife()
+GetObjectMana()
+GetObjectMaxMana()
+GetObjectBP()
+GetObjectMaxBP()
+GetObjectShield()
+GetObjectMaxShield()
+GetObjectPKCount()
+GetObjectPKLevel()
+GetObjectPKTimer()
+GetObjectMap()
+GetObjectMapX()
+GetObjectMapY()
+GetObjectAuthority()
+GetObjectPartyNumber()
+GetObjectGuildNumber()
+GetObjectGuildStatus()
+GetObjectGuildName()
+GetObjectGuildRelationship()
+GetObjectGuildUnionNumber()
+GetObjectGuildUnionName()
+GetObjectChange()
+GetObjectInterface()
+GetObjectMasterLevel()
+GetObjectMasterPoint()
+GetObjectAccountLevel()
+GetObjectAccountExpireDate()
+GetObjectReset()
+GetObjectMasterReset()
+GetObjectGensRank()
+GetObjectGensSymbol()
+GetObjectGensFamily()
+GetObjectGensContribution()
+GetObjectCSGuildSide()
+GetObjectOfflineFlag()
+GetObjectIndexByName()
+SetObjectLevel()
+SetObjectLevelUpPoint()
+SetObjectMoney()
+SetObjectStrength()
+SetObjectDexterity()
+SetObjectVitality()
+SetObjectEnergy()
+SetObjectLeadership()
+SetObjectChatLimitTime()
+SetObjectPKCount()
+SetObjectPKLevel()
+SetObjectPKTimer()
+SetObjectMap()
+SetObjectMapX()
+SetObjectMapY()
+SetObjectMasterLevel()
+SetObjectMasterPoint()
+ChatTargetSend()
+CommandCheckGameMasterLevel()
+CommandGetArgNumber()
+CommandGetArgString()
+CommandSend()
+ConfigReadNumber()
+ConfigReadString()
+ConfigSaveString()
+EffectAdd()
+EffectDel()
+EffectCheck()
+EffectClear()
+FireworksSend()
+InventoryGetWearSize()
+InventoryGetMainSize()
+InventoryGetFullSize()
+InventoryGetItemTable()
+InventoryGetItemIndex()
+InventoryGetItemCount()
+InventoryDelItemIndex()
+InventoryDelItemCount()
+InventoryGetFreeSlotCount()
+InventoryCheckSpaceByItem()
+InventoryCheckSpaceBySize()
+ItemDrop()
+ItemDropEx()
+ItemGive()
+ItemGiveEx()
+LevelUpSend()
+LogPrint()
+LogColor()
+MapCheckAttr()
+MapGetItemTable()
+MasterLevelUpSend()
+MasterSkillTreeRebuild()
+MessageGet()
+MoneySend()
+MonsterCreate()
+MonsterDelete()
+MonsterSummonCreate()
+MonsterSummonDelete() 
+MoveUser()
+MoveUserEx()
+MessageSend()
+MessageSendToAll()
+NoticeSend()
+NoticeSendToAll()
+NoticeGlobalSend()
+PartyGetMemberCount()
+PartyGetMemberIndex()
+ObjectGetCoin()
+ObjectAddCoin()
+ObjectSubCoin()
+PermissionCheck()
+PermissionInsert()
+PermissionRemove()
+PKLevelSend()
+PostSend()
+QuestStateCheck()
+RandomGetNumber()
+SkinChangeSend()
+UserDisconnect()
+UserGameLogout()
+UserCalcAttribute()
+UserInfoSend()
+UserActionSend()
+UserSetAccountLevel()
+SQLConnect()
+SQLDisconnect()
+SQLCheck()
+SQLQuery()
+SQLClose()
+SQLFetch()
+SQLGetResult()
+SQLGetNumber()
+SQLGetSingle()
+SQLGetString()
+
+========================================================================================================
+FUNCTION DESCRIPTION
+========================================================================================================
+
+SendTimeLimit(aIndex, Time, Msg)
+
+aIndex = Object index.
+Time = Time limit.
+Msg = Message to display at client.
+
+This function will start a timer on the client with a degressive value whose time is informed.
+
+========================================================================================================
+
+GetTickCount()
+
+This function returns amount of time that your system has been running in milliseconds.
+By comparing two values of getTickCount, you can determine how much time has passed (in milliseconds) between two events.
+
+This could be used to determine how efficient your code is, or to time how long a player takes to complete a task
+
+========================================================================================================
+
+GetMaxIndex()
+
+Return object final index.
+
+========================================================================================================
+
+GetMinUserIndex()
+
+Return user start index.
+
+========================================================================================================
+
+GetMaxUserIndex()
+ 
+Return user final index.
+ 
+========================================================================================================
+ 
+GetMinMonsterIndex()
+ 
+Return monster start index.
+ 
+========================================================================================================
+ 
+GetMaxMonsterIndex()
+ 
+Return monster final index.
+
+========================================================================================================
+
+GetGameServerCode()
+
+Return Game Server server code.
+========================================================================================================
+
+GetGameServerVersion()
+
+Return Game Server version number.
+
+========================================================================================================
+
+GetGameServerProtocol()
+
+Return Game Server protocol (0=Kor/1=Eng/2=Jpn/3=Chs/4=Tai/5=Phi).
+
+========================================================================================================
+
+GetGameServerCurUser()
+
+Return Game Server current users.
+
+========================================================================================================
+
+GetGameServerMaxUser()
+
+Return Game Server maximum users.
+
+========================================================================================================
+
+GetObjectConnected(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object connection state.
+ 
+========================================================================================================
+
+GetObjectIpAddress(aIndex)
+ 
+aIndex = Object index.
+
+Return object ip address.
+
+========================================================================================================
+
+GetObjectHardwareId(aIndex)
+ 
+aIndex = Object index.
+
+Return object hardware id.
+ 
+========================================================================================================
+ 
+GetObjectType(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object type.
+ 
+========================================================================================================
+ 
+GetObjectAccount(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object account.
+
+========================================================================================================
+ 
+GetObjectPassword(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object password.
+
+========================================================================================================
+ 
+GetObjectName(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object name.
+ 
+========================================================================================================
+ 
+GetObjectPersonalCode(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object personal code.
+ 
+========================================================================================================
+
+GetObjectClass(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object class.
+ 
+========================================================================================================
+ 
+GetObjectChangeUp(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object evolution.
+ 
+========================================================================================================
+ 
+GetObjectLevel(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object level.
+ 
+========================================================================================================
+ 
+GetObjectLevelUpPoint(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object level up points.
+ 
+========================================================================================================
+ 
+GetObjectMoney(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object zen amount.
+  
+========================================================================================================
+ 
+GetObjectStrength(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object strength.
+ 
+========================================================================================================
+ 
+GetObjectDexterity(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object dexterity.
+ 
+========================================================================================================
+ 
+GetObjectVitality(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object vitality.
+ 
+========================================================================================================
+ 
+GetObjectEnergy(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object energy.
+ 
+========================================================================================================
+ 
+GetObjectLeadership(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object leadership.
+ 
+========================================================================================================
+
+GetObjectExtraStrength(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object extra strength.
+ 
+========================================================================================================
+ 
+GetObjectExtraDexterity(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object extra dexterity.
+ 
+========================================================================================================
+ 
+GetObjectExtraVitality(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object extra vitality.
+ 
+========================================================================================================
+ 
+GetObjectExtraEnergy(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object extra energy.
+ 
+========================================================================================================
+ 
+GetObjectExtraLeadership(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object extra leadership.
+ 
+========================================================================================================
+
+ GetObjectDefaultStrength(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object default strength.
+ 
+========================================================================================================
+ 
+GetObjectDefaultDexterity(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object default dexterity.
+ 
+========================================================================================================
+ 
+GetObjectDefaultVitality(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object default vitality.
+ 
+========================================================================================================
+ 
+GetObjectDefaultEnergy(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object default energy.
+ 
+========================================================================================================
+ 
+GetObjectDefaultLeadership(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object default leadership.
+ 
+========================================================================================================
+
+GetObjectLive(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object live state.
+ 
+========================================================================================================
+
+GetObjectLife(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object current life.
+ 
+========================================================================================================
+ 
+GetObjectMaxLife(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object maximum life.
+ 
+========================================================================================================
+ 
+GetObjectMana(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object current mana.
+ 
+========================================================================================================
+ 
+GetObjectMaxMana(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object maximum mana.
+ 
+========================================================================================================
+ 
+GetObjectBP(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object current BP.
+ 
+========================================================================================================
+ 
+GetObjectMaxBP(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object maximum BP.
+ 
+========================================================================================================
+ 
+GetObjectShield(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object current SD.
+ 
+========================================================================================================
+ 
+GetObjectMaxShield(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object maximum SD.
+ 
+========================================================================================================
+ 
+GetObjectPKCount(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object PK count.
+ 
+========================================================================================================
+ 
+GetObjectPKLevel(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object PK level.
+ 
+========================================================================================================
+
+GetObjectPKTimer(aIndex)
+
+aIndex = Object index.
+
+Return object PK timer.
+ 
+========================================================================================================
+
+GetObjectMap(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object current map.
+ 
+========================================================================================================
+ 
+GetObjectMapX(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object current position X.
+ 
+========================================================================================================
+ 
+GetObjectMapY(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object current position Y.
+ 
+========================================================================================================
+ 
+GetObjectAuthority(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object authority value.
+ 
+========================================================================================================
+
+GetObjectPartyNumber(aIndex)
+
+aIndex = Object index.
+
+Return object party number.
+
+========================================================================================================
+ 
+GetObjectGuildNumber(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object guild number.
+ 
+========================================================================================================
+ 
+GetObjectGuildStatus(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object guild status.
+========================================================================================================
+ 
+GetObjectGuildName(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object guild name.
+ 
+========================================================================================================
+ 
+GetObjectGuildRelationship(aIndex,bIndex)
+ 
+aIndex = Object index.
+bIndex = Target index.
+ 
+Return object guild relationship with target (0=None/1=Ally/2=Rival).
+
+========================================================================================================
+ 
+GetObjectGuildUnionNumber(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object guild union number.
+ 
+========================================================================================================
+ 
+GetObjectGuildUnionName(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object guild union name.
+
+========================================================================================================
+
+GetObjectChange(aIndex)
+
+aIndex = Object index.
+
+Return object transformation number.
+
+========================================================================================================
+
+GetObjectInterface(aIndex)
+
+aIndex = Object index.
+
+Return object interface state.
+
+========================================================================================================
+ 
+GetObjectMasterLevel(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object master level.
+ 
+========================================================================================================
+ 
+GetObjectMasterPoint(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object master point.
+ 
+========================================================================================================
+ 
+GetObjectAccountLevel(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object account level.
+ 
+========================================================================================================
+ 
+GetObjectAccountExpireDate(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object account expire date.
+ 
+========================================================================================================
+ 
+GetObjectReset(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object reset amount.
+ 
+========================================================================================================
+ 
+GetObjectMasterReset(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object master reset amount.
+ 
+========================================================================================================
+ 
+GetObjectGensRank(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object gens global rank.
+ 
+========================================================================================================
+
+GetObjectGensSymbol(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object gens patent symbol number.
+ 
+========================================================================================================
+
+GetObjectGensFamily(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object gens family (0=None/1=Varnert/2=Duprian).
+ 
+========================================================================================================
+
+GetObjectGensContribution(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object gens contribution amount.
+ 
+========================================================================================================
+
+GetObjectCSGuildSide(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object Castle Siege guild side.
+
+========================================================================================================
+
+GetObjectOfflineFlag(aIndex)
+ 
+aIndex = Object index.
+ 
+Return object offline flag (0=Online/1=Off-Attack/Off-Helper/Off-Store).
+
+========================================================================================================
+ 
+GetObjectIndexByName(aString)
+ 
+aString = Object name.
+ 
+Return object index.
+ 
+========================================================================================================
+ 
+SetObjectLevel(aIndex,aValue)
+ 
+aIndex = Object index.
+aValue = Level value.
+ 
+Define object level.
+ 
+========================================================================================================
+ 
+SetObjectLevelUpPoint(aIndex,aValue)
+ 
+aIndex = Object index.
+aValue = Level up point value.
+ 
+Define object level up point.
+ 
+========================================================================================================
+ 
+SetObjectMoney(aIndex,aValue)
+ 
+aIndex = Object index.
+aValue = Zen value.
+ 
+Define object zen amount.
+ 
+========================================================================================================
+ 
+SetObjectStrength(aIndex,aValue)
+
+aIndex = Object index.
+aValue = Strength value.
+ 
+Define object strength.
+ 
+========================================================================================================
+ 
+SetObjectDexterity(aIndex,aValue)
+ 
+aIndex = Object index.
+aValue = Dexterity value.
+ 
+Define object dexterity.
+ 
+========================================================================================================
+ 
+SetObjectVitality(aIndex,aValue)
+
+aIndex = Object index.
+aValue = Vitality value.
+ 
+Define object vitality.
+ 
+========================================================================================================
+ 
+SetObjectEnergy(aIndex,aValue)
+
+aIndex = Object index. 
+aValue = Energy value.
+ 
+Define object energy.
+ 
+========================================================================================================
+ 
+SetObjectLeadership(aIndex,aValue)
+
+aIndex = Object index.
+aValue = Leadership value.
+ 
+Define object leadership.
+ 
+========================================================================================================
+
+SetObjectChatLimitTime(aIndex,aValue)
+
+aIndex = Object index.
+aValue = Limit time value, in seconds.
+
+Define object chat limit time.
+
+========================================================================================================
+ 
+SetObjectPKCount(aIndex,aValue)
+ 
+aIndex = Object index.
+aValue = PK count value.
+ 
+Define object PK count.
+
+========================================================================================================
+ 
+SetObjectPKLevel(aIndex,aValue)
+ 
+aIndex = Object index.
+aValue = PK level value.
+ 
+Define object PK level.
+ 
+========================================================================================================
+
+SetObjectPKTimer(aIndex,aValue)
+
+aIndex = Object index.
+aValue = PK timer value.
+
+Define object PK timer.
+
+========================================================================================================
+
+SetObjectMap(aIndex,aValue)
+
+aIndex = Object index.
+aValue = Map value.
+
+Define object current map.
+
+========================================================================================================
+
+SetObjectMapX(aIndex,aValue)
+
+aIndex = Object index.
+aValue = Position X value.
+
+Define object current position X.
+
+========================================================================================================
+
+SetObjectMapY(aIndex,aValue)
+
+aIndex = Object index.
+aValue = Position Y value.
+
+Define object current position Y.
+
+========================================================================================================
+ 
+SetObjectMasterLevel(aIndex,aValue)
+ 
+aIndex = Object index.
+aValue = Master level value.
+ 
+Define object master level.
+ 
+========================================================================================================
+ 
+SetObjectMasterPoint(aIndex,aValue)
+ 
+aIndex = Object index.
+aValue = Master point value.
+ 
+Define object master point.
+ 
+========================================================================================================
+  
+ChatTargetSend(aIndex,bIndex,cIndex,aString)
+ 
+aIndex = User index.
+bIndex = NPC index.
+aString = Message.
+ 
+Selected NPC talks to the chosen User.
+ 
+========================================================================================================
+
+CommandCheckGameMasterLevel(aIndex,aValue)
+ 
+aIndex = User index.
+bValue = Game Master level.
+ 
+Return (1) if the user have the chosen level, (0) if not.
+
+========================================================================================================
+  
+CommandGetArgNumber(aString,aValue)
+ 
+aString = Command parameter.
+aValue = Parameter position.
+ 
+Return as number the parameter of the chosen position.
+ 
+========================================================================================================
+ 
+CommandGetArgString(aString,aValue)
+ 
+aString = Command parameter.
+aValue = Parameter position.
+ 
+Return as string the parameter of the chosen position.
+ 
+========================================================================================================
+ 
+CommandSend(aIndex,aString)
+ 
+aIndex = User index.
+aString = Command Syntax.
+ 
+Return a command as if it had been typed.
+========================================================================================================
+
+ ConfigReadNumber(aString,bString,cString)
+ 
+aString = Configuration group name.
+bString = Configuration name.
+cString = Configuration file path.
+ 
+Return as number the chosen configuration.
+ 
+========================================================================================================
+ 
+ConfigReadString(aString,bString,cString)
+ 
+aString = Configuration group name.
+bString = Configuration name.
+cString = Configuration file path.
+ 
+Return as string the chosen configuration.
+ 
+========================================================================================================
+
+ConfigSaveString(aString,bString,cString,dString)
+
+aString = Configuration group name.
+bString = Configuration name.
+cString = Configuration value.
+dString = Configuration file path.
+
+========================================================================================================
+
+EffectAdd(aIndex,aValue,bValue,cValue,dValue,eValue,fValue,gValue)
+ 
+aIndex = Object index.
+aValue = Effect mode.
+bValue = Effect index.
+cValue = Effect duration, in seconds.
+dValue = Effect value 1.
+eValue = Effect value 2.
+fValue = Effect value 3.
+gValue = Effect value 4.
+ 
+Add to the object the chosen effect.
+ 
+========================================================================================================
+ 
+EffectDel(aIndex,aValue)
+ 
+aIndex = Object index.
+aValue = Effect index.
+ 
+Remove from the object the chosen effect.
+ 
+========================================================================================================
+ 
+EffectCheck(aIndex,aValue)
+ 
+aIndex = Object index.
+aValue = Effect index.
+ 
+Return (1) if the object have the chosen effect, (0) if not.
+ 
+========================================================================================================
+ 
+EffectClear(aIndex)
+ 
+aIndex = Object index.
+ 
+Remove from the object all effects.
+ 
+========================================================================================================
+
+FireworksSend(aIndex,aValue,bValue)
+ 
+aIndex = User index.
+aValue = Position X.
+bValue = Position Y.
+ 
+Send fireworks effect to the chosen position.
+ 
+========================================================================================================
+
+InventoryGetWearSize()
+
+Return wear inventory max slot.
+
+========================================================================================================
+
+InventoryGetMainSize()
+
+Return main inventory max slot.
+
+========================================================================================================
+
+InventoryGetFullSize()
+
+Return full inventory max slot.
+
+========================================================================================================
+
+InventoryGetItemTable(aIndex,aValue)
+
+aIndex = User index.
+aValue = Slot number.
+
+Return the item attribute table from the chosen inventory slot.
+Table elements: Serial, Index, Level, Durability, Option1, Option2, Option3, NewOption, SetOption, JoHOption, 380Option, SocketOption1, SocketOption2, SocketOption3, SocketOption4, SocketOption5, SocketOptionBonus.
+
+========================================================================================================
+
+InventoryGetItemIndex(aIndex,aValue)
+
+aIndex = User index.
+aValue = Slot number.
+
+Return the item index from the chosen inventory slot.
+
+========================================================================================================
+ 
+InventoryGetItemCount(aIndex,aValue,bValue)
+ 
+aIndex = User index.
+aValue = Item index.
+bValue = Item level (-1 any level).
+ 
+Return the amount of the chosen item in the user inventory.
+
+========================================================================================================
+
+InventoryDelItemIndex(aIndex,aValue)
+
+aIndex = User index.
+aValue = Slot number.
+
+Remove the item from the chosen inventory slot.
+
+========================================================================================================
+
+InventoryDelItemCount(aIndex,aValue,bValue,cValue)
+ 
+aIndex = User index.
+aValue = Item index.
+bValue = Item level (-1 any level).
+cValue = Item Amount.
+ 
+Remove from the user inventory the chosen item.
+ 
+========================================================================================================
+ 
+InventoryGetFreeSlotCount(aIndex)
+ 
+aIndex = User index.
+ 
+Return the amount of free slots in the user inventory.
+ 
+========================================================================================================
+ 
+InventoryCheckSpaceByItem(aIndex,aValue)
+ 
+aIndex = User index.
+aValue = Item index.
+ 
+Return (1) if the item fits in the user inventory, (0) if not.
+ 
+========================================================================================================
+ 
+InventoryCheckSpaceBySize(aIndex,aValue,bValue)
+ 
+aIndex = User index.
+aValue = Item Width.
+bValue = Item Height.
+ 
+Return (1) if the item fits in the user inventory, (0) if not.
+ 
+========================================================================================================
+ 
+ItemDrop(aIndex,aValue,bValue,cValue,dValue)
+ 
+aIndex = User index.
+aValue = Map number.
+bValue = Map position X.
+cValue = Map position Y.
+dValue = EventItemBag SpecialValue.
+ 
+Drop at the chosen position an item from an EventItemBag.
+ 
+========================================================================================================
+ 
+ItemDropEx(aIndex,aValue,bValue,cValue,dValue,eValue,fValue,gValue,hValue,iValue,jValue)
+ 
+aIndex = User index.
+aValue = Map number.
+bValue = Map position X.
+cValue = Map position Y.
+dValue = Item index.
+eValue = Item level.
+fValue = Item Durability.
+gValue = Item Option1.
+hValue = Item Option2.
+iValue = Item Option3.
+jValue = Item NewOption.
+kValue = Item SetOption (OPTIONAL).
+lValue = Item JoHOption (OPTIONAL).
+mValue = Item 380Option (OPTIONAL).
+nValue = Item SocketOption1 (OPTIONAL).
+oValue = Item SocketOption2 (OPTIONAL).
+pValue = Item SocketOption3 (OPTIONAL).
+qValue = Item SocketOption4 (OPTIONAL).
+rValue = Item SocketOption5 (OPTIONAL).
+sValue = Item SocketOptionBonus (OPTIONAL).
+tValue = Item Duration (OPTIONAL).
+uValue = Item owner index (OPTIONAL).
+
+Drop at the chosen position the chosen item.
+ 
+========================================================================================================
+ 
+ItemGive(aIndex,aValue)
+ 
+aIndex = User index.
+aValue = EventItemBag SpecialValue.
+ 
+Insert to the user inventory an item from an EventItemBag.
+ 
+========================================================================================================
+ 
+ItemGiveEx(aIndex,aValue,bValue,cValue,dValue,eValue,fValue,gValue)
+ 
+aIndex = User index.
+aValue = Item index.
+bValue = Item level.
+cValue = Item durability.
+dValue = Item Option1.
+eValue = Item Option2.
+fValue = Item Option3.
+gValue = Item NewOption.
+hValue = Item SetOption (OPTIONAL).
+iValue = Item JoHOption (OPTIONAL).
+jValue = Item 380Option (OPTIONAL).
+kValue = Item SocketOption1 (OPTIONAL).
+lValue = Item SocketOption2 (OPTIONAL).
+mValue = Item SocketOption3 (OPTIONAL).
+nValue = Item SocketOption4 (OPTIONAL).
+oValue = Item SocketOption5 (OPTIONAL).
+pValue = Item SocketOptionBonus (OPTIONAL).
+qValue = Item Duration (OPTIONAL).
+ 
+Insert to the user inventory the chosen item.
+ 
+========================================================================================================
+ 
+LevelUpSend(aIndex)
+ 
+aIndex = User index.
+ 
+Update the user level at the client.
+ 
+========================================================================================================
+ 
+LogPrint(aString)
+ 
+aString = Text.
+ 
+Insert to the log the chosen text.
+ 
+========================================================================================================
+
+LogColor(aValue,aString)
+ 
+aValue = Color (0=Black,1=Red,2=Green,3=Blue).
+aString = Text.
+ 
+Insert to the GameServer window log the chosen text.
+ 
+========================================================================================================
+
+MapCheckAttr(aValue,bValue,cValue,dValue)
+
+aValue = Map number.
+bValue = Map position X.
+cValue = Map position Y.
+dValue = Terrain attribute (1=Safe Zone,2=Stand,4=Invalid,8=Invalid,16=Invalid).
+
+Return (1) if the chosen position has the attribute, (0) if not.
+
+========================================================================================================
+
+MapGetItemTable(aIndex,aValue)
+
+aIndex = User index.
+aValue = Slot number.
+
+Return the item attribute table from the chosen map slot.
+Table elements: Serial, Index, Level, Durability, Option1, Option2, Option3, NewOption, SetOption, JoHOption, 380Option, SocketOption1, SocketOption2, SocketOption3, SocketOption4, SocketOption5, SocketOptionBonus.
+
+========================================================================================================
+
+MasterLevelUpSend(aIndex)
+
+aIndex = User index.
+ 
+Update the user master level at the client.
+
+========================================================================================================
+
+MasterSkillTreeRebuild(aIndex,aValue)
+
+aIndex = User index.
+aValue = Group number (0=All).
+
+Reset the chosen master skill tree group.
+
+========================================================================================================
+
+MasterSkillTreeExtRebuild(aIndex,aValue)
+
+aIndex = User index.
+
+Reset the extended skill tree.
+
+========================================================================================================
+ 
+MessageGet(aValue,bValue)
+ 
+aValue = Message index.
+bValue = Language.
+ 
+Return the chosen message from "Message.txt".
+ 
+========================================================================================================
+ 
+MoneySend(aIndex,aValue)
+ 
+aIndex = User index.
+aValue = Zen amount.
+ 
+Update the user zen at the client.
+ 
+========================================================================================================
+ 
+MonsterCreate(aValue,bValue,cValue,dValue,eValue)
+ 
+aValue = Monster number.
+bValue = Map number.
+cValue = Map position X.
+dValue = Map position Y.
+eValue = Turn direction.
+ 
+Put a monster at the chosen position.
+ 
+========================================================================================================
+ 
+MonsterDelete(aIndex)
+ 
+aIndex = Monster index.
+ 
+Remove the chosen monster.
+  
+========================================================================================================
+
+MonsterSummonCreate(aIndex,aValue,bValue,cValue,dValue,eValue,fValue)
+ 
+aIndex = User index.
+aValue = Monster number.
+bValue = Extra life rate.
+cValue = Extra defense rate.
+dValue = Extra defense success rate.
+eValue = Extra damage rate.
+fValue = Extra damage success rate.
+ 
+Add the chosen summon monster to the user.
+ 
+========================================================================================================
+ 
+MonsterSummonDelete(aIndex)
+ 
+aIndex = User index.
+ 
+Remove the monster summon from the user.
+ 
+========================================================================================================
+
+MoveUser(aIndex,aValue)
+ 
+aIndex = User index.
+aValue = Gate number.
+ 
+Move the user to the chosen gate.
+ 
+========================================================================================================
+ 
+MoveUserEx(aIndex,aValue,bValue,cValue)
+ 
+aIndex = User index.
+aValue = Map number.
+bValue = Map position X.
+cValue = Map position Y.
+ 
+Move the user to the chosen position.
+ 
+========================================================================================================
+ 
+MessageSend(aIndex,aValue,bValue,aString)
+ 
+aIndex = User index.
+aValue = Message type (0=Popup/1=System).
+bValue = Message color (0=Chat/1=Whisper/2=Error/3=Party/4=Guild/5=Union/6=GameMaster).
+aString = Message.
+ 
+Send a message to the user.
+
+========================================================================================================
+ 
+MessageSendToAll(aValue,bValue,aString)
+ 
+aValue = Message type (0=Popup/1=System).
+bValue = Message color (0=Chat/1=Whisper/2=Error/3=Party/4=Guild/5=Union/6=GameMaster).
+aString = Message.
+ 
+Send a message to the user.
+========================================================================================================
+ 
+NoticeSend(aIndex,aValue,aString)
+ 
+aIndex = User index.
+aValue = Message type (0=Global/1=System).
+aString = Message.
+ 
+Send a notice to the user.
+ 
+========================================================================================================
+ 
+NoticeSendToAll(aValue,aString)
+ 
+aValue = Message type (0=Global/1=System).
+aString = Message.
+ 
+Send a notice to all users in the room.
+ 
+========================================================================================================
+
+NoticeGlobalSend(aValue,aString)
+ 
+aValue = Message type (0=Global/1=System)
+aString = Message.
+ 
+Send a notice to all users in all rooms.
+
+========================================================================================================
+
+PartyGetMemberCount(aValue)
+
+aValue = Party index.
+
+Return the amount of users in the party.
+
+========================================================================================================
+
+PartyGetMemberIndex(aValue,bValue)
+
+aValue = Party index.
+bValue = Member slot.
+
+Return the index of the user at the chosen slot.
+
+========================================================================================================
+ 
+ObjectGetCoin(aIndex)
+ 
+aIndex = User index.
+ 
+Returns Coin1 (WCoinC), Coin2 (WCoinP), Coin3 (GoblinPoint), Coin4 (Ruud).
+ 
+========================================================================================================
+
+ObjectAddCoin(aIndex,aValue,bValue,cValue,dValue)
+ 
+aIndex = User index.
+aValue = Coin1 add amount.
+bValue = Coin2 add amount.
+cValue = Coin3 add amount.
+dValue = Coin3 add amount.
+ 
+Adds Coin to the user.
+Info: Coin1 (WCoinC), Coin2 (WCoinP), Coin3 (GoblinPoint), Coin4 (Ruud).
+ 
+========================================================================================================
+ 
+ObjectSubCoin(aIndex,aValue,bValue,cValue,dValue)
+ 
+aIndex = User index.
+aValue = Coin1 sub amount.
+bValue = Coin2 sub amount.
+cValue = Coin3 sub amount.
+dValue = Coin3 sub amount.
+ 
+Subs Coin from the user.
+Info: Coin1 (WCoinC), Coin2 (WCoinP), Coin3 (GoblinPoint), Coin4 (Ruud).
+ 
+========================================================================================================
+ 
+PermissionCheck(aIndex,aValue)
+
+aIndex = User index.
+aValue = Permission number.
+
+Permission list:
+1 = Move Item.
+2 = Sell Item.
+3 = Buy Item.
+4 = Use Item.
+5 = Drop Item.
+6 = Pick Item.
+7 = Open Trade.
+8 = Open Personal Shop.
+9 = Use Chaos Machine.
+10 = Open Cash Shop / PCPoint.
+11 = Use Chat.
+12 = Move character.
+13~49 = Empty for custom use.
+
+Return (1) if the user has the chosen permission, (0) if not.
+
+========================================================================================================
+
+PermissionInsert(aIndex,aValue)
+
+aIndex = User index.
+aValue = Permission number.
+
+Insert chosen permission to the user.
+
+========================================================================================================
+
+PermissionRemove(aIndex,aValue)
+
+aIndex = User index.
+aValue = Permission number.
+
+Remove chosen permission from the user.
+
+========================================================================================================
+
+PKLevelSend(aIndex,aValue)
+ 
+aIndex = User index.
+aValue = PK level.
+ 
+Update the PK level at the client.
+ 
+========================================================================================================
+
+PostSend(aValue,bValue,aString,bString)
+
+aValue = Post type.
+bValue = Message index.
+aString = User name.
+bString = Message.
+
+Send a message in post format.
+
+========================================================================================================
+
+QuestStateCheck(aIndex,aValue)
+
+aIndex = User index.
+aValue = Quest number.
+
+Return (1) if the user has the chosen quest complete, (0) if not.
+
+========================================================================================================
+
+RandomGetNumber(aValue)
+
+aValue = Maximum number.
+
+Return a random value within the selected range.
+ 
+========================================================================================================
+ 
+SkinChangeSend(aIndex,aValue)
+ 
+aIndex = User index.
+aValue = Monster number.
+ 
+Transform the user to the chosen monster.
+
+========================================================================================================
+ 
+UserDisconnect(aIndex)
+ 
+aIndex = User index.
+ 
+Disconnect the user.
+ 
+========================================================================================================
+
+UserGameLogout(aIndex,aValue)
+
+aIndex = User index.
+aValue = Logout type (0=Close Game,1=Select Char,2=Select Server).
+
+Logout the user.
+
+========================================================================================================
+
+UserCalcAttribute(aIndex)
+
+aIndex = User index.
+ 
+Update user attributes.
+ 
+========================================================================================================
+
+UserInfoSend(aIndex)
+
+aIndex = User index.
+
+Update user info at the client.
+
+========================================================================================================
+
+UserActionSend(aIndex,bIndex,aValue)
+
+aIndex = User index.
+bIndex = Target user index.
+aValue = Action number.
+
+User performs the chosen action.
+
+========================================================================================================
+ 
+UserSetAccountLevel(aIndex,aValue,bValue)
+
+aIndex = User index.
+aValue = Account level.
+bValue = Account expire time, in seconds.
+
+Set user account level.
+
+========================================================================================================
+
+SQLConnect(aString,bString,cString)
+ 
+aString = ODBC name.
+bString = MSSQL user.
+cString = MSSQL password.
+ 
+Connect to MSSQL database.
+ 
+========================================================================================================
+ 
+SQLDisconnect()
+ 
+Disconnect from MSSQL database.
+ 
+========================================================================================================
+ 
+SQLCheck()
+ 
+Return (1) if MSSQL is already connected, (0) if not.
+ 
+========================================================================================================
+ 
+SQLQuery(aString)
+ 
+aString = Query.
+ 
+Execute the query, return (0) if it fails.
+ 
+========================================================================================================
+ 
+SQLClose()
+ 
+Close the last query.
+ 
+========================================================================================================
+ 
+SQLFetch()
+ 
+Load the results of the last query, return (0) if it fails.
+ 
+========================================================================================================
+ 
+SQLGetResult(aValue)
+ 
+aValue = Result number.
+ 
+Return as number the chosen result.
+ 
+========================================================================================================
+ 
+SQLGetNumber(aString)
+ 
+aString = Column name.
+ 
+Return as number the chosen column.
+ 
+========================================================================================================
+ 
+SQLGetSingle(aString)
+ 
+aString = Column name.
+ 
+Return as float the chosen column.
+ 
+========================================================================================================
+ 
+SQLGetString(aString)
+ 
+aString = Column name.
+ 
+Return as string the chosen column.
+
+========================================================================================================

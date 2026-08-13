@@ -1,0 +1,31 @@
+//Index   Name                    RequireMoney   MinLevel   MaxLevel   MinReset   MaxReset   AccountLevel   Gate
+// =============================================================================
+// LISTA DE MAPAS - Segun menu del cliente (Selecciona un mapa)
+// AccountLevel: 0=Todos  1=VIP requerido
+// =============================================================================
+1         "Lorencia"              500000         50         1000       *          *          0              17
+2         "Noria"                 500000         50         1000       *          *          0              27
+3         "Devias"                500000         50         1000       *          *          0              22
+4         "Dungeon"               500000         70         1000       *          *          0              2
+5         "Dungeon 2"             500000         80         1000       *          *          0              6
+6         "Dungeon 3"             500000         90         1000       *          *          0              10
+7         "Atlans"                800000         70         1000       *          *          0              49
+8         "Lost Tower"            500000         90         1000       *          *          0              42
+9         "Lost Tower 2"          600000         95         1000       *          *          0              31
+10        "Lost Tower 3"          600000         100        1000       *          *          0              33
+11        "Lost Tower 4"          600000         105        1000       *          *          0              35
+12        "Lost Tower 5"          700000         110        1000       *          *          0              37
+13        "Lost Tower 6"          700000         115        1000       *          *          0              39
+14        "Lost Tower 7"          700000         120        1000       *          *          0              41
+15        "Stadium"               900000         200        1000       *          *          0              50
+16        "Icarus"                800000         180        1000       *          *          0              63
+17        "Tarkan"                800000         140        1000       *          *          0              57
+18        "Aida"                  2000000        200        1000       *          *          0              119
+19	      "Land of Trials"	      1000000	     50	        1000	   *	      *	         0	             139
+20        "Kanturu"               1000000        140        1000       *          *          1              138
+21        "Raklion"               1000000        150        1000       *          *          1              293
+22        "Tirgus"                1000000        230        1000       *          *          1              267
+23        "Crywolf"               1000000        270        1000       *          *          1              118
+24        "Arena"                 1000000        200        1000       *          *          0              348
+25        "Infernus"              1000000        200        1000       *          *          0              350
+end

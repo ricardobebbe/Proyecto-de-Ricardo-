@@ -1,0 +1,23 @@
+11:08:27 [ServerManager][0] AddServer (127.0.0.1)
+11:08:27 SELECT ItemCount FROM GameServerInfo WHERE Number=0
+11:08:27 [QueryManager] State (01000), Diagnostic: [Microsoft][ODBC SQL Server Driver][DBMSLPCN]ConnectionWrite (send()).
+11:08:27 [QueryManager] State (08S01), Diagnostic: [Microsoft][ODBC SQL Server Driver][DBMSLPCN]Error general de red. Consulte la documentación de la red.
+11:08:27 INSERT INTO GameServerInfo (Number,ItemCount,ZenCount,AceItemCount) VALUES (0,0,0,0)
+11:08:27 [QueryManager] State (23000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Violation of PRIMARY KEY constraint 'PK_GameServerInfo'. Cannot insert duplicate key in object 'dbo.GameServerInfo'. The duplicate key value is (0).
+11:08:27 [QueryManager] State (01000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated.
+11:08:27 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+11:10:01 [ServerManager][0] DelServer (127.0.0.1)
+11:13:26 [ServerManager][0] AddServer (127.0.0.1)
+11:13:26 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+12:20:27 [ServerManager][0] DelServer (127.0.0.1)
+12:25:26 [ServerManager][0] AddServer (127.0.0.1)
+12:25:26 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+13:10:01 [ServerManager][0] DelServer (127.0.0.1)
+13:10:26 [ServerManager][0] AddServer (127.0.0.1)
+13:10:26 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+14:10:01 [ServerManager][0] DelServer (127.0.0.1)
+14:10:26 [ServerManager][0] AddServer (127.0.0.1)
+14:10:26 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+23:56:39 [SocketManager] Servidor iniciado na porta [55960]
+23:56:46 [ServerManager][0] AddServer (127.0.0.1)
+23:56:48 [ServerManager][0] ServerInfo (V.97x) (55901) (0)

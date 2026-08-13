@@ -1,0 +1,30 @@
+01:10:10 [ServerList] GameServer offline (Trade+Bau) (0)
+01:10:11 [ServerList] GameServer online (Trade+Bau) (0)
+06:33:35 [ServerList] JoinServer offline
+06:33:36 [ServerList] GameServer offline (Trade+Bau) (0)
+06:33:35 [ServerList] JoinServer online
+12:21:33 [ServerList] GameServer online (Trade+Bau) (0)
+13:10:11 [ServerList] GameServer offline (Trade+Bau) (0)
+13:11:32 [ServerList] GameServer online (Trade+Bau) (0)
+17:08:28 [ServerList] JoinServer offline
+17:08:28 [ServerList] GameServer offline (Trade+Bau) (0)
+17:08:28 [ServerList] GameServer online (Trade+Bau) (0)
+17:08:28 [ServerList] JoinServer online
+17:08:42 [ServerList] GameServer offline (Trade+Bau) (0)
+17:44:14 [ServerList] GameServer online (Trade+Bau) (0)
+18:10:10 [ServerList] GameServer offline (Trade+Bau) (0)
+18:14:14 [ServerList] GameServer online (Trade+Bau) (0)
+19:10:09 [ServerList] GameServer offline (Trade+Bau) (0)
+19:14:14 [ServerList] GameServer online (Trade+Bau) (0)
+20:35:12 [ServerList] JoinServer offline
+20:35:12 [ServerList] GameServer offline (Trade+Bau) (0)
+20:35:12 [ServerList] GameServer online (Trade+Bau) (0)
+20:35:12 [ServerList] JoinServer online
+20:35:27 [ServerList] GameServer offline (Trade+Bau) (0)
+20:40:16 [ServerList] GameServer online (Trade+Bau) (0)
+21:10:10 [ServerList] GameServer offline (Trade+Bau) (0)
+21:10:16 [ServerList] GameServer online (Trade+Bau) (0)
+22:10:10 [ServerList] GameServer offline (Trade+Bau) (0)
+22:10:16 [ServerList] GameServer online (Trade+Bau) (0)
+23:10:10 [ServerList] GameServer offline (Trade+Bau) (0)
+23:10:16 [ServerList] GameServer online (Trade+Bau) (0)

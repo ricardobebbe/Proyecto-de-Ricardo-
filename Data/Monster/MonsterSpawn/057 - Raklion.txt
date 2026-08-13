@@ -1,0 +1,53 @@
+//===================================================================================================================
+// [NPCS] Raklion - Mapa 57
+//===================================================================================================================
+0
+//Monster      Range      PositionX      PositionY      Direction      Comment
+240            00         211            209            02             //Safety Guardian
+end
+
+//===================================================================================================================
+// [SPOT] - RAKLION (Map 57) - COORDENADAS EXACTAS
+//===================================================================================================================
+2
+//Monster      Range      PositionX      PositionY      Direction      Comment
+175            03         174            066            -1             //Little Mammoth
+170            03         174            066            -1             //Spindlar Boss
+177            03         174            066            -1             //Brain Spider
+160            03         174            066            -1             //Ice Breaker
+188            03         174            066            -1             //Raklion Warrior
+175            03         174            066            -1             //Little Mammoth
+170            03         174            066            -1             //Spindlar Boss
+177            03         174            066            -1             //Brain Spider
+160            03         174            066            -1             //Ice Breaker
+188            03         174            066            -1             //Raklion Warrior
+175            03         174            066            -1             //Little Mammoth
+170            03         174            066            -1             //Spindlar Boss
+177            03         174            066            -1             //Brain Spider
+160            03         174            066            -1             //Ice Breaker
+188            03         174            066            -1             //Raklion Warrior
+160            03         217            097            -1             //Ice Breaker
+160            03         217            097            -1             //Ice Breaker
+160            03         217            097            -1             //Ice Breaker
+160            03         217            097            -1             //Ice Breaker
+160            03         217            097            -1             //Ice Breaker
+160            03         217            097            -1             //Ice Breaker
+160            03         217            097            -1             //Ice Breaker
+160            03         217            097            -1             //Ice Breaker
+160            03         217            097            -1             //Ice Breaker
+160            03         217            097            -1             //Ice Breaker
+160            03         217            097            -1             //Ice Breaker
+160            03         217            097            -1             //Ice Breaker
+end
+
+//===================================================================================================================
+// [SPOT] - RAKLION (Map 57) - RDDLV SPOTS (Areas)
+//===================================================================================================================
+1
+//Monster      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+175            03         179            182            184            187          00             10            //Little Mammoth
+170            03         150            189            155            194          00             03            //Spindlar Boss
+177            03         150            189            155            194          00             07            //Brain Spider
+160            03         121            210            126            215          00             10            //Ice Breaker
+188            03         215            155            216            156          00             10            //Raklion Warrior
+end

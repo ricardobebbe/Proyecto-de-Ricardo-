@@ -1,0 +1,37 @@
+10:44:44 [SocketManager] Servidor iniciado na porta [44405]
+10:44:44 [ServerList] ServerList carregado com sucesso
+10:44:51 [ServerList] JoinServer online
+10:44:55 [ServerList] GameServer online (Trade+Bau) (0)
+11:16:20 [SocketManager] Servidor iniciado na porta [44405]
+11:16:20 [ServerList] ServerList carregado com sucesso
+11:16:23 [ServerList] JoinServer online
+11:16:26 [ServerList] GameServer online (Trade+Bau) (0)
+12:10:11 [ServerList] GameServer offline (Trade+Bau) (0)
+12:14:02 [ServerList] GameServer online (Trade+Bau) (0)
+13:33:39 [SocketManager] Servidor iniciado na porta [44405]
+13:33:39 [ServerList] ServerList carregado com sucesso
+13:33:43 [ServerList] JoinServer online
+13:33:46 [ServerList] GameServer online (Trade+Bau) (0)
+13:34:16 [ServerList] GameServer offline (Trade+Bau) (0)
+13:34:23 [SocketManager] Servidor iniciado na porta [44405]
+13:34:23 [ServerList] ServerList carregado com sucesso
+13:34:27 [ServerList] JoinServer online
+13:34:55 [ServerList] GameServer online (Trade+Bau) (0)
+13:38:01 [ServerList] GameServer offline (Trade+Bau) (0)
+13:39:08 [ServerList] GameServer online (Trade+Bau) (0)
+13:40:19 [ServerList] GameServer offline (Trade+Bau) (0)
+13:42:31 [ServerList] GameServer online (Trade+Bau) (0)
+13:46:09 [ServerList] GameServer offline (Trade+Bau) (0)
+13:54:55 [ServerList] GameServer online (Trade+Bau) (0)
+14:10:11 [ServerList] GameServer offline (Trade+Bau) (0)
+14:10:54 [ServerList] GameServer online (Trade+Bau) (0)
+14:11:17 [ServerList] GameServer offline (Trade+Bau) (0)
+14:12:06 [ServerList] GameServer online (Trade+Bau) (0)
+14:12:37 [ServerList] GameServer offline (Trade+Bau) (0)
+14:13:24 [ServerList] GameServer online (Trade+Bau) (0)
+14:13:44 [ServerList] GameServer offline (Trade+Bau) (0)
+14:18:49 [ServerList] GameServer online (Trade+Bau) (0)
+20:26:12 [SocketManager] Servidor iniciado na porta [44405]
+20:26:12 [ServerList] ServerList carregado com sucesso
+20:26:16 [ServerList] JoinServer online
+20:26:27 [ServerList] GameServer online (Trade+Bau) (0)

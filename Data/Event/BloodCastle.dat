@@ -1,0 +1,22 @@
+//Blood Castle time settings
+//Time to enter BC/ time BC lasts/ Time to complete quest
+0
+5	15	2
+end
+
+// BC mobs dropped item time interval until item disappeares
+// item drop rate(gItemDropPer(10)/n) / exc item drop rate(1/n) / time for items to disappear
+1
+100	1200	0
+end
+
+// castle door health
+// castle number(0~6), crystal statue health, castle door health
+2
+0	60000	140000		// BC 1
+1	100000	220000		// BC 2
+2	140000	260000		// BC 3
+3	160000	340000		// BC 4
+4	200000	440000		// BC 5
+5	240000	500000		// BC 6
+end

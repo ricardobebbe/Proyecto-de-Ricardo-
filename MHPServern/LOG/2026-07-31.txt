@@ -1,0 +1,7 @@
+23:56:27 [SocketManager] Server started at port [55619]
+23:56:27 [MHPServerInfo] Config loaded successfully
+23:56:27 [MHPServerInfo] DumpList loaded successfully
+23:56:27 [MHPServerInfo] ChecksumList loaded successfully
+23:56:27 [MHPServerInfo] InternalList loaded successfully
+23:56:27 [MHPServerInfo] WindowList loaded successfully
+23:56:27 [MHPServerInfo] BlackList loaded successfully

@@ -1,0 +1,119 @@
+/* ===== MuMisiones - marco principal a pantalla completa ===== */
+:root{
+  --bg:#0b0e13;
+  --bg2:#12171f;
+  --panel:#1a212b;
+  --panel2:#232d3a;
+  --line:#2b3543;
+  --txt:#d8dee9;
+  --muted:#8b97a8;
+  --gold:#e0a84e;
+  --gold2:#f6cd7d;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;padding:0}
+body{
+  background:var(--bg) url("bg.png") repeat;
+  color:var(--txt);
+  font-family:"Segoe UI",Roboto,Arial,Helvetica,sans-serif;
+  font-size:14px;
+}
+a{color:var(--gold2);text-decoration:none}
+a:hover{color:#fff}
+img{border:0;max-width:100%;display:block}
+
+.app{display:flex;flex-direction:column;min-height:100vh}
+
+/* ---- barra superior ---- */
+.topbar{
+  display:flex;align-items:center;gap:26px;flex-wrap:wrap;
+  padding:12px 28px;
+  background:linear-gradient(180deg,#141b24,#0d1219);
+  border-bottom:2px solid var(--gold);
+}
+.brand{display:flex;flex-direction:column;min-width:200px}
+.brand .logo{
+  font-size:26px;font-weight:800;letter-spacing:.08em;color:var(--gold);
+  text-transform:uppercase;text-shadow:0 0 18px rgba(224,168,78,.35);
+}
+.brand .tag{font-size:11px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase}
+
+.topnav{display:flex;flex-wrap:wrap;gap:4px;flex:1}
+.topnav a{
+  padding:9px 14px;border-radius:6px;color:var(--txt);
+  font-size:12px;letter-spacing:.11em;text-transform:uppercase;font-weight:600;
+}
+.topnav a:hover{background:var(--panel2);color:#fff}
+
+.statusbar{display:flex;gap:8px}
+.pill{
+  background:var(--panel);border:1px solid var(--line);border-radius:20px;
+  padding:6px 14px;font-size:12px;color:var(--muted);white-space:nowrap;
+}
+.pill .dot{display:inline-block;width:8px;height:8px;border-radius:50%;
+  background:#3ddc84;box-shadow:0 0 8px #3ddc84;margin-right:5px}
+
+/* ---- cuerpo ---- */
+.layout{display:flex;flex:1;min-height:0}
+.side{
+  width:290px;flex:0 0 290px;padding:18px;overflow-y:auto;
+  background:rgba(10,13,18,.85);border-right:1px solid var(--line);
+}
+.content{flex:1;min-width:0;display:flex}
+.content iframe{flex:1;width:100%;height:100%;border:0;background:#0e1116}
+
+.box{
+  background:linear-gradient(180deg,var(--panel),var(--bg2));
+  border:1px solid var(--line);border-radius:10px;
+  margin-bottom:18px;overflow:hidden;
+}
+.box-h{
+  padding:10px 14px;background:#202a36;color:var(--gold);
+  font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;
+  border-bottom:1px solid var(--line);
+}
+.box-b{padding:14px}
+.box-b label{display:block;font-size:11px;color:var(--muted);
+  letter-spacing:.1em;text-transform:uppercase;margin:8px 0 4px}
+.box-b input{
+  width:100%;padding:9px 10px;background:#0d1218;border:1px solid var(--line);
+  border-radius:6px;color:#fff;font-size:14px;
+}
+.box-b input:focus{outline:none;border-color:var(--gold)}
+.box-b button,.btn{
+  display:block;width:100%;text-align:center;margin-top:12px;padding:10px;
+  background:var(--gold);color:#191919;border:0;border-radius:6px;
+  font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;
+}
+.box-b button:hover,.btn:hover{background:var(--gold2);color:#000}
+.btn.sec{background:var(--panel2);color:var(--txt);border:1px solid var(--line)}
+.btn.sec:hover{background:#2c3846;color:#fff}
+.links{display:flex;justify-content:space-between;margin-top:12px;font-size:12px}
+.err{background:#2f1a18;border:1px solid #7a3229;color:#f3a79e;
+  padding:8px 10px;border-radius:6px;font-size:12px;margin:0 0 10px}
+.cuenta{margin:0;font-size:18px;font-weight:700;color:#fff}
+.cuenta .gm{font-size:10px;background:var(--gold);color:#111;border-radius:4px;
+  padding:2px 6px;margin-left:6px;vertical-align:middle;letter-spacing:.1em}
+.info div{display:flex;justify-content:space-between;gap:10px;padding:6px 0;
+  border-bottom:1px dashed #26313d;font-size:12px}
+.info div:last-child{border-bottom:0}
+.info span{color:var(--muted)}
+.info b{color:#fff;text-align:right;font-weight:600}
+.promos{padding:12px;display:grid;gap:12px}
+.promos img{width:100%;border-radius:8px;border:1px solid var(--line)}
+
+/* ---- pie ---- */
+.foot{
+  display:flex;justify-content:space-between;padding:12px 28px;
+  background:#0d1219;border-top:1px solid var(--line);
+  color:var(--muted);font-size:12px;letter-spacing:.06em;
+}
+
+@media (max-width:900px){
+  .layout{flex-direction:column}
+  .side{width:auto;flex:none;border-right:0;border-bottom:1px solid var(--line)}
+  .content{min-height:70vh}
+}
+
+.aviso-global{background:linear-gradient(90deg,#3a2a00,#5c4300);color:#ffe9a8;border-top:1px solid #7a5c00;
+  border-bottom:1px solid #7a5c00;padding:10px 18px;font-size:13px;text-align:center;font-weight:600}

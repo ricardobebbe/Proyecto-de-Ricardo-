@@ -1,0 +1,94 @@
+3
+//Index         DropRate      DropInventory 
+0 		10000         0     
+end
+
+4
+
+// Index	 Section	SectionRate	MoneyAmount	        Option  Value   Dk  Dw  Elf  Mg  Dl Sum
+0                5		200		0			0	1	1   1	1    1	 1  1  
+0                6		300		0			0	1	1   1	1    1	 1  1 
+0                7		400		0			0	1	1   1	1    1	 1  1 
+0                8		200		0			0	1	1   1	1    1	 1  1
+0                9		500		0			0	1	1   1	1    1	 1  1 
+0                10		500		0			0	1	1   1	1    1	 1  1 
+0                11		400		0			0	1	1   1	1    1	 1  1 
+0                12		1000		0			0	1	1   1	1    1	 1  1 
+0                13		3500		0			0	1	1   1	1    1	 1  1 
+0                14		3000		0			0	1	1   1	1    1	 1  1
+
+end
+
+5
+// Index   Level   Grade  Opt0    Opt1    Opt2   Opt3     Opt4   Opt5  Opt6   Duration
+
+   5271    0	   0      26      12      12      18      17      0    *      0             //Gloves Gold
+
+
+end
+
+6
+// Index   Level     Grade Opt0   Opt1    Opt2     Opt3    Opt4   Opt5  Opt6   Duration
+   5783    0	     0     26      12      12      18      17      0    *      0           //Boots
+   
+end
+
+7
+// Index     Level   Grade  Opt0   Opt1    Opt2   Opt3    Opt4    Opt5  Opt6   Duration
+
+  3735       0	     0     26      12      12      18      17      0    *      0           //Helm Gold
+  6318       0	     0     26      12      12      18      17      0    *      0           //Wing Gold
+
+end
+
+8
+// Index     Level   Grade Opt0   Opt1    Opt2   Opt3  Opt4   Opt5  Opt6   Duration
+
+   4247       0	     0     26      12      12      18      17      0    *      0          //Amor Gold
+   
+
+end
+
+9
+// Index   Level   Grade  Opt0   Opt1    Opt2    Opt3  Opt4   Opt5  Opt6   Duration
+
+    4759     0	    0     26      12      12      18   17      0    *      0             //Pants Gold
+
+
+end
+
+10
+// Index    Level   Grade  Opt0   Opt1    Opt2    Opt3    Opt4   Opt5  Opt6   Duration
+
+   5271     0	     0     26      12      12      18      17      0    *      0        //Gloves Gold
+   5783     0	     0     26      12      12      18      17      0    *      0        //Boots Gold
+
+end
+
+11
+// Index   Level   Grade  Opt0   Opt1    Opt2   Opt3  Opt4   Opt5  Opt6   Duration
+
+   63    0	   0     26      12      12      18      17      0    *      0          //Sword Gold
+
+end
+
+12
+// Index   Level   Grade  Opt0   Opt1    Opt2     Opt3  Opt4    Opt5  Opt6   Duration
+
+   1064    0	    0     26      12      12      18      17      0    *      0         //Mace Gold
+
+end
+
+13
+// Index   Level   Grade  Opt0    Opt1    Opt2     Opt3    Opt4   Opt5  Opt6   Duration
+
+  3121       0	     0     26      12      12      18      17      0    *      0        //Shield
+end
+
+14
+// Index   Level   Grade  Opt0    Opt1    Opt2     Opt3    Opt4   Opt5  Opt6   Duration
+
+  2126       0	     0     26      12      12      18      17      0    *      0        //Ring
+  2127       0	     0     26      12      12      18      17      0    *      0        //Pedant
+
+end

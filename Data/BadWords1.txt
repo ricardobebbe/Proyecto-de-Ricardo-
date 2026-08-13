@@ -1,0 +1,24 @@
+// Filtered words for Character and Guilds names
+// Maximum characters: 10
+--
+webzen
+spider
+spd
+jamaika
+jmk
+admin
+-adm
+-gm
+adm-
+gm-
+_adm
+_gm
+adm_
+gm_
+-mu
+mu-
+_mu
+mu_
+drako
+draco
+wgd

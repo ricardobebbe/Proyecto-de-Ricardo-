@@ -1,0 +1,27 @@
+//=================================================================================================================
+//-- Definiciones de Ránking
+//=================================================================================================================
+//  RankIndex ->  Index del Ránking
+//  Name      ->  Título del Rango
+//  ResetMin  ->  Mínimo de Resets para determinado Rango
+//  ResetMax  ->  Máximo de Resets para determinado Rango
+//  Cash      ->  Premio en Cash al alcanzar el rango
+//  Gold      ->  Premio en Gold al alcanzar el rango
+//  PcPoint   ->  Premio en PcPoint al alcanzar el rango
+//=================================================================================================================
+//-- Obs: Obligatorio el Último Rango el ResetMax debe tener el valor (-1)
+//=================================================================================================================
+
+//=================================================================================================================
+//     #RankIndex          #Name            #ResetMin        #ResetMax       #Cash      #Gold     #PcPoint		 
+//=================================================================================================================
+0
+            0            "Novato"             0                50               0          0           0		
+            1            "Aprendiz"           51               100              0          0           0	
+            2            "Mensajero"          101              150              0          0           0	
+            3            "Cazador"            151              200              0          0           0	
+            4            "Asesino"            201              250              0          0           0	
+            5            "Gladiador"          251              300              0          0           0	
+            6            "Leyenda"            301              359              0          0           0	
+            7            "Max Reset"          360              -1               0          0           0	
+end

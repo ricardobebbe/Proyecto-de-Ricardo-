@@ -1,0 +1,21 @@
+00:10:10 [ServerList] GameServer offline (Trade+Bau) (0)
+00:11:57 [ServerList] GameServer online (Trade+Bau) (0)
+01:10:10 [ServerList] GameServer offline (Trade+Bau) (0)
+01:11:57 [ServerList] GameServer online (Trade+Bau) (0)
+02:10:11 [ServerList] GameServer offline (Trade+Bau) (0)
+02:11:57 [ServerList] GameServer online (Trade+Bau) (0)
+03:10:10 [ServerList] GameServer offline (Trade+Bau) (0)
+03:11:56 [ServerList] GameServer online (Trade+Bau) (0)
+04:10:10 [ServerList] GameServer offline (Trade+Bau) (0)
+04:12:02 [ServerList] GameServer online (Trade+Bau) (0)
+05:10:12 [ServerList] GameServer offline (Trade+Bau) (0)
+05:11:57 [ServerList] GameServer online (Trade+Bau) (0)
+08:35:23 [ServerList] JoinServer offline
+08:35:23 [ServerList] JoinServer online
+08:35:37 [ServerList] GameServer offline (Trade+Bau) (0)
+12:13:08 [ServerList] GameServer online (Trade+Bau) (0)
+21:31:15 [SocketManager] Servidor iniciado na porta [44405]
+21:31:15 [ServerList] ServerList carregado com sucesso
+21:31:19 [ServerList] JoinServer online
+21:31:22 [ServerList] GameServer online (Trade+Bau) (0)
+22:10:11 [ServerList] GameServer offline (Trade+Bau) (0)

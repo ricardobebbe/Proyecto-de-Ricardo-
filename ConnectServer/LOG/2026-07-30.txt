@@ -1,0 +1,37 @@
+00:10:10 [ServerList] GameServer offline (Trade+Bau) (0)
+00:12:08 [ServerList] GameServer online (Trade+Bau) (0)
+01:10:10 [ServerList] GameServer offline (Trade+Bau) (0)
+01:12:06 [ServerList] GameServer online (Trade+Bau) (0)
+02:19:22 [ServerList] JoinServer offline
+02:19:22 [ServerList] GameServer offline (Trade+Bau) (0)
+02:19:22 [ServerList] JoinServer online
+02:19:23 [ServerList] GameServer online (Trade+Bau) (0)
+02:19:33 [ServerList] GameServer offline (Trade+Bau) (0)
+02:24:24 [ServerList] GameServer online (Trade+Bau) (0)
+03:10:11 [ServerList] GameServer offline (Trade+Bau) (0)
+03:14:25 [ServerList] GameServer online (Trade+Bau) (0)
+04:10:10 [ServerList] GameServer offline (Trade+Bau) (0)
+04:14:25 [ServerList] GameServer online (Trade+Bau) (0)
+05:03:08 [ServerList] JoinServer offline
+05:03:08 [ServerList] GameServer offline (Trade+Bau) (0)
+05:03:08 [ServerList] GameServer online (Trade+Bau) (0)
+05:03:08 [ServerList] JoinServer online
+05:10:10 [ServerList] GameServer offline (Trade+Bau) (0)
+05:14:25 [ServerList] GameServer online (Trade+Bau) (0)
+08:33:52 [ServerList] JoinServer offline
+08:33:52 [ServerList] GameServer offline (Trade+Bau) (0)
+08:33:52 [ServerList] GameServer online (Trade+Bau) (0)
+08:33:52 [ServerList] JoinServer online
+08:34:04 [ServerList] GameServer offline (Trade+Bau) (0)
+15:58:53 [ServerList] GameServer online (Trade+Bau) (0)
+16:10:11 [ServerList] GameServer offline (Trade+Bau) (0)
+16:13:52 [ServerList] GameServer online (Trade+Bau) (0)
+17:10:11 [ServerList] GameServer offline (Trade+Bau) (0)
+17:13:53 [ServerList] GameServer online (Trade+Bau) (0)
+18:10:11 [ServerList] GameServer offline (Trade+Bau) (0)
+18:13:53 [ServerList] GameServer online (Trade+Bau) (0)
+19:10:12 [ServerList] GameServer offline (Trade+Bau) (0)
+19:13:53 [ServerList] GameServer online (Trade+Bau) (0)
+22:36:21 [ServerList] GameServer offline (Trade+Bau) (0)
+22:36:21 [ServerList] GameServer online (Trade+Bau) (0)
+22:36:34 [ServerList] GameServer offline (Trade+Bau) (0)

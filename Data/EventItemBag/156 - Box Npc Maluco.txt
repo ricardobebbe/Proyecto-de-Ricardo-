@@ -1,0 +1,124 @@
+3
+//Index         DropRate   DropInventory    
+0 		10000      0       
+end
+
+4
+
+// Index	 Section	SectionRate	MoneyAmount	        Option  Value   Dk  Dw  Elf  Mg  Dl Sum 
+0                5		200		0			0	1	1   1	1    1	 1  1
+0                6		300		0			0	1	1   1	1    1	 1  1 
+0                7		400		0			0	1	1   1	1    1	 1  1  
+0                8		200		0			0	1	1   1	1    1	 1  1   
+0                9		200		0			0	1	1   1	1    1	 1  1 
+0                10		300		0			0	1	1   1	1    1	 1  1 
+0                11		200		0			0	1	1   1	1    1	 1  1 
+0                12		200		0			0	1	1   1	1    1	 1  1 
+0                13		2000		0			0	1	1   1	1    1	 1  1 
+0                14		2000		0			0	1	1   1	1    1	 1  1
+0                15		2000		0			0	1	1   1	1    1	 1  1 
+0                16		1900		0			0	1	1   1	1    1	 1  1
+0                17		100		0			0	1	1   1	1    1	 1  1  
+
+end
+
+5
+// Index   Level   Grade  Opt0    Opt1    Opt2   Opt3     Opt4   Opt5  Opt6   Duration
+   3144    0	   0      20      12      12      14      15      0    *      0             //Shield Holy v2
+
+
+end
+
+6
+// Index   Level   Grade  Opt0   Opt1    Opt2    Opt3    Opt4    Opt5 Opt6   Duration
+   3731    0	   0      20     12      12      14      15      0    *      0            //All Holy v2
+   4243    0	   0      20     12      12      14      15      0    *      0
+   4755    0	   0      20     12      12      14      15      0    *      0
+   5267    0	   0      20     12      12      14      15      0    *      0
+   5779    0	   0      20     12      12      14      15      0    *      0
+
+
+end
+
+7
+//Index     Level   Grade  Opt0    Opt1    Opt2    Opt3    Opt4    Opt5 Opt6   Duration
+  3732       0	     0      20      12      12      14      15      0    *      0           //All Holy v2[F]
+  4244       0	     0      20      12      12      14      15      0    *      0
+  4756       0	     0      20      12      12      14      15      0    *      0
+  5268       0	     0      20      12      12      14      15      0    *      0
+  5780       0	     0      20      12      12      14      15      0    *      0
+  2156       0	     0      20      12      12      14      15      0    *      0          //Ring Holy v2
+  2157       0	     0      20      12      12      14      15      0    *      0
+  
+end
+
+8
+// Index     Level   Grade  Opt0    Opt1    Opt2    Opt3    Opt4    Opt5 Opt6   Duration
+   1095       0	     0      20      12      12      14      15      0    *      0           //Mace Holy v2
+   529        0	     0      20      12      12      14      15      0    *      0           //Axe Holy v2
+   
+
+end
+
+9
+// Index   Level   Grade  Opt0   Opt1    Opt2    Opt3     Opt4   Opt5  Opt6   Duration
+   1095       0	     0      20      12      12      14      15      0    *      0           //Mace Holy v2
+   529        0	     0      20      12      12      14      15      0    *      0           //Axe Holy v2
+
+end
+
+10
+// Index    Level  Grade  Opt0   Opt1    Opt2    Opt3    Opt4   Opt5  Opt6   Duration
+   2105     0	   0      20      12      12      14      15      0    *      0             //Bow Light Hawk
+   
+
+end
+
+11
+// Index   Level   Grade Opt0   Opt1    Opt2    Opt3    Opt4   Opt5  Opt6   Duration
+   2640    0	   0     20      12      12      14      15      0    *      0              //Staff Holy v2
+
+end
+
+12
+// Index   Level   Grade  Opt0   Opt1    Opt2     Opt3  Opt4    Opt5  Opt6   Duration
+   2115    0	   0      20      12      12      14      15      0    *      0            //Bow Holy v2
+
+end
+
+13
+// Index     Level Grade  Opt0    Opt1    Opt2    Opt3    Opt4   Opt5  Opt6   Duration
+   2144      0	   0      20      12      12      14      15      0    *      0            //Ring Light Hawk
+   2145    0	   0      20      12      12      14      15      0    *      0            //Pedant Light Hawk
+   1080    0	   0      20      12      12      14      15      0    *      0            //Mace Light Hawk
+   
+
+end
+
+14
+// Index   Level   Grade  Opt0    Opt1    Opt2    Opt3    Opt4    Opt5 Opt6   Duration
+   3134    0	   0      20      12      12      14      15      0    *      0            //Shield Light Hawk 
+   
+end
+
+15
+// Index   Level   Grade  Opt0    Opt1    Opt2    Opt3    Opt4    Opt5 Opt6   Duration
+   92      0	   0      20      12      12      14      15      0    *      0            //Sword Light Hawk
+ 
+
+end
+
+16
+// Index     Level Grade  Opt0    Opt1    Opt2    Opt3    Opt4   Opt5  Opt6   Duration
+   103       0	   0      20      12      12      14      15      0    *      0           //Sword holy v2
+  
+end
+
+17
+// Index     Level Grade  Opt0    Opt1    Opt2    Opt3    Opt4   Opt5  Opt6   Duration
+   6341       0	   0      20      12      12      14      15      0    *      0           //Wings Holy v2 
+   6342       0	   0      20      12      12      14      15      0    *      0           //Capa Holy v2 
+   6379       0	   0      20      12      12      14      15      0    *      0           //Capa Light Hawk  
+   6380       0	   0      20      12      12      14      15      0    *      0           //WingsLight Hawk  
+   
+end 

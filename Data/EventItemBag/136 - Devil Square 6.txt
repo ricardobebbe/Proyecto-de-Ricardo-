@@ -1,0 +1,53 @@
+0
+//EventName              DropZen   ItemDropRate   ItemDropCount   SetItemDropRate   ItemDropType   Fireworks	DropInventory
+"Devil Square 6"	 1000	   100		  5		  0		    0		   1		0
+end
+
+1
+//Section   Type   MinLevel   MaxLevel   Skill   Luck   Option   Excellent
+	14	13	0	0	0	0	0	0	//Guardian Helm
+	7	14	0	0	0	1	0	2	//Guardian Helm
+	8	14	0	0	0	1	0	2	//Guardian Armor
+	9	14	0	0	0	1	0	2	//Guardian Pants
+	10	14	0	0	0	1	0	2	//Guardian Gloves
+	11	14	0	0	0	1	0	2	//Guardian Boots
+	7	26	0	0	0	1	0	2	//Adamantine Helm
+	8	26	0	0	0	1	0	2	//Adamantine Armor
+	9	26	0	0	0	1	0	2	//Adamantine Pants
+	10	26	0	0	0	1	0	2	//Adamantine Gloves
+	11	26	0	0	0	1	0	2	//Adamantine Boots
+	7	16	0	0	0	1	0	2	//Black Dragon Helm
+	8	16	0	0	0	1	0	2	//Black Dragon Armor
+	9	16	0	0	0	1	0	2	//Black Dragon Pants
+	10	16	0	0	0	1	0	2	//Black Dragon Gloves
+	11	16	0	0	0	1	0	2	//Black Dragon Boots
+	8	15	0	0	0	1	0	2	//StormCrow Armor
+	9	15	0	0	0	1	0	2	//StormCrow Pants
+	10	15	0	0	0	1	0	2	//StormCrow Gloves
+	11	15	0	0	0	1	0	2	//StormCrow Boots
+	7	3	0	0	0	1	0	2	//Legendary Helm
+	8	3	0	0	0	1	0	2	//Legendary Armor
+	9	3	0	0	0	1	0	2	//Legendary Pants
+	10	3	0	0	0	1	0	2	//Legendary Gloves
+	11	3	0	0	0	1	0	2	//Legendary Boots
+	7	8	0	0	0	1	0	2	//Brass Helm
+	8	8	0	0	0	1	0	2	//Brass Armor
+	9	8	0	0	0	1	0	2	//Brass Pants
+	10	8	0	0	0	1	0	2	//Brass Gloves
+	11	8	0	0	0	1	0	2	//Brass Boots
+	0	16	0	0	1	1	0	2	//Sword of Destruction
+	0	17	0	0	1	1	0	2	//Dark Breaker
+	0	18	0	0	1	1	0	2	//Thunder Blade
+	2	9	0	0	1	1	0	2	//Master Scepter
+	2	10	0	0	1	1	0	2	//Great Scepter
+	3	9	0	0	1	1	0	2	//Bill of Balrog
+	3	10	0	0	1	1	0	2	//Dragon Spear
+	4	12	0	0	1	1	0	2	//Serpent Crossbow
+	4	13	0	0	1	1	0	2	//Bluewing Crossbow
+	4	14	0	0	1	1	0	2	//Aquagold Crossbow
+	5	8	0	0	1	1	0	2	//Staff of Destruction
+	5	9	0	0	1	1	0	2	//Dragon Soul Staff
+	6	9	0	0	1	1	0	2	//Plate Shield
+	6	11	0	0	1	1	0	2	//Serpent Shield
+	6	5	0	0	1	1	0	2	//Dragon Slayer Shield
+end

@@ -1,0 +1,30 @@
+USE [MuOnline]
+GO
+/****** Object: StoredProcedure [dbo].[WZ_SetMasterResetInfo] Script Date: 12/01/2018 09:10:36 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+ALTER Procedure [dbo].[WZ_SetMasterResetInfo]
+@Account varchar(10),
+@Name varchar(10),
+@Reset int,
+@MasterReset int,
+@MasterResetDay int,
+@MasterResetWek int,
+@MasterResetMon int
+AS
+BEGIN
+
+SET NOCOUNT ON
+SET XACT_ABORT ON
+
+UPDATE Character SET ResetCount=@Reset,MasterResetCount=@MasterReset WHERE AccountID=@Account AND Name=@Name
+
+UPDATE CashShopData SET WCoinP = WCoinP + 3000, GoblinPoint = GoblinPoint + 20000 WHERE AccountID=@Account
+
+SET NOCOUNT OFF
+SET XACT_ABORT OFF
+
+END

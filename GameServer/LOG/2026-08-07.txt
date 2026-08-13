@@ -1,0 +1,40 @@
+22:41:18 [ServerInfo] CashShop Carregado Com Sucesso
+22:41:18 [ServerInfo] ChaosMix Carregado Com Sucesso
+22:41:18 [ServerInfo] Character Carregado Com Sucesso
+22:41:18 [FakeOnline] Load Data OK
+22:41:18 [ServerInfo] Custom Carregado Com Sucesso
+22:41:18 [ServerInfo] Command Carregado Com Sucesso
+22:41:18 [ServerInfo] Common Carregado Com Sucesso
+22:41:18 [ServerInfo] Event Carregado Com Sucesso
+22:41:18 [ServerInfo] EventItemBag Carregado Com Sucesso
+22:41:18 [ServerInfo] Hack Carregado Com Sucesso
+22:41:19 [ServerInfo] Item Carregado Com Sucesso
+22:41:19 [ServerInfo] Monster Carregado Com Sucesso
+22:41:19 [ServerInfo] Move Carregado Com Sucesso
+22:41:19 [ServerInfo] Quest Carregado Com Sucesso
+22:41:19 [ServerInfo] Shop Carregado Com Sucesso
+22:41:19 [ServerInfo] Skill Carregado Com Sucesso
+22:41:19 [ServerInfo] Util Carregado Com Sucesso
+22:41:19 [ReadBotInfo] BotSystem Carregado Com Sucesso
+22:41:19 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+22:50:01 [OnlineLoterry] No Winner
+23:11:08 [ServerInfo] CashShop Carregado Com Sucesso
+23:11:08 [ServerInfo] ChaosMix Carregado Com Sucesso
+23:11:08 [ServerInfo] Character Carregado Com Sucesso
+23:11:08 [FakeOnline] Load Data OK
+23:11:08 [ServerInfo] Custom Carregado Com Sucesso
+23:11:08 [ServerInfo] Command Carregado Com Sucesso
+23:11:08 [ServerInfo] Common Carregado Com Sucesso
+23:11:08 [ServerInfo] Event Carregado Com Sucesso
+23:11:08 [ServerInfo] EventItemBag Carregado Com Sucesso
+23:11:08 [ServerInfo] Hack Carregado Com Sucesso
+23:11:08 [ServerInfo] Item Carregado Com Sucesso
+23:11:09 [ServerInfo] Monster Carregado Com Sucesso
+23:11:09 [ServerInfo] Move Carregado Com Sucesso
+23:11:09 [ServerInfo] Quest Carregado Com Sucesso
+23:11:09 [ServerInfo] Shop Carregado Com Sucesso
+23:11:09 [ServerInfo] Skill Carregado Com Sucesso
+23:11:09 [ServerInfo] Util Carregado Com Sucesso
+23:11:09 [ReadBotInfo] BotSystem Carregado Com Sucesso
+23:11:09 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+23:50:01 [OnlineLoterry] No Winner

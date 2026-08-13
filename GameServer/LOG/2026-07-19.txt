@@ -1,0 +1,515 @@
+03:24:48 [ServerInfo] CashShop Carregado Com Sucesso
+03:24:48 [ServerInfo] ChaosMix Carregado Com Sucesso
+03:24:48 [ServerInfo] Character Carregado Com Sucesso
+03:24:48 [FakeOnline] Load Data OK
+03:24:48 [ServerInfo] Custom Carregado Com Sucesso
+03:24:48 [ServerInfo] Command Carregado Com Sucesso
+03:24:48 [ServerInfo] Common Carregado Com Sucesso
+03:24:48 [ServerInfo] Event Carregado Com Sucesso
+03:24:48 [ServerInfo] EventItemBag Carregado Com Sucesso
+03:24:48 [ServerInfo] Hack Carregado Com Sucesso
+03:24:48 [ServerInfo] Item Carregado Com Sucesso
+03:24:49 [ServerInfo] Monster Carregado Com Sucesso
+03:24:49 [ServerInfo] Move Carregado Com Sucesso
+03:24:49 [ServerInfo] Quest Carregado Com Sucesso
+03:24:49 [ServerInfo] Shop Carregado Com Sucesso
+03:24:49 [ServerInfo] Skill Carregado Com Sucesso
+03:24:49 [ServerInfo] Util Carregado Com Sucesso
+03:24:49 [ReadBotInfo] BotSystem Carregado Com Sucesso
+03:24:49 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+03:26:27 [Obj][13000] AddClient (192.168.1.215)
+03:26:28 [Obj][13000] AddAccount (ziza)
+03:26:32 [Obj][13000] LogInCharacter (GRATIDAO)
+03:27:00 [ZenWarden] NpcTalk llamado: NPC Class=702
+03:27:00 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+03:27:00 [ZenWarden] ZenWardenSwitch=1
+03:27:00 [ZenWarden] lpObj es no NULL
+03:27:00 [ZenWarden] lpObj->Connected=3
+03:27:00 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+03:27:00 [ZenWarden] Enviando mensaje: '======= Opciones ZenWarden ======='
+03:27:00 [ZenWarden] Enviando mensaje: '1) Depositar en BANCO: escribe /zenbanco'
+03:27:00 [ZenWarden] Enviando mensaje: '2) Recibir en INVENTARIO: escribe /zeninv'
+03:27:00 [ZenWarden] Enviando mensaje: '=================================='
+03:27:09 [ZenWarden] Contando cofres...
+03:27:09 [ZenWarden] Conteo: 500KK=1, 1B=1, 2.2B=1, Total=3
+03:27:09 [ZenWarden] Total Zen calculado: 3500000000
+03:27:09 [ZenWarden] Ejecutando consulta SQL: UPDATE ... WHERE memb___id='ziza'
+03:28:05 [Obj][13000] LogOutCharacter (GRATIDAO)
+03:28:05 [Obj][13000] LogOutCharacter ()
+03:28:05 [Obj][13000] DelAccount (ziza)
+03:28:05 [Obj][13000] DelClient (192.168.1.215)
+03:28:05 Erro de resposta do jogo causa conclus�o [13000][][][192.168.1.215]
+03:28:35 [Obj][13000] AddClient (192.168.1.215)
+03:29:05 [Obj][13000] DelClient (192.168.1.215)
+20:34:14 [ServerInfo] CashShop Carregado Com Sucesso
+20:34:14 [ServerInfo] ChaosMix Carregado Com Sucesso
+20:34:14 [ServerInfo] Character Carregado Com Sucesso
+20:34:14 [FakeOnline] Load Data OK
+20:34:14 [ServerInfo] Custom Carregado Com Sucesso
+20:34:14 [ServerInfo] Command Carregado Com Sucesso
+20:34:14 [ServerInfo] Common Carregado Com Sucesso
+20:34:14 [ServerInfo] Event Carregado Com Sucesso
+20:34:14 [ServerInfo] EventItemBag Carregado Com Sucesso
+20:34:14 [ServerInfo] Hack Carregado Com Sucesso
+20:34:14 [ServerInfo] Item Carregado Com Sucesso
+20:34:14 [ServerInfo] Monster Carregado Com Sucesso
+20:34:14 [ServerInfo] Move Carregado Com Sucesso
+20:34:14 [ServerInfo] Quest Carregado Com Sucesso
+20:34:14 [ServerInfo] Shop Carregado Com Sucesso
+20:34:14 [ServerInfo] Skill Carregado Com Sucesso
+20:34:14 [ServerInfo] Util Carregado Com Sucesso
+20:34:14 [ReadBotInfo] BotSystem Carregado Com Sucesso
+20:34:14 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+20:36:00 [Obj][13000] AddClient (192.168.1.215)
+20:36:02 [Obj][13000] AddAccount (ziza)
+20:36:05 [Obj][13000] LogInCharacter (GRATIDAO)
+20:36:15 [ZenWarden] NpcTalk llamado: NPC Class=702
+20:36:15 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+20:36:15 [ZenWarden] ZenWardenSwitch=1
+20:36:15 [ZenWarden] lpObj es no NULL
+20:36:15 [ZenWarden] lpObj->Connected=3
+20:36:15 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+20:36:24 [ZenWarden] NpcTalk llamado: NPC Class=702
+20:36:24 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+20:36:24 [ZenWarden] ZenWardenSwitch=1
+20:36:24 [ZenWarden] lpObj es no NULL
+20:36:24 [ZenWarden] lpObj->Connected=3
+20:36:24 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+20:36:27 [ZenWarden] HandleSelection: 2
+20:36:27 [ZenWarden] Contando cofres...
+20:36:27 [ZenWarden] Conteo: 500KK=1, 1B=1, 2.2B=1, Total=3
+20:36:27 [ZenWarden] Total Zen calculado: 3500000000
+20:36:27 [ZenWarden] Enviando mensaje: '[AVISO] Superas el limite de 2B de Zen en el inventario.'
+20:36:27 [ZenWarden] HandleSelection: 0
+20:36:52 [ZenWarden] NpcTalk llamado: NPC Class=702
+20:36:52 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+20:36:52 [ZenWarden] ZenWardenSwitch=1
+20:36:52 [ZenWarden] lpObj es no NULL
+20:36:52 [ZenWarden] lpObj->Connected=3
+20:36:52 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+20:36:59 [ZenWarden] HandleSelection: 1
+20:36:59 [ZenWarden] Contando cofres...
+20:36:59 [ZenWarden] Conteo: 500KK=1, 1B=0, 2.2B=0, Total=1
+20:36:59 [ZenWarden] Total Zen calculado: 500000000
+20:36:59 [ZenWarden] Ejecutando consulta SQL: UPDATE ... WHERE memb___id='ziza'
+20:37:21 [Obj][13000] LogOutCharacter (GRATIDAO)
+20:37:21 [Obj][13000] LogOutCharacter ()
+20:37:21 [Obj][13000] DelAccount (ziza)
+20:37:21 [Obj][13000] DelClient (192.168.1.215)
+20:50:00 [Invasion Manager] Index(3) Boss Position (Map: 2 X: 162 Y: 12)
+20:50:01 [OnlineLoterry] No Winner
+21:01:51 [ServerInfo] CashShop Carregado Com Sucesso
+21:01:51 [ServerInfo] ChaosMix Carregado Com Sucesso
+21:01:51 [ServerInfo] Character Carregado Com Sucesso
+21:01:51 [FakeOnline] Load Data OK
+21:01:51 [ServerInfo] Custom Carregado Com Sucesso
+21:01:51 [ServerInfo] Command Carregado Com Sucesso
+21:01:51 [ServerInfo] Common Carregado Com Sucesso
+21:01:51 [ServerInfo] Event Carregado Com Sucesso
+21:01:51 [ServerInfo] EventItemBag Carregado Com Sucesso
+21:01:51 [ServerInfo] Hack Carregado Com Sucesso
+21:01:51 [ServerInfo] Item Carregado Com Sucesso
+21:01:52 [ServerInfo] Monster Carregado Com Sucesso
+21:01:52 [ServerInfo] Move Carregado Com Sucesso
+21:01:52 [ServerInfo] Quest Carregado Com Sucesso
+21:01:52 [ServerInfo] Shop Carregado Com Sucesso
+21:01:52 [ServerInfo] Skill Carregado Com Sucesso
+21:01:52 [ServerInfo] Util Carregado Com Sucesso
+21:01:52 [ReadBotInfo] BotSystem Carregado Com Sucesso
+21:01:52 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+21:03:23 [Obj][13000] AddClient (192.168.1.215)
+21:03:25 [Obj][13000] AddAccount (ziza)
+21:03:29 [Obj][13000] LogInCharacter (GRATIDAO)
+21:03:42 [ZenWarden] NpcTalk llamado: NPC Class=702
+21:03:42 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+21:03:42 [ZenWarden] ZenWardenSwitch=1
+21:03:42 [ZenWarden] lpObj es no NULL
+21:03:42 [ZenWarden] lpObj->Connected=3
+21:03:42 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+21:03:51 [ZenWarden] HandleSelection: 2
+21:03:51 [ZenWarden] Contando cofres...
+21:03:51 [ZenWarden] Conteo: 500KK=1, 1B=0, 2.2B=0, Total=1
+21:03:51 [ZenWarden] Total Zen calculado: 500000000
+21:03:51 [ZenWarden] Borrando 1 cofres de 500KK...
+21:03:51 [ZenWarden] Enviando mensaje: '[AVISO] 500000000 Zen agregados a tu Inventario'
+21:03:51 [ZenWarden] Transacción exitosa para GRATIDAO (ziza): 500000000 zen depositados en banco
+21:03:51 [ZenWarden] Proceso completado! (toBank: 0)
+21:03:51 [ZenWarden] HandleSelection: 0
+21:04:08 [ZenWarden] NpcTalk llamado: NPC Class=702
+21:04:08 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+21:04:08 [ZenWarden] ZenWardenSwitch=1
+21:04:08 [ZenWarden] lpObj es no NULL
+21:04:08 [ZenWarden] lpObj->Connected=3
+21:04:08 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+21:04:23 [ZenWarden] NpcTalk llamado: NPC Class=702
+21:04:23 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+21:04:23 [ZenWarden] ZenWardenSwitch=1
+21:04:23 [ZenWarden] lpObj es no NULL
+21:04:23 [ZenWarden] lpObj->Connected=3
+21:04:23 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+21:04:29 [ZenWarden] HandleSelection: 1
+21:04:29 [ZenWarden] Contando cofres...
+21:04:29 [ZenWarden] Conteo: 500KK=0, 1B=0, 2.2B=1, Total=1
+21:04:29 [ZenWarden] Total Zen calculado: 2000000000
+21:04:29 [ZenWarden] Ejecutando consulta SQL: UPDATE ... WHERE memb___id='ziza'
+21:04:51 [Obj][13000] LogOutCharacter (GRATIDAO)
+21:04:51 [Obj][13000] LogOutCharacter ()
+21:04:51 [Obj][13000] DelAccount (ziza)
+21:04:51 [Obj][13000] DelClient (192.168.1.215)
+21:18:01 [ServerInfo] CashShop Carregado Com Sucesso
+21:18:01 [ServerInfo] ChaosMix Carregado Com Sucesso
+21:18:01 [ServerInfo] Character Carregado Com Sucesso
+21:18:01 [FakeOnline] Load Data OK
+21:18:01 [ServerInfo] Custom Carregado Com Sucesso
+21:18:01 [ServerInfo] Command Carregado Com Sucesso
+21:18:01 [ServerInfo] Common Carregado Com Sucesso
+21:18:01 [ServerInfo] Event Carregado Com Sucesso
+21:18:01 [ServerInfo] EventItemBag Carregado Com Sucesso
+21:18:01 [ServerInfo] Hack Carregado Com Sucesso
+21:18:01 [ServerInfo] Item Carregado Com Sucesso
+21:18:02 [ServerInfo] Monster Carregado Com Sucesso
+21:18:02 [ServerInfo] Move Carregado Com Sucesso
+21:18:02 [ServerInfo] Quest Carregado Com Sucesso
+21:18:02 [ServerInfo] Shop Carregado Com Sucesso
+21:18:02 [ServerInfo] Skill Carregado Com Sucesso
+21:18:02 [ServerInfo] Util Carregado Com Sucesso
+21:18:02 [ReadBotInfo] BotSystem Carregado Com Sucesso
+21:18:02 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+21:19:43 [Obj][13000] AddClient (192.168.1.215)
+21:19:48 [Obj][13000] AddAccount (ziza)
+21:19:52 [Obj][13000] LogInCharacter (GRATIDAO)
+21:19:58 [ZenWarden] NpcTalk llamado: NPC Class=702
+21:19:58 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+21:19:58 [ZenWarden] ZenWardenSwitch=1
+21:19:58 [ZenWarden] lpObj es no NULL
+21:19:58 [ZenWarden] lpObj->Connected=3
+21:19:58 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+21:20:17 [ZenWarden] HandleSelection: 1
+21:20:17 [ZenWarden] Contando cofres...
+21:20:17 [ZenWarden] Conteo: 500KK=0, 1B=0, 2.2B=1, Total=1
+21:20:17 [ZenWarden] Total Zen calculado: 2000000000
+21:20:17 [ZenWarden] Ejecutando consulta SQL: UPDATE ... WHERE memb___id='ziza'
+21:21:00 [Obj][13000] LogOutCharacter (GRATIDAO)
+21:21:00 [Obj][13000] LogOutCharacter ()
+21:21:00 [Obj][13000] DelAccount (ziza)
+21:21:00 [Obj][13000] DelClient (192.168.1.215)
+21:43:54 [Obj][13000] AddClient (192.168.1.215)
+21:44:29 [Obj][13000] DelClient (192.168.1.215)
+21:45:08 [Obj][13000] AddClient (192.168.1.215)
+21:45:41 [Obj][13000] DelClient (192.168.1.215)
+21:50:18 [ServerInfo] CashShop Carregado Com Sucesso
+21:50:18 [ServerInfo] ChaosMix Carregado Com Sucesso
+21:50:18 [ServerInfo] Character Carregado Com Sucesso
+21:50:19 [FakeOnline] Load Data OK
+21:50:19 [ServerInfo] Custom Carregado Com Sucesso
+21:50:19 [ServerInfo] Command Carregado Com Sucesso
+21:50:19 [ServerInfo] Common Carregado Com Sucesso
+21:50:19 [ServerInfo] Event Carregado Com Sucesso
+21:50:19 [ServerInfo] EventItemBag Carregado Com Sucesso
+21:50:19 [ServerInfo] Hack Carregado Com Sucesso
+21:50:19 [ServerInfo] Item Carregado Com Sucesso
+21:50:19 [ServerInfo] Monster Carregado Com Sucesso
+21:50:19 [ServerInfo] Move Carregado Com Sucesso
+21:50:19 [ServerInfo] Quest Carregado Com Sucesso
+21:50:19 [ServerInfo] Shop Carregado Com Sucesso
+21:50:19 [ServerInfo] Skill Carregado Com Sucesso
+21:50:19 [ServerInfo] Util Carregado Com Sucesso
+21:50:19 [ReadBotInfo] BotSystem Carregado Com Sucesso
+21:50:19 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+21:51:38 [Obj][13000] AddClient (192.168.1.215)
+21:51:43 [Obj][13000] AddAccount (ziza)
+21:51:44 [Obj][13000] DelAccount (ziza)
+21:51:44 [Obj][13000] DelClient (192.168.1.215)
+21:53:58 [Obj][13000] AddClient (192.168.1.215)
+21:54:03 [Obj][13000] AddAccount (ziza)
+21:54:08 [Obj][13000] LogInCharacter (GRATIDAO)
+21:54:15 [ZenWarden] NpcTalk llamado: NPC Class=702
+21:54:15 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+21:54:15 [ZenWarden] ZenWardenSwitch=1
+21:54:15 [ZenWarden] lpObj es no NULL
+21:54:15 [ZenWarden] lpObj->Connected=3
+21:54:15 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+21:54:39 [ZenWarden] HandleSelection: 1
+21:54:39 [ZenWarden] Contando cofres...
+21:54:39 [ZenWarden] Conteo: 500KK=0, 1B=0, 2.2B=1, Total=1
+21:54:39 [ZenWarden] Total Zen calculado: 2000000000
+21:54:39 [ZenWarden] Ejecutando consulta SQL: UPDATE ... WHERE memb___id='ziza'
+21:54:59 [Obj][13000] LogOutCharacter (GRATIDAO)
+21:54:59 [Obj][13000] LogOutCharacter ()
+21:54:59 [Obj][13000] DelAccount (ziza)
+21:54:59 [Obj][13000] DelClient (192.168.1.215)
+21:56:17 [Obj][13000] AddClient (192.168.1.215)
+21:57:04 [Obj][13000] DelClient (192.168.1.215)
+21:57:19 [ServerInfo] CashShop Carregado Com Sucesso
+21:57:19 [ServerInfo] ChaosMix Carregado Com Sucesso
+21:57:19 [ServerInfo] Character Carregado Com Sucesso
+21:57:19 [FakeOnline] Load Data OK
+21:57:19 [ServerInfo] Custom Carregado Com Sucesso
+21:57:19 [ServerInfo] Command Carregado Com Sucesso
+21:57:19 [ServerInfo] Common Carregado Com Sucesso
+21:57:19 [ServerInfo] Event Carregado Com Sucesso
+21:57:19 [ServerInfo] EventItemBag Carregado Com Sucesso
+21:57:19 [ServerInfo] Hack Carregado Com Sucesso
+21:57:19 [ServerInfo] Item Carregado Com Sucesso
+21:57:19 [ServerInfo] Monster Carregado Com Sucesso
+21:57:19 [ServerInfo] Move Carregado Com Sucesso
+21:57:19 [ServerInfo] Quest Carregado Com Sucesso
+21:57:20 [ServerInfo] Shop Carregado Com Sucesso
+21:57:20 [ServerInfo] Skill Carregado Com Sucesso
+21:57:20 [ServerInfo] Util Carregado Com Sucesso
+21:57:20 [ReadBotInfo] BotSystem Carregado Com Sucesso
+21:57:20 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+21:58:07 [Obj][13000] AddClient (192.168.1.215)
+21:58:10 [Obj][13000] AddAccount (ziza)
+21:58:14 [Obj][13000] LogInCharacter (GRATIDAO)
+21:58:33 [ZenWarden] NpcTalk llamado: NPC Class=702
+21:58:33 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+21:58:33 [ZenWarden] ZenWardenSwitch=1
+21:58:33 [ZenWarden] lpObj es no NULL
+21:58:33 [ZenWarden] lpObj->Connected=3
+21:58:33 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+21:58:49 [ZenWarden] HandleSelection: 1
+21:58:49 [ZenWarden] Contando cofres...
+21:58:49 [ZenWarden] Conteo: 500KK=0, 1B=1, 2.2B=1, Total=2
+21:58:49 [ZenWarden] Total Zen calculado: 3000000000
+21:58:49 [ZenWarden] Ejecutando consulta SQL: UPDATE ... WHERE memb___id='ziza'
+21:59:35 [Obj][13000] LogOutCharacter (GRATIDAO)
+21:59:35 [Obj][13000] LogOutCharacter ()
+21:59:35 [Obj][13000] DelAccount (ziza)
+21:59:35 [Obj][13000] DelClient (192.168.1.215)
+21:59:35 Erro de resposta do jogo causa conclus�o [13000][][][192.168.1.215]
+22:00:05 [Obj][13000] AddClient (192.168.1.215)
+22:00:35 [Obj][13000] DelClient (192.168.1.215)
+22:10:08 [ServerInfo] CashShop Carregado Com Sucesso
+22:10:08 [ServerInfo] ChaosMix Carregado Com Sucesso
+22:10:08 [ServerInfo] Character Carregado Com Sucesso
+22:10:08 [FakeOnline] Load Data OK
+22:10:08 [ServerInfo] Custom Carregado Com Sucesso
+22:10:08 [ServerInfo] Command Carregado Com Sucesso
+22:10:08 [ServerInfo] Common Carregado Com Sucesso
+22:10:09 [ServerInfo] Event Carregado Com Sucesso
+22:10:09 [ServerInfo] EventItemBag Carregado Com Sucesso
+22:10:09 [ServerInfo] Hack Carregado Com Sucesso
+22:10:09 [ServerInfo] Item Carregado Com Sucesso
+22:10:09 [ServerInfo] Monster Carregado Com Sucesso
+22:10:09 [ServerInfo] Move Carregado Com Sucesso
+22:10:09 [ServerInfo] Quest Carregado Com Sucesso
+22:10:09 [ServerInfo] Shop Carregado Com Sucesso
+22:10:09 [ServerInfo] Skill Carregado Com Sucesso
+22:10:09 [ServerInfo] Util Carregado Com Sucesso
+22:10:09 [ReadBotInfo] BotSystem Carregado Com Sucesso
+22:10:09 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+22:21:07 [Obj][13000] AddClient (192.168.1.215)
+22:21:08 [Obj][13000] AddAccount (ziza)
+22:21:13 [Obj][13000] LogInCharacter (GRATIDAO)
+22:21:22 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:21:22 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:21:22 [ZenWarden] ZenWardenSwitch=1
+22:21:22 [ZenWarden] lpObj es no NULL
+22:21:22 [ZenWarden] lpObj->Connected=3
+22:21:22 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:21:27 [ZenWarden] HandleSelection: 1
+22:21:27 [ZenWarden] Contando cofres...
+22:21:27 [ZenWarden] Conteo: 500KK=0, 1B=1, 2.2B=1, Total=2
+22:21:27 [ZenWarden] Total Zen calculado: 3000000000
+22:21:27 [ZenWarden] Ejecutando consulta SQL: UPDATE ... WHERE memb___id='ziza'
+22:21:39 [Obj][13000] LogOutCharacter (GRATIDAO)
+22:21:39 [Obj][13000] LogOutCharacter ()
+22:21:39 [Obj][13000] DelAccount (ziza)
+22:21:39 [Obj][13000] DelClient (192.168.1.215)
+22:33:07 [ServerInfo] CashShop Carregado Com Sucesso
+22:33:07 [ServerInfo] ChaosMix Carregado Com Sucesso
+22:33:07 [ServerInfo] Character Carregado Com Sucesso
+22:33:07 [FakeOnline] Load Data OK
+22:33:07 [ServerInfo] Custom Carregado Com Sucesso
+22:33:07 [ServerInfo] Command Carregado Com Sucesso
+22:33:07 [ServerInfo] Common Carregado Com Sucesso
+22:33:07 [ServerInfo] Event Carregado Com Sucesso
+22:33:07 [ServerInfo] EventItemBag Carregado Com Sucesso
+22:33:07 [ServerInfo] Hack Carregado Com Sucesso
+22:33:07 [ServerInfo] Item Carregado Com Sucesso
+22:33:07 [ServerInfo] Monster Carregado Com Sucesso
+22:33:07 [ServerInfo] Move Carregado Com Sucesso
+22:33:07 [ServerInfo] Quest Carregado Com Sucesso
+22:33:07 [ServerInfo] Shop Carregado Com Sucesso
+22:33:07 [ServerInfo] Skill Carregado Com Sucesso
+22:33:07 [ServerInfo] Util Carregado Com Sucesso
+22:33:07 [ReadBotInfo] BotSystem Carregado Com Sucesso
+22:33:07 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+22:34:51 [Obj][13000] AddClient (192.168.1.215)
+22:34:53 [Obj][13000] AddAccount (ziza)
+22:34:59 [Obj][13000] LogInCharacter (GRATIDAO)
+22:35:05 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:35:05 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:35:05 [ZenWarden] ZenWardenSwitch=1
+22:35:05 [ZenWarden] lpObj es no NULL
+22:35:05 [ZenWarden] lpObj->Connected=3
+22:35:05 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:35:08 [ZenWarden] HandleSelection: 1
+22:35:08 [ZenWarden] Contando cofres...
+22:35:08 [ZenWarden] Conteo: 500KK=0, 1B=1, 2.2B=1, Total=2
+22:35:08 [ZenWarden] Total Zen calculado: 3000000000
+22:35:08 [ZenWarden] Ejecutando consulta SQL: UPDATE ... WHERE memb___id='ziza'
+22:35:22 [Obj][13000] LogOutCharacter (GRATIDAO)
+22:35:22 [Obj][13000] LogOutCharacter ()
+22:35:22 [Obj][13000] DelAccount (ziza)
+22:35:22 [Obj][13000] DelClient (192.168.1.215)
+22:48:33 [ServerInfo] CashShop Carregado Com Sucesso
+22:48:33 [ServerInfo] ChaosMix Carregado Com Sucesso
+22:48:33 [ServerInfo] Character Carregado Com Sucesso
+22:48:33 [FakeOnline] Load Data OK
+22:48:33 [ServerInfo] Custom Carregado Com Sucesso
+22:48:33 [ServerInfo] Command Carregado Com Sucesso
+22:48:33 [ServerInfo] Common Carregado Com Sucesso
+22:48:33 [ServerInfo] Event Carregado Com Sucesso
+22:48:33 [ServerInfo] EventItemBag Carregado Com Sucesso
+22:48:33 [ServerInfo] Hack Carregado Com Sucesso
+22:48:33 [ServerInfo] Item Carregado Com Sucesso
+22:48:34 [ServerInfo] Monster Carregado Com Sucesso
+22:48:34 [ServerInfo] Move Carregado Com Sucesso
+22:48:34 [ServerInfo] Quest Carregado Com Sucesso
+22:48:34 [ServerInfo] Shop Carregado Com Sucesso
+22:48:34 [ServerInfo] Skill Carregado Com Sucesso
+22:48:34 [ServerInfo] Util Carregado Com Sucesso
+22:48:34 [ReadBotInfo] BotSystem Carregado Com Sucesso
+22:48:34 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+22:49:42 [Obj][13000] AddClient (192.168.1.215)
+22:49:44 [Obj][13000] AddAccount (ziza)
+22:49:47 [Obj][13000] LogInCharacter (GRATIDAO)
+22:50:01 [OnlineLoterry] No Winner
+22:51:19 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:51:19 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:51:19 [ZenWarden] ZenWardenSwitch=1
+22:51:19 [ZenWarden] lpObj es no NULL
+22:51:19 [ZenWarden] lpObj->Connected=3
+22:51:19 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:51:19 [ZenWarden] HandleSelection: 1
+22:51:19 [ZenWarden] Contando cofres...
+22:51:19 [ZenWarden] Conteo: 500KK=1, 1B=0, 2.2B=0, Total=1
+22:51:19 [ZenWarden] Total Zen calculado: 500000000
+22:51:19 [ZenWarden] Ejecutando consulta SQL: UPDATE ... WHERE memb___id='ziza'
+22:52:10 [Obj][13000] LogOutCharacter (GRATIDAO)
+22:52:10 [Obj][13000] LogOutCharacter ()
+22:52:10 [Obj][13000] DelAccount (ziza)
+22:52:10 [Obj][13000] DelClient (192.168.1.215)
+22:52:10 Erro de resposta do jogo causa conclus�o [13000][][][192.168.1.215]
+22:52:40 [Obj][13000] AddClient (192.168.1.215)
+22:53:10 [Obj][13000] DelClient (192.168.1.215)
+22:54:58 [Obj][13000] AddClient (192.168.1.215)
+22:55:04 [Obj][13000] DelClient (192.168.1.215)
+23:10:43 [ServerInfo] CashShop Carregado Com Sucesso
+23:10:43 [ServerInfo] ChaosMix Carregado Com Sucesso
+23:10:43 [ServerInfo] Character Carregado Com Sucesso
+23:10:43 [FakeOnline] Load Data OK
+23:10:43 [ServerInfo] Custom Carregado Com Sucesso
+23:10:43 [ServerInfo] Command Carregado Com Sucesso
+23:10:43 [ServerInfo] Common Carregado Com Sucesso
+23:10:43 [ServerInfo] Event Carregado Com Sucesso
+23:10:43 [ServerInfo] EventItemBag Carregado Com Sucesso
+23:10:43 [ServerInfo] Hack Carregado Com Sucesso
+23:10:43 [ServerInfo] Item Carregado Com Sucesso
+23:10:43 [ServerInfo] Monster Carregado Com Sucesso
+23:10:43 [ServerInfo] Move Carregado Com Sucesso
+23:10:43 [ServerInfo] Quest Carregado Com Sucesso
+23:10:43 [ServerInfo] Shop Carregado Com Sucesso
+23:10:43 [ServerInfo] Skill Carregado Com Sucesso
+23:10:43 [ServerInfo] Util Carregado Com Sucesso
+23:10:43 [ReadBotInfo] BotSystem Carregado Com Sucesso
+23:10:43 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+23:11:44 [Obj][13000] AddClient (192.168.1.215)
+23:11:46 [Obj][13000] AddAccount (ziza)
+23:13:43 [Obj][13000] LogInCharacter (GRATIDAO)
+23:13:58 [Obj][13000] LogOutCharacter (GRATIDAO)
+23:13:58 [Obj][13000] LogOutCharacter ()
+23:13:58 [Obj][13000] DelAccount (ziza)
+23:13:58 [Obj][13000] DelClient (192.168.1.215)
+23:14:36 [Obj][13000] AddClient (192.168.1.215)
+23:14:37 [Obj][13000] AddAccount (ziza)
+23:14:38 [Obj][13000] DelAccount (ziza)
+23:14:38 [Obj][13000] DelClient (192.168.1.215)
+23:15:11 [Obj][13000] AddClient (192.168.1.215)
+23:15:13 [Obj][13000] AddAccount (ziza)
+23:15:13 [Obj][13000] DelAccount (ziza)
+23:15:13 [Obj][13000] DelClient (192.168.1.215)
+23:16:01 [Obj][13000] AddClient (192.168.1.215)
+23:16:10 [Obj][13000] AddAccount (zeus)
+23:16:11 [Obj][13000] DelAccount (zeus)
+23:16:11 [Obj][13000] DelClient (192.168.1.215)
+23:16:23 [ServerInfo] CashShop Carregado Com Sucesso
+23:16:23 [ServerInfo] ChaosMix Carregado Com Sucesso
+23:16:23 [ServerInfo] Character Carregado Com Sucesso
+23:16:23 [FakeOnline] Load Data OK
+23:16:23 [ServerInfo] Custom Carregado Com Sucesso
+23:16:23 [ServerInfo] Command Carregado Com Sucesso
+23:16:23 [ServerInfo] Common Carregado Com Sucesso
+23:16:23 [ServerInfo] Event Carregado Com Sucesso
+23:16:23 [ServerInfo] EventItemBag Carregado Com Sucesso
+23:16:23 [ServerInfo] Hack Carregado Com Sucesso
+23:16:23 [ServerInfo] Item Carregado Com Sucesso
+23:16:23 [ServerInfo] Monster Carregado Com Sucesso
+23:16:23 [ServerInfo] Move Carregado Com Sucesso
+23:16:23 [ServerInfo] Quest Carregado Com Sucesso
+23:16:23 [ServerInfo] Shop Carregado Com Sucesso
+23:16:23 [ServerInfo] Skill Carregado Com Sucesso
+23:16:23 [ServerInfo] Util Carregado Com Sucesso
+23:16:23 [ReadBotInfo] BotSystem Carregado Com Sucesso
+23:16:23 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+23:19:28 [Obj][13000] AddClient (192.168.1.215)
+23:19:30 [Obj][13000] AddAccount (zeus)
+23:19:31 [Obj][13000] DelAccount (zeus)
+23:19:31 [Obj][13000] DelClient (192.168.1.215)
+23:24:59 [Obj][13000] AddClient (192.168.1.215)
+23:25:01 [Obj][13000] AddAccount (zeus)
+23:25:02 [Obj][13000] DelAccount (zeus)
+23:25:02 [Obj][13000] DelClient (192.168.1.215)
+23:25:43 [Obj][13000] AddClient (192.168.1.215)
+23:25:49 [Obj][13000] AddAccount (ziza)
+23:25:53 [Obj][13000] LogInCharacter (GRATIDAO)
+23:26:15 [ZenWarden] NpcTalk llamado: NPC Class=702
+23:26:15 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+23:26:15 [ZenWarden] ZenWardenSwitch=1
+23:26:15 [ZenWarden] lpObj es no NULL
+23:26:15 [ZenWarden] lpObj->Connected=3
+23:26:15 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+23:26:16 [ZenWarden] NpcTalk llamado: NPC Class=702
+23:26:16 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+23:26:16 [ZenWarden] ZenWardenSwitch=1
+23:26:16 [ZenWarden] lpObj es no NULL
+23:26:16 [ZenWarden] lpObj->Connected=3
+23:26:16 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+23:26:18 [ZenWarden] NpcTalk llamado: NPC Class=702
+23:26:18 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+23:26:18 [ZenWarden] ZenWardenSwitch=1
+23:26:18 [ZenWarden] lpObj es no NULL
+23:26:18 [ZenWarden] lpObj->Connected=3
+23:26:18 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+23:26:22 [ZenWarden] NpcTalk llamado: NPC Class=702
+23:26:22 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+23:26:22 [ZenWarden] ZenWardenSwitch=1
+23:26:22 [ZenWarden] lpObj es no NULL
+23:26:22 [ZenWarden] lpObj->Connected=3
+23:26:22 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+23:26:24 [ZenWarden] NpcTalk llamado: NPC Class=702
+23:26:24 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+23:26:24 [ZenWarden] ZenWardenSwitch=1
+23:26:24 [ZenWarden] lpObj es no NULL
+23:26:24 [ZenWarden] lpObj->Connected=3
+23:26:24 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+23:26:26 [ZenWarden] NpcTalk llamado: NPC Class=702
+23:26:26 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+23:26:26 [ZenWarden] ZenWardenSwitch=1
+23:26:26 [ZenWarden] lpObj es no NULL
+23:26:26 [ZenWarden] lpObj->Connected=3
+23:26:26 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+23:26:26 [ZenWarden] NpcTalk llamado: NPC Class=702
+23:26:26 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+23:26:26 [ZenWarden] ZenWardenSwitch=1
+23:26:26 [ZenWarden] lpObj es no NULL
+23:26:26 [ZenWarden] lpObj->Connected=3
+23:26:26 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+23:49:48 [Obj][13000] LogOutCharacter (GRATIDAO)
+23:49:48 [Obj][13000] LogOutCharacter ()
+23:49:53 [Obj][13000] LogInCharacter (GRATIDAO)
+23:50:01 [OnlineLoterry] Add Member (GRATIDAO)
+23:50:01 [OnlineLoterry] Winner (GRATIDAO)
+23:50:01 [ziza][GRATIDAO] WZ_SetCoin(Lottery) Val1: 80, Val2: 0, Val3: 0

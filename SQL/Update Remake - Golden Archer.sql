@@ -1,0 +1,19 @@
+/****** Object:  Table [dbo].[EventGoldenArcher]    Script Date: 10/02/2018 23:08:18 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[EventGoldenArcher](
+	[AccountID] [varchar](10) NOT NULL,
+	[Renas] [int] NULL,
+ CONSTRAINT [PK_EventGoldenArcher] PRIMARY KEY CLUSTERED 
+(
+	[AccountID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+SET ANSI_PADDING OFF
+GO
+

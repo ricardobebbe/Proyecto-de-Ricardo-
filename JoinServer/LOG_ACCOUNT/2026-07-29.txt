@@ -1,0 +1,2 @@
+23:03:41 [AccountInfo] Account connected (Account: RDDLV, IpAddress: 192.168.1.215, GameServerCode: 0)
+23:04:08 [AccountInfo] Account disconnected (Account: RDDLV, IpAddress: 192.168.1.215, GameServerCode: 0)

@@ -1,0 +1,76 @@
+//===================================================================================================================
+// [NPCS] Kanturu - Mapa 37 (Originalmente Mapa 24 en fuente)
+//===================================================================================================================
+0
+//Index  Range  PosX  PosY  Dir  Comment
+244      00     021   213   03   //Caren the Barmaid
+238      00     021   208   03   //Chaos Goblin
+233      00     018   203   03   //Messenger of Archangel
+240      00     026   217   01   //Safety Guardian
+237      00     033   216   01   //Charon
+end
+
+//===================================================================================================================
+// [SPOT] - KANTURU (Mapa 37) - EXACTAS (Tipo 2)
+//===================================================================================================================
+2
+//Index  Range  PosX  PosY  Dir  Comment
+037      30     119   036   -1   //Iron Rider
+037      30     119   036   -1   //Iron Rider
+037      30     119   036   -1   //Iron Rider
+037      30     102   065   -1   //Iron Rider
+037      30     102   065   -1   //Iron Rider
+037      30     102   065   -1   //Iron Rider
+024      30     156   196   -1   //Splinter Wolf
+024      30     156   196   -1   //Splinter Wolf
+024      30     156   196   -1   //Splinter Wolf
+024      30     156   196   -1   //Splinter Wolf
+024      30     156   196   -1   //Splinter Wolf
+165      30     156   196   -1   //Kentauros
+165      30     156   196   -1   //Kentauros
+165      30     156   196   -1   //Kentauros
+165      30     156   196   -1   //Kentauros
+165      30     156   196   -1   //Kentauros
+024      30     172   162   -1   //Splinter Wolf
+024      30     172   162   -1   //Splinter Wolf
+024      30     172   162   -1   //Splinter Wolf
+024      30     172   162   -1   //Splinter Wolf
+166      30     230   083   -1   //Berserk
+166      30     230   083   -1   //Berserk
+166      30     230   083   -1   //Berserk
+166      30     230   083   -1   //Berserk
+166      30     230   083   -1   //Berserk
+037      30     230   083   -1   //Iron Rider
+037      30     230   083   -1   //Iron Rider
+037      30     230   083   -1   //Iron Rider
+037      30     230   083   -1   //Iron Rider
+037      30     230   083   -1   //Iron Rider
+166      30     083   027   -1   //Berserk
+166      30     083   027   -1   //Berserk
+166      30     083   027   -1   //Berserk
+166      30     083   027   -1   //Berserk
+166      30     083   027   -1   //Berserk
+024      30     083   027   -1   //Splinter Wolf
+024      30     083   027   -1   //Splinter Wolf
+024      30     083   027   -1   //Splinter Wolf
+024      30     083   027   -1   //Splinter Wolf
+024      30     083   027   -1   //Splinter Wolf
+024      05     046   046   -1   //Splinter Wolf
+024      05     046   046   -1   //Splinter Wolf
+024      05     046   046   -1   //Splinter Wolf
+024      05     046   046   -1   //Splinter Wolf
+165      05     046   046   -1   //Kentauros
+165      05     046   046   -1   //Kentauros
+165      05     046   046   -1   //Kentauros
+165      05     046   046   -1   //Kentauros
+end
+
+//===================================================================================================================
+// [SPOT] - KANTURU (Mapa 37) - AREAS (Tipo 1)
+//===================================================================================================================
+1
+//Index  Range  BegX  BegY  EndX  EndY  Dir  Qty  Comment
+037      00     140   220   145   223   00   08   //Iron Rider
+037      05     039   232   042   235   00   08   //Iron Rider
+037      05     189   217   190   218   00   08   //Iron Rider
+end

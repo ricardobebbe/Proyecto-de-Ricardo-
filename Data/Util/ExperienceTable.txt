@@ -1,0 +1,15 @@
+//=========================================================================================================================================
+//Programaçao :Por By:RDDLV Mu MiSiones © Copyright 2026
+//FILES PREMIUN : 97x.
+// Archivo MuServer RDDLV 
+//==========================================================================================================================================
+//   
+//=====================Formula De Multiplicar Ou Diminuir Experiença IN-GAME=========================================================
+// 100 = EXP não muda.
+// 200 = EXP dobra.
+// 300 = EXP triplica.
+// 50 = EXP cai pela metade.
+// * = Valor Não se aplica
+//MinLevel   MaxLevel   MinMasterLevel   MaxMasterLevel   MinReset   MaxReset   MinMasterReset   MaxMasterReset   ExperienceRate
+1            1000       *                *                0          10000      0                10000            200
+end

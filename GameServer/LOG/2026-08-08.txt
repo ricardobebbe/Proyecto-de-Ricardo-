@@ -1,0 +1,49 @@
+00:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 132 Y: 198)
+00:11:08 [ServerInfo] CashShop Carregado Com Sucesso
+00:11:08 [ServerInfo] ChaosMix Carregado Com Sucesso
+00:11:08 [ServerInfo] Character Carregado Com Sucesso
+00:11:08 [FakeOnline] Load Data OK
+00:11:08 [ServerInfo] Custom Carregado Com Sucesso
+00:11:08 [ServerInfo] Command Carregado Com Sucesso
+00:11:09 [ServerInfo] Common Carregado Com Sucesso
+00:11:09 [ServerInfo] Event Carregado Com Sucesso
+00:11:09 [ServerInfo] EventItemBag Carregado Com Sucesso
+00:11:09 [ServerInfo] Hack Carregado Com Sucesso
+00:11:09 [ServerInfo] Item Carregado Com Sucesso
+00:11:09 [ServerInfo] Monster Carregado Com Sucesso
+00:11:09 [ServerInfo] Move Carregado Com Sucesso
+00:11:09 [ServerInfo] Quest Carregado Com Sucesso
+00:11:09 [ServerInfo] Shop Carregado Com Sucesso
+00:11:09 [ServerInfo] Skill Carregado Com Sucesso
+00:11:09 [ServerInfo] Util Carregado Com Sucesso
+00:11:09 [ReadBotInfo] BotSystem Carregado Com Sucesso
+00:11:09 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+00:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 23 Y: 178)
+00:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 118 Y: 127)
+00:15:00 [Invasion Manager] Index(1) Boss Position (Map: 2 X: 17 Y: 147)
+02:50:49 [ServerInfo] CashShop Carregado Com Sucesso
+02:50:49 [ServerInfo] ChaosMix Carregado Com Sucesso
+02:50:49 [ServerInfo] Character Carregado Com Sucesso
+02:50:49 [FakeOnline] Load Data OK
+02:50:49 [ServerInfo] Custom Carregado Com Sucesso
+02:50:49 [ServerInfo] Command Carregado Com Sucesso
+02:50:49 [ServerInfo] Common Carregado Com Sucesso
+02:50:49 [ServerInfo] Event Carregado Com Sucesso
+02:50:49 [ServerInfo] EventItemBag Carregado Com Sucesso
+02:50:49 [ServerInfo] Hack Carregado Com Sucesso
+02:50:49 [ServerInfo] Item Carregado Com Sucesso
+02:50:49 [ServerInfo] Monster Carregado Com Sucesso
+02:50:49 [ServerInfo] Move Carregado Com Sucesso
+02:50:49 [ServerInfo] Quest Carregado Com Sucesso
+02:50:49 [ServerInfo] Shop Carregado Com Sucesso
+02:50:49 [ServerInfo] Skill Carregado Com Sucesso
+02:50:49 [ServerInfo] Util Carregado Com Sucesso
+02:50:49 [ReadBotInfo] BotSystem Carregado Com Sucesso
+02:50:49 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+03:01:06 [Obj][13000] AddClient (192.168.1.215)
+03:01:08 [Obj][13000] AddAccount (ziza)
+03:01:11 [Obj][13000] LogInCharacter (GRATIDAO)
+03:01:53 [Obj][13000] LogOutCharacter (GRATIDAO)
+03:01:53 [Obj][13000] LogOutCharacter ()
+03:01:53 [Obj][13000] DelAccount (ziza)
+03:01:53 [Obj][13000] DelClient (192.168.1.215)

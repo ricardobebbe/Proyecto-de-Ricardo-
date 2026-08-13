@@ -1,0 +1,67 @@
+//===================================================================================================================
+// ARENA NPCS (Map 6)
+//===================================================================================================================
+0
+//Index  Range  PosX  PosY  Dir  Comment
+239      00     127   124   03   //Arena Guard
+239      00     141   084   01   //Arena Guard
+239      00     152   139   01   //Arena Guard
+240      00     127   139   02   //Vault Keeper
+240      00     146   084   01   //Vault Keeper
+241      00     223   117   02   //Guild Master
+247      03     084   114   02   //Guard
+247      03     089   109   02   //Guard
+247      03     138   124   02   //Guard
+247      05     060   114   02   //Guard
+247      05     084   114   02   //Guard
+249      03     138   121   02   //Guard
+249      05     060   114   02   //Guard
+253      00     056   118   01   //Potion Girl Amy
+253      00     017   142   03   //Potion Girl Amy
+253      00     127   130   03   //Potion Girl Amy
+253      00     143   106   03   //Potion Girl Amy
+253      00     186   195   03   //Potion Girl Amy
+end
+
+//===================================================================================================================
+// SPOT - ARENA (Map 6) - EXACT COORDINATES
+//===================================================================================================================
+2
+//Index  Range  PosX  PosY  Dir  Comment
+000      05     067   070   -1   //Blue Golem
+000      05     067   080   -1   //Blue Golem
+000      05     053   025   -1   //Blue Golem
+000      05     066   030   -1   //Blue Golem
+000      05     013   090   -1   //Blue Golem
+035      05     012   038   -1   //Necron
+035      05     012   056   -1   //Necron
+040      03     052   114   -1   //Phantom Knight
+052      05     013   074   -1   //Necron
+058      03     089   066   -1   //Tantalos
+058      05     048   056   -1   //Tantalos
+061      03     019   027   -1   //Vim Knight
+062      05     030   074   -1   //Witch Queen
+066      03     089   095   -1   //Cursed Wizard
+066      05     038   027   -1   //Cursed Wizard
+067      03     038   008   -1   //Metal Balrog
+073      05     043   114   -1   //Drakan
+074      03     060   006   -1   //Phantom Knight
+074      03     089   019   -1   //Alpha Crust
+084      03     046   073   -1   //Orc Warrior
+084      03     047   081   -1   //Orc Warrior
+084      03     047   089   -1   //Orc Warrior
+084      03     063   057   -1   //Orc Warrior
+084      03     069   057   -1   //Orc Warrior
+085      03     030   039   -1   //Orc Archer
+089      05     048   038   -1   //Magic Skeleton
+093      05     089   043   -1   //Giant Ogre
+094      05     030   057   -1   //Witch Queen
+140      03     072   076   -1   //Dark Skull Soldier
+140      03     075   113   -1   //Dark Skull Soldier
+140      03     089   089   -1   //Dark Skull Soldier
+143      03     089   114   -1   //Magic Skeleton
+150      05     048   038   -1   //Bali
+150      05     090   077   -1   //Bali
+162      07     030   091   -1   //Chaos Castle 1
+168      03     031   114   -1   //Chaos Castle 7
+end

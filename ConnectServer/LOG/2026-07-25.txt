@@ -1,0 +1,7 @@
+00:26:50 [ServerList] JoinServer offline
+01:40:02 [ServerList] GameServer online (Trade+Bau) (0)
+02:10:11 [ServerList] GameServer offline (Trade+Bau) (0)
+08:35:24 [ServerList] JoinServer offline
+08:35:24 [ServerList] JoinServer online
+15:09:46 [ServerList] JoinServer offline
+15:09:46 [ServerList] JoinServer online

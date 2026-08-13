@@ -1,0 +1,12 @@
+//Bok of Heaven Config
+//	Type	Index	Item	Level	Skill	Option	Name
+
+	13	0	0	0	0	0	//Guardian Angel
+	13	1	0	0	0	0	//Satan
+	13	2	0	0	0	0	//Uniria
+//	13	3	0	0	0	0	//Dinorant
+	14	9	0	0	0	0	//Alcohol
+	14	10	0	0	0	0	//Teleport
+	14	9	1	0	0	0	//Olive of Love
+	14	14	0	0	0	0	//Jewel of Soul
+	14	22	0	0	0	0	//Jewel of Creation

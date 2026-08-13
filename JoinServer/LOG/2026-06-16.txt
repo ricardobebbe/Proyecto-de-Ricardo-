@@ -1,0 +1,44 @@
+00:10:00 [ServerManager][0] DelServer (127.0.0.1)
+00:13:53 [ServerManager][0] AddServer (127.0.0.1)
+00:13:53 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+01:10:00 [ServerManager][0] DelServer (127.0.0.1)
+01:15:24 [SocketManager] Servidor iniciado na porta [55970]
+01:47:05 [SocketManager] Servidor iniciado na porta [55970]
+01:47:07 [ServerManager][0] AddServer (127.0.0.1)
+01:47:07 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+01:51:20 [ServerManager][0] DelServer (127.0.0.1)
+01:58:42 [SocketManager] Servidor iniciado na porta [55970]
+01:58:45 [ServerManager][0] AddServer (127.0.0.1)
+01:58:45 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+02:10:01 [ServerManager][0] DelServer (127.0.0.1)
+02:22:24 [SocketManager] Servidor iniciado na porta [55970]
+02:22:26 [ServerManager][0] AddServer (127.0.0.1)
+02:22:26 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+02:30:39 [SocketManager] Servidor iniciado na porta [55970]
+02:30:41 [ServerManager][0] AddServer (127.0.0.1)
+02:30:41 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+03:10:02 [ServerManager][0] DelServer (127.0.0.1)
+03:21:51 [SocketManager] Servidor iniciado na porta [55970]
+03:21:53 [ServerManager][0] AddServer (127.0.0.1)
+03:21:53 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+03:37:16 [SocketManager] Servidor iniciado na porta [55970]
+03:37:18 [ServerManager][0] AddServer (127.0.0.1)
+03:37:18 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+04:06:33 [SocketManager] Servidor iniciado na porta [55970]
+04:06:35 [ServerManager][0] AddServer (127.0.0.1)
+04:06:35 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+04:10:00 [ServerManager][0] DelServer (127.0.0.1)
+04:12:22 [SocketManager] Servidor iniciado na porta [55970]
+04:12:25 [ServerManager][0] AddServer (127.0.0.1)
+04:12:25 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+05:10:01 [ServerManager][0] DelServer (127.0.0.1)
+05:11:26 [SocketManager] Servidor iniciado na porta [55970]
+05:11:29 [ServerManager][0] AddServer (127.0.0.1)
+05:11:29 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+05:20:36 [ServerManager][0] DelServer (127.0.0.1)
+00:10:00 [ServerManager][0] DelServer (127.0.0.1)
+00:38:28 [ServerManager][0] AddServer (127.0.0.1)
+00:38:28 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+00:49:05 [SocketManager] Servidor iniciado na porta [55970]
+00:49:07 [ServerManager][0] AddServer (127.0.0.1)
+00:49:07 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)

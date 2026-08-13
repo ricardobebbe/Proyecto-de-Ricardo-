@@ -1,0 +1,16 @@
+// Filtered words for post and market commands
+// Maximum characters: 10
+spider
+spd
+jamaika
+jmk
+admin
+adm
+gm
+http
+www.
+.com
+.net
+drako
+wgd
+$

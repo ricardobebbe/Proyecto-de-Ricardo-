@@ -1,0 +1,8 @@
+// Kundun's Guardians rewards
+// ItemGroup - ItemIndex
+13	8
+13	9
+13	9
+13	12
+13	12
+13	13

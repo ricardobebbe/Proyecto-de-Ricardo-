@@ -1,0 +1,57 @@
+<!--
+//=================================================================================================================
+//-- Custom RDDLVMercador Npc 703 RDDLVMercador Mercanti By:RDDLV 2026
+//=================================================================================================================
+// Obs: Necessário juntar 64 Renas Ou Menos Vai Da Sua Preferéncia (inventário completo) e clicar no NPC RDDLVMercador. 
+// Você pode adicionar outros Tipos Premiação caso deseja.
+//=================================================================================================================
+//--                             ### Configuraçoes ###
+//=================================================================================================================
+//  Type           ->  Categoria do item  \Data\Item\Item.TxT
+//  ItemIndex      ->  Item index         \Data\Item\Item.TxT
+//  ItemLevel      ->  Requiremento item level
+//  ItemCount      ->  Requiremento De Quantidade Fraguimentos No Invertario Pra Trocar Com NPC Bruxo RDDLVMercador
+//  Fireworks      ->  Ativar Fireworks Depois Drop
+//  ItemDropCount  ->  Quantidade De Item Premiação Ao Player
+//  Rate           ->  Queda Da Taxa De itens Da lista de ItemOptionRate, n/10000
+//  Duration       ->  Duração do item, 0: Sem limite
+//  Durability     ->  Durabilidade é Atributo Opcional,Se Usado, Então O Valor Definido Será Usado, Caso Contrário Gerado Automaticamente, 0-255
+//=================================================================================================================
+-->
+<StartItem StartSwitch_AL0="0" StartSwitch_AL1="0" StartSwitch_AL2="0" StartSwitch_AL3="0">
+    <!-- Create Stats (NewChar) -->
+	<Stat>
+	    <Char ClassChar="0" LevelUpPoints="500" Resets="20" Zen="20000000" />
+	</Stat>
+    <!-- Create Item System (New Char)-->
+    <Item>
+	    <!-- Dark Wizard (0)-->
+	    <Char ClassChar="0" ItemType="7"  ItemIndex="3" ItemLevel="15" ItemDur="255" ItemSkill="1" ItemLuck="1" ItemOpt="7" ItemExc="63" ItemTime="7" />
+		<Char ClassChar="0" ItemType="8"  ItemIndex="3" ItemLevel="15" ItemDur="255" ItemSkill="1" ItemLuck="1" ItemOpt="7" ItemExc="63" ItemTime="7" />
+		<Char ClassChar="0" ItemType="9"  ItemIndex="3" ItemLevel="15" ItemDur="255" ItemSkill="1" ItemLuck="1" ItemOpt="7" ItemExc="63" ItemTime="7" />
+		<Char ClassChar="0" ItemType="10" ItemIndex="3" ItemLevel="15" ItemDur="255" ItemSkill="1" ItemLuck="1" ItemOpt="7" ItemExc="63" ItemTime="7" />
+		<Char ClassChar="0" ItemType="11" ItemIndex="3" ItemLevel="15" ItemDur="255" ItemSkill="1" ItemLuck="1" ItemOpt="7" ItemExc="63" ItemTime="7" />
+		<!-- Dark Knight (1)-->
+	    <Char ClassChar="1" ItemType="7"  ItemIndex="1" ItemLevel="15" ItemDur="255" ItemSkill="1" ItemLuck="1" ItemOpt="7" ItemExc="63" ItemTime="7" />
+		<Char ClassChar="1" ItemType="8"  ItemIndex="1" ItemLevel="15" ItemDur="255" ItemSkill="1" ItemLuck="1" ItemOpt="7" ItemExc="63" ItemTime="7" />
+		<Char ClassChar="1" ItemType="9"  ItemIndex="1" ItemLevel="15" ItemDur="255" ItemSkill="1" ItemLuck="1" ItemOpt="7" ItemExc="63" ItemTime="7" />
+		<Char ClassChar="1" ItemType="10" ItemIndex="1" ItemLevel="15" ItemDur="255" ItemSkill="1" ItemLuck="1" ItemOpt="7" ItemExc="63" ItemTime="7" />
+		<Char ClassChar="1" ItemType="11" ItemIndex="1" ItemLevel="15" ItemDur="255" ItemSkill="1" ItemLuck="1" ItemOpt="7" ItemExc="63" ItemTime="7" />
+		<!-- Dark Knight (2)-->
+		<!-- Magic Gladiator (3)-->
+		<!-- Dark Lord (4)-->
+		<!-- Blody Summoner (5)-->
+		<!-- Rage Fighter (6)-->
+	</Item>
+	<!-- Create Buff System (New Char)-->
+	<Buff>
+	    <!-- Dark Wizard -->
+	    <Char ClassChar="0" EffectID="29" Power1="30" Power2="0" BuffTime="20" />
+		<Char ClassChar="0" EffectID="44" Power1="30" Power2="0" BuffTime="20" />
+		<Char ClassChar="0" EffectID="45" Power1="30" Power2="0" BuffTime="20" />
+		<Char ClassChar="0" EffectID="46" Power1="30" Power2="0" BuffTime="20" />
+		<Char ClassChar="0" EffectID="47" Power1="30" Power2="0" BuffTime="20" />
+		<Char ClassChar="0" EffectID="48" Power1="30" Power2="0" BuffTime="20" />
+		<Char ClassChar="0" EffectID="49" Power1="30" Power2="0" BuffTime="20" />
+	</Buff>
+</StartItem>

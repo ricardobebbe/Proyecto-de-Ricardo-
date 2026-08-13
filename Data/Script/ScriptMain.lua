@@ -1,0 +1,199 @@
+-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-- Configurado por RDDLV - 97x Edition
+-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+require "Eventos\\Zoombie"
+
+require "System\\Funcoes"
+
+if (SQLCheck() == 0) then
+	LogColor(2, string.format("[LUA][SQL] Conectando ao SQL...", SQLCheck()));
+	
+	-- ODBC, Usuário do SQL, Senha do SQL
+	SQLConnect("MuOnline", "sa", "91218308lh91");
+	
+	if (SQLCheck() == 1) then
+		LogColor(2, "[LUA][SQL] Conectado ao SQL!");
+	end
+else
+	LogColor(2, "[LUA][SQL] Conectado ao SQL!");
+end
+
+function OnReadScript()
+    
+
+end
+
+
+function OnShutScript()
+
+
+end
+
+
+function OnTimerThread()
+
+if Zoombie.Zoombie_Ativado == 1 then Zoombie.ZoombieOnTimerThread() end
+
+end
+
+
+function OnCommandManager(aIndex,code,arg)
+
+    -- code somar sempre 1 para bater com o Command.txt já que o Command.txt inicia do index 0
+	-- arg é o texto enviado no jogo ou parametro após o comando
+	
+	-- Comando /zumbi
+	if code == 86 then	
+		if Zoombie.Zoombie_Ativado == 1 then Zoombie.ZoombieAddUser(aIndex) end
+	end
+	
+	if code == 87 then	
+		local argumento = CommandGetArgString(arg, 1)
+		--NoticeSend(aIndex, 0, string.format("Argumento %s", argumento))
+		PostSend(0, 1591, GetObjectName(aIndex), argumento)
+	end
+	
+	if code == 88 then	
+		PostSend(0, 1591, GetObjectName(aIndex), arg)
+	end
+	
+    if code == 130 then
+	 --  local UserName = GetObjectName(aIndex)
+	 --   local UserReset = GetObjectReset(aIndex)
+	 --   local UserMReset = GetObjectMasterReset(aIndex)
+	 --   NewNoticeSend(aIndex,string.format("[Username: %s] - [Resets: %s] - [M Resets: %s] - [Level: %s]", UserName, UserReset, UserMReset, 400))
+
+		return 1
+	end    
+	if code == 131 then
+	    local UserName = GetObjectName(aIndex)
+		local Zen = 2000000
+	    SetObjectMoney(aIndex, 2000000)
+	    NoticeSend(aIndex,1,string.format("Recebeu: %s Zen", Zen))
+		return 1
+	end
+
+return 0
+
+end
+
+
+function OnCommandDone(aIndex,code)
+
+
+end
+
+
+function OnCharacterEntry(aIndex)
+
+	
+end
+
+
+function OnCharacterClose(aIndex)
+    
+	if Zoombie.Zoombie_Ativado == 1 then Zoombie.ZoombieOnCharacterClose(aIndex) end
+
+end
+
+
+function OnNpcTalk(aIndex,bIndex)
+
+	
+	return 0
+
+end
+
+
+function OnMonsterDie(aIndex,bIndex)
+
+   --NoticeSend(aIndex,0, string.format("Matou o mob %d", bIndex))
+   
+  if bIndex == 413 then
+      local UserName = GetObjectName(aIndex)
+      local Value = 3
+	  SQLQuery("Update PcPointData set PcPoint=PcPoint+"..value.." where AccountID='"..UserName.."'")
+      NoticeSend(aIndex,1,string.format("%s Matou um Coleho Lunar Ganhou %s PCPoint", UserName, bIndex))
+      return 1
+  end
+  return 1
+end
+
+
+function OnUserDie(aIndex,bIndex)
+
+if Zoombie.Zoombie_Ativado == 1 then Zoombie.ZoombieOnUserDie(aIndex, bIndex) end
+end
+
+
+function OnUserRespawn(aIndex,KillerType)
+
+
+end
+
+
+function OnCheckUserTarget(aIndex,bIndex)
+
+	return 1
+
+end
+
+
+function OnCheckUserKiller(aIndex,bIndex)
+
+	return 1
+
+end
+
+
+function OnUserItemPick(aIndex,index)
+	-- aIndex = Index do jogador
+	-- index = Id do item
+	
+	--NoticeSend(aIndex,0, string.format("pegou item %d", index))
+	return 1
+end
+
+function OnUserItemDrop(aIndex,slot,x,y)
+	--local iditem = InventoryGetItemIndex(aIndex, slot)
+	
+	--if iditem == 2056 then
+	--	NoticeSend(aIndex, 0, "voce nao pode dropar esse item!")
+	--	return 0
+	--else
+	--	NoticeSend(aIndex,0, string.format("drop item %d ~ %d/%d/%d", iditem, slot, x, y))
+		return 1
+	--end
+end
+
+
+function OnUserItemMove(aIndex,aFlag,aSlot,bFlag,bSlot)
+	
+	-- aIndex = Index do jogador
+	-- aFlag = Flag inicial
+	-- aSlot = Slot inicial
+	-- bFlag = Flag destino
+	-- bSlot = Slot destino
+		
+	--MonsterCreate(283, 0, 141, 128, 0)
+	
+	--NoticeSend(aIndex, 0, string.format("Msg : %s", MessageGet(0)))
+		
+	--EffectAdd(aIndex,0,74,60,0,0,0,0) (fumaça rosa)
+	--EffectAdd(aIndex,0,75,60,0,0,0,0) (fogo)
+	--EffectAdd(aIndex,0,82,10,0,0,0,0) (efeito roxo)
+	--EffectAdd(aIndex,0,130,10,0,0,0,0) (efeito vermelho)	
+	
+	-- Flag 0 = Inventario / 1 = Trade / 2 = Bau / 3 ou maior que 5 e menor que 20 = Chaos Box / 21 = Inventário de evento / 4 = Personal Shop / 22 = Muun
+	
+	--local iditem = InventoryGetItemIndex(aIndex, aSlot)
+	--NoticeSend(aIndex,0, string.format("Movendo item %d de %d/%d para %d/%d", iditem, aFlag, aSlot, bFlag, bSlot));
+	return 1
+	
+end
+
+LogColor(1, "[Script_ScriptMain] Carregado Com Sucesso!")
+
+return ScriptMain

@@ -1,0 +1,41 @@
+USE [MuOnline]
+GO
+
+/****** Object: StoredProcedure [dbo].[WZ_SetMasterResetInfo] Script Date: 02/07/2020 13:32:42 ******/
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[WZ_SetMasterResetInfo]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[WZ_SetMasterResetInfo]
+GO
+
+USE [MuOnline]
+GO
+
+/****** Object: StoredProcedure [dbo].[WZ_SetMasterResetInfo] Script Date: 02/07/2020 13:32:42 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE Procedure [dbo].[WZ_SetMasterResetInfo]
+@Account varchar(10),
+@Name varchar(10),
+@Reset int,
+@MasterReset int,
+@MasterResetDay int,
+@MasterResetWek int,
+@MasterResetMon int
+AS
+BEGIN
+
+SET NOCOUNT ON
+SET XACT_ABORT ON
+
+UPDATE Character SET ResetCount=@Reset,MasterResetCount=@MasterReset WHERE AccountID=@Account AND Name=@Name
+UPDATE CashShopData SET GoblinPoint=GoblinPoint+400 WHERE AccountID=@Account
+
+SET NOCOUNT OFF
+SET XACT_ABORT OFF
+
+END
+
+GO

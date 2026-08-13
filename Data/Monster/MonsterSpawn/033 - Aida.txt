@@ -1,0 +1,58 @@
+//===================================================================================================================
+// [NPCS] AIDA (Map 33)
+//===================================================================================================================
+0
+//Monster      Range      PositionX      PositionY      Direction      Comment
+238            00         81            18            02             //Chaos Goblin
+end
+
+//=================================
+// [SPOT] - AIDA zona 1 (norte)
+//=================================
+1
+//Monster      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+034            00         025            015            080            060          -1            20            //Cursed Wizard
+035            00         025            015            080            060          -1            12            //Death Gorgon
+040            00         025            015            080            060          -1            15            //Death Knight
+041            00         025            015            080            060          -1            10            //Death Cow
+end
+
+//=================================
+// [SPOT] - AIDA zona 2 (sur)
+//=================================
+1
+//Monster      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+034            00         100            070            180            140          -1            18            //Cursed Wizard
+040            00         100            070            180            140          -1            15            //Death Knight
+062            00         100            070            180            140          -1            10            //Mutant
+035            00         100            070            180            140          -1            12            //Death Gorgon
+041            00         100            070            180            140          -1            08            //Death Cow
+end
+
+//=================================
+// [SPOT] - AIDA zona 3 (este) Nivel Alto
+//=================================
+1
+//Monster      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+062            00         150            090            220            170          -1            20            //Mutant
+040            00         150            090            220            170          -1            15            //Death Knight
+035            00         150            090            220            170          -1            12            //Death Gorgon
+041            00         150            090            220            170          -1            08            //Death Cow
+end
+
+//=================================
+// [RANDOM] - AIDA monstruos sueltos
+//=================================
+2
+//Monster      Range      PositionX      PositionY      Direction      Comment
+034            30         050            030            -1             //Cursed Wizard
+035            30         060            025            -1             //Death Gorgon
+040            30         070            045            -1             //Death Knight
+062            30         110            100            -1             //Mutant
+040            30         130            110            -1             //Death Knight
+035            30         155            095            -1             //Death Gorgon
+062            30         170            130            -1             //Mutant
+041            30         045            080            -1             //Death Cow
+034            30         080            120            -1             //Cursed Wizard
+035            30         200            150            -1             //Death Gorgon
+end

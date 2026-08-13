@@ -1,0 +1,173 @@
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+| Perfect Dev Emulator 
+| www.perfectdev.com.br
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|| Pontes (Bridge):
+||
+|| As pontes são utilizadas para integrar suas funções as rotinas chamadas no gameserver,
+|| desta forma criando um "Trampolim/Callback" entre as funções no jogo e os scripts customs criados.
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+| © 2022 Perfect Dev Team
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+OnCommandManagerDirect(aIndex, str)
+
+Called when player type /command, can be used for create direct commands
+instead declare him at Commands.txt
+
+========================================================================================================
+
+OnCharacterMove(aIndex)
+
+Called every time who player attack or move.
+Can be used for attack/move anti speed, or at custom events.
+
+========================================================================================================
+
+OnReadScript()
+
+Called once at GameServer initialization.
+
+========================================================================================================
+
+OnShutScript()
+
+Called once before script reload.
+
+========================================================================================================
+
+OnTimerThread()
+
+Called every 1 second, can be used as a timer.
+
+========================================================================================================
+
+OnCommandManager(aIndex,code,arg)
+
+aIndex = User index.
+code = Command index.
+arg = Command parameters.
+
+Called after a user types a valid command, must return (1) if the command is valid, (0) if not.
+
+========================================================================================================
+
+OnCommandDone(aIndex,code)
+
+aIndex = User index.
+code = Command index.
+
+Called after a user execute valid command.
+
+========================================================================================================
+
+OnCharacterEntry(aIndex)
+
+aIndex = User index.
+
+Called after a user enters the game with a character.
+
+========================================================================================================
+ 
+OnCharacterClose(aIndex)
+
+aIndex = User index.
+
+Called after a user leaves the game with a character.
+
+========================================================================================================
+ 
+OnNpcTalk(aIndex,bIndex)
+
+aIndex = User index.
+bIndex = NPC index.
+
+Called after a user talks with a NPC, must return (1) if the talk is successful, (0) if not.
+
+========================================================================================================
+
+OnMonsterDie(aIndex,bIndex)
+
+aIndex = Monster index (victim).
+bIndex = User index (killer).
+
+Called after a monster dies.
+
+========================================================================================================
+
+OnUserDie(aIndex,bIndex)
+
+aIndex = User index (victim).
+bIndex = Object index (killer).
+
+Called after a user dies.
+
+========================================================================================================
+
+OnUserRespawn(aIndex,KillerType)
+
+aIndex = User index.
+
+KillerType = Killer type (0=Monster,1=User,2=GuildWar,3=Duel).
+
+Called when a user is going to respawn.
+
+========================================================================================================
+
+OnCheckUserTarget(aIndex,bIndex)
+
+aIndex = User index (attacker).
+bIndex = User index (target).
+
+Called on the attack target verification, must return (1) if the target can be attacked, (0) if not.
+
+========================================================================================================
+
+OnCheckUserKiller(aIndex,bIndex)
+
+aIndex = User index (killer).
+bIndex = User index (victim).
+
+Called on the player killer verification, must return (1) if the killer is going to recieve PK status, (0) if not.
+
+========================================================================================================
+
+OnUserItemPick(aIndex,index)
+
+aIndex = User index.
+index = Item slot.
+
+Called on item pick, must return (1) if the item can be picked, (0) if not.
+
+========================================================================================================
+
+OnUserItemDrop(aIndex,index,x,y)
+
+aIndex = User index.
+index = Item slot.
+x = Item drop position x.
+y = Item drop position y.
+
+Called on item drop, must return (1) if the item can be dropped, (0) if not.
+
+========================================================================================================
+
+OnUserItemMove(aIndex,aFlag,aSlot,bFlag,bSlot)
+
+aIndex = User index.
+aFlag = Item source flag.
+aSlot= Item source slot.
+bFlag = Item target flag.
+bSlot= Item target slot.
+
+Flag list:
+0 = Inventory.
+1 = Trade.
+2 = Warehouse.
+3 = Chaos Box.
+4 = Personal Shop.
+5~20 = Chaos Box.
+21 = Event Inventory.
+22 = Muun Inventory.
+
+Called on item move, must return (1) if the item can be moved, (0) if not.

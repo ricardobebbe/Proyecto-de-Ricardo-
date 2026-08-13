@@ -1,0 +1,5 @@
+03:44:02 Não foi possível se conectar ao banco de dados
+03:53:22 [SocketManager] Servidor iniciado na porta [55970]
+03:54:14 [ServerManager][0] AddServer (127.0.0.1)
+03:54:14 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+04:09:53 [ServerManager][0] DelServer (127.0.0.1)

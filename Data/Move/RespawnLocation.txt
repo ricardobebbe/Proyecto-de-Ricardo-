@@ -1,0 +1,22 @@
+//Map   MoveGate   Gate
+// =============================================================================
+// RESPAWN - Mapas del menu de teleport
+// =============================================================================
+0       1          17      // Lorencia
+1       1          17      // Dungeon
+2       1          22      // Devias
+3       1          27      // Noria
+4       1          42      // Lost Tower
+6       0          50      // Stadium
+7       1          49      // Atlans
+8       1          57      // Tarkan
+10      1          63      // Icarus
+31      1          139     // Land of Trials
+33      1          119     // Aida
+34      1          118     // Crywolf
+37      1          138     // Kanturu
+51      1          267     // Tirgus
+57      1          293     // Raklion
+96      1          348     // Arena
+97      1          350     // Infernus
+end

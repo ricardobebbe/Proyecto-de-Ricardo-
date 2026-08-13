@@ -1,0 +1,118 @@
+3
+//Index         DropRate     DropInventory  
+0 		10000        0      
+end
+
+4
+
+// Index	 Section	SectionRate	MoneyAmount	        Option  Value   Dk  Dw  Elf  Mg  Dl Sum 
+0                5		200		0			0	1	1   1	1    1	 1  1
+0                6		300		0			0	1	1   1	1    1	 1  1 
+0                7		400		0			0	1	1   1	1    1	 1  1  
+0                8		200		0			0	1	1   1	1    1	 1  1   
+0                9		200		0			0	1	1   1	1    1	 1  1 
+0                10		300		0			0	1	1   1	1    1	 1  1 
+0                11		200		0			0	1	1   1	1    1	 1  1 
+0                12		200		0			0	1	1   1	1    1	 1  1 
+0                13		8000		0			0	1	1   1	1    1	 1  1  
+
+end
+
+5
+// Index   Level   Grade  Opt0    Opt1    Opt2   Opt3     Opt4   Opt5  Opt6   Duration
+
+   3131    0	   0      26      12      12      18      17      0    *      0             //Shield Fire Gren
+   3132    0	   0      26      12      12      18      17      0    *      0             //Shield Fire King 2.0
+
+
+end
+
+6
+// Index   Level     Grade Opt0   Opt1    Opt2     Opt3    Opt4   Opt5  Opt6   Duration
+   3777    0	     0     26      12      12      18      17      0    *      0           //All Of Fire Gren [M]
+   4289    0	     0     26      12      12      18      17      0    *      0
+   4801    0	     0     26      12      12      18      17      0    *      0
+   5313    0	     0     26      12      12      18      17      0    *      0
+   5825    0	     0     26      12      12      18      17      0    *      0
+
+
+end
+
+7
+// Index     Level   Grade  Opt0   Opt1    Opt2   Opt3    Opt4    Opt5  Opt6   Duration
+
+  3778       0	     0     26      12      12      18      17      0    *      0           //All Of Fire Gren [F]
+  4290       0	     0     26      12      12      18      17      0    *      0
+  4802       0	     0     26      12      12      18      17      0    *      0
+  5314       0	     0     26      12      12      18      17      0    *      0
+  5826       0	     0     26      12      12      18      17      0    *      0
+  5825       0	     0     26      12      12      18      17      0    *      0
+ 
+  6333       0	     0     26      12      12      18      17      0    *      0           //Wing Fire King 2.0 
+  6334       0	     0     26      12      12      18      17      0    *      0           //Cape Fire King 2.0 
+  6335       0	     0     26      12      12      18      17      0    *      0           //Wing Fire Gren 
+  6336       0	     0     26      12      12      18      17      0    *      0           //Cape Fire Gren 
+
+end
+
+8
+// Index     Level   Grade Opt0   Opt1    Opt2   Opt3  Opt4   Opt5  Opt6   Duration
+
+   1051       0	     0     26      12      12      18      17      0    *      0          //Mace Fire Gren
+   1078       0	     0     26      12      12      18      17      0    *      0          //Mace FireKing 2.0
+   
+
+end
+
+9
+// Index   Level   Grade  Opt0   Opt1    Opt2    Opt3  Opt4   Opt5  Opt6   Duration
+
+    90     0	    0     26      12      12      18   17      0    *      0             //Sword Fire Gren
+    89     0	    0     26      12      12      18   17      0    *      0             //Sword Fire King 2.0
+
+
+end
+
+10
+// Index    Level   Grade  Opt0   Opt1    Opt2    Opt3    Opt4   Opt5  Opt6   Duration
+
+   2140     0	     0     26      12      12      18      17      0    *      0        //Ring  Fire Gren
+   2141     0	     0     26      12      12      18      17      0    *      0
+
+end
+
+11
+// Index   Level   Grade  Opt0   Opt1    Opt2   Opt3  Opt4   Opt5  Opt6   Duration
+
+   2613   0	   0     26      12      12      18      17      0    *      0          //Staff Fire Gren
+   2630   0	   0     26      12      12      18      17      0    *      0          //Staff Fire King 2.0
+
+end
+
+12
+// Index   Level   Grade  Opt0   Opt1    Opt2     Opt3  Opt4    Opt5  Opt6   Duration
+
+   2104    0	    0     26      12      12      18      17      0    *      0         //Bow Fire Gren [F]
+   2097    0	    0     26      12      12      18      17      0    *      0         //Bow Fire Gren [F]
+
+end
+
+13
+// Index   Level   Grade  Opt0    Opt1    Opt2     Opt3    Opt4   Opt5  Opt6   Duration
+
+  3775       0	     0     26      12      12      18      17      0    *      0        //All Fire King 2.0 [M]
+  4287       0	     0     26      12      12      18      17      0    *      0
+  4799       0	     0     26      12      12      18      17      0    *      0
+  5311       0	     0     26      12      12      18      17      0    *      0
+  5824       0	     0     26      12      12      18      17      0    *      0
+  3776       0	     0     26      12      12      18      17      0    *      0        //All Fire King 2.0 [F]
+  4288       0	     0     26      12      12      18      17      0    *      0
+  4800       0	     0     26      12      12      18      17      0    *      0
+  5312       0	     0     26      12      12      18      17      0    *      0
+  5824       0	     0     26      12      12      18      17      0    *      0
+  
+
+end
+
+
+

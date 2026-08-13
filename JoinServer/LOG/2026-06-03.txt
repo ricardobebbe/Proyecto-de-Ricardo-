@@ -1,0 +1,16 @@
+01:29:36 [SocketManager] Servidor iniciado na porta [55970]
+01:29:38 [ServerManager][0] AddServer (127.0.0.1)
+01:29:38 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+01:36:35 [SocketManager] Servidor iniciado na porta [55970]
+01:36:37 [ServerManager][0] AddServer (127.0.0.1)
+01:36:37 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+01:43:19 [SocketManager] Servidor iniciado na porta [55970]
+01:44:13 [SocketManager] Servidor iniciado na porta [55970]
+01:45:59 [SocketManager] Servidor iniciado na porta [55970]
+01:46:02 [ServerManager][0] AddServer (127.0.0.1)
+01:46:02 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+01:52:22 [SocketManager] Servidor iniciado na porta [55970]
+01:52:24 [ServerManager][0] AddServer (127.0.0.1)
+01:52:24 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+17:34:33 Não foi possível se conectar ao banco de dados
+17:48:00 Não foi possível se conectar ao banco de dados

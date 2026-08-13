@@ -1,0 +1,136 @@
+//===================================================================================================================
+// DEVIAS NPCS (Map 2)
+//===================================================================================================================
+0
+//Index  Range  PosX  PosY  Dir  Comment
+//222    00     230   035   01   //Slingshot defense
+//223      00     225   066   01   //Senior
+//230      00     213   091   03   //Wandering Merchant Alex
+//231    00     149   028   01   //Thompson Kenel
+233      00     209   030   01   //Messenger of Archangel
+//233      00     213   063   02   //Messenger of Archangel
+//233      00     219   009   03   //Messenger of Archangel
+235      00     183   032   03   //Sebina the Priest
+//236      00     226   066   01   //Golden Archer
+238      00     228   027   01   //Chaos Goblin
+//704      00     227   65   01
+240      00     218   063   02   //Safety Guardian
+//240    00     226   021   03   //Safety Guardian
+241      00     215   045   01   //Royal Guard Captain Lorence
+244      00     226   025   03   //Caren the Barmaid
+245      00     220   067   03   //Wizard Izabel
+379      00     225   041   03   //Bob the Dealer
+246      00     186   047   03   //Weapons Merchant Zienna
+247      20     169   039   07   //Guard
+247      20     169   045   07   //Guard
+247      20     219   079   05   //Guard
+247      20     224   079   05   //Guard
+249      00     209   055   03   //Guard
+249      00     209   059   03   //Guard
+257      00     172   044   01   //Shadow Phantom Soldier
+257      00     219   073   03   //Shadow Phantom Soldier
+261      00     228   43   03   //Natasha the Firecracker Merchan
+464      00     226   66   01      //NPC PK
+451      00     213   85   01      //arbol
+//414      00     219   77   03      //
+381      00     217   18   03       //reset
+end
+
+//===================================================================================================================
+// SPOT - DEVIAS (Map 2) - AREA SPOTS
+//===================================================================================================================
+1
+//Index  Range  BegX  BegY  EndX  EndY  Dir  Qty  Comment
+019      30     050   006   166   244   -1   40   //Yeti
+020      30     050   006   166   244   -1   20   //Elite Yeti
+020      30     005   050   050   155   -1   20   //Elite Yeti
+020      30     006   184   080   244   -1   10   //Elite Yeti
+021      30     050   006   166   244   -1   30   //Assassin
+022      30     050   006   166   244   -1   40   //Ice Monster
+023      30     170   080   245   200   -1   10   //Hommerd
+023      30     050   006   166   244   -1   30   //Hommerd
+024      30     217   085   217   085   -1   15   //Worm
+024      30     240   080   240   080   -1   15   //Worm
+024      30     192   082   192   082   -1   15   //Worm
+024      30     175   070   175   070   -1   15   //Worm
+024      30     158   053   158   053   -1   15   //Worm
+024      30     162   033   162   033   -1   15   //Worm
+025      30     006   184   080   244   -1   03   //Ice Queen
+end
+
+//===================================================================================================================
+// SPOT - DEVIAS (Map 2) - EXACT COORDINATES
+//===================================================================================================================
+2
+//Index  Range  PosX  PosY  Dir  Comment
+020      30     096   103   -1   //Elite Yeti
+020      30     102   117   -1   //Elite Yeti
+020      30     113   105   -1   //Elite Yeti
+020      30     184   166   -1   //Elite Yeti
+020      30     186   224   -1   //Elite Yeti
+020      30     189   160   -1   //Elite Yeti
+020      30     190   146   -1   //Elite Yeti
+020      30     193   231   -1   //Elite Yeti
+020      30     194   241   -1   //Elite Yeti
+020      30     196   218   -1   //Elite Yeti
+020      30     197   183   -1   //Elite Yeti
+020      30     200   171   -1   //Elite Yeti
+020      30     202   209   -1   //Elite Yeti
+020      30     203   201   -1   //Elite Yeti
+020      30     203   232   -1   //Elite Yeti
+020      30     203   244   -1   //Elite Yeti
+020      30     205   149   -1   //Elite Yeti
+020      30     206   188   -1   //Elite Yeti
+020      30     207   158   -1   //Elite Yeti
+020      30     207   183   -1   //Elite Yeti
+020      30     209   224   -1   //Elite Yeti
+020      30     212   170   -1   //Elite Yeti
+020      30     213   193   -1   //Elite Yeti
+020      30     214   152   -1   //Elite Yeti
+020      30     218   201   -1   //Elite Yeti
+020      30     221   160   -1   //Elite Yeti
+020      30     221   177   -1   //Elite Yeti
+020      30     227   167   -1   //Elite Yeti
+020      30     228   184   -1   //Elite Yeti
+020      30     230   200   -1   //Elite Yeti
+020      30     238   184   -1   //Elite Yeti
+020      30     238   215   -1   //Elite Yeti
+020      30     240   207   -1   //Elite Yeti
+020      30     241   198   -1   //Elite Yeti
+024      30     161   058   -1   //Worm
+024      30     162   011   -1   //Worm
+024      30     170   006   -1   //Worm
+024      30     180   078   -1   //Worm
+024      30     229   083   -1   //Worm
+024      30     238   088   -1   //Worm
+024      30     244   080   -1   //Worm
+025      30     045   189   -1   //Ice Queen
+025      30     051   227   -1   //Ice Queen
+025      30     063   160   -1   //Ice Queen
+025      30     070   212   -1   //Ice Queen
+025      30     074   239   -1   //Ice Queen
+025      30     094   203   -1   //Ice Queen
+025      30     113   230   -1   //Ice Queen
+025      30     116   210   -1   //Ice Queen
+end
+
+//===================================================================================================================
+// SPOT - DEVIAS CASTLE (Map 2) - EXTRA FROM SOURCE
+//===================================================================================================================
+2
+//Index  Range  PosX  PosY  Dir  Comment
+035      15     015   025   -1   //Death Gorgon
+035      15     015   026   -1   //Death Gorgon
+041      15     035   012   -1   //Death Cow
+041      15     035   019   -1   //Death Cow
+041      15     035   022   -1   //Death Cow
+041      15     035   033   -1   //Death Cow
+095      15     019   025   -1   //Spirit Sorcerer
+095      15     024   025   -1   //Spirit Sorcerer
+095      15     035   022   -1   //Spirit Sorcerer
+095      15     035   030   -1   //Spirit Sorcerer
+098      15     022   022   -1   //Elite Orc
+098      15     035   012   -1   //Elite Orc
+098      15     035   038   -1   //Elite Orc
+113      15     019   026   -1   //Orc Warrior
+end

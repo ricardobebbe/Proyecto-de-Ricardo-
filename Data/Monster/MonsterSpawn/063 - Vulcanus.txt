@@ -1,0 +1,4 @@
+0
+//Monster      Range      PositionX      PositionY      Direction      Comment
+479            00         122            135            01             //Doorkeeper Titus
+end

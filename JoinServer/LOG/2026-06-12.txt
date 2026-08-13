@@ -1,0 +1,36 @@
+01:18:57 [SocketManager] Servidor iniciado na porta [55970]
+01:18:59 [ServerManager][0] AddServer (127.0.0.1)
+01:18:59 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+07:28:52 [SocketManager] Servidor iniciado na porta [55970]
+07:28:55 [ServerManager][0] AddServer (127.0.0.1)
+07:28:55 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+10:59:11 [SocketManager] Servidor iniciado na porta [55970]
+10:59:13 [ServerManager][0] AddServer (127.0.0.1)
+10:59:13 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+12:57:10 [SocketManager] Servidor iniciado na porta [55970]
+12:57:13 [ServerManager][0] AddServer (127.0.0.1)
+12:57:13 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+13:05:06 [SocketManager] Servidor iniciado na porta [55970]
+13:05:09 [ServerManager][0] AddServer (127.0.0.1)
+13:05:09 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+13:14:18 [SocketManager] Servidor iniciado na porta [55970]
+13:14:21 [ServerManager][0] AddServer (127.0.0.1)
+13:14:21 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+13:17:04 [SocketManager] Servidor iniciado na porta [55970]
+13:17:06 [ServerManager][0] AddServer (127.0.0.1)
+13:17:06 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+13:19:47 [SocketManager] Servidor iniciado na porta [55970]
+13:19:49 [ServerManager][0] AddServer (127.0.0.1)
+13:19:49 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+13:21:38 [SocketManager] Servidor iniciado na porta [55970]
+13:21:40 [ServerManager][0] AddServer (127.0.0.1)
+13:21:40 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+14:33:30 [SocketManager] Servidor iniciado na porta [55970]
+14:33:32 [ServerManager][0] AddServer (127.0.0.1)
+14:33:32 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+14:42:15 [SocketManager] Servidor iniciado na porta [55970]
+14:42:17 [ServerManager][0] AddServer (127.0.0.1)
+14:42:17 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+15:01:44 [SocketManager] Servidor iniciado na porta [55970]
+15:01:46 [ServerManager][0] AddServer (127.0.0.1)
+15:01:46 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)

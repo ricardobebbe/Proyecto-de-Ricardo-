@@ -1,0 +1,184 @@
+//===================================================================================================================
+// [NPCS] Land of Trials - Mapa 5
+//===================================================================================================================
+0
+//Monster      Range      PositionX      PositionY      Direction      Comment
+end
+
+//===================================================================================================================
+// [SPOT] - LAND OF TRIALS (Map 5) - COORDENADAS EXACTAS
+//===================================================================================================================
+2
+//Monster      Range      PositionX      PositionY      Direction      Comment
+012            30         069            084            -1             //Ax Warrior
+012            30         069            084            -1             //Ax Warrior
+012            30         069            084            -1             //Ax Warrior
+012            30         069            084            -1             //Ax Warrior
+161            30         069            084            -1             //Lizard Warrior
+161            30         069            084            -1             //Lizard Warrior
+183            30         107            137            -1             //Hell Demon
+183            30         107            137            -1             //Hell Demon
+183            30         107            137            -1             //Hell Demon
+161            30         107            137            -1             //Lizard Warrior
+161            30         107            137            -1             //Lizard Warrior
+183            30         109            138            -1             //Hell Demon
+183            30         109            138            -1             //Hell Demon
+161            30         109            138            -1             //Lizard Warrior
+161            30         109            138            -1             //Lizard Warrior
+161            30         109            138            -1             //Lizard Warrior
+068            30         069            084            -1             //Poison Golem
+068            30         069            084            -1             //Poison Golem
+068            30         069            084            -1             //Poison Golem
+068            30         069            084            -1             //Poison Golem
+068            30         064            120            -1             //Poison Golem
+068            30         064            120            -1             //Poison Golem
+068            30         064            120            -1             //Poison Golem
+068            30         064            120            -1             //Poison Golem
+068            30         064            120            -1             //Poison Golem
+012            30         064            120            -1             //Ax Warrior
+012            30         064            120            -1             //Ax Warrior
+012            30         064            120            -1             //Ax Warrior
+068            30         064            120            -1             //Poison Golem
+068            20         068            138            -1             //Poison Golem
+068            20         068            138            -1             //Poison Golem
+068            20         068            138            -1             //Poison Golem
+068            20         068            138            -1             //Poison Golem
+068            20         068            138            -1             //Poison Golem
+068            20         073            145            -1             //Poison Golem
+068            20         073            145            -1             //Poison Golem
+068            20         073            145            -1             //Poison Golem
+068            20         073            145            -1             //Poison Golem
+068            20         073            145            -1             //Poison Golem
+068            20         073            145            -1             //Poison Golem
+068            20         073            145            -1             //Poison Golem
+068            20         073            145            -1             //Poison Golem
+183            20         073            145            -1             //Hell Demon
+183            20         073            145            -1             //Hell Demon
+183            20         073            145            -1             //Hell Demon
+161            30         132            145            -1             //Lizard Warrior
+161            30         132            145            -1             //Lizard Warrior
+161            30         132            145            -1             //Lizard Warrior
+050            30         139            174            -1             //Fire Golem
+050            30         139            174            -1             //Fire Golem
+161            30         139            174            -1             //Lizard Warrior
+161            30         139            174            -1             //Lizard Warrior
+183            15         137            219            -1             //Hell Demon
+183            15         137            219            -1             //Hell Demon
+183            15         137            219            -1             //Hell Demon
+050            15         137            219            -1             //Fire Golem
+050            15         137            219            -1             //Fire Golem
+183            15         132            223            -1             //Hell Demon
+183            15         132            223            -1             //Hell Demon
+050            15         132            223            -1             //Fire Golem
+050            15         132            223            -1             //Fire Golem
+050            15         132            223            -1             //Fire Golem
+161            05         163            226            -1             //Lizard Warrior
+161            05         163            226            -1             //Lizard Warrior
+161            05         163            226            -1             //Lizard Warrior
+161            05         163            226            -1             //Lizard Warrior
+012            05         163            226            -1             //Ax Warrior
+012            05         163            226            -1             //Ax Warrior
+012            05         163            226            -1             //Ax Warrior
+012            05         163            226            -1             //Ax Warrior
+068            10         184            129            -1             //Poison Golem
+068            10         184            129            -1             //Poison Golem
+068            10         184            129            -1             //Poison Golem
+068            10         184            129            -1             //Poison Golem
+068            10         184            129            -1             //Poison Golem
+068            10         184            129            -1             //Poison Golem
+068            10         184            129            -1             //Poison Golem
+068            10         184            129            -1             //Poison Golem
+068            10         184            129            -1             //Poison Golem
+068            10         184            129            -1             //Poison Golem
+012            10         184            129            -1             //Ax Warrior
+012            10         184            129            -1             //Ax Warrior
+012            10         184            129            -1             //Ax Warrior
+012            10         184            129            -1             //Ax Warrior
+012            10         184            129            -1             //Ax Warrior
+161            30         192            168            -1             //Lizard Warrior
+161            30         192            168            -1             //Lizard Warrior
+161            30         192            168            -1             //Lizard Warrior
+012            30         196            167            -1             //Ax Warrior
+012            30         196            167            -1             //Ax Warrior
+161            30         196            167            -1             //Lizard Warrior
+012            30         183            175            -1             //Ax Warrior
+012            30         183            175            -1             //Ax Warrior
+012            30         183            175            -1             //Ax Warrior
+161            30         198            193            -1             //Lizard Warrior
+161            30         198            193            -1             //Lizard Warrior
+161            30         198            193            -1             //Lizard Warrior
+161            30         198            193            -1             //Lizard Warrior
+161            30         221            180            -1             //Lizard Warrior
+161            30         221            180            -1             //Lizard Warrior
+161            30         221            180            -1             //Lizard Warrior
+012            30         221            180            -1             //Ax Warrior
+012            30         221            180            -1             //Ax Warrior
+050            30         211            183            -1             //Fire Golem
+050            30         211            183            -1             //Fire Golem
+012            30         174            083            -1             //Ax Warrior
+012            30         174            083            -1             //Ax Warrior
+012            30         174            083            -1             //Ax Warrior
+012            30         157            085            -1             //Ax Warrior
+012            30         157            085            -1             //Ax Warrior
+161            30         157            085            -1             //Lizard Warrior
+161            30         157            085            -1             //Lizard Warrior
+161            30         157            085            -1             //Lizard Warrior
+161            30         122            082            -1             //Lizard Warrior
+161            30         122            082            -1             //Lizard Warrior
+012            30         122            082            -1             //Ax Warrior
+012            30         122            082            -1             //Ax Warrior
+068            30         134            042            -1             //Poison Golem
+068            30         134            042            -1             //Poison Golem
+161            30         097            035            -1             //Lizard Warrior
+161            30         097            035            -1             //Lizard Warrior
+161            30         097            035            -1             //Lizard Warrior
+161            30         097            035            -1             //Lizard Warrior
+012            30         157            120            -1             //Ax Warrior
+012            30         157            120            -1             //Ax Warrior
+012            30         157            120            -1             //Ax Warrior
+161            05         040            062            -1             //Lizard Warrior
+161            05         040            062            -1             //Lizard Warrior
+161            05         040            062            -1             //Lizard Warrior
+161            05         040            062            -1             //Lizard Warrior
+012            05         040            062            -1             //Ax Warrior
+012            05         040            062            -1             //Ax Warrior
+012            05         040            062            -1             //Ax Warrior
+012            05         040            062            -1             //Ax Warrior
+161            05         036            034            -1             //Lizard Warrior
+161            05         036            034            -1             //Lizard Warrior
+161            05         036            034            -1             //Lizard Warrior
+161            05         036            034            -1             //Lizard Warrior
+012            05         036            034            -1             //Ax Warrior
+012            05         036            034            -1             //Ax Warrior
+012            05         036            034            -1             //Ax Warrior
+012            05         036            034            -1             //Ax Warrior
+068            10         146            058            -1             //Poison Golem
+068            10         146            058            -1             //Poison Golem
+068            10         146            058            -1             //Poison Golem
+068            10         146            058            -1             //Poison Golem
+183            05         146            058            -1             //Hell Demon
+183            05         146            058            -1             //Hell Demon
+183            05         146            058            -1             //Hell Demon
+183            05         146            058            -1             //Hell Demon
+050            10         212            212            -1             //Fire Golem
+050            10         212            212            -1             //Fire Golem
+050            10         212            212            -1             //Fire Golem
+050            10         212            212            -1             //Fire Golem
+183            05         212            212            -1             //Hell Demon
+183            05         212            212            -1             //Hell Demon
+183            05         212            212            -1             //Hell Demon
+183            05         212            212            -1             //Hell Demon
+end
+
+//===================================================================================================================
+// [SPOT] - LAND OF TRIALS (Map 5) - RDDLV SPOTS (Areas)
+//===================================================================================================================
+1
+//Monster      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+012            03         054            069            059            074          00             05            //Ax Warrior
+161            03         054            069            059            074          00             05            //Lizard Warrior
+012            03         059            013            064            018          00             05            //Ax Warrior
+161            03         059            013            064            018          00             05            //Lizard Warrior
+012            00         079            046            080            047          00             04            //Ax Warrior
+161            00         079            046            080            047          00             04            //Lizard Warrior
+end

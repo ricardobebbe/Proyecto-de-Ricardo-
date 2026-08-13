@@ -1,0 +1,81 @@
+00:07:01 [ServerManager][1] DelServer (127.0.0.1)
+00:07:04 [ServerManager][0] AddServer (127.0.0.1)
+00:07:04 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+00:10:01 [ServerManager][0] DelServer (127.0.0.1)
+00:13:00 [SocketManager] Servidor iniciado na porta [55970]
+00:13:03 [ServerManager][0] AddServer (127.0.0.1)
+00:13:03 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+00:29:44 [ServerManager][0] DelServer (127.0.0.1)
+00:29:46 [ServerManager][1] AddServer (127.0.0.1)
+00:29:46 [ServerManager][1] ServerInfo (Trade+Bau) (55901) (0)
+00:44:40 [SocketManager] Servidor iniciado na porta [55970]
+00:44:42 [ServerManager][0] AddServer (127.0.0.1)
+00:44:43 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+01:02:54 [ServerManager][0] DelServer (127.0.0.1)
+01:02:58 [ServerManager][1] AddServer (127.0.0.1)
+01:02:58 [ServerManager][1] ServerInfo (Trade+Bau) (55901) (0)
+01:07:03 [ServerManager][1] DelServer (127.0.0.1)
+01:07:06 [ServerManager][0] AddServer (127.0.0.1)
+01:07:06 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+01:10:00 [ServerManager][0] DelServer (127.0.0.1)
+01:11:48 [ServerManager][1] AddServer (127.0.0.1)
+01:11:48 [ServerManager][1] ServerInfo (Trade+Bau) (55901) (0)
+01:14:36 [ServerManager][1] DelServer (127.0.0.1)
+01:14:39 [ServerManager][0] AddServer (127.0.0.1)
+01:14:39 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+01:40:22 [SocketManager] Servidor iniciado na porta [55970]
+01:40:25 [ServerManager][0] AddServer (127.0.0.1)
+01:40:25 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+02:10:00 [ServerManager][0] DelServer (127.0.0.1)
+02:15:15 [ServerManager][0] AddServer (127.0.0.1)
+02:15:15 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+03:10:00 [ServerManager][0] DelServer (127.0.0.1)
+03:10:14 [SocketManager] Servidor iniciado na porta [55970]
+03:10:16 [ServerManager][0] AddServer (127.0.0.1)
+03:10:16 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+03:18:01 [ServerManager][0] DelServer (127.0.0.1)
+03:18:44 [SocketManager] Servidor iniciado na porta [55970]
+03:18:46 [ServerManager][0] AddServer (127.0.0.1)
+03:18:46 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+04:23:37 [SocketManager] Servidor iniciado na porta [55970]
+04:23:40 [ServerManager][0] AddServer (127.0.0.1)
+04:23:40 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+19:15:42 [SocketManager] Servidor iniciado na porta [55970]
+19:15:45 [ServerManager][0] AddServer (127.0.0.1)
+19:15:45 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+19:25:16 EXEC WZ_DesblocAccount 'admin'
+19:25:16 [QueryManager] State (42000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Could not find stored procedure 'WZ_DesblocAccount'.
+19:26:14 EXEC WZ_DesblocAccount 'test'
+19:26:14 [QueryManager] State (42000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Could not find stored procedure 'WZ_DesblocAccount'.
+19:27:04 EXEC WZ_DesblocAccount 'test'
+19:27:04 [QueryManager] State (42000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Could not find stored procedure 'WZ_DesblocAccount'.
+19:27:13 EXEC WZ_DesblocAccount 'test'
+19:27:13 [QueryManager] State (42000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Could not find stored procedure 'WZ_DesblocAccount'.
+19:27:19 EXEC WZ_DesblocAccount 'test'
+19:27:19 [QueryManager] State (42000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Could not find stored procedure 'WZ_DesblocAccount'.
+19:29:14 EXEC WZ_DesblocAccount 'admin'
+19:29:14 [QueryManager] State (42000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Could not find stored procedure 'WZ_DesblocAccount'.
+19:31:45 SELECT memb__pwd FROM MEMB_INFO WHERE memb___id='ziza' COLLATE Latin1_General_BIN
+19:31:45 [QueryManager] State (01000), Diagnostic: [Microsoft][ODBC SQL Server Driver][DBMSLPCN]ConnectionWrite (send()).
+19:31:45 [QueryManager] State (08S01), Diagnostic: [Microsoft][ODBC SQL Server Driver][DBMSLPCN]Error general de red. Consulte la documentación de la red.
+19:32:04 [SocketManager] Servidor iniciado na porta [55970]
+19:32:07 [ServerManager][0] AddServer (127.0.0.1)
+19:32:07 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+20:10:00 [ServerManager][0] DelServer (127.0.0.1)
+20:12:29 [SocketManager] Servidor iniciado na porta [55970]
+20:12:32 [ServerManager][0] AddServer (127.0.0.1)
+20:12:32 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+21:10:01 [ServerManager][0] DelServer (127.0.0.1)
+21:10:22 [SocketManager] Servidor iniciado na porta [55970]
+21:10:25 [ServerManager][0] AddServer (127.0.0.1)
+21:10:25 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+21:55:46 [SocketManager] Servidor iniciado na porta [55970]
+21:55:48 [ServerManager][0] AddServer (127.0.0.1)
+21:55:48 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+22:10:00 [ServerManager][0] DelServer (127.0.0.1)
+22:13:55 [SocketManager] Servidor iniciado na porta [55970]
+22:13:58 [ServerManager][0] AddServer (127.0.0.1)
+22:13:58 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)
+22:43:27 [SocketManager] Servidor iniciado na porta [55970]
+22:43:29 [ServerManager][0] AddServer (127.0.0.1)
+22:43:29 [ServerManager][0] ServerInfo (Trade+Bau) (55901) (0)

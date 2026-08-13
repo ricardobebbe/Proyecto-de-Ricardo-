@@ -1,0 +1,27 @@
+19:29:22 [ServerInfo] CashShop Carregado Com Sucesso
+19:29:22 [ServerInfo] ChaosMix Carregado Com Sucesso
+19:29:22 [ServerInfo] Character Carregado Com Sucesso
+19:29:22 [FakeOnline] Load Data OK
+19:29:22 [ServerInfo] Custom Carregado Com Sucesso
+19:29:22 [ServerInfo] Command Carregado Com Sucesso
+19:29:22 [ServerInfo] Common Carregado Com Sucesso
+19:29:22 [ServerInfo] Event Carregado Com Sucesso
+19:29:22 [ServerInfo] EventItemBag Carregado Com Sucesso
+19:29:22 [ServerInfo] Hack Carregado Com Sucesso
+19:29:22 [ServerInfo] Item Carregado Com Sucesso
+19:29:23 [ServerInfo] Monster Carregado Com Sucesso
+19:29:23 [ServerInfo] Move Carregado Com Sucesso
+19:29:23 [ServerInfo] Quest Carregado Com Sucesso
+19:29:23 [ServerInfo] Shop Carregado Com Sucesso
+19:29:23 [ServerInfo] Skill Carregado Com Sucesso
+19:29:23 [ServerInfo] Util Carregado Com Sucesso
+19:29:23 [ReadBotInfo] BotSystem Carregado Com Sucesso
+19:33:15 [Obj][13000] AddClient (192.168.1.215)
+19:33:17 [Obj][13000] AddAccount (ziza)
+19:33:21 [Obj][13000] LogInCharacter (GRATIDAO)
+19:38:33 [Obj][13000] LogOutCharacter (GRATIDAO)
+19:38:33 [Obj][13000] LogOutCharacter ()
+19:38:33 [Obj][13000] DelAccount (ziza)
+19:38:33 [Obj][13000] DelClient (192.168.1.215)
+19:50:01 [OnlineLoterry] No Winner
+20:05:00 [Invasion Manager] Index(0) Boss Position (Map: 0 X: 128 Y: 192)

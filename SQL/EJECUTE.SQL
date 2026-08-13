@@ -1,0 +1,1 @@
+UPDATE [MuOnline].[dbo].[Character] SET TheGift = 1

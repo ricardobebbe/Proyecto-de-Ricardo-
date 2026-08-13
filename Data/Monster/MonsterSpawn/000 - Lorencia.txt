@@ -1,0 +1,54 @@
+//===================================================================================================================
+// LORENCIA NPCS (Map 0)
+//===================================================================================================================
+0
+//Index  Range  PosX  PosY  Dir  Comment
+//226      00     122   110   03   //Trainer
+//230      00     062   130   03   //Wandering Merchant Alex
+//233      00     141   140   01   //Messenger of Archangel
+//236      00     130   129   03   //Golden Archer
+//237      00     144   140   01   //Charon
+  240      00     130   126   03   //Safety Guardian
+ // 704      00     142   144   01   //Safety Guardian
+//240      00     146   110   03   //Safety Guardian
+  240      00     147   145   01   //Safety Guardian
+  249      10     131   088   01   //Guard
+  249      20     094   125   07   //Guard
+  249      20     094   130   07   //Guard
+  249      20     173   125   03   //Guard
+  249      30     130   133   03   //Guard
+  249      30     131   148   01   //Guard
+  250      00     129   144   01   //Wandering Merchant
+  250      00     183   137   02   //Wandering Merchant
+  251      00     116   141   03   //Hanzo the Blacksmith
+//253      00     127   086   02   //Potion Girl Amy
+//254      00     118   113   03   //Pasi the Mage
+  255      00     123   135   01   //Lumen the Barmaid
+//255      00     130   127   03   //Lumen the Barmaid
+//255      00     131   135   03   //Lumen the Barmaid
+  257      00     096   129   01   //Shadow Phantom Soldier
+  257      00     132   090   03   //Shadow Phantom Soldier
+  257      00     132   165   03   //Shadow Phantom Soldier
+  257      00     170   129   01   //Shadow Phantom Soldier
+//467      00     130   128   03   //Teleporte Natal
+701      00     130   121   03   //NPC Team vs Team
+end
+
+//===================================================================================================================
+// SPOT - LORENCIA (Map 0)
+//===================================================================================================================
+1
+//Index  Range  BegX  BegY  EndX  EndY  Dir  Qty  Comment
+000      05     134   082   134   082   -1   20   //Bull Fighter
+000      05     141   082   141   082   -1   20   //Bull Fighter
+001      05     086   137   086   137   -1   20   //Hound
+002      05     187   117   187   117   -1   20   //Budge Dragon
+003      05     187   123   187   123   -1   20   //Spider
+004      05     085   117   085   117   -1   20   //Elite Bull Fighter
+004      05     086   116   086   116   -1   20   //Elite Bull Fighter
+004      05     086   137   086   137   -1   20   //Elite Bull Fighter
+006      05     144   171   144   171   -1   20   //Lich
+007      05     135   183   135   183   -1   20   //Giant
+014      05     126   173   126   173   -1   20   //Skeleton Warrior
+014      05     159   187   126   173   -1   20   //Skeleton Warrior
+end

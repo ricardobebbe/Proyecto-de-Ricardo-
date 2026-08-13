@@ -1,0 +1,106 @@
+12:28:53 [ClientManager][1] DelClient (192.168.0.105)
+16:54:47 [ClientManager][0] AddClient (192.168.0.105)
+16:54:47 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+16:55:28 [ClientManager][0] DelClient (192.168.0.105)
+17:00:47 [SocketManager] Server started at port [55619]
+17:00:47 [MHPServerInfo] Config loaded successfully
+17:00:47 [MHPServerInfo] DumpList loaded successfully
+17:00:47 [MHPServerInfo] ChecksumList loaded successfully
+17:00:47 [MHPServerInfo] InternalList loaded successfully
+17:00:47 [MHPServerInfo] WindowList loaded successfully
+17:00:47 [MHPServerInfo] BlackList loaded successfully
+17:01:10 [ClientManager][0] AddClient (192.168.0.105)
+17:01:10 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+17:06:01 [ClientManager][0] DelClient (192.168.0.105)
+17:09:46 [ClientManager][0] AddClient (192.168.0.105)
+17:09:46 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+17:14:06 [ClientManager][1] AddClient (192.168.0.105)
+17:14:06 [ClientManager][1] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+17:14:09 [ClientManager][1] DelClient (192.168.0.105)
+17:15:07 [ClientManager][1] AddClient (192.168.0.105)
+17:15:07 [ClientManager][1] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+17:21:16 [ClientManager][1] DelClient (192.168.0.105)
+17:21:22 [ClientManager][0] DelClient (192.168.0.105)
+17:31:25 [ClientManager][1] AddClient (192.168.0.105)
+17:31:25 [ClientManager][1] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+17:32:33 [ClientManager][0] AddClient (192.168.0.105)
+17:32:33 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+17:33:10 [ClientManager][0] DelClient (192.168.0.105)
+17:35:11 [ClientManager][1] DelClient (192.168.0.105)
+17:49:47 [ClientManager][0] AddClient (192.168.0.105)
+17:49:47 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+17:53:17 [ClientManager][0] DelClient (192.168.0.105)
+17:53:21 [ClientManager][1] AddClient (192.168.0.105)
+17:53:21 [ClientManager][1] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+17:54:51 [ClientManager][1] DelClient (192.168.0.105)
+18:01:53 [ClientManager][0] AddClient (192.168.0.105)
+18:01:53 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+18:22:16 [ClientManager][0] DelClient (192.168.0.105)
+18:22:25 [ClientManager][1] AddClient (192.168.0.105)
+18:22:25 [ClientManager][1] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+18:51:53 [ClientManager][1] DelClient (192.168.0.105)
+18:52:27 [ClientManager][0] AddClient (192.168.0.105)
+18:52:27 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+20:16:21 [ClientManager][0] DelClient (192.168.0.105)
+20:17:04 [ClientManager][1] AddClient (192.168.0.105)
+20:17:04 [ClientManager][1] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+20:30:21 [ClientManager][1] DelClient (192.168.0.105)
+20:30:53 [ClientManager][0] AddClient (192.168.0.105)
+20:30:53 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+20:31:31 [ClientManager][0] DelClient (192.168.0.105)
+20:32:45 [ClientManager][1] AddClient (192.168.0.105)
+20:32:45 [ClientManager][1] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+20:33:32 [ClientManager][1] DelClient (192.168.0.105)
+20:36:10 [ClientManager][0] AddClient (192.168.0.105)
+20:36:10 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+20:36:51 [ClientManager][0] DelClient (192.168.0.105)
+20:39:26 [ClientManager][1] AddClient (192.168.0.105)
+20:39:26 [ClientManager][1] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+21:13:53 [ClientManager][1] DelClient (192.168.0.105)
+21:13:53 [ClientManager][0] AddClient (192.168.0.105)
+21:13:53 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+21:30:05 [ClientManager][0] DelClient (192.168.0.105)
+21:37:41 [ClientManager][1] AddClient (192.168.0.105)
+21:37:41 [ClientManager][1] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+21:53:08 [ClientManager][1] DelClient (192.168.0.105)
+21:53:43 [ClientManager][0] AddClient (192.168.0.105)
+21:53:43 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+22:15:45 [ClientManager][0] DelClient (192.168.0.105)
+22:15:55 [ClientManager][1] AddClient (192.168.0.105)
+22:15:55 [ClientManager][1] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+22:18:50 [ClientManager][1] DelClient (192.168.0.105)
+22:22:22 [ClientManager][0] AddClient (192.168.0.105)
+22:22:22 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+22:28:36 [ClientManager][0] DelClient (192.168.0.105)
+22:52:55 [SocketManager] Server started at port [55619]
+22:52:55 [MHPServerInfo] Config loaded successfully
+22:52:55 [MHPServerInfo] DumpList loaded successfully
+22:52:55 [MHPServerInfo] ChecksumList loaded successfully
+22:52:55 [MHPServerInfo] InternalList loaded successfully
+22:52:55 [MHPServerInfo] WindowList loaded successfully
+22:52:55 [MHPServerInfo] BlackList loaded successfully
+22:53:13 [ClientManager][0] AddClient (192.168.0.105)
+22:53:13 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+23:04:23 [ClientManager][0] DelClient (192.168.0.105)
+23:04:30 [ClientManager][1] AddClient (192.168.0.105)
+23:04:30 [ClientManager][1] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+23:05:35 [ClientManager][1] DelClient (192.168.0.105)
+23:08:28 [SocketManager] Server started at port [55619]
+23:08:28 [MHPServerInfo] Config loaded successfully
+23:08:28 [MHPServerInfo] DumpList loaded successfully
+23:08:28 [MHPServerInfo] ChecksumList loaded successfully
+23:08:28 [MHPServerInfo] InternalList loaded successfully
+23:08:28 [MHPServerInfo] WindowList loaded successfully
+23:08:28 [MHPServerInfo] BlackList loaded successfully
+23:08:41 [ClientManager][0] AddClient (192.168.0.105)
+23:08:41 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+23:17:53 [ClientManager][0] DelClient (192.168.0.105)
+23:18:19 [ClientManager][0] AddClient (192.168.0.105)
+23:18:19 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+23:32:12 [ClientManager][0] DelClient (192.168.0.105)
+23:32:44 [ClientManager][0] AddClient (192.168.0.105)
+23:32:44 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+23:44:35 [ClientManager][0] DelClient (192.168.0.105)
+23:44:46 [ClientManager][0] AddClient (192.168.0.105)
+23:44:46 [ClientManager][0] ClientInfo (HardwareId: 0EEBF21A-A6BCF5B4-C46B8D7D-BC77EADE)
+23:45:13 [ClientManager][0] DelClient (192.168.0.105)

@@ -1,0 +1,53 @@
+//=================================
+// [NPCS] - Arena VIP
+//=================================
+0
+//Monster      Range      PositionX      PositionY      Direction      Comment
+end
+
+//=================================
+// [SPOT] - Arena VIP
+//=================================
+1
+//Monster      Range     BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity    Comment
+84	      	3	 47	         89	        47           89           -1	         10         // King Orc
+84		3	 47	         81	        47           81           -1	         10         // King Orc
+84		3	 46	         73	        46           73           -1	         10         // King Orc
+72		3	 67	         70	        67           70           -1	         10         // Phantom Knight
+66		3	 67	         80	        67           80           -1	         10         // Blue Golem
+58		5	 48	         56	        48           56           -1	         10         // Tantalos
+84		3	 63	         57	        63           57           -1	         10         // King Orc
+84		3	 69	         57	        69           57           -1	         10         // King Orc
+66		5	 48	         38	        0            0            -1	         15         // Blue Golem
+4		3	 66	         30	        0            0            -1	         10         // Blue Golem
+66		3	 53	         25	        0            0            -1	         10         // Blue Golem
+150		3	 30	         39	        0            0            -1	         15         // Witch Queen
+150		5	 30	         57	        0            0            -1	         15         // Witch Queen
+61		5	 30	         74	        0            0            -1	         15         // Witch Queen
+73		5	 30	         91	        0            0            -1	         15         // Witch Queen
+4		5	 13	         90	        0            0            -1	         15         // Necron
+335		5	 13	         74	        0            0            -1	         15         // Necron
+335		5	 12	         56	        0            0            -1	         15         // Necron
+335		5	 12	         38	        0            0            -1	         15         // Necron
+61              3        19              27             0            0            -1             10         //Vim_Knight
+67              3        38              8              0            0            -1             15         //MetalBarlog
+72              3        60              6              0            0            -1             15         //PhantonKnigth
+74              3        89              19             0            0            -1             15         //AlphaCrust
+66              3        89              43             0            0            -1             15         //BlueGOLEM
+58              3    	 89	         66             0	     0            -1             15         //Tantallos
+140 	        3	 89              89             0            0            -1             15         //pirit Soldie
+143             3        89              114            0            0            -1             15         //Magic Skeleton
+73              3        52              114            0            0            -1             15         //PhantonKnigth
+168             3        31              114            0            0            -1             15         //Soudier de Cahaos castl
+140		3	 75	         113	        72	     76	          -1	         15         // Skull Soldier
+200		0	 62	         160	        0	     0	          -1	         1          // Bola Futebol
+150	        5	 88              74             72	     76           -1             15         //Bali
+66	        5	 37              27             38	     34           -1             18         //Mago Vermelho
+66	        5	 88              83             72	     76           -1             18         //Mago Vermelho
+73              3        87              32             0            0            -1             15         //Bichos Azul
+150	        5	 79              14             84	     18           -1             15         //Bali
+end
+
+2
+//Monster      Range      PositionX      PositionY      Direction      Comment
+end

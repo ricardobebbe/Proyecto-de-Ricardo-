@@ -1,0 +1,53 @@
+//===================================================================================================================
+// [NPCS] Tirgus - Mapa 47
+// NOTA: Mapa 47 = Illusion Temple 3 en el enum del source. Se usa como "Tirgus" custom.
+// Los monstruos son nivel alto (230+) acorde al requerimiento del Move.txt
+//===================================================================================================================
+0
+//Monster      Range      PositionX      PositionY      Direction      Comment
+240            00         130            125            02             //Safety Guardian
+end
+
+//===================================================================================================================
+// [SPOT] - TIRGUS (Map 47) - COORDENADAS EXACTAS
+// NOTA: Este mapa es custom, no tiene datos en 1_MonsterSetBase.txt original.
+// Se mantienen los spots que ya tenías configurados con tus monstruos personalizados.
+//===================================================================================================================
+1
+//Monster      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+306            00         060            180            130            230          -1             18            //Death Rider
+308            00         060            180            130            230          -1             12            //Death Tree
+307            00         060            180            130            230          -1             10            //Forest Orc
+end
+
+1
+//Monster      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+309            00         100            100            200            180          -1             15            //Hell Maine (elite)
+306            00         100            100            200            180          -1             15            //Death Rider
+308            00         100            100            200            180          -1             12            //Death Tree
+310            00         100            100            200            180          -1             10            //Hammer Scout
+311            00         100            100            200            180          -1             08            //Lance Scout
+end
+
+1
+//Monster      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+309            00         030            050            100            100          -1             20            //Hell Maine
+313            00         030            050            100            100          -1             10            //Werewolf
+308            00         030            050            100            100          -1             12            //Death Tree
+306            00         030            050            100            100          -1             10            //Death Rider
+end
+
+2
+//Monster      Range      PositionX      PositionY      Direction      Comment
+306            30         075            200            -1             //Death Rider
+308            30         095            210            -1             //Death Tree
+309            30         110            175            -1             //Hell Maine
+307            30         065            185            -1             //Forest Orc
+313            30         050            070            -1             //Werewolf
+309            30         080            090            -1             //Hell Maine
+306            30         140            150            -1             //Death Rider
+310            30         160            130            -1             //Hammer Scout
+311            30         170            115            -1             //Lance Scout
+309            30         185            160            -1             //Hell Maine
+709            30         120            140            -1             //Tantallo +5
+end

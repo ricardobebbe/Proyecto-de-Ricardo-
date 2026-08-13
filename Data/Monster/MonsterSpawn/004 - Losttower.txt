@@ -1,0 +1,444 @@
+//===================================================================================================================
+// [NPCS] Lost Tower - Mapa 4
+//===================================================================================================================
+0
+//Index  Range  PosX  PosY  Dir  Comment
+223      00     205   070   05   //Senior
+240      00     200   078   03   //Safety Guardian
+245      00     200   075   03   //Wizard Izabel
+end
+
+//===================================================================================================================
+// [SPOT] - LOST TOWER (Map 4) - AREAS (Tipo 1)
+//===================================================================================================================
+1
+//Index  Range  BegX  BegY  EndX  EndY  Dir  Qty  Comment
+036      05     193   113   191   113   00   03   //Shadow
+036      05     193   111   197   115   00   02   //Shadow
+036      05     193   111   197   115   00   03   //Shadow
+041      05     105   167   109   171   00   03   //Death Cow
+041      05     109   167   105   171   00   03   //Death Cow
+034      05     093   170   097   174   00   02   //Cursed Wizard
+034      05     097   170   093   174   00   02   //Cursed Wizard
+041      05     117   227   121   231   00   04   //Death Cow
+041      05     121   227   117   231   00   04   //Death Cow
+034      05     117   227   121   231   00   02   //Cursed Wizard
+034      05     121   227   117   231   00   02   //Cursed Wizard
+040      05     043   013   048   021   00   10   //Death Knight
+040      05     048   013   043   021   00   05   //Death Knight
+040      05     048   029   048   035   00   02   //Death Knight
+040      05     043   029   043   035   00   02   //Death Knight
+040      05     052   090   056   094   00   03   //Death Knight
+035      05     052   090   056   094   00   03   //Death Gorgon
+end
+
+//===================================================================================================================
+// [SPOT] - LOST TOWER (Map 4) - EXACTAS (Tipo 2)
+//===================================================================================================================
+2
+//Index  Range  PosX  PosY  Dir  Comment
+035      30     029   208   -1   //Death Gorgon
+040      30     030   183   -1   //Death Knight
+035      30     033   206   -1   //Death Gorgon
+040      30     054   213   -1   //Death Knight
+036      30     193   239   -1   //Shadow
+036      30     191   131   -1   //Shadow
+036      30     191   118   -1   //Shadow
+036      30     164   029   -1   //Shadow
+036      30     164   037   -1   //Shadow
+036      30     164   048   -1   //Shadow
+036      30     164   063   -1   //Shadow
+036      30     164   074   -1   //Shadow
+036      30     164   098   -1   //Shadow
+036      30     164   112   -1   //Shadow
+036      30     164   126   -1   //Shadow
+036      30     175   127   -1   //Shadow
+036      30     184   128   -1   //Shadow
+036      30     199   134   -1   //Shadow
+036      30     206   136   -1   //Shadow
+036      30     227   136   -1   //Shadow
+036      30     242   135   -1   //Shadow
+039      30     243   125   -1   //Poison Shadow
+036      30     229   127   -1   //Shadow
+039      30     245   109   -1   //Poison Shadow
+036      30     217   127   -1   //Shadow
+036      30     244   089   -1   //Shadow
+036      30     207   127   -1   //Shadow
+039      30     219   006   -1   //Poison Shadow
+039      30     244   053   -1   //Poison Shadow
+036      30     235   056   -1   //Shadow
+036      30     235   038   -1   //Shadow
+036      30     236   026   -1   //Shadow
+036      30     235   015   -1   //Shadow
+036      30     226   014   -1   //Shadow
+036      30     211   015   -1   //Shadow
+036      30     210   101   -1   //Shadow
+036      30     210   114   -1   //Shadow
+039      30     239   007   -1   //Poison Shadow
+039      30     244   025   -1   //Poison Shadow
+039      30     243   040   -1   //Poison Shadow
+036      30     244   008   -1   //Shadow
+039      30     243   065   -1   //Poison Shadow
+036      30     195   099   -1   //Shadow
+039      30     244   082   -1   //Poison Shadow
+039      30     244   092   -1   //Poison Shadow
+036      30     226   118   -1   //Shadow
+036      30     235   110   -1   //Shadow
+036      30     235   087   -1   //Shadow
+036      30     199   124   -1   //Shadow
+036      30     193   108   -1   //Shadow
+036      30     209   094   -1   //Shadow
+036      30     235   073   -1   //Shadow
+036      30     196   089   -1   //Shadow
+036      30     219   094   -1   //Shadow
+036      30     190   029   -1   //Shadow
+039      30     210   023   -1   //Poison Shadow
+039      30     226   022   -1   //Poison Shadow
+039      30     227   033   -1   //Poison Shadow
+039      30     227   054   -1   //Poison Shadow
+039      30     228   067   -1   //Poison Shadow
+039      30     228   081   -1   //Poison Shadow
+039      30     228   104   -1   //Poison Shadow
+039      30     191   016   -1   //Poison Shadow
+039      30     220   079   -1   //Poison Shadow
+039      30     219   060   -1   //Poison Shadow
+039      30     219   045   -1   //Poison Shadow
+039      30     219   034   -1   //Poison Shadow
+039      30     202   038   -1   //Poison Shadow
+036      30     205   062   -1   //Shadow
+039      30     208   166   -1   //Poison Shadow
+039      30     196   166   -1   //Poison Shadow
+039      30     188   165   -1   //Poison Shadow
+039      30     179   165   -1   //Poison Shadow
+039      30     165   183   -1   //Poison Shadow
+034      30     167   197   -1   //Cursed Wizard
+039      30     167   211   -1   //Poison Shadow
+034      30     192   203   -1   //Cursed Wizard
+039      30     165   241   -1   //Poison Shadow
+039      30     184   246   -1   //Poison Shadow
+034      30     191   244   -1   //Cursed Wizard
+039      30     200   245   -1   //Poison Shadow
+039      30     214   245   -1   //Poison Shadow
+039      30     228   245   -1   //Poison Shadow
+039      30     245   246   -1   //Poison Shadow
+034      30     235   237   -1   //Cursed Wizard
+034      30     224   235   -1   //Cursed Wizard
+034      30     206   237   -1   //Cursed Wizard
+034      30     200   228   -1   //Cursed Wizard
+034      30     209   212   -1   //Cursed Wizard
+034      30     225   196   -1   //Cursed Wizard
+034      30     209   190   -1   //Cursed Wizard
+034      30     198   192   -1   //Cursed Wizard
+034      30     187   184   -1   //Cursed Wizard
+034      30     193   173   -1   //Cursed Wizard
+034      30     172   177   -1   //Cursed Wizard
+039      30     198   184   -1   //Poison Shadow
+039      30     217   196   -1   //Poison Shadow
+039      30     227   212   -1   //Poison Shadow
+039      30     217   217   -1   //Poison Shadow
+039      30     201   216   -1   //Poison Shadow
+039      30     191   238   -1   //Poison Shadow
+039      30     193   217   -1   //Poison Shadow
+039      30     178   224   -1   //Poison Shadow
+039      30     178   210   -1   //Poison Shadow
+039      30     177   195   -1   //Poison Shadow
+041      30     126   246   -1   //Death Cow
+041      30     133   235   -1   //Death Cow
+041      30     133   225   -1   //Death Cow
+034      30     133   185   -1   //Cursed Wizard
+041      30     133   209   -1   //Death Cow
+034      30     132   201   -1   //Cursed Wizard
+041      30     125   189   -1   //Death Cow
+041      30     128   175   -1   //Death Cow
+034      30     134   166   -1   //Cursed Wizard
+041      30     129   167   -1   //Death Cow
+041      30     097   184   -1   //Death Cow
+041      30     107   168   -1   //Death Cow
+034      30     095   173   -1   //Cursed Wizard
+041      30     089   174   -1   //Death Cow
+041      30     083   183   -1   //Death Cow
+034      30     086   190   -1   //Cursed Wizard
+041      30     083   201   -1   //Death Cow
+041      30     083   213   -1   //Death Cow
+041      30     089   224   -1   //Death Cow
+034      30     084   237   -1   //Cursed Wizard
+041      30     086   245   -1   //Death Cow
+034      30     098   245   -1   //Cursed Wizard
+041      30     108   245   -1   //Death Cow
+041      30     116   244   -1   //Death Cow
+041      30     118   229   -1   //Death Cow
+041      30     116   211   -1   //Death Cow
+041      30     111   194   -1   //Death Cow
+041      30     115   178   -1   //Death Cow
+041      30     097   202   -1   //Death Cow
+041      30     097   214   -1   //Death Cow
+041      30     102   225   -1   //Death Cow
+041      30     098   236   -1   //Death Cow
+034      30     111   219   -1   //Cursed Wizard
+034      30     123   224   -1   //Cursed Wizard
+041      30     116   134   -1   //Death Cow
+041      30     097   133   -1   //Death Cow
+041      30     085   132   -1   //Death Cow
+041      30     085   116   -1   //Death Cow
+041      30     085   096   -1   //Death Cow
+041      30     101   087   -1   //Death Cow
+041      30     118   089   -1   //Death Cow
+037      30     133   087   -1   //Devil
+041      30     116   113   -1   //Death Cow
+041      30     133   115   -1   //Death Cow
+037      30     104   136   -1   //Devil
+041      30     124   136   -1   //Death Cow
+037      30     096   116   -1   //Devil
+037      30     094   100   -1   //Devil
+037      30     089   135   -1   //Devil
+037      30     133   098   -1   //Devil
+041      30     106   112   -1   //Death Cow
+041      30     095   106   -1   //Death Cow
+037      30     112   087   -1   //Devil
+037      30     133   109   -1   //Devil
+037      30     121   119   -1   //Devil
+037      30     123   130   -1   //Devil
+037      30     087   007   -1   //Devil
+037      30     097   006   -1   //Devil
+040      30     117   008   -1   //Death Knight
+037      30     124   011   -1   //Devil
+037      30     133   026   -1   //Devil
+037      30     134   037   -1   //Devil
+037      30     134   049   -1   //Devil
+040      30     123   054   -1   //Death Knight
+037      30     115   053   -1   //Devil
+037      30     098   054   -1   //Devil
+037      30     084   054   -1   //Devil
+037      30     093   041   -1   //Devil
+037      30     099   040   -1   //Devil
+037      30     101   029   -1   //Devil
+037      30     098   017   -1   //Devil
+037      30     112   016   -1   //Devil
+037      30     124   041   -1   //Devil
+037      30     111   039   -1   //Devil
+040      30     086   041   -1   //Death Knight
+040      30     098   024   -1   //Death Knight
+040      30     115   028   -1   //Death Knight
+040      30     055   015   -1   //Death Knight
+040      30     046   013   -1   //Death Knight
+037      30     039   011   -1   //Devil
+040      30     022   017   -1   //Death Knight
+037      30     014   024   -1   //Devil
+037      30     053   039   -1   //Devil
+040      30     010   041   -1   //Death Knight
+037      30     007   052   -1   //Devil
+040      30     015   054   -1   //Death Knight
+037      30     025   049   -1   //Devil
+040      30     038   048   -1   //Death Knight
+040      30     048   048   -1   //Death Knight
+040      30     041   057   -1   //Death Knight
+034      30     123   201   -1   //Cursed Wizard
+040      30     055   028   -1   //Death Knight
+035      30     046   025   -1   //Death Gorgon
+037      30     030   032   -1   //Devil
+035      30     023   040   -1   //Death Gorgon
+040      30     022   030   -1   //Death Knight
+040      30     039   038   -1   //Death Knight
+040      30     006   098   -1   //Death Knight
+040      30     033   086   -1   //Death Knight
+040      30     046   086   -1   //Death Knight
+040      30     055   087   -1   //Death Knight
+040      30     053   097   -1   //Death Knight
+035      30     042   097   -1   //Death Gorgon
+040      30     035   098   -1   //Death Knight
+040      30     025   098   -1   //Death Knight
+035      30     015   127   -1   //Death Gorgon
+040      30     008   107   -1   //Death Knight
+040      30     053   116   -1   //Death Knight
+040      30     041   121   -1   //Death Knight
+034      30     115   167   -1   //Cursed Wizard
+040      30     025   135   -1   //Death Knight
+040      30     042   135   -1   //Death Knight
+040      30     052   135   -1   //Death Knight
+035      30     030   171   -1   //Death Gorgon
+040      30     038   227   -1   //Death Knight
+035      30     008   191   -1   //Death Gorgon
+040      30     051   183   -1   //Death Knight
+035      30     008   211   -1   //Death Gorgon
+035      30     008   231   -1   //Death Gorgon
+035      30     015   244   -1   //Death Gorgon
+035      30     018   107   -1   //Death Gorgon
+035      30     039   246   -1   //Death Gorgon
+035      30     011   175   -1   //Death Gorgon
+035      30     054   220   -1   //Death Gorgon
+035      30     031   127   -1   //Death Gorgon
+035      30     055   195   -1   //Death Gorgon
+034      30     105   175   -1   //Cursed Wizard
+035      30     055   174   -1   //Death Gorgon
+038      30     031   212   -1   //Balrog
+035      30     030   233   -1   //Death Gorgon
+035      30     021   216   -1   //Death Gorgon
+035      30     038   212   -1   //Death Gorgon
+035      30     029   200   -1   //Death Gorgon
+040      30     024   189   -1   //Death Knight
+040      30     048   167   -1   //Death Knight
+040      30     041   167   -1   //Death Knight
+035      30     038   234   -1   //Death Gorgon
+034      30     215   174   -1   //Cursed Wizard
+034      30     245   168   -1   //Cursed Wizard
+034      30     235   214   -1   //Cursed Wizard
+034      30     165   223   -1   //Cursed Wizard
+034      30     127   239   -1   //Cursed Wizard
+034      30     125   180   -1   //Cursed Wizard
+034      30     113   189   -1   //Cursed Wizard
+034      30     098   231   -1   //Cursed Wizard
+034      30     112   235   -1   //Cursed Wizard
+034      30     083   220   -1   //Cursed Wizard
+034      30     090   239   -1   //Cursed Wizard
+034      30     133   215   -1   //Cursed Wizard
+034      30     088   206   -1   //Cursed Wizard
+034      30     121   235   -1   //Cursed Wizard
+034      30     104   232   -1   //Cursed Wizard
+034      30     102   217   -1   //Cursed Wizard
+034      30     103   205   -1   //Cursed Wizard
+034      30     101   188   -1   //Cursed Wizard
+034      30     110   206   -1   //Cursed Wizard
+034      30     096   167   -1   //Cursed Wizard
+034      30     105   175   -1   //Cursed Wizard
+034      30     238   213   -1   //Cursed Wizard
+034      30     210   225   -1   //Cursed Wizard
+034      30     215   236   -1   //Cursed Wizard
+041      30     104   183   -1   //Death Cow
+041      30     086   109   -1   //Death Cow
+041      30     096   086   -1   //Death Cow
+041      30     128   086   -1   //Death Cow
+041      30     122   101   -1   //Death Cow
+041      30     101   100   -1   //Death Cow
+041      30     086   125   -1   //Death Cow
+041      30     132   124   -1   //Death Cow
+041      30     106   112   -1   //Death Cow
+041      30     095   106   -1   //Death Cow
+041      30     103   197   -1   //Death Cow
+041      30     097   196   -1   //Death Cow
+041      30     115   199   -1   //Death Cow
+041      30     135   174   -1   //Death Cow
+041      30     122   167   -1   //Death Cow
+041      30     101   168   -1   //Death Cow
+037      30     110   100   -1   //Devil
+037      30     128   006   -1   //Devil
+037      30     026   108   -1   //Devil
+037      30     089   119   -1   //Devil
+037      30     086   100   -1   //Devil
+037      30     108   116   -1   //Devil
+037      30     126   108   -1   //Devil
+037      30     086   026   -1   //Devil
+037      30     111   026   -1   //Devil
+037      30     048   017   -1   //Devil
+037      30     013   009   -1   //Devil
+037      30     016   041   -1   //Devil
+037      30     038   053   -1   //Devil
+037      30     054   051   -1   //Devil
+037      30     045   032   -1   //Devil
+037      30     025   086   -1   //Devil
+037      30     052   092   -1   //Devil
+037      30     030   102   -1   //Devil
+037      30     038   201   -1   //Devil
+037      30     018   200   -1   //Devil
+037      30     013   191   -1   //Devil
+037      30     038   192   -1   //Devil
+040      30     103   008   -1   //Death Knight
+040      30     127   034   -1   //Death Knight
+040      30     130   048   -1   //Death Knight
+040      30     105   055   -1   //Death Knight
+040      30     084   016   -1   //Death Knight
+040      30     124   024   -1   //Death Knight
+040      30     019   086   -1   //Death Knight
+040      30     015   119   -1   //Death Knight
+040      30     024   009   -1   //Death Knight
+040      30     030   017   -1   //Death Knight
+040      30     110   008   -1   //Death Knight
+040      30     134   008   -1   //Death Knight
+040      30     135   017   -1   //Death Knight
+040      30     111   046   -1   //Death Knight
+040      30     099   048   -1   //Death Knight
+040      30     085   049   -1   //Death Knight
+040      30     091   056   -1   //Death Knight
+040      30     046   208   -1   //Death Knight
+040      30     018   183   -1   //Death Knight
+040      30     014   224   -1   //Death Knight
+040      30     007   240   -1   //Death Knight
+040      30     048   232   -1   //Death Knight
+040      30     048   215   -1   //Death Knight
+040      30     049   191   -1   //Death Knight
+040      30     048   174   -1   //Death Knight
+040      30     023   239   -1   //Death Knight
+040      30     011   168   -1   //Death Knight
+040      30     004   177   -1   //Death Knight
+040      30     047   247   -1   //Death Knight
+035      30     014   015   -1   //Death Gorgon
+035      30     013   033   -1   //Death Gorgon
+035      30     030   039   -1   //Death Gorgon
+035      30     055   008   -1   //Death Gorgon
+035      30     044   041   -1   //Death Gorgon
+035      30     008   025   -1   //Death Gorgon
+035      30     037   021   -1   //Death Gorgon
+035      30     029   024   -1   //Death Gorgon
+035      30     019   097   -1   //Death Gorgon
+035      30     042   109   -1   //Death Gorgon
+035      30     022   121   -1   //Death Gorgon
+035      30     005   122   -1   //Death Gorgon
+035      30     005   132   -1   //Death Gorgon
+035      30     014   137   -1   //Death Gorgon
+035      30     038   184   -1   //Death Gorgon
+035      30     036   174   -1   //Death Gorgon
+035      30     023   174   -1   //Death Gorgon
+035      30     018   168   -1   //Death Gorgon
+035      30     007   184   -1   //Death Gorgon
+035      30     008   200   -1   //Death Gorgon
+035      30     019   208   -1   //Death Gorgon
+035      30     050   241   -1   //Death Gorgon
+035      30     054   205   -1   //Death Gorgon
+035      30     023   195   -1   //Death Gorgon
+035      30     031   191   -1   //Death Gorgon
+035      30     025   167   -1   //Death Gorgon
+035      30     034   137   -1   //Death Gorgon
+035      30     054   121   -1   //Death Gorgon
+035      30     030   010   -1   //Death Gorgon
+038      30     028   212   -1   //Balrog
+038      30     031   212   -1   //Balrog
+039      30     195   032   -1   //Poison Shadow
+039      30     189   038   -1   //Poison Shadow
+039      30     189   048   -1   //Poison Shadow
+039      30     196   054   -1   //Poison Shadow
+039      30     203   050   -1   //Poison Shadow
+039      30     226   166   -1   //Poison Shadow
+039      30     239   167   -1   //Poison Shadow
+039      30     227   175   -1   //Poison Shadow
+039      30     239   174   -1   //Poison Shadow
+039      30     245   179   -1   //Poison Shadow
+039      30     245   189   -1   //Poison Shadow
+039      30     245   200   -1   //Poison Shadow
+039      30     246   212   -1   //Poison Shadow
+039      30     245   224   -1   //Poison Shadow
+039      30     237   226   -1   //Poison Shadow
+039      30     236   220   -1   //Poison Shadow
+039      30     238   208   -1   //Poison Shadow
+039      30     237   201   -1   //Poison Shadow
+039      30     232   196   -1   //Poison Shadow
+039      30     238   184   -1   //Poison Shadow
+039      30     224   185   -1   //Poison Shadow
+039      30     216   183   -1   //Poison Shadow
+039      30     207   178   -1   //Poison Shadow
+039      30     196   176   -1   //Poison Shadow
+039      30     187   192   -1   //Poison Shadow
+039      30     185   201   -1   //Poison Shadow
+039      30     187   209   -1   //Poison Shadow
+039      30     185   220   -1   //Poison Shadow
+039      30     175   217   -1   //Poison Shadow
+039      30     176   245   -1   //Poison Shadow
+039      30     206   244   -1   //Poison Shadow
+039      30     215   209   -1   //Poison Shadow
+039      30     184   173   -1   //Poison Shadow
+039      30     172   188   -1   //Poison Shadow
+039      30     173   171   -1   //Poison Shadow
+039      30     206   200   -1   //Poison Shadow
+039      30     218   229   -1   //Poison Shadow
+039      30     173   227   -1   //Poison Shadow
+039      30     183   233   -1   //Poison Shadow
+039      30     173   237   -1   //Poison Shadow
+end

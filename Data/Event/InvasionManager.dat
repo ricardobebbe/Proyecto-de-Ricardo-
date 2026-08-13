@@ -1,0 +1,104 @@
+//====================================================================================
+// InvasionManager.txt - Configurado para 97x por RDDLV
+//====================================================================================
+0
+//Index   Year   Month   Day   DoW   Hour   Minute   Second
+0         *      *       *     *     0      5        0    //Skeleton King
+0         *      *       *     *     4      5        0    //Skeleton King
+0         *      *       *     *     8      5        0    //Skeleton King
+0         *      *       *     *     12     5        0    //Skeleton King
+0         *      *       *     *     16     5        0    //Skeleton King
+0         *      *       *     *     20     5        0    //Skeleton King
+1         *      *       *     *     0      15       0    //Red Dragon
+1         *      *       *     *     4      15       0    //Red Dragon
+1         *      *       *     *     8      15       0    //Red Dragon
+1         *      *       *     *     12     15       0    //Red Dragon
+1         *      *       *     *     16     15       0    //Red Dragon
+1         *      *       *     *     20     15       0    //Red Dragon
+2         *      *       *     *     0      25       0    //Dourados
+2         *      *       *     *     4      25       0    //Dourados
+2         *      *       *     *     8      25       0    //Dourados
+2         *      *       *     *     12     25       0    //Dourados
+2         *      *       *     *     16     25       0    //Dourados
+2         *      *       *     *     20     25       0    //Dourados
+3         *      *       *     *     0      50       0    //Withe Wizard
+3         *      *       *     *     4      50       0    //Withe Wizard
+3         *      *       *     *     8      50       0    //Withe Wizard
+3         *      *       *     *     12     50       0    //Withe Wizard
+3         *      *       *     *     16     50       0    //Withe Wizard
+3         *      *       *     *     20     50       0    //Withe Wizard
+end
+
+1
+//============================================================================================================================
+//Index   RespawnMessage   DespawnMessage   BossIndex   BossMessage   InvasionTime   AlarmTime   EventName
+//============================================================================================================================
+0         192              *                55          202           600            3           "Skeleton King Invasão"
+1         193              *                42          203           600	     3           "Red Dragon Invasão"
+2         194              *                501         204           600            3           "Golden Invasão"
+3         195              *                135         205           600            3           "Withe Wizard Invasão"
+end
+
+2
+//Index   Group   Map   Value
+0         0       0     0    //Skeleton King
+0         0       3     0    //Skeleton King
+1         0       0     0    //Red Dragon
+1         0       2     0    //Red Dragon
+1         0       3     0    //Red Dragon
+2         0       0     0    //Dourados
+2         1       2     0    //Dourados
+2         2       2     0    //Dourados
+2         3       3     0    //Dourados
+2         4       0     0    //Dourados
+2         4       2     0    //Dourados
+2         4       3     0    //Dourados
+2         4       51    0    //Dourados
+2         5       7     0    //Dourados
+2         6       7     0    //Dourados
+2         7       8     0    //Dourados
+2         8       8     0    //Dourados
+2         9       1     0    //Dourados
+2         10      4     0    //Dourados
+2         11      33    0    //Dourados
+2         12      10    0    //Dourados
+2         13      2     0    //Dourados
+2         14      38    0    //Dourados
+2         15      57    0    //Dourados
+2         16      56    0    //Dourados
+2         17      3     0    //Dourados
+2         17      57    0    //Dourados
+2         18      51    0    //Dourados
+3         0       0     0    //Withe Wizard
+3         0       2     0    //Withe Wizard
+3         0       3     0    //Withe Wizard
+end
+
+3
+//Index   Group   MonsterClass   RegenType   RegenTime
+0         0       55             0           0         //Skeleton King
+0         0       56             0           0         //Skeleton King
+1         0       42             0           0         //Red Dragon
+2         0       43             0           0         //Dourados
+2         1       53             0           0         //Dourados
+2         2       54             0           0         //Dourados
+2         3       78             0           0         //Dourados
+2         4       79             0           0         //Dourados
+2         5       80             0           0         //Dourados
+2         6       81             0           0         //Dourados
+2         7       82             0           0         //Dourados
+2         8       83             0           0         //Dourados
+2         9       493            0           0         //Dourados
+2         10      494            0           0         //Dourados
+2         11      495            0           0         //Dourados
+2         12      496            0           0         //Dourados
+2         13      497            0           0         //Dourados
+2         14      498            0           0         //Dourados
+2         15      499            0           0         //Dourados
+2         16      500            0           0         //Dourados
+2         17      501            0           0         //Dourados
+2         18      502            0           0         //Dourados
+3         0       135            0           0         //Withe Wizard
+3         0       136            0           0         //Withe Wizard
+3         0       137            0           0         //Withe Wizard
+end

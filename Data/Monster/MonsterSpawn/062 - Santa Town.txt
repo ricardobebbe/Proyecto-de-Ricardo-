@@ -1,0 +1,12 @@
+0
+//Monster      Range      PositionX      PositionY      Direction      Comment
+467            00         202            041            01             //Snowman
+468            00         222            024            01             //Dasher
+469            00         202            033            01             //Kermit
+470            00         192            024            01             //Little Santa
+471            00         207            009            01             //Cupid
+472            00         225            011            01             //Prancer
+473            00         232            013            01             //Donner
+474            00         216            019            01             //Vixen
+475            00         193            027            01             //Blitzen
+end

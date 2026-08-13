@@ -1,0 +1,8 @@
+﻿[UPDATE_CONFIG]
+Version=1.0.9
+ServerIP=192.168.1.215
+ServerPort=55901
+PatchCount=5
+PatchPrefix=update_
+PatchURL=http://192.168.1.215/WEB_SERVER_PATCHES/
+LauncherExe=RDDLV_Launcher.exe

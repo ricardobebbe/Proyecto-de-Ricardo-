@@ -1,0 +1,74 @@
+//Configurado por RDDLV - 97x Edition
+//==========================================================================================================
+//Index Disponible : 100 -> 200
+//==========================================================================================================
+// para ItemLevel	Skill	Luck	MinAdicional	Exe		ItemSetOption
+// -1  = ramdom :: 0 = sin opciones no aplica para ItemLevel
+//==========================================================================================================
+//--> MinAdicional
+// 0 = Sin Opcion; 1 = Adicional +4; 2 = Adicional +8; 3 = Adicional +12
+// 4 = Adicional +16; 5 = Adicional +20; 6 = Adicional +24; 7 = Adicional +28
+//--> ItemSetOption
+// SetAcc1 = 5 ; SetAcc2 = 10;
+//==========================================================================================================
+//0
+////Index	        Money	RateAL0	        RateAL1	        RateAL2	        RateAL3	        CGroup	        CItem	ExeRand
+////26		10000	100		100		100		100		1		3       0		 //Wings lvl4
+////156		10000	42		42		42		50		1		2	1		 //Gloves All Light Hank
+////157		10000	25		25		25		30		1		3	1		 //Boots All Light Hank
+////194		10000	25		25		25		35		1		4	1		 //Helm All Light Hank
+////200		10000	40		40		40		45		1		3	1		 //Amor All Light Hank
+////195		10000	35		35		35		50		1		6	1		 //Pants All Light Hank
+////180		1000	40		40		40		50		1		2	0		 //Ghost Horse
+//end
+//
+//1
+////Index	        ItemMix		level	       Count	        commnet
+////26		6821		0		1		//Garuda's Feather
+////26		6822		0		1		//Garuda's Flame
+////26		6823		0		1		//Golden Sentences
+//
+//
+////156		6285		2		1		//Pack De 30 Chaos ID:Make 12 141 2 - Gloves Light Hank
+////156		14		0		1		//Sword 1  ID:Make 0 14    
+//
+////157		6281		2		1		//Pack De 30 Creations ID:Make 12 137 2 - Boots Light Hank
+////157		7410		0		1		//Pack De 30 Jewel of Soul ID:Make 14 242   
+////157		13		0		1		//Sword  1 ID:Make 0 13 
+//
+////200		6281		2		1		//Pack De 30 Creations ID:Make 12 137 2 - Armor Light Hank
+////200		6175		2		1		//Pack De 30 Jewel of Soul ID:Make 12 31 2   
+////200		21		0		1		//Sword BRB 1 ID:Make 0 21 
+//
+////194		7410		0		1		//Jewel Of LightGold 1 ID:Make 14 242 - Helm Light Hank
+////194		7411		0		1		//Jewel Of LightSupremo 1 ID:Make 14 243
+////194		7412		0		1		//Jewel Of Light 1 ID:Make 14 244
+////194		6281		2		1		//Pack De 30 Creations ID:Make 12 137 2
+//
+////195		7410		0		1		//Jewel Of LightGold 1 ID:Make 14 242 - Pants Light Hank
+////195		7411		0		1		//Jewel Of LightSupremo 1 ID:Make 14 243
+////195		7412		0		1		//Jewel Of Light 1 ID:Make 14 244
+////195		6281		2		1		//Pack De 30 Creations ID:Make 12 137 2
+////195		22		0		1		//Sword Bone Blade 1 ID:Make 0 22
+////195		6175		2		1		//Pack De 30 Jewel of Soul ID:Make 12 31 2
+//
+////180		25		0		1		//Jewel Bless
+////180		7182		0		1		//Jewel Soul
+//end
+//
+//2
+////Index		        Group		Count	   ItemMin		ItemMax			MinLvl	   Skill	 Luck	       MinOpc	    ExeOpc      SetOpc
+////26			0		1	   6379			6379			-1	   -1		-1		-1          -1          5
+////180			0		1	   22			22			-1	   -1		-1		-1	    -1		0	
+////195			0		1          5829	                5829			 11	   0		-1		4	    -1		5
+//end
+//
+//3
+////Index		        Group	       ItemMin		ItemMax		ItemLvl	   Skill	 Luck	        AddOpc		ExeOpc	        SetOpc	        Socket1	       Socket2	       Socket3	       Socket4	       Socket5
+////26			0		6315		6315		0	   0		-1		-1		5		0		255		255		255		255		255
+////156			0		5290		5291		9	   0		1		1		6		1		255		255		255		255		255
+////157			0		5802		5803		9	   0		1		1		6		1		255		255		255		255		255
+////200			0		4266		4267		9	   0		1		1		6		1		255		255		255		255		255
+////194			0		3754		3755		9	   0		1		1		6		1		255		255		255		255		255
+////195			0		4778		4779		9	   0		1		1		6		1		255		255		255		255		255
+//end

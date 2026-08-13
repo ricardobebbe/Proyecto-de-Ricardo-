@@ -1,0 +1,326 @@
+15:40:57 [ServerInfo] CashShop Carregado Com Sucesso
+15:40:57 [ServerInfo] ChaosMix Carregado Com Sucesso
+15:40:57 [ServerInfo] Character Carregado Com Sucesso
+15:40:58 [FakeOnline] Load Data OK
+15:40:58 [ServerInfo] Custom Carregado Com Sucesso
+15:40:58 [ServerInfo] Command Carregado Com Sucesso
+15:40:58 [ServerInfo] Common Carregado Com Sucesso
+15:40:58 [ServerInfo] Event Carregado Com Sucesso
+15:40:58 [ServerInfo] EventItemBag Carregado Com Sucesso
+15:40:58 [ServerInfo] Hack Carregado Com Sucesso
+15:40:58 [ServerInfo] Item Carregado Com Sucesso
+15:40:58 [ServerInfo] Monster Carregado Com Sucesso
+15:40:58 [ServerInfo] Move Carregado Com Sucesso
+15:40:58 [ServerInfo] Quest Carregado Com Sucesso
+15:40:58 [ServerInfo] Shop Carregado Com Sucesso
+15:40:58 [ServerInfo] Skill Carregado Com Sucesso
+15:40:58 [ServerInfo] Util Carregado Com Sucesso
+15:40:58 [ReadBotInfo] BotSystem Carregado Com Sucesso
+15:40:58 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+15:45:30 [ServerInfo] CashShop Carregado Com Sucesso
+15:45:30 [ServerInfo] ChaosMix Carregado Com Sucesso
+15:45:30 [ServerInfo] Character Carregado Com Sucesso
+15:45:30 [FakeOnline] Load Data OK
+15:45:30 [ServerInfo] Custom Carregado Com Sucesso
+15:45:30 [ServerInfo] Command Carregado Com Sucesso
+15:45:30 [ServerInfo] Common Carregado Com Sucesso
+15:45:30 [ServerInfo] Event Carregado Com Sucesso
+15:45:30 [ServerInfo] EventItemBag Carregado Com Sucesso
+15:45:30 [ServerInfo] Hack Carregado Com Sucesso
+15:45:30 [ServerInfo] Item Carregado Com Sucesso
+15:45:30 [ServerInfo] Monster Carregado Com Sucesso
+15:45:30 [ServerInfo] Move Carregado Com Sucesso
+15:45:30 [ServerInfo] Quest Carregado Com Sucesso
+15:45:30 [ServerInfo] Shop Carregado Com Sucesso
+15:45:30 [ServerInfo] Skill Carregado Com Sucesso
+15:45:30 [ServerInfo] Util Carregado Com Sucesso
+15:45:30 [ReadBotInfo] BotSystem Carregado Com Sucesso
+15:45:30 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+16:06:33 [ServerInfo] CashShop Carregado Com Sucesso
+16:06:33 [ServerInfo] ChaosMix Carregado Com Sucesso
+16:06:33 [ServerInfo] Character Carregado Com Sucesso
+16:06:33 [FakeOnline] Load Data OK
+16:06:33 [ServerInfo] Custom Carregado Com Sucesso
+16:06:33 [ServerInfo] Command Carregado Com Sucesso
+16:06:33 [ServerInfo] Common Carregado Com Sucesso
+16:06:33 [ServerInfo] Event Carregado Com Sucesso
+16:06:33 [ServerInfo] EventItemBag Carregado Com Sucesso
+16:06:33 [ServerInfo] Hack Carregado Com Sucesso
+16:06:33 [ServerInfo] Item Carregado Com Sucesso
+16:06:33 [ServerInfo] Monster Carregado Com Sucesso
+16:06:33 [ServerInfo] Move Carregado Com Sucesso
+16:06:33 [ServerInfo] Quest Carregado Com Sucesso
+16:06:33 [ServerInfo] Shop Carregado Com Sucesso
+16:06:33 [ServerInfo] Skill Carregado Com Sucesso
+16:06:33 [ServerInfo] Util Carregado Com Sucesso
+16:06:33 [ReadBotInfo] BotSystem Carregado Com Sucesso
+16:06:33 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+16:08:32 [Obj][13000] AddClient (192.168.1.215)
+16:08:38 [Obj][13000] AddAccount (ziza)
+16:08:43 [Obj][13000] LogInCharacter (GRATIDAO)
+16:10:31 [ServerInfo] CashShop Carregado Com Sucesso
+16:10:31 [ServerInfo] ChaosMix Carregado Com Sucesso
+16:10:31 [ServerInfo] Character Carregado Com Sucesso
+16:10:31 [FakeOnline] Load Data OK
+16:10:31 [ServerInfo] Custom Carregado Com Sucesso
+16:10:31 [ServerInfo] Command Carregado Com Sucesso
+16:10:31 [ServerInfo] Common Carregado Com Sucesso
+16:10:31 [ServerInfo] Event Carregado Com Sucesso
+16:10:32 [ServerInfo] EventItemBag Carregado Com Sucesso
+16:10:32 [ServerInfo] Hack Carregado Com Sucesso
+16:10:32 [ServerInfo] Item Carregado Com Sucesso
+16:10:32 [ServerInfo] Monster Carregado Com Sucesso
+16:10:32 [ServerInfo] Move Carregado Com Sucesso
+16:10:32 [ServerInfo] Quest Carregado Com Sucesso
+16:10:32 [ServerInfo] Shop Carregado Com Sucesso
+16:10:32 [ServerInfo] Skill Carregado Com Sucesso
+16:10:32 [ServerInfo] Util Carregado Com Sucesso
+16:10:32 [ReadBotInfo] BotSystem Carregado Com Sucesso
+16:10:32 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+16:11:01 [Obj][13000] AddClient (192.168.1.215)
+16:11:14 [Obj][13000] AddAccount (ziza)
+16:11:14 [Obj][13000] LogInCharacter (GRATIDAO)
+16:15:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 52 Y: 200)
+16:15:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 30 Y: 232)
+16:15:00 [Invasion Manager] Index(1) Boss Position (Map: 3 X: 87 Y: 72)
+16:25:01 [Invasion Manager] Index(2) Boss Position (Map: 3 X: 225 Y: 19)
+16:50:00 [Invasion Manager] Index(3) Boss Position (Map: 2 X: 160 Y: 16)
+16:50:01 [OnlineLoterry] No Winner
+17:10:52 [ServerInfo] CashShop Carregado Com Sucesso
+17:10:52 [ServerInfo] ChaosMix Carregado Com Sucesso
+17:10:52 [ServerInfo] Character Carregado Com Sucesso
+17:10:52 [FakeOnline] Load Data OK
+17:10:52 [ServerInfo] Custom Carregado Com Sucesso
+17:10:52 [ServerInfo] Command Carregado Com Sucesso
+17:10:52 [ServerInfo] Common Carregado Com Sucesso
+17:10:52 [ServerInfo] Event Carregado Com Sucesso
+17:10:52 [ServerInfo] EventItemBag Carregado Com Sucesso
+17:10:52 [ServerInfo] Hack Carregado Com Sucesso
+17:10:52 [ServerInfo] Item Carregado Com Sucesso
+17:10:53 [ServerInfo] Monster Carregado Com Sucesso
+17:10:53 [ServerInfo] Move Carregado Com Sucesso
+17:10:53 [ServerInfo] Quest Carregado Com Sucesso
+17:10:53 [ServerInfo] Shop Carregado Com Sucesso
+17:10:53 [ServerInfo] Skill Carregado Com Sucesso
+17:10:53 [ServerInfo] Util Carregado Com Sucesso
+17:10:53 [ReadBotInfo] BotSystem Carregado Com Sucesso
+17:10:53 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+17:11:02 [Obj][13000] AddClient (192.168.1.215)
+17:11:12 [Obj][13000] AddAccount (ziza)
+17:11:12 [Obj][13000] LogInCharacter (GRATIDAO)
+20:12:06 [Obj][13000] LogOutCharacter (GRATIDAO)
+20:12:06 [Obj][13000] LogOutCharacter ()
+20:12:06 [Obj][13000] DelAccount (ziza)
+20:12:06 [Obj][13000] DelClient (192.168.1.215)
+20:20:49 [ServerInfo] CashShop Carregado Com Sucesso
+20:20:49 [ServerInfo] ChaosMix Carregado Com Sucesso
+20:20:49 [ServerInfo] Character Carregado Com Sucesso
+20:20:49 [FakeOnline] Load Data OK
+20:20:49 [ServerInfo] Custom Carregado Com Sucesso
+20:20:49 [ServerInfo] Command Carregado Com Sucesso
+20:20:49 [ServerInfo] Common Carregado Com Sucesso
+20:20:49 [ServerInfo] Event Carregado Com Sucesso
+20:20:49 [ServerInfo] EventItemBag Carregado Com Sucesso
+20:20:49 [ServerInfo] Hack Carregado Com Sucesso
+20:20:49 [ServerInfo] Item Carregado Com Sucesso
+20:20:50 [ServerInfo] Monster Carregado Com Sucesso
+20:20:50 [ServerInfo] Move Carregado Com Sucesso
+20:20:50 [ServerInfo] Quest Carregado Com Sucesso
+20:20:50 [ServerInfo] Shop Carregado Com Sucesso
+20:20:50 [ServerInfo] Skill Carregado Com Sucesso
+20:20:50 [ServerInfo] Util Carregado Com Sucesso
+20:20:50 [ReadBotInfo] BotSystem Carregado Com Sucesso
+20:20:50 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+20:25:00 [Invasion Manager] Index(2) Boss Position (Map: 3 X: 229 Y: 87)
+20:50:00 [Invasion Manager] Index(3) Boss Position (Map: 2 X: 162 Y: 22)
+20:50:01 [OnlineLoterry] No Winner
+21:10:08 [ServerInfo] CashShop Carregado Com Sucesso
+21:10:08 [ServerInfo] ChaosMix Carregado Com Sucesso
+21:10:08 [ServerInfo] Character Carregado Com Sucesso
+21:10:08 [FakeOnline] Load Data OK
+21:10:08 [ServerInfo] Custom Carregado Com Sucesso
+21:10:08 [ServerInfo] Command Carregado Com Sucesso
+21:10:08 [ServerInfo] Common Carregado Com Sucesso
+21:10:08 [ServerInfo] Event Carregado Com Sucesso
+21:10:08 [ServerInfo] EventItemBag Carregado Com Sucesso
+21:10:08 [ServerInfo] Hack Carregado Com Sucesso
+21:10:08 [ServerInfo] Item Carregado Com Sucesso
+21:10:08 [ServerInfo] Monster Carregado Com Sucesso
+21:10:08 [ServerInfo] Move Carregado Com Sucesso
+21:10:08 [ServerInfo] Quest Carregado Com Sucesso
+21:10:08 [ServerInfo] Shop Carregado Com Sucesso
+21:10:08 [ServerInfo] Skill Carregado Com Sucesso
+21:10:08 [ServerInfo] Util Carregado Com Sucesso
+21:10:08 [ReadBotInfo] BotSystem Carregado Com Sucesso
+21:10:08 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+21:50:01 [OnlineLoterry] No Winner
+21:59:48 [Obj][13000] AddClient (192.168.1.215)
+21:59:50 [Obj][13000] AddAccount (ziza)
+21:59:53 [Obj][13000] LogInCharacter (GRATIDAO)
+22:06:30 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:06:30 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:06:30 [ZenWarden] ZenWardenSwitch=1
+22:06:30 [ZenWarden] lpObj es no NULL
+22:06:30 [ZenWarden] lpObj->Connected=3
+22:06:30 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:06:30 [ZenWarden] Enviando mensaje: '[AVISO] No posees cofres para cambiar'
+22:06:44 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:06:44 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:06:44 [ZenWarden] ZenWardenSwitch=1
+22:06:44 [ZenWarden] lpObj es no NULL
+22:06:44 [ZenWarden] lpObj->Connected=3
+22:06:44 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:06:45 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:06:45 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:06:45 [ZenWarden] ZenWardenSwitch=1
+22:06:45 [ZenWarden] lpObj es no NULL
+22:06:45 [ZenWarden] lpObj->Connected=3
+22:06:45 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:06:46 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:06:46 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:06:46 [ZenWarden] ZenWardenSwitch=1
+22:06:46 [ZenWarden] lpObj es no NULL
+22:06:46 [ZenWarden] lpObj->Connected=3
+22:06:46 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:06:51 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:06:51 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:06:51 [ZenWarden] ZenWardenSwitch=1
+22:06:51 [ZenWarden] lpObj es no NULL
+22:06:51 [ZenWarden] lpObj->Connected=3
+22:06:51 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:06:52 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:06:52 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:06:52 [ZenWarden] ZenWardenSwitch=1
+22:06:52 [ZenWarden] lpObj es no NULL
+22:06:52 [ZenWarden] lpObj->Connected=3
+22:06:52 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:06:53 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:06:53 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:06:53 [ZenWarden] ZenWardenSwitch=1
+22:06:53 [ZenWarden] lpObj es no NULL
+22:06:53 [ZenWarden] lpObj->Connected=3
+22:06:53 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:07:05 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:07:05 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:07:05 [ZenWarden] ZenWardenSwitch=1
+22:07:05 [ZenWarden] lpObj es no NULL
+22:07:05 [ZenWarden] lpObj->Connected=3
+22:07:05 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:07:05 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:07:05 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:07:05 [ZenWarden] ZenWardenSwitch=1
+22:07:05 [ZenWarden] lpObj es no NULL
+22:07:05 [ZenWarden] lpObj->Connected=3
+22:07:05 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:07:06 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:07:06 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:07:06 [ZenWarden] ZenWardenSwitch=1
+22:07:06 [ZenWarden] lpObj es no NULL
+22:07:06 [ZenWarden] lpObj->Connected=3
+22:07:06 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:07:07 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:07:07 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:07:07 [ZenWarden] ZenWardenSwitch=1
+22:07:07 [ZenWarden] lpObj es no NULL
+22:07:07 [ZenWarden] lpObj->Connected=3
+22:07:07 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:07:16 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:07:16 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:07:16 [ZenWarden] ZenWardenSwitch=1
+22:07:16 [ZenWarden] lpObj es no NULL
+22:07:16 [ZenWarden] lpObj->Connected=3
+22:07:16 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:07:16 [ZenWarden] Enviando mensaje: '[AVISO] No posees cofres para cambiar'
+22:07:17 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:07:17 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:07:17 [ZenWarden] ZenWardenSwitch=1
+22:07:17 [ZenWarden] lpObj es no NULL
+22:07:17 [ZenWarden] lpObj->Connected=3
+22:07:17 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:07:17 [ZenWarden] Enviando mensaje: '[AVISO] No posees cofres para cambiar'
+22:08:02 [Obj][13000] LogOutCharacter (GRATIDAO)
+22:08:02 [Obj][13000] LogOutCharacter ()
+22:08:02 [Obj][13000] DelAccount (ziza)
+22:08:02 [Obj][13000] DelClient (192.168.1.215)
+22:10:07 [ServerInfo] CashShop Carregado Com Sucesso
+22:10:08 [ServerInfo] ChaosMix Carregado Com Sucesso
+22:10:08 [ServerInfo] Character Carregado Com Sucesso
+22:10:08 [FakeOnline] Load Data OK
+22:10:08 [ServerInfo] Custom Carregado Com Sucesso
+22:10:08 [ServerInfo] Command Carregado Com Sucesso
+22:10:08 [ServerInfo] Common Carregado Com Sucesso
+22:10:08 [ServerInfo] Event Carregado Com Sucesso
+22:10:08 [ServerInfo] EventItemBag Carregado Com Sucesso
+22:10:08 [ServerInfo] Hack Carregado Com Sucesso
+22:10:08 [ServerInfo] Item Carregado Com Sucesso
+22:10:09 [ServerInfo] Monster Carregado Com Sucesso
+22:10:09 [ServerInfo] Move Carregado Com Sucesso
+22:10:09 [ServerInfo] Quest Carregado Com Sucesso
+22:10:09 [ServerInfo] Shop Carregado Com Sucesso
+22:10:09 [ServerInfo] Skill Carregado Com Sucesso
+22:10:09 [ServerInfo] Util Carregado Com Sucesso
+22:10:09 [ReadBotInfo] BotSystem Carregado Com Sucesso
+22:10:09 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+22:20:46 [Obj][13000] AddClient (192.168.1.215)
+22:20:54 [Obj][13000] AddAccount (ziza)
+22:21:00 [Obj][13000] LogInCharacter (GRATIDAO)
+22:24:14 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:24:14 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:24:14 [ZenWarden] ZenWardenSwitch=1
+22:24:14 [ZenWarden] lpObj es no NULL
+22:24:14 [ZenWarden] lpObj->Connected=3
+22:24:14 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:24:14 [ZenWarden] Enviando mensaje: '[AVISO] No posees cofres para cambiar'
+22:24:25 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:24:25 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:24:25 [ZenWarden] ZenWardenSwitch=1
+22:24:25 [ZenWarden] lpObj es no NULL
+22:24:25 [ZenWarden] lpObj->Connected=3
+22:24:25 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:24:25 [ZenWarden] Enviando mensaje: '[AVISO] No posees cofres para cambiar'
+22:24:36 [ZenWarden] NpcTalk llamado: NPC Class=702
+22:24:36 [ZenWarden] ValidateChestTransaction: IsInitialized=1
+22:24:36 [ZenWarden] ZenWardenSwitch=1
+22:24:36 [ZenWarden] lpObj es no NULL
+22:24:36 [ZenWarden] lpObj->Connected=3
+22:24:36 [ZenWarden] Cuenta: 'ziza' (longitud: 4)
+22:24:36 [ZenWarden] Enviando mensaje: '[AVISO] No posees cofres para cambiar'
+22:24:55 [Obj][13000] LogOutCharacter (GRATIDAO)
+22:24:55 [Obj][13000] LogOutCharacter ()
+22:24:55 [Obj][13000] DelAccount (ziza)
+22:24:55 [Obj][13000] DelClient (192.168.1.215)
+22:50:01 [OnlineLoterry] No Winner
+23:10:08 [ServerInfo] CashShop Carregado Com Sucesso
+23:10:08 [ServerInfo] ChaosMix Carregado Com Sucesso
+23:10:08 [ServerInfo] Character Carregado Com Sucesso
+23:10:08 [FakeOnline] Load Data OK
+23:10:08 [ServerInfo] Custom Carregado Com Sucesso
+23:10:08 [ServerInfo] Command Carregado Com Sucesso
+23:10:08 [ServerInfo] Common Carregado Com Sucesso
+23:10:08 [ServerInfo] Event Carregado Com Sucesso
+23:10:08 [ServerInfo] EventItemBag Carregado Com Sucesso
+23:10:08 [ServerInfo] Hack Carregado Com Sucesso
+23:10:08 [ServerInfo] Item Carregado Com Sucesso
+23:10:08 [ServerInfo] Monster Carregado Com Sucesso
+23:10:08 [ServerInfo] Move Carregado Com Sucesso
+23:10:08 [ServerInfo] Quest Carregado Com Sucesso
+23:10:08 [ServerInfo] Shop Carregado Com Sucesso
+23:10:08 [ServerInfo] Skill Carregado Com Sucesso
+23:10:08 [ServerInfo] Util Carregado Com Sucesso
+23:10:08 [ReadBotInfo] BotSystem Carregado Com Sucesso
+23:10:08 [ZenWarden] Inicializado: Switch=1, NPC ID=702
+23:16:12 [Obj][13000] AddClient (192.168.1.215)
+23:16:14 [Obj][13000] AddAccount (ziza)
+23:16:18 [Obj][13000] LogInCharacter (GRATIDAO)
+23:25:32 [Obj][13000] LogOutCharacter (GRATIDAO)
+23:25:32 [Obj][13000] LogOutCharacter ()
+23:25:32 [Obj][13000] DelAccount (ziza)
+23:25:32 [Obj][13000] DelClient (192.168.1.215)
+23:49:11 [Obj][13000] AddClient (192.168.1.215)
+23:49:13 [Obj][13000] AddAccount (ziza)
+23:49:17 [Obj][13000] LogInCharacter (GRATIDAO)
+23:50:01 [OnlineLoterry] No Winner
+23:54:45 [Obj][13000] LogOutCharacter (GRATIDAO)
+23:54:45 [Obj][13000] LogOutCharacter ()
+23:54:45 [Obj][13000] DelAccount (ziza)
+23:54:45 [Obj][13000] DelClient (192.168.1.215)

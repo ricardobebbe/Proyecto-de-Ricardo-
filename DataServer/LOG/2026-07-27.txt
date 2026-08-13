@@ -1,0 +1,31 @@
+00:10:01 [ServerManager][0] DelServer (127.0.0.1)
+00:11:56 [ServerManager][0] AddServer (127.0.0.1)
+00:11:56 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+01:10:00 [ServerManager][0] DelServer (127.0.0.1)
+01:11:56 [ServerManager][0] AddServer (127.0.0.1)
+01:11:56 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+02:10:00 [ServerManager][0] DelServer (127.0.0.1)
+02:11:56 [ServerManager][0] AddServer (127.0.0.1)
+02:11:56 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+03:10:00 [ServerManager][0] DelServer (127.0.0.1)
+03:11:55 [ServerManager][0] AddServer (127.0.0.1)
+03:11:56 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+04:10:00 [ServerManager][0] DelServer (127.0.0.1)
+04:12:01 [ServerManager][0] AddServer (127.0.0.1)
+04:12:07 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+05:10:01 [ServerManager][0] DelServer (127.0.0.1)
+05:11:56 [ServerManager][0] AddServer (127.0.0.1)
+05:11:56 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+08:35:27 [ServerManager][0] DelServer (127.0.0.1)
+12:13:07 [ServerManager][0] AddServer (127.0.0.1)
+12:13:07 SELECT ItemCount FROM GameServerInfo WHERE Number=0
+12:13:07 [QueryManager] State (01000), Diagnostic: [Microsoft][ODBC SQL Server Driver][DBMSLPCN]ConnectionWrite (send()).
+12:13:07 [QueryManager] State (08S01), Diagnostic: [Microsoft][ODBC SQL Server Driver][DBMSLPCN]Error general de red. Consulte la documentación de la red.
+12:13:07 INSERT INTO GameServerInfo (Number,ItemCount,ZenCount,AceItemCount) VALUES (0,0,0,0)
+12:13:07 [QueryManager] State (23000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]Violation of PRIMARY KEY constraint 'PK_GameServerInfo'. Cannot insert duplicate key in object 'dbo.GameServerInfo'. The duplicate key value is (0).
+12:13:07 [QueryManager] State (01000), Diagnostic: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated.
+12:13:07 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+21:31:17 [SocketManager] Servidor iniciado na porta [55960]
+21:31:21 [ServerManager][0] AddServer (127.0.0.1)
+21:31:21 [ServerManager][0] ServerInfo (V.97x) (55901) (0)
+22:10:01 [ServerManager][0] DelServer (127.0.0.1)

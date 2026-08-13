@@ -1,0 +1,88 @@
+//===================================================================================================================
+// [NPCS] ICARUS (Map 10)
+//===================================================================================================================
+0
+//Index  Range  PosX  PosY  Dir  Comment
+240      00     012   015   03   //Safety Guardian
+end
+
+//===================================================================================================================
+// [SPOT] - ICARUS (Map 10) - AREAS (Tipo 1)
+//===================================================================================================================
+1
+//Index  Range  BegX  BegY  EndX  EndY  Dir  Qty  Comment
+069      00     018   029   024   030   00   16   //Alquamos
+069      30     018   029   024   030   -1   17   //Alquamos
+071      00     055   036   052   030   00   16   //Mega Crust
+071      30     055   036   052   030   -1   17   //Mega Crust
+070      00     093   041   092   044   00   14   //Queen Rainier
+070      30     091   041   092   044   -1   17   //Queen Rainier
+end
+
+//===================================================================================================================
+// [SPOT] - ICARUS (Map 10) - EXACTAS (Tipo 2)
+//===================================================================================================================
+2
+//Index  Range  PosX  PosY  Dir  Comment
+077      30     034   238   01   //Phoenix of Darkness
+070      30     066   068   -1   //Queen Rainier
+070      30     085   088   -1   //Queen Rainier
+070      30     080   076   -1   //Queen Rainier
+073      30     045   072   -1   //Drakan
+072      30     041   113   -1   //Phantom Knight
+072      30     042   135   -1   //Phantom Knight
+074      30     029   104   -1   //Alpha Crust
+074      30     038   103   -1   //Alpha Crust
+074      30     035   094   -1   //Alpha Crust
+074      30     032   087   -1   //Alpha Crust
+073      30     035   069   -1   //Drakan
+073      30     026   074   -1   //Drakan
+073      30     036   079   -1   //Drakan
+074      30     039   085   -1   //Alpha Crust
+072      30     051   126   -1   //Phantom Knight
+071      30     088   070   -1   //Mega Crust
+072      30     053   138   -1   //Phantom Knight
+072      30     044   148   -1   //Phantom Knight
+072      30     033   119   -1   //Phantom Knight
+074      30     033   111   -1   //Alpha Crust
+071      30     084   047   -1   //Mega Crust
+071      30     079   033   -1   //Mega Crust
+071      30     058   042   -1   //Mega Crust
+070      30     089   038   -1   //Queen Rainier
+071      30     070   043   -1   //Mega Crust
+071      30     064   030   -1   //Mega Crust
+071      30     053   027   -1   //Mega Crust
+070      30     091   059   -1   //Queen Rainier
+072      30     041   157   -1   //Phantom Knight
+069      30     044   027   -1   //Alquamos
+069      30     012   027   -1   //Alquamos
+069      30     013   038   -1   //Alquamos
+069      30     048   040   -1   //Alquamos
+072      30     042   122   -1   //Phantom Knight
+069      30     028   028   -1   //Alquamos
+071      30     093   047   -1   //Mega Crust
+072      30     053   150   -1   //Phantom Knight
+075      30     050   162   -1   //Great Drakan
+075      30     052   174   -1   //Great Drakan
+075      30     055   181   -1   //Great Drakan
+075      30     044   212   -1   //Great Drakan
+072      30     038   216   -1   //Phantom Knight
+075      30     047   189   -1   //Great Drakan
+075      30     059   190   -1   //Great Drakan
+075      30     048   200   -1   //Great Drakan
+075      30     057   200   -1   //Great Drakan
+075      30     027   220   -1   //Great Drakan
+069      30     066   037   -1   //Alquamos
+069      30     080   041   -1   //Alquamos
+075      30     043   238   -1   //Great Drakan
+072      30     044   221   -1   //Phantom Knight
+069      30     040   034   -1   //Alquamos
+069      30     031   037   -1   //Alquamos
+069      30     018   031   -1   //Alquamos
+071      30     057   034   -1   //Mega Crust
+071      30     071   033   -1   //Mega Crust
+072      30     036   226   -1   //Phantom Knight
+069      30     021   036   -1   //Alquamos
+070      30     064   084   -1   //Queen Rainier
+070      30     069   077   -1   //Queen Rainier
+end

@@ -1,0 +1,6 @@
+//Index   Npc	NpcMap	NpcX	NpcY	NpcTalk	    Command      Text    	Comment
+// 0         702	   3	166	   98	   1	      "/reset"	               //NPC RESET
+  1         381	   2	217   18   	   2	      "/reset"	                  //NPC PK CLEAR
+  //2         704    2     228    42     1           "/Zen"              //NPC COFRE ZEN
+  3         464	   2	226   66   	   2	      "/pk"	                  //NPC PK CLEAR
+end

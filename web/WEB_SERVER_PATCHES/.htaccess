@@ -1,0 +1,5 @@
+# Reglas Apache para Servidor de Parches MU Online
+Options -Indexes
+<FilesMatch ".(zip|json|txt|bmd)$">
+    Header set Access-Control-Allow-Origin "*"
+</FilesMatch>

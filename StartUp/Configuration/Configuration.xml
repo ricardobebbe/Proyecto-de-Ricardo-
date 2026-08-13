@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Processes>
+  <Process Run="True" Delay="1000" Path="C:\RDDLV\MHPServern\MHPServer.exe" Parameters="" />
+  <Process Run="True" Delay="1000" Path="C:\RDDLV\ConnectServer\ConnectServer.exe" Parameters="" />
+  <Process Run="True" Delay="1000" Path="C:\RDDLV\DataServer\DataServer.exe" Parameters="" />
+  <Process Run="True" Delay="1000" Path="C:\RDDLV\JoinServer\JoinServer.exe" Parameters="" />
+  <Process Run="False" Delay="1000" Path="C:\RDDLV\GameServer\GameServer.exe" Parameters="" />
+</Processes>

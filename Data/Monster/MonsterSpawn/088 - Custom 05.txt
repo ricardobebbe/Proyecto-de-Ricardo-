@@ -1,0 +1,11 @@
+0
+//Monster      Range      PositionX      PositionY      Direction      Comment
+end
+
+1
+//Monster      Range      BeginPosX      BeginPosY      EndPosX      EndPosY      Direction      Quantity      Comment
+end
+
+2
+//Monster      Range      PositionX      PositionY      Direction      Comment
+end

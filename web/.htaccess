@@ -1,0 +1,26 @@
+# ------------------------------------------------------------------
+# AT_Web - reglas para Apache (cPanel / XAMPP)
+# ------------------------------------------------------------------
+DirectoryIndex index.php index.html
+AddDefaultCharset UTF-8
+
+<IfModule mod_php.c>
+    php_flag display_errors Off
+    php_flag log_errors On
+</IfModule>
+
+# No listar carpetas
+Options -Indexes
+
+# Bloquear archivos sensibles
+<FilesMatch "\.(log|lock|bak|sql|ini)$">
+    Require all denied
+</FilesMatch>
+
+# Compatibilidad con Apache 2.2
+<IfModule !mod_authz_core.c>
+    <FilesMatch "\.(log|lock|bak|sql|ini)$">
+        Order allow,deny
+        Deny from all
+    </FilesMatch>
+</IfModule>

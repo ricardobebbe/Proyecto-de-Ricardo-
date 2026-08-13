@@ -1,0 +1,36 @@
+0
+//Index De Add MunPets
+//index	MuunUtil rank	OptionIndex	evol    Comment
+6857	1	1       1	        0       //Pet Of Cup [M]
+6858	1	2	1       	0       //Pet Of Cup [F]
+6861	1	2	13		0	//Pet Mini Ferir Natal
+6866	1	2	1		0 	//Pet Mini Rena Natal
+6868	1	2	1		0 	//Pet Dark Pirate
+6869	1	2	1		0 	//Pet Arcanjo Voador
+6870	1	2	1		0 	//Pet Eagle Horus
+6871	1	2	1		0 	//Pet Mummy Horus
+6872	1	2	1		0 	//Pet Eagle Zeus
+6873	1	2	1		0 	//Pet Stell 2.0
+6874	1	2	1		0 	//Pet Mommoth
+6875	1	2	1		0 	//Pet Mummyboy
+6890	1	2	1		0 	//Eagle of Saron
+6891	1	2	1		0 	//reynerpet_evol
+6894	1	2	1		0 	//Eagle Of New 2022
+6896	1	2	1		0 	//Eagle Fire Gren
+6898	1	2	1		0 	//Eagle Light Hawk
+6899	1	2	1		0 	//Eagle BloodRed-2022
+6906	1	2	13		0	//Pet Mini Ferir Abaddon
+6907	1	2	13		0	//Pet Of Marinheiro
+end
+
+1
+//==== Type Isso é deixado para ser livre. config
+//index		opt1	opt2		opt3	opt4	opt5	MaxOpt	SpecialOpt	SpecialVal	Map		Time	DayOfWeek	MinHor	MaxHor	Minlvl	MaxLvl	MinML	MaxML
+1	        1	1	        1	1	1	13	1		150		*		*	*		*	*	*	*	*	*
+end	
+//==== Option Damage Pet 
+2
+//OptionIndex = OptionIndex 
+//OptionIndex	AddHP		AddMP	DamageRate   AttackSpeed   DoubleDmgRate	TripleDmgRate	AddExp	ResistDoubleDmg	ResistIgnoreDefense	ResistIgnoreSD	ResistCriticalDMG	ResistExceDMG	BlockStuck	ReflectRate
+1	        500		500	100	     5000          10		        5		30	0	        0			0		0			0	        0		0
+end

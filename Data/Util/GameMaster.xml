@@ -1,0 +1,17 @@
+<!--
+//==========================================================================================================================================
+//Programaçao :Por By:RDDLV Mu MiSiones © Copyright 2026
+//FILES PREMIUN 
+// Arquivo de configuração do MuServer RDDLV
+//==========================================================================================================================================
+//
+// ### GameMasterList::GameMaster ###
+//	Account: Account name
+//	Character: Character's name
+//	Level: Moderation level 8 GM 32 ADM
+//	ShowSlogan: Show in head GameMaster slogan
+-->
+
+<GameMasterList>
+	<GameMaster Account="ziza"  Character="GRATIDAO" Level="32"  />
+</GameMasterList>

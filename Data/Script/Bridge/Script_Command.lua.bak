@@ -1,0 +1,28 @@
+-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-- Programaçao Por By:Zeus Revolutions 22/06/21
+-- Files-Premium Zeus Revolutions 97D+2.0 Donwgrand 1.04e
+-- Contato [E-MAIL]: Luis.zs@hotmail.com (17) 991047335 
+-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+-- |Todos Diretos Reselvados © 2020 Zeus Revolutions Team
+-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+require "System\\ScriptCore"
+
+BridgeFunctionAttach("OnCommandManager", "CommandManager");
+
+-- Retorna 1 para cancelar a execução no GS
+-- Caso contrário irá continuar a execução do OnCommandManager abaixo
+-- arg é o texto enviado no jogo ou parametro após o comando
+
+CommandManager = function(aIndex,code,arg)		
+	-- Exemplo: Comando /teste <arg>
+	if code == 131 then	
+		argumento = CommandGetArgString(arg, 0)
+		
+		PostSend(0, 10, GetObjectName(aIndex), argumento)
+	end
+	
+	return 0
+end
+
+LogColor(1, "[Script_Command] Loaded!")

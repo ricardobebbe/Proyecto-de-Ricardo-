@@ -22,21 +22,21 @@
 #include "StoreSearch.h"
 // ----------------------------------------------------------------------------------------------
 
-Controller	gController;
+Controller gController;
 // ----------------------------------------------------------------------------------------------
 void __declspec(naked) iconHook()
 {
-	static DWORD dwIcon = (DWORD)LoadIcon(gController.Instance, MAKEINTRESOURCE(IDI_ICON1));
-	static DWORD dwJmp = 0x004D0E3C;
+    static DWORD dwIcon = (DWORD)LoadIcon(gController.Instance, MAKEINTRESOURCE(IDI_ICON1));
+    static DWORD dwJmp = 0x004D0E3C;
 
-	_asm
-	{
-		MOV EAX, dwIcon
-		JMP dwJmp
-	}
+    _asm
+    {
+        MOV EAX, dwIcon
+        JMP dwJmp
+    }
 }
 
-char Notice_1[1024]; //ZEUS UP19 PANEL BEM VINDAS CLIENT
+char Notice_1[1024];
 char Notice_2[1024];
 char Notice_3[1024];
 char Notice_4[1024];
@@ -46,264 +46,255 @@ BOOL isNotice;
 
 bool Controller::Load()
 {
-	GetPrivateProfileString("Notice", "Notice_1", "", Notice_1, 1024, ".\\data\\Custom\\Notice.ini"); //ZEUS UP19 PANEL BEM VINDAS CLIENT
-	GetPrivateProfileString("Notice", "Notice_2", "", Notice_2, 1024, ".\\data\\Custom\\Notice.ini"); //ZEUS UP19 PANEL BEM VINDAS CLIENT
-	GetPrivateProfileString("Notice", "Notice_3", "", Notice_3, 1024, ".\\data\\Custom\\Notice.ini");
-	GetPrivateProfileString("Notice", "Notice_4", "", Notice_4, 1024, ".\\data\\Custom\\Notice.ini");
-	GetPrivateProfileString("Notice", "Notice_5", "", Notice_5, 1024, ".\\data\\Custom\\Notice.ini");
-	GetPrivateProfileString("Notice", "Notice_6", "", Notice_6, 1024, ".\\data\\Custom\\Notice.ini");
-	isNotice = FALSE;
+    GetPrivateProfileString("Notice", "Notice_1", "", Notice_1, 1024, ".\\data\\Custom\\Notice.ini");
+    GetPrivateProfileString("Notice", "Notice_2", "", Notice_2, 1024, ".\\data\\Custom\\Notice.ini");
+    GetPrivateProfileString("Notice", "Notice_3", "", Notice_3, 1024, ".\\data\\Custom\\Notice.ini");
+    GetPrivateProfileString("Notice", "Notice_4", "", Notice_4, 1024, ".\\data\\Custom\\Notice.ini");
+    GetPrivateProfileString("Notice", "Notice_5", "", Notice_5, 1024, ".\\data\\Custom\\Notice.ini");
+    GetPrivateProfileString("Notice", "Notice_6", "", Notice_6, 1024, ".\\data\\Custom\\Notice.ini");
+    isNotice = FALSE;
 
-	if( !this->MouseHook )
-	{
-		this->MouseHook = SetWindowsHookEx(WH_MOUSE, this->Mouse, gController.Instance, GetCurrentThreadId());
-		// ----
-		if( !this->MouseHook )
-		{
-			return false;
-		}
-	}
-	// ----
-	if( !this->KeyboardHook )
-	{
-	}
-	// ----
-	SetOp((LPVOID)0x004D0E2F, iconHook, ASM::CALL);
-	return true;
+    if (!this->MouseHook)
+    {
+        this->MouseHook = SetWindowsHookEx(WH_MOUSE, this->Mouse, gController.Instance, GetCurrentThreadId());
+        if (!this->MouseHook)
+        {
+            return false;
+        }
+    }
+
+    // The old source left this block empty, so Keyboard() was never installed.
+    // Use the low-level keyboard hook because Keyboard() consumes KBDLLHOOKSTRUCT.
+    if (!this->KeyboardHook)
+    {
+        this->KeyboardHook = SetWindowsHookEx(WH_KEYBOARD_LL, this->Keyboard, gController.Instance, 0);
+        if (!this->KeyboardHook)
+        {
+            return false;
+        }
+    }
+
+    SetOp((LPVOID)0x004D0E2F, iconHook, ASM::CALL);
+    return true;
 }
-
 
 LRESULT Controller::Mouse(int Code, WPARAM wParam, LPARAM lParam)
 {
-	if( GetForegroundWindow() != pGameWindow )
-	{
-		return CallNextHookEx(gController.MouseHook, Code, wParam, lParam);
-	}
-	// ----
-	MOUSEHOOKSTRUCTEX * Mouse	= (MOUSEHOOKSTRUCTEX*)lParam;
+    if (GetForegroundWindow() != pGameWindow)
+    {
+        return CallNextHookEx(gController.MouseHook, Code, wParam, lParam);
+    }
 
-	switch(wParam)
-	{
-	case WM_LBUTTONUP:
-	case WM_LBUTTONDOWN:
-		{
-			gCustomRanking.EventRankingNext(wParam);
-			gCustomRanking.EventRankingBack(wParam);
-			gInterface.EventVipWindow_Main(wParam);
-			gCustomRanking.EventVipWindow_Close(wParam);
-			gCustomCommandInfo.EventCommandWindow_Close(wParam);
-			gCustomCommandInfo.CommandNext(wParam);
-			gCustomCommandInfo.CommandPrev(wParam);
-			gCustomEventTime.EventEventTimeWindow_Close(wParam);
-			gCustomEventTime.EventNext(wParam);
-			gCustomEventTime.EventPrev(wParam);
-			gInterface.EventDrawMenu_Open(wParam);
-			gInterface.EventDrawMenu_Close(wParam);
-			gInterface.EventDrawMenu_Op1(wParam);
-			gInterface.EventDrawMenu_Op2(wParam);
-			gInterface.EventDrawMenu_Op3(wParam);
-			gInterface.EventDrawMenu_Op4(wParam);
-			gInterface.EventDrawMenu_Op20(wParam);
-			gInterface.EventConfirm_CANCEL(wParam);
-			gInterface.EventConfirm_OK(wParam);
-			gCRuudShop.RuudShopEventButton(wParam);
-			gCSCharacterS13.SelectCharButton(wParam);
-			EventMuOffhelper(wParam);
-			g_PersonalShopEx.Button(wParam);           //ZEUS UP24 Mercado Negro IN-GAME STORE
+    MOUSEHOOKSTRUCTEX* Mouse = (MOUSEHOOKSTRUCTEX*)lParam;
 
-			//gNewsBoard.EventNewsWindow_Main(wParam);  //ZEUS UP19 NEW NOTICIAS - ELIMINADO
-			//gNewsBoard.EventNewsWindow_Close(wParam); //ZEUS UP19 NEW NOTICIAS - ELIMINADO
+    switch (wParam)
+    {
+    case WM_LBUTTONUP:
+    case WM_LBUTTONDOWN:
+        {
+            gCustomRanking.EventRankingNext(wParam);
+            gCustomRanking.EventRankingBack(wParam);
+            gInterface.EventVipWindow_Main(wParam);
+            gCustomRanking.EventVipWindow_Close(wParam);
+            gCustomCommandInfo.EventCommandWindow_Close(wParam);
+            gCustomCommandInfo.CommandNext(wParam);
+            gCustomCommandInfo.CommandPrev(wParam);
+            gCustomEventTime.EventEventTimeWindow_Close(wParam);
+            gCustomEventTime.EventNext(wParam);
+            gCustomEventTime.EventPrev(wParam);
+            gInterface.EventDrawMenu_Open(wParam);
+            gInterface.EventDrawMenu_Close(wParam);
+            gInterface.EventDrawMenu_Op1(wParam);
+            gInterface.EventDrawMenu_Op2(wParam);
+            gInterface.EventDrawMenu_Op3(wParam);
+            gInterface.EventDrawMenu_Op4(wParam);
+            gInterface.EventDrawMenu_Op20(wParam);
+            gInterface.EventConfirm_CANCEL(wParam);
+            gInterface.EventConfirm_OK(wParam);
+            gCRuudShop.RuudShopEventButton(wParam);
+            gCSCharacterS13.SelectCharButton(wParam);
+            EventMuOffhelper(wParam);
+            g_PersonalShopEx.Button(wParam);
 
-			if(gCRuudShop.RuudRender.Open)
-			{
-				if ( pCheckMouseOver(gCRuudShop.RuudRender.x, gCRuudShop.RuudRender.y + 10, gCRuudShop.RuudRender.w, 40.0f) == 1 )
-				{
-					gCRuudShop.RuudRender.Cursor.x = (double)*(DWORD*)0x879340C - gCRuudShop.RuudRender.x;
-					gCRuudShop.RuudRender.Cursor.y = (double)*(DWORD*)0x8793410 - gCRuudShop.RuudRender.y;
-					if(wParam == WM_LBUTTONDOWN)
-					{
-						gCRuudShop.RuudRender.Move = 1;
-					}
-					else
-					{
-						gCRuudShop.RuudRender.Move = 0;
-					}
-				}
-				else
-				{
-					gCRuudShop.RuudRender.Move = 0;
-				}
-			}
-			else if(gProtect.m_MainInfo.CustomInterfaceType == 1)
-			{
-				gInterface.EventNewInterface97_All(wParam);
-			}
-			else if(gProtect.m_MainInfo.CustomInterfaceType == 2)
-			{
-				gInterface.EventNewInterface_All(wParam);
-			}
-			gCMacroUIEx.Button(wParam);
-			gOffTrade.EventOffTradeWindow_Main(wParam);
-			gOffTrade.EventCloseTradeWindow_Main(wParam);
-		}
-		
-		break;
-		case WM_MOUSEMOVE:
+            if (gCRuudShop.RuudRender.Open)
+            {
+                if (pCheckMouseOver(gCRuudShop.RuudRender.x, gCRuudShop.RuudRender.y + 10, gCRuudShop.RuudRender.w, 40.0f) == 1)
+                {
+                    gCRuudShop.RuudRender.Cursor.x = (double)*(DWORD*)0x879340C - gCRuudShop.RuudRender.x;
+                    gCRuudShop.RuudRender.Cursor.y = (double)*(DWORD*)0x8793410 - gCRuudShop.RuudRender.y;
+                    gCRuudShop.RuudRender.Move = (wParam == WM_LBUTTONDOWN) ? 1 : 0;
+                }
+                else
+                {
+                    gCRuudShop.RuudRender.Move = 0;
+                }
+            }
+            else if (gProtect.m_MainInfo.CustomInterfaceType == 1)
+            {
+                gInterface.EventNewInterface97_All(wParam);
+            }
+            else if (gProtect.m_MainInfo.CustomInterfaceType == 2)
+            {
+                gInterface.EventNewInterface_All(wParam);
+            }
 
-			gCRuudShop.MoveWindows(&gCRuudShop.RuudRender,
-				((double)*(DWORD*)0x879340C) - gCRuudShop.RuudRender.Cursor.x,
-				((double)*(DWORD*)0x8793410) - gCRuudShop.RuudRender.Cursor.y);
+            gCMacroUIEx.Button(wParam);
+            gOffTrade.EventOffTradeWindow_Main(wParam);
+            gOffTrade.EventCloseTradeWindow_Main(wParam);
+        }
+        break;
 
-			if(GetForegroundWindow() == *(HWND*)(0x00E8C578))
-			{
-				gCamera.Move(Mouse);
-			}
-			break;
-		case WM_MBUTTONDOWN:
-			if(GetForegroundWindow() == *(HWND*)(0x00E8C578))
-			{
-				gCamera.SetIsMove(1);
-				gCamera.SetCursorX(Mouse->pt.x);
-				gCamera.SetCursorY(Mouse->pt.y);
-			}
-			break;
-		case WM_MBUTTONUP:
-			if(GetForegroundWindow() == *(HWND*)(0x00E8C578))
-			{
-				gCamera.SetIsMove(0);
-			}
-			break;
-		case WM_MOUSEWHEEL:
-			if(GetForegroundWindow() == *(HWND*)(0x00E8C578))
-			{
-				gCamera.Zoom(Mouse);
-			}
-			break;
-	}
-	// ----
-	return CallNextHookEx(gController.MouseHook, Code, wParam, lParam);
+    case WM_MOUSEMOVE:
+        gCRuudShop.MoveWindows(&gCRuudShop.RuudRender,
+            ((double)*(DWORD*)0x879340C) - gCRuudShop.RuudRender.Cursor.x,
+            ((double)*(DWORD*)0x8793410) - gCRuudShop.RuudRender.Cursor.y);
+
+        if (GetForegroundWindow() == *(HWND*)(0x00E8C578))
+        {
+            gCamera.Move(Mouse);
+        }
+        break;
+
+    case WM_MBUTTONDOWN:
+        if (GetForegroundWindow() == *(HWND*)(0x00E8C578))
+        {
+            gCamera.SetIsMove(1);
+            gCamera.SetCursorX(Mouse->pt.x);
+            gCamera.SetCursorY(Mouse->pt.y);
+        }
+        break;
+
+    case WM_MBUTTONUP:
+        if (GetForegroundWindow() == *(HWND*)(0x00E8C578))
+        {
+            gCamera.SetIsMove(0);
+        }
+        break;
+
+    case WM_MOUSEWHEEL:
+        if (GetForegroundWindow() == *(HWND*)(0x00E8C578))
+        {
+            gCamera.Zoom(Mouse);
+        }
+        break;
+    }
+
+    return CallNextHookEx(gController.MouseHook, Code, wParam, lParam);
 }
-// ----------------------------------------------------------------------------------------------
 
 LRESULT Controller::Keyboard(int Code, WPARAM wParam, LPARAM lParam)
 {
-	if( GetForegroundWindow() != pGameWindow )
-	{
-		return CallNextHookEx(gController.KeyboardHook, Code, wParam, lParam);
-	}
+    if (Code < 0)
+    {
+        return CallNextHookEx(gController.KeyboardHook, Code, wParam, lParam);
+    }
 
-	if (Code < 0) return CallNextHookEx(gController.KeyboardHook, Code, wParam, lParam);
-	
-	if( (Code == HC_ACTION) && (wParam == WM_KEYDOWN))
-	{
-		KBDLLHOOKSTRUCT Hook = *((KBDLLHOOKSTRUCT*)lParam);
-		switch(Hook.vkCode)
-		{
-			// --
-		case VK_F8:
-		{
-			gCustomRanking.OpenWindow();
-		}
-		break;	
-		case 0x48:
-		{
-			gCustomEventTime.OpenWindow();
-		}
-		break;
-		case VK_ESCAPE:
-		{
+    if (GetForegroundWindow() != pGameWindow)
+    {
+        return CallNextHookEx(gController.KeyboardHook, Code, wParam, lParam);
+    }
 
-			if (gInterface.Data[eCommand_MAIN].OnShow == true  && (gProtect.m_MainInfo.CustomInterfaceType != 3 || gProtect.m_MainInfo.CustomInterfaceType != 4))
-			{
-				gInterface.Data[eCommand_MAIN].OnShow = false;
+    if (Code == HC_ACTION && (wParam == WM_KEYDOWN || wParam == WM_SYSKEYDOWN))
+    {
+        KBDLLHOOKSTRUCT Hook = *((KBDLLHOOKSTRUCT*)lParam);
 
-				pSetCursorFocus = false;
+        switch (Hook.vkCode)
+        {
+        case VK_F8:
+            gCustomRanking.OpenWindow();
+            return -1;
 
-				return -1;
-			}
+        case 0x48:
+            gCustomEventTime.OpenWindow();
+            return -1;
 
-			if (gInterface.Data[eRankPANEL_MAIN].OnShow == true  && (gProtect.m_MainInfo.CustomInterfaceType != 3 || gProtect.m_MainInfo.CustomInterfaceType != 4))
-			{
-				gInterface.Data[eRankPANEL_MAIN].OnShow = false;
+        case VK_ESCAPE:
+            // The previous tests used OR (!=3 || !=4), which is always true.
+            // They also returned before the native client could process ESC.
+            if (gInterface.Data[eCommand_MAIN].OnShow &&
+                gProtect.m_MainInfo.CustomInterfaceType != 3 &&
+                gProtect.m_MainInfo.CustomInterfaceType != 4)
+            {
+                gInterface.Data[eCommand_MAIN].OnShow = false;
+                pSetCursorFocus = false;
+                return -1;
+            }
 
-				pSetCursorFocus = false;
+            if (gInterface.Data[eRankPANEL_MAIN].OnShow &&
+                gProtect.m_MainInfo.CustomInterfaceType != 3 &&
+                gProtect.m_MainInfo.CustomInterfaceType != 4)
+            {
+                gInterface.Data[eRankPANEL_MAIN].OnShow = false;
+                pSetCursorFocus = false;
+                return -1;
+            }
 
-				return -1;
-			}
+            if (gInterface.Data[eEventTimePANEL_MAIN].OnShow &&
+                gProtect.m_MainInfo.CustomInterfaceType != 3 &&
+                gProtect.m_MainInfo.CustomInterfaceType != 4)
+            {
+                gInterface.Data[eEventTimePANEL_MAIN].OnShow = false;
+                pSetCursorFocus = false;
+                return -1;
+            }
 
-			if (gInterface.Data[eEventTimePANEL_MAIN].OnShow == true && (gProtect.m_MainInfo.CustomInterfaceType != 3 || gProtect.m_MainInfo.CustomInterfaceType != 4))
-			{
-				gInterface.Data[eEventTimePANEL_MAIN].OnShow = false;
+            if (gInterface.CheckVipWindow())
+            {
+                gInterface.CloseVipWindow();
+                pSetCursorFocus = false;
+                return -1;
+            }
 
-				pSetCursorFocus = false;
+            if (gInterface.CheckMenuWindow())
+            {
+                gInterface.CloseMenuWindow();
+                pSetCursorFocus = false;
+                return -1;
+            }
 
-				return -1;
-			}
+            // No custom window consumed ESC: pass it to the original client.
+            break;
 
-			if (gInterface.CheckVipWindow())
-			{
-				gInterface.CloseVipWindow();
-				return -1;
-			}
+        case VK_END:
+            if (gInterface.CheckVipWindow())
+            {
+                gInterface.CloseVipWindow();
+            }
+            else
+            {
+                gInterface.CloseCustomWindow();
+                gInterface.OpenVipWindow();
+            }
+            return -1;
 
-			if (gInterface.CheckMenuWindow())
-			{
-				gInterface.CloseMenuWindow();
-				return -1;
-			}
-			
-		}
-		break;
-		case VK_END:
-		{
-			if (gInterface.CheckVipWindow())
-			{
-				gInterface.CloseVipWindow();
-			}
-			else
-			{
-				gInterface.CloseCustomWindow();
-				gInterface.OpenVipWindow();
-			}
-		}
-		break;
-		case VK_SNAPSHOT:
-		{
-			gInterface.Data[eLogo].EventTick = GetTickCount()+1500;
-			return CallNextHookEx(gController.KeyboardHook, Code, wParam, lParam);
-		}
-		break;
+        case VK_SNAPSHOT:
+            gInterface.Data[eLogo].EventTick = GetTickCount() + 1500;
+            break;
 
-		default:
-		break;
-		}
-	} 
-	return (LRESULT) NULL;
-	
+        default:
+            break;
+        }
+    }
+
+    return CallNextHookEx(gController.KeyboardHook, Code, wParam, lParam);
 }
-// ----------------------------------------------------------------------------------------------
-
 
 /*LRESULT Controller::Window(HWND Window, DWORD Message, WPARAM wParam, LPARAM lParam)
 {
-	switch(Message)
-	{
-
-	case TRAYMODE_ICON_MESSAGE:
-		{
-			switch(lParam)
-			{
-			case WM_LBUTTONDBLCLK:
-				{
-					gTrayMode.SwitchState();
-				}
-				break;
-			}
-		}
-		break;
-	}
-	// ----
-	return CallWindowProc((WNDPROC)gTrayMode.TempWindowProc, Window, Message, wParam, lParam);
+    switch(Message)
+    {
+    case TRAYMODE_ICON_MESSAGE:
+        {
+            switch(lParam)
+            {
+            case WM_LBUTTONDBLCLK:
+                {
+                    gTrayMode.SwitchState();
+                }
+                break;
+            }
+        }
+        break;
+    }
+    return CallWindowProc((WNDPROC)gTrayMode.TempWindowProc, Window, Message, wParam, lParam);
 }*/
-
-

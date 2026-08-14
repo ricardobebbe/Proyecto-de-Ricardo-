@@ -1,5 +1,5 @@
 // BloodCastle.h: interface for the CBloodCastle class.
-//
+// 97x configuration: Blood Castle 1..6 only.
 //////////////////////////////////////////////////////////////////////
 
 #pragma once
@@ -8,11 +8,13 @@
 #include "Protocol.h"
 #include "User.h"
 
-#define MAX_BC_LEVEL 8
+// Original 97x has six Blood Castle levels (BC1..BC6).
+#define MAX_BC_LEVEL 6
 #define MAX_BC_USER 50
 #define MAX_BC_MONSTER 200
 
-#define GET_BC_LEVEL(x) (((x)<MAP_BLOOD_CASTLE1)?-1:((x)>MAP_BLOOD_CASTLE7)?(((x)==MAP_BLOOD_CASTLE8)?(MAX_BC_LEVEL-1):-1):((x)-MAP_BLOOD_CASTLE1))
+// Valid server-side Blood Castle maps for the 97x configuration.
+#define GET_BC_LEVEL(x) (((x)<MAP_BLOOD_CASTLE1)?-1:((x)>MAP_BLOOD_CASTLE6)?-1:((x)-MAP_BLOOD_CASTLE1))
 
 #define BC_LEVEL_RANGE(x) (((x)<0)?0:((x)>=MAX_BC_LEVEL)?0:1)
 
@@ -25,20 +27,12 @@ enum eBloodCastleState
 	BC_STATE_CLEAN = 4,
 };
 
-//**********************************************//
-//************ Client -> GameServer ************//
-//**********************************************//
-
 struct PMSG_BLOOD_CASTLE_ENTER_RECV
 {
 	PBMSG_HEAD header; // C1:9A
 	BYTE level;
 	BYTE slot;
 };
-
-//**********************************************//
-//************ GameServer -> Client ************//
-//**********************************************//
 
 struct PMSG_BLOOD_CASTLE_SCORE_SEND
 {
@@ -70,10 +64,6 @@ struct PMSG_BLOOD_CASTLE_STATE_SEND
 	WORD EventItemOwner;
 	BYTE EventItemLevel;
 };
-
-//**********************************************//
-//**********************************************//
-//**********************************************//
 
 struct BLOOD_CASTLE_START_TIME
 {
@@ -225,7 +215,5 @@ private:
 extern CBloodCastle gBloodCastle;
 
 static const BYTE gBloodCastleEntranceZone[4] = {13,15,15,23};
-
 static const BYTE gBloocCastleBridgeZone[4] = {13,70,15,75};
-
 static const BYTE gBloodCastleGateZone[3][4] = {{13,76,15,79},{11,80,25,89},{8,80,10,83}};

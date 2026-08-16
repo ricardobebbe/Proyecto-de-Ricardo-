@@ -43,7 +43,7 @@ CastleSiegeDecayAccumulatedTimeValue = 0
 ; Chaos Castle Event Settings
 ;==================================================
 ChaosCastleEvent = 1
-ChaosCastleMinUser = 1
+ChaosCastleMinUser = 2
 ChaosCastleBlowUserRate = 50
 
 ;==================================================

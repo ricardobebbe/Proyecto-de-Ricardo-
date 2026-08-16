@@ -588,20 +588,58 @@ void gObjAllDisconnect() // OK
 
 void gObjSetExperienceTable() // OK
 {
+	// FIX CRITICO: la tabla desbordaba el DWORD a partir del nivel 204.
+	//
+	//   Formula 97x: exp[n] = exp[n-1] + n*n*n*10
+	//   Total teorico a nivel 350 = 37.730.306.250
+	//   Maximo de un DWORD        =  4.294.967.295
+	//
+	// Al pasar de 32 bits el valor "daba la vuelta": el nivel 203 pedia
+	// 4.287.384.360 de experiencia y el 204 pedia 77.313.704, o sea MENOS
+	// que el anterior. La tabla dejaba de crecer en 8 puntos distintos
+	// (204, 242, 268, 288, 304, 319, 331, 342), lo que producia barras de
+	// experiencia trabadas o que retrocedian.
+	//
+	// Ademas la rama Season 6+ usaba '+=' sobre memoria sin inicializar en
+	// vez de '=' sobre el nivel anterior, con lo que la tabla arrancaba con
+	// valores basura.
+	//
+	// Ahora se acumula en QWORD (64 bits) y se satura en el maximo del DWORD,
+	// de modo que la tabla nunca decrece.
+
 	gLevelExperience[0] = 0;
 
-	int over = 1;
+	QWORD total = 0;
 
-	for (int n = 1; n <= MAX_CHARACTER_LEVEL; n++)
+	for(int n = 1; n <= MAX_CHARACTER_LEVEL; n++)
 	{
-		// Frmula de experiencia 97x vs Season 6+
+		QWORD add = 0;
+
 #ifdef SEASON_97X
-		gLevelExperience[n] = gLevelExperience[n - 1] + (over * over * over) * 10;
+		// Formula 97x acumulativa
+		add = ((QWORD)n * (QWORD)n * (QWORD)n) * 10;
 #else
-		gLevelExperience[n] += (((over + 11) * over) * over) * 1 + (over + 9) * over * over * 3;
+		// Formula Season acumulativa
+		add = ((QWORD)(n + 11) * (QWORD)n * (QWORD)n)
+		    + ((QWORD)(n + 9) * (QWORD)n * (QWORD)n) * 3;
 #endif
 
-		over++;
+		total += add;
+
+		// Saturacion: nunca por encima del maximo que entra en un DWORD.
+		if(total > 0xFFFFFFFFULL)
+		{
+			total = 0xFFFFFFFFULL;
+		}
+
+		gLevelExperience[n] = (DWORD)total;
+
+		// La tabla jamas puede quedar en cero: NextExperience = 0 dividiria
+		// por cero al dibujar la barra de experiencia en el cliente.
+		if(gLevelExperience[n] == 0)
+		{
+			gLevelExperience[n] = 1;
+		}
 	}
 }
 
@@ -1318,9 +1356,53 @@ void gObjClearSpecialOption(LPOBJ lpObj) // OK
 
 void gObjCalcExperience(LPOBJ lpObj) // OK
 {
-	lpObj->Experience = ((lpObj->Experience < gLevelExperience[(lpObj->Level - 1)]) ? gLevelExperience[(lpObj->Level - 1)] : lpObj->Experience);
+	// FIX CRITICO: con Level = 0 la expresion gLevelExperience[Level - 1]
+	// indexaba gLevelExperience[-1], es decir memoria ANTES del array.
+	// Un personaje recien creado, o cualquiera cuyo nivel se corrompiera,
+	// leia basura y podia arrastrar la experiencia a un valor absurdo.
+	// gObjCharZeroSet() deja Level = 0, asi que el caso era alcanzable.
 
-	lpObj->NextExperience = gLevelExperience[((lpObj->Level >= MAX_CHARACTER_LEVEL) ? MAX_CHARACTER_LEVEL : lpObj->Level)];
+	if(lpObj == 0)
+	{
+		return;
+	}
+
+	// El nivel se acota al rango real de la tabla (0 .. MAX_CHARACTER_LEVEL).
+	if(lpObj->Level <= 0)
+	{
+		lpObj->Level = 1;
+	}
+
+	if(lpObj->Level > MAX_CHARACTER_LEVEL)
+	{
+		lpObj->Level = MAX_CHARACTER_LEVEL;
+	}
+
+	int prevIndex = lpObj->Level - 1;
+	int nextIndex = lpObj->Level;
+
+	if(prevIndex < 0)
+	{
+		prevIndex = 0;
+	}
+
+	if(nextIndex > MAX_CHARACTER_LEVEL)
+	{
+		nextIndex = MAX_CHARACTER_LEVEL;
+	}
+
+	if(lpObj->Experience < gLevelExperience[prevIndex])
+	{
+		lpObj->Experience = gLevelExperience[prevIndex];
+	}
+
+	lpObj->NextExperience = gLevelExperience[nextIndex];
+
+	// NextExperience = 0 traba la barra de experiencia del cliente.
+	if(lpObj->NextExperience == 0)
+	{
+		lpObj->NextExperience = 1;
+	}
 
 	// Master Level Experience - Solo Season 6+
 #ifndef SEASON_97X

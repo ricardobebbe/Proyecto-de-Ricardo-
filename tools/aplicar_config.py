@@ -170,7 +170,9 @@ def common():
 
     # --- Nivel maximo --------------------------------------------------------
     # Estaba en 350 pero el Master Reset exige nivel 400 -> era imposible.
-    ed.set("MaxUserLevel", "400", "antes 350: bloqueaba el Master Reset de 400")
+    # El source 97x define MAX_CHARACTER_LEVEL 350 y gLevelExperience[] tiene
+    # 351 entradas. Un MaxUserLevel mayor hace leer fuera del array.
+    ed.set("MaxUserLevel", "350", "tope real del source (MAX_CHARACTER_LEVEL)")
     ed.set("ServerMaxUserNumber", "100")
 
     # --- Conexiones (todo en la misma maquina) -------------------------------
@@ -228,7 +230,7 @@ def common():
     ed.set("GuildCreateMinLevel", "100")
 
     # --- Party ---------------------------------------------------------------
-    ed.set("DifferenceMaxLevel", "400", "acompana el nuevo MaxUserLevel")
+    ed.set("DifferenceMaxLevel", "350", "acompana el tope real del source")
 
     # --- Master Skill Tree: apagado a proposito en 97x -----------------------
     ed.set("MasterSkillTree", "0", "97x no tiene arbol de maestria")
@@ -245,8 +247,8 @@ def command():
     ed.limpiar_mojibake()
 
     # --- Reset normal --------------------------------------------------------
-    ed.set_muchos("CommandResetLevel_AL%d", [400, 400, 400, 400],
-                  "HARD: reset recien a nivel maximo (era 350)")
+    ed.set_muchos("CommandResetLevel_AL%d", [350, 350, 350, 350],
+                  "HARD: reset recien en el nivel maximo real")
     ed.set_muchos("CommandResetStartLevel_AL%d", [1, 1, 1, 1])
     ed.set_muchos("CommandResetMoney_AL%d",
                   [50000000, 45000000, 40000000, 35000000],
@@ -258,10 +260,13 @@ def command():
                   "HARD: era 999 por dia (equivalente a sin limite)")
     ed.set_muchos("CommandResetLimitWek_AL%d", [21, 28, 35, 42], "coherente con el tope diario")
     ed.set_muchos("CommandResetLimitMon_AL%d", [90, 120, 150, 180], "coherente con el tope diario")
-    ed.set_muchos("CommandResetPoint_AL%d", [0, 0, 0, 0], "0 = puntos acumulativos, estilo 97x")
+    # CommandResetPoint lo fija tools/aplicar_balance.py (150 por reset).
+    # Antes se ponia en 0 = "puntos acumulativos", lo que hacia que el reset
+    # fuera la unica via de progreso; el balance busca lo contrario.
+    # No se toca aca para que los dos scripts no se pisen.
 
     # --- Master Reset --------------------------------------------------------
-    ed.set_muchos("CommandMasterResetLevel_AL%d", [400, 400, 400, 400])
+    ed.set_muchos("CommandMasterResetLevel_AL%d", [350, 350, 350, 350])
     ed.set_muchos("CommandMasterResetStartLevel_AL%d", [1, 1, 1, 1])
     ed.set_muchos("CommandMasterResetReset_AL%d", [100, 95, 90, 85],
                   "resets exigidos; antes AL3 necesitaba 30 menos")

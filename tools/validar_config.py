@@ -163,6 +163,25 @@ def main():
         OK.append("%-34s nivel %d <= MaxUserLevel %d"
                   % ("Reset alcanzable", r_lvl, max_lvl))
 
+    # --- 6b. El nivel maximo no puede superar el limite del SOURCE ----------
+    # SORCE/GameServer/GameServer/User.h define MAX_CHARACTER_LEVEL 350 bajo
+    # SEASON_97X, y gLevelExperience[] tiene MAX_CHARACTER_LEVEL+1 entradas.
+    limite_source = 350
+    ruta_userh = os.path.join(RAIZ, "SORCE/GameServer/GameServer/User.h")
+    if os.path.exists(ruta_userh):
+        with open(ruta_userh, "rb") as fh:
+            txt = fh.read().decode("utf-8", errors="replace")
+        m = re.search(r"#ifdef\s+SEASON_97X\s*\n\s*#define\s+MAX_CHARACTER_LEVEL\s+(\d+)", txt)
+        if m:
+            limite_source = int(m.group(1))
+    if max_lvl > limite_source:
+        ERRORES.append("MaxUserLevel %d supera MAX_CHARACTER_LEVEL %d del source: "
+                       "el servidor leeria fuera de gLevelExperience[]"
+                       % (max_lvl, limite_source))
+    else:
+        OK.append("%-34s %d <= %d (limite del source)"
+                  % ("MaxUserLevel dentro del source", max_lvl, limite_source))
+
     # --- 7. Progresion VIP coherente ----------------------------------------
     creciente("Experiencia por rango VIP", familia(gs, "AddExperienceRate_AL%d"))
     creciente("Drop de items por rango VIP", familia(gs, "ItemDropRate_AL%d"))

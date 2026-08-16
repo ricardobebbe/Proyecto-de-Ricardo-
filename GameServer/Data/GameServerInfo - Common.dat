@@ -25,7 +25,7 @@ ServerMaxMasterReset = 0
 ;==================================================
 ; Max Level User (Fijado en 400 para evitar desborde de experiencia)
 ;==================================================
-MaxUserLevel = 400
+MaxUserLevel = 350
 
 ;==================================================
 ; Conexion Settings
@@ -258,14 +258,14 @@ MaxStatPointCMD_AL0 = 32767
 MaxStatPointCMD_AL1 = 32767
 MaxStatPointCMD_AL2 = 32767
 MaxStatPointCMD_AL3 = 32767
-DWLevelUpPoint = 5
-DKLevelUpPoint = 5
-FELevelUpPoint = 5
+DWLevelUpPoint = 6
+DKLevelUpPoint = 6
+FELevelUpPoint = 6
 MGLevelUpPoint = 7
 DLLevelUpPoint = 7
-SULevelUpPoint = 5
+SULevelUpPoint = 6
 RFLevelUpPoint = 7
-PlusStatPoint = 1
+PlusStatPoint = 2
 
 ;==================================================
 ; Criar Character Settings
@@ -418,7 +418,7 @@ PartySpecialExperience5 = 150
 PartyMaxMembers = 7
 PartyDisablePK = 1
 RestrictRequest = 1
-DifferenceMaxLevel = 400
+DifferenceMaxLevel = 350
 
 ;==================================================
 ; Potion Settings

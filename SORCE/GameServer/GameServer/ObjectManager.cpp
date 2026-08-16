@@ -1562,28 +1562,65 @@ bool CObjectManager::CharacterLevelUp(LPOBJ lpObj,DWORD AddExperience,int MaxLev
 {
 	if(gMasterSkillTree.CheckMasterLevel(lpObj) == 0)
 	{
-		//if(lpObj->Level >= MAX_CHARACTER_LEVEL)
-		if (lpObj->Level >= gServerInfo.m_MaxUserLevel)
+		// FIX: m_MaxUserLevel se lee del .dat y podia superar el tamano real
+		// de gLevelExperience[] (MAX_CHARACTER_LEVEL + 1 entradas).
+		// Con MaxUserLevel = 400 y MAX_CHARACTER_LEVEL = 350 el personaje
+		// subia hasta 400 y gObjCalcExperience leia fuera del array.
+		int maxNormalLevel = gServerInfo.m_MaxUserLevel;
+
+		if(maxNormalLevel <= 0 || maxNormalLevel > MAX_CHARACTER_LEVEL)
+		{
+			maxNormalLevel = MAX_CHARACTER_LEVEL;
+		}
+
+		if(lpObj->Level >= maxNormalLevel)
 		{
 			gNotice.GCNoticeSend(lpObj->Index,1,0,0,0,0,0,gMessage.GetMessage(266));
 			return 1;
 		}
 
-		if((lpObj->Experience+AddExperience) < lpObj->NextExperience)
+		// La suma se hace en 64 bits: Experience + AddExperience podia
+		// desbordar el DWORD y dar un resultado menor que NextExperience,
+		// saltandose el level up.
+		if(((QWORD)lpObj->Experience + (QWORD)AddExperience) < (QWORD)lpObj->NextExperience)
 		{
 			lpObj->Experience += AddExperience;
 			return 0;
 		}
 
-		while(true)
+		// FIX: MaxLevelUp <= 0 hacia que '--MaxLevelUp' nunca valiera 0 y el
+		// bucle pudiera no cortar nunca. Ahora se usa un contador propio.
+		int levelsLeft = (MaxLevelUp <= 0) ? 1 : MaxLevelUp;
+
+		while(levelsLeft > 0 && lpObj->Level < maxNormalLevel)
 		{
+			if(lpObj->NextExperience == 0)
+			{
+				lpObj->NextExperience = 1;
+			}
+
+			if(lpObj->Experience > lpObj->NextExperience)
+			{
+				lpObj->Experience = lpObj->NextExperience;
+			}
+
+			DWORD need = lpObj->NextExperience - lpObj->Experience;
+
+			// No alcanza para otro nivel: se acumula el resto y se sale.
+			if(AddExperience < need)
+			{
+				lpObj->Experience += AddExperience;
+				AddExperience = 0;
+				break;
+			}
+
+			AddExperience -= need;
+
 			lpObj->Level++;
 
 			lpObj->LevelUpPoint += gServerInfo.m_LevelUpPoint[lpObj->Class];
 
 			lpObj->LevelUpPoint += ((lpObj->Level>220)?((gQuest.CheckQuestListState(lpObj,2,QUEST_FINISH)==0)?0:gServerInfo.m_PlusStatPoint):0);
-
-			AddExperience -= (((--MaxLevelUp)==0)?AddExperience:(lpObj->NextExperience-lpObj->Experience));
 
 			lpObj->Experience = lpObj->NextExperience;
 
@@ -1594,25 +1631,25 @@ bool CObjectManager::CharacterLevelUp(LPOBJ lpObj,DWORD AddExperience,int MaxLev
 				gCustomRankUser.CheckUpdate(lpObj);
 			}
 
-			//if(lpObj->Level >= MAX_CHARACTER_LEVEL)
-			if (lpObj->Level >= gServerInfo.m_MaxUserLevel)
+			levelsLeft--;
 
+			if(AddExperience == 0)
 			{
-				AddExperience = 0;
 				break;
 			}
+		}
 
-			if (lpObj->MasterLevel >= gServerInfo.m_MasterSkillTreeMaxLevel)
-			{
-				AddExperience = 0;
-				break;
-			}
+		// FIX: aca estaba el corte por MasterLevel.
+		//   if(lpObj->MasterLevel >= gServerInfo.m_MasterSkillTreeMaxLevel)
+		// Con el master desactivado ambos valen 0, asi que "0 >= 0" era
+		// SIEMPRE cierto: forzaba AddExperience = 0 y se DESCARTABA toda la
+		// experiencia sobrante en cada level up. Esa comprobacion pertenece
+		// al bucle de master level, no al de nivel normal, y se elimino de aca.
 
-			if((lpObj->Experience+AddExperience) < lpObj->NextExperience)
-			{
-				lpObj->Experience += AddExperience;
-				break;
-			}
+		// La experiencia que sobro (por tope de niveles por golpe) se conserva.
+		if(AddExperience > 0 && lpObj->Level < maxNormalLevel)
+		{
+			lpObj->Experience += AddExperience;
 		}
 
 		this->CharacterCalcAttribute(lpObj->Index);
@@ -1631,25 +1668,56 @@ bool CObjectManager::CharacterLevelUp(LPOBJ lpObj,DWORD AddExperience,int MaxLev
 	}
 	else
 	{
-		if(lpObj->MasterLevel >= gServerInfo.m_MasterSkillTreeMaxLevel)
+		// FIX: si el master esta activo pero MasterSkillTreeMaxLevel quedo en 0,
+		// el tope efectivo seria 0 y nadie podria subir master level.
+		int maxMasterLevel = gServerInfo.m_MasterSkillTreeMaxLevel;
+
+		if(maxMasterLevel <= 0 || maxMasterLevel > MAX_CHARACTER_MASTER_LEVEL)
+		{
+			maxMasterLevel = MAX_CHARACTER_MASTER_LEVEL;
+		}
+
+		if(lpObj->MasterLevel >= maxMasterLevel)
 		{
 			gNotice.GCNoticeSend(lpObj->Index,1,0,0,0,0,0,gMessage.GetMessage(267));
 			return 1;
 		}
 
-		if((lpObj->MasterExperience+AddExperience) < lpObj->MasterNextExperience)
+		if((lpObj->MasterExperience + (QWORD)AddExperience) < lpObj->MasterNextExperience)
 		{
 			lpObj->MasterExperience += AddExperience;
 			return 0;
 		}
 
-		while(true)
+		int levelsLeft = (MaxLevelUp <= 0) ? 1 : MaxLevelUp;
+		QWORD addExp = (QWORD)AddExperience;
+
+		while(levelsLeft > 0 && lpObj->MasterLevel < maxMasterLevel)
 		{
+			if(lpObj->MasterNextExperience == 0)
+			{
+				lpObj->MasterNextExperience = 1;
+			}
+
+			if(lpObj->MasterExperience > lpObj->MasterNextExperience)
+			{
+				lpObj->MasterExperience = lpObj->MasterNextExperience;
+			}
+
+			QWORD need = lpObj->MasterNextExperience - lpObj->MasterExperience;
+
+			if(addExp < need)
+			{
+				lpObj->MasterExperience += addExp;
+				addExp = 0;
+				break;
+			}
+
+			addExp -= need;
+
 			lpObj->MasterLevel++;
 
 			lpObj->MasterPoint += gServerInfo.m_MasterSkillTreePoint;
-
-			AddExperience -= (((--MaxLevelUp)==0)?AddExperience:(DWORD)(lpObj->MasterNextExperience-lpObj->MasterExperience));
 
 			lpObj->MasterExperience = lpObj->MasterNextExperience;
 
@@ -1660,17 +1728,17 @@ bool CObjectManager::CharacterLevelUp(LPOBJ lpObj,DWORD AddExperience,int MaxLev
 				gCustomRankUser.CheckUpdate(lpObj);
 			}
 
-			if(lpObj->MasterLevel >= gServerInfo.m_MasterSkillTreeMaxLevel)
-			{
-				AddExperience = 0;
-				break;
-			}
+			levelsLeft--;
 
-			if((lpObj->MasterExperience+AddExperience) < lpObj->MasterNextExperience)
+			if(addExp == 0)
 			{
-				lpObj->MasterExperience += AddExperience;
 				break;
 			}
+		}
+
+		if(addExp > 0 && lpObj->MasterLevel < maxMasterLevel)
+		{
+			lpObj->MasterExperience += addExp;
 		}
 
 		this->CharacterCalcAttribute(lpObj->Index);

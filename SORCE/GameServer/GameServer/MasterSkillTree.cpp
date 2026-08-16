@@ -722,6 +722,18 @@ int CMasterSkillTree::GetMasterSkillDamageMax(LPOBJ lpObj,int index) // OK
 
 bool CMasterSkillTree::CheckMasterLevel(LPOBJ lpObj) // OK
 {
+	// FIX CRITICO: el cuerpo entero estaba dentro de #if(GAMESERVER_UPDATE>=401).
+	// Este build compila con GAMESERVER_UPDATE 100, asi que la funcion quedaba
+	// SIN NINGUN return -> comportamiento indefinido (devolvia basura del stack).
+	// Como CharacterLevelUp() decide con este valor si sube nivel normal o master,
+	// el personaje entraba al camino de master al azar y la barra de experiencia
+	// se trababa. Ahora hay un return garantizado en todos los caminos.
+
+	if(lpObj == 0)
+	{
+		return 0;
+	}
+
 	#if(GAMESERVER_UPDATE>=401)
 
 	if(gServerInfo.m_MasterSkillTree == 0)
@@ -733,10 +745,13 @@ bool CMasterSkillTree::CheckMasterLevel(LPOBJ lpObj) // OK
 	{
 		return 1;
 	}
-	else
-	{
-		return 0;
-	}
+
+	return 0;
+
+	#else
+
+	// Sin soporte de master skill tree: siempre nivel normal.
+	return 0;
 
 	#endif
 }

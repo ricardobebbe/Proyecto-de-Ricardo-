@@ -55,10 +55,10 @@ CommandResetSkill_AL2 = 0
 CommandResetSkill_AL3 = 0
 
 ; BUG CORREGIDO: Todos resetean a nivel 350 o 400 segun su rango (Estilo 97x)
-CommandResetLevel_AL0 = 400
-CommandResetLevel_AL1 = 400
-CommandResetLevel_AL2 = 400
-CommandResetLevel_AL3 = 400
+CommandResetLevel_AL0 = 350
+CommandResetLevel_AL1 = 350
+CommandResetLevel_AL2 = 350
+CommandResetLevel_AL3 = 350
 
 ; Costo de Zen clsico por reset
 CommandResetMoney_AL0 = 50000000
@@ -97,10 +97,10 @@ CommandResetStartLevel_AL2 = 1
 CommandResetStartLevel_AL3 = 1
 
 ; Puntos por Reset (0 = Acumulativo clsico Mu Online 97x)
-CommandResetPoint_AL0 = 0
-CommandResetPoint_AL1 = 0
-CommandResetPoint_AL2 = 0
-CommandResetPoint_AL3 = 0
+CommandResetPoint_AL0 = 150
+CommandResetPoint_AL1 = 150
+CommandResetPoint_AL2 = 150
+CommandResetPoint_AL3 = 150
 
 ; Multiplicadores de puntos para Razas Clsicas 97x
 CommandResetPointRateDW = 100
@@ -137,10 +137,10 @@ CommandMasterResetSkill_AL1 = 0
 CommandMasterResetSkill_AL2 = 0
 CommandMasterResetSkill_AL3 = 0
 
-CommandMasterResetLevel_AL0 = 400
-CommandMasterResetLevel_AL1 = 400
-CommandMasterResetLevel_AL2 = 400
-CommandMasterResetLevel_AL3 = 400
+CommandMasterResetLevel_AL0 = 350
+CommandMasterResetLevel_AL1 = 350
+CommandMasterResetLevel_AL2 = 350
+CommandMasterResetLevel_AL3 = 350
 
 CommandMasterResetReset_AL0 = 100
 CommandMasterResetReset_AL1 = 95

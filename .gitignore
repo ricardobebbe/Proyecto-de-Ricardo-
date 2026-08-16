@@ -28,3 +28,6 @@ Obj/
 
 # Paquetes de entrega generados
 entrega/
+
+# Datos locales del sitio de demo
+sitio/datos.json

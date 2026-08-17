@@ -99,64 +99,79 @@ void CResetTable::Load(char* path) // OK
 
 int CResetTable::GetResetLevel(LPOBJ lpObj) // OK
 {
+	// FIX: AccountLevel viene de la base de datos y se usa como indice de
+	// arrays de tamano MAX_ACCOUNT_LEVEL. Un valor corrupto o fuera de rango
+	// leia memoria ajena. Se acota antes de usarlo.
+	int accountLevel = ((lpObj == 0 || lpObj->AccountLevel < 0 || lpObj->AccountLevel >= MAX_ACCOUNT_LEVEL) ? 0 : lpObj->AccountLevel);
+
 	for(std::vector<RESET_TABLE_INFO>::iterator it=this->m_ResetTableInfo.begin();it != this->m_ResetTableInfo.end();it++)
 	{
 		if((lpObj->Reset+1) >= it->MinReset && (lpObj->Reset+1) <= it->MaxReset)
 		{
-			if(it->Level[lpObj->AccountLevel] == -1)
+			if(it->Level[accountLevel] == -1)
 			{
-				return gServerInfo.m_CommandResetLevel[lpObj->AccountLevel];
+				return gServerInfo.m_CommandResetLevel[accountLevel];
 			}
 			else
 			{
-				return it->Level[lpObj->AccountLevel];
+				return it->Level[accountLevel];
 			}
 		}
 	}
 
-	return gServerInfo.m_CommandResetLevel[lpObj->AccountLevel];
+	return gServerInfo.m_CommandResetLevel[accountLevel];
 }
 
 int CResetTable::GetResetMoney(LPOBJ lpObj) // OK
 {
+	// FIX: AccountLevel viene de la base de datos y se usa como indice de
+	// arrays de tamano MAX_ACCOUNT_LEVEL. Un valor corrupto o fuera de rango
+	// leia memoria ajena. Se acota antes de usarlo.
+	int accountLevel = ((lpObj == 0 || lpObj->AccountLevel < 0 || lpObj->AccountLevel >= MAX_ACCOUNT_LEVEL) ? 0 : lpObj->AccountLevel);
+
 	for(std::vector<RESET_TABLE_INFO>::iterator it=this->m_ResetTableInfo.begin();it != this->m_ResetTableInfo.end();it++)
 	{
 		if((lpObj->Reset+1) >= it->MinReset && (lpObj->Reset+1) <= it->MaxReset)
 		{
-			if(it->Money[lpObj->AccountLevel] == -1)
+			if(it->Money[accountLevel] == -1)
 			{
-				return gServerInfo.m_CommandResetMoney[lpObj->AccountLevel];
+				return gServerInfo.m_CommandResetMoney[accountLevel];
 			}
 			else
 			{
-				return it->Money[lpObj->AccountLevel];
+				return it->Money[accountLevel];
 			}
 		}
 	}
 
-	return gServerInfo.m_CommandResetMoney[lpObj->AccountLevel];
+	return gServerInfo.m_CommandResetMoney[accountLevel];
 }
 
 int CResetTable::GetResetPoint(LPOBJ lpObj) // OK
 {
+	// FIX: AccountLevel viene de la base de datos y se usa como indice de
+	// arrays de tamano MAX_ACCOUNT_LEVEL. Un valor corrupto o fuera de rango
+	// leia memoria ajena. Se acota antes de usarlo.
+	int accountLevel = ((lpObj == 0 || lpObj->AccountLevel < 0 || lpObj->AccountLevel >= MAX_ACCOUNT_LEVEL) ? 0 : lpObj->AccountLevel);
+
 	int point = 0;
 
 	for(int n=1;n <= lpObj->Reset;n++)
 	{
-		int AddPoint = gServerInfo.m_CommandResetPoint[lpObj->AccountLevel];
+		int AddPoint = gServerInfo.m_CommandResetPoint[accountLevel];
 
 		for(std::vector<RESET_TABLE_INFO>::iterator it=this->m_ResetTableInfo.begin();it != this->m_ResetTableInfo.end();it++)
 		{
 			if(n >= it->MinReset && n <= it->MaxReset)
 			{
-				if(it->Point[lpObj->AccountLevel] == -1)
+				if(it->Point[accountLevel] == -1)
 				{
-					AddPoint = gServerInfo.m_CommandResetPoint[lpObj->AccountLevel];
+					AddPoint = gServerInfo.m_CommandResetPoint[accountLevel];
 					break;
 				}
 				else
 				{
-					AddPoint = it->Point[lpObj->AccountLevel];
+					AddPoint = it->Point[accountLevel];
 					break;
 				}
 			}

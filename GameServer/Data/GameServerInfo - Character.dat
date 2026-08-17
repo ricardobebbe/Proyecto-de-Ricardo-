@@ -10,28 +10,28 @@ IllusionTempleDamageRate = 50
 CastleSiegeDamageRate1 = 40
 CastleSiegeDamageRate2 = 0
 CastleSiegeDamageRate3 = 5
-GeneralDamageRatePvP = 100
-GeneralDamageRatePvM = 100
+GeneralDamageRatePvP = 70
+GeneralDamageRatePvM = 80
 ReflectDamageRatePvP = 50
 ReflectDamageRatePvM = 100
 
 ;==================================================
 ; Character Class Damage Rate Settings
 ;==================================================
-DWDamageRatePvP = 100
-DKDamageRatePvP = 100
-FEDamageRatePvP = 100
-MGDamageRatePvP = 100
-DLDamageRatePvP = 100
-SUDamageRatePvP = 100
-RFDamageRatePvP = 95
-DWDamageRatePvM = 100
-DKDamageRatePvM = 100
-FEDamageRatePvM = 100
-MGDamageRatePvM = 100
-DLDamageRatePvM = 100
-SUDamageRatePvM = 100
-RFDamageRatePvM = 100
+DWDamageRatePvP = 75
+DKDamageRatePvP = 75
+FEDamageRatePvP = 75
+MGDamageRatePvP = 75
+DLDamageRatePvP = 75
+SUDamageRatePvP = 75
+RFDamageRatePvP = 75
+DWDamageRatePvM = 85
+DKDamageRatePvM = 85
+FEDamageRatePvM = 85
+MGDamageRatePvM = 85
+DLDamageRatePvM = 85
+SUDamageRatePvM = 85
+RFDamageRatePvM = 85
 
 ;==================================================
 ; Character Class x Class Damage Rate Settings
@@ -368,20 +368,20 @@ RFAttackSuccessRatePvPConstD = 10
 ;==================================================
 ; Character Speed Settings
 ;==================================================
-DWPhysiSpeedConstA = 20
-DWMagicSpeedConstA = 10
-DKPhysiSpeedConstA = 15
-DKMagicSpeedConstA = 20
-FEPhysiSpeedConstA = 50
-FEMagicSpeedConstA = 50
-MGPhysiSpeedConstA = 15
-MGMagicSpeedConstA = 20
-DLPhysiSpeedConstA = 10
-DLMagicSpeedConstA = 10
-SUPhysiSpeedConstA = 20
-SUMagicSpeedConstA = 20
-RFPhysiSpeedConstA = 9
-RFMagicSpeedConstA = 9
+DWPhysiSpeedConstA = 22
+DWMagicSpeedConstA = 11
+DKPhysiSpeedConstA = 16
+DKMagicSpeedConstA = 22
+FEPhysiSpeedConstA = 55
+FEMagicSpeedConstA = 55
+MGPhysiSpeedConstA = 16
+MGMagicSpeedConstA = 22
+DLPhysiSpeedConstA = 11
+DLMagicSpeedConstA = 11
+SUPhysiSpeedConstA = 22
+SUMagicSpeedConstA = 22
+RFPhysiSpeedConstA = 10
+RFMagicSpeedConstA = 10
 
 ;==================================================
 ; Character Defense Success Rate Settings
@@ -424,8 +424,8 @@ RFDefenseSuccessRatePvPConstC = 5
 ;==================================================
 DWDefenseConstA = 4
 DKDefenseConstA = 3
-FEDefenseConstA = 10
+FEDefenseConstA = 9
 MGDefenseConstA = 4
-DLDefenseConstA = 7
+DLDefenseConstA = 6
 SUDefenseConstA = 3
-RFDefenseConstA = 8
+RFDefenseConstA = 7

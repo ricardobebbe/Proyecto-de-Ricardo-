@@ -305,7 +305,7 @@ void CServerInfo::ReadCustomInfo() // OK
 {
 	// ------------------------------------------------------------
 	// ADVANCE STATS
-	g_StatsAdvance.Load(); //Estatísticas de atributo
+	g_StatsAdvance.Load(); //Estatï¿½sticas de atributo
 	// ------------------------------------------------------------
 
 	this->ReadCustomInfo("GameServerInfo",".\\Data\\GameServerInfo - Custom.dat");
@@ -937,7 +937,7 @@ void CServerInfo::ReloadMonsterInfo() // OK
 
 	//gMonsterManager.SetMonsterData();
 
-	//Leitura de todos as alocações de spots
+	//Leitura de todos as alocaï¿½ï¿½es de spots
 
 	gMonsterManager.SetMonsterData();
 
@@ -3209,7 +3209,16 @@ void CServerInfo::ReadCommonInfo(char* section,char* path) // OK
 
 	this->m_MaxIpConnection = GetPrivateProfileInt(section,"MaxIpConnection",0,path);
 	
-	this->m_MaxUserLevel = GetPrivateProfileInt(section, "MaxUserLevel", 1000, path);
+	this->m_MaxUserLevel = GetPrivateProfileInt(section, "MaxUserLevel", MAX_CHARACTER_LEVEL, path);
+
+	// FIX: el valor por defecto era 1000, pero en 97x la tabla de experiencia
+	// solo tiene MAX_CHARACTER_LEVEL (350) entradas. Un MaxUserLevel mayor
+	// permitia subir de nivel mas alla del array y leer fuera de rango.
+	if(this->m_MaxUserLevel <= 0 || this->m_MaxUserLevel > MAX_CHARACTER_LEVEL)
+	{
+		LogAdd(LOG_ALERT,"[Balance] MaxUserLevel invalido (%d), ajustado a %d",this->m_MaxUserLevel,MAX_CHARACTER_LEVEL);
+		this->m_MaxUserLevel = MAX_CHARACTER_LEVEL;
+	}
 
 	this->m_BannedDuration = GetPrivateProfileInt(section,"BannedDuration",0,path);
 	
@@ -3423,13 +3432,33 @@ void CServerInfo::ReadCommonInfo(char* section,char* path) // OK
 
 	this->m_TradeItemBlockLucky = GetPrivateProfileInt(section,"TradeItemBlockLucky",1,path);
 
-	this->m_MaxLevelUp = GetPrivateProfileInt(section,"MaxLevelUp",0,path);
+	this->m_MaxLevelUp = GetPrivateProfileInt(section,"MaxLevelUp",1,path);
 
-	this->m_MaxLevelUpEvent = GetPrivateProfileInt(section,"MaxLevelUpEvent",0,path);
+	// FIX: con MaxLevelUp = 0 el bucle de CharacterLevelUp no tenia corte fiable.
+	// El minimo util es 1 nivel por golpe.
+	if(this->m_MaxLevelUp <= 0)
+	{
+		LogAdd(LOG_ALERT,"[Balance] MaxLevelUp invalido, ajustado a 1");
+		this->m_MaxLevelUp = 1;
+	}
+
+	this->m_MaxLevelUpEvent = GetPrivateProfileInt(section,"MaxLevelUpEvent",1,path);
+
+	if(this->m_MaxLevelUpEvent <= 0)
+	{
+		LogAdd(LOG_ALERT,"[Balance] MaxLevelUpEvent invalido, ajustado a 1");
+		this->m_MaxLevelUpEvent = 1;
+	}
 
 	#if(GAMESERVER_UPDATE>=501)
 
-	this->m_MaxLevelUpQuest = GetPrivateProfileInt(section,"MaxLevelUpQuest",0,path);
+	this->m_MaxLevelUpQuest = GetPrivateProfileInt(section,"MaxLevelUpQuest",1,path);
+
+	if(this->m_MaxLevelUpQuest <= 0)
+	{
+		LogAdd(LOG_ALERT,"[Balance] MaxLevelUpQuest invalido, ajustado a 1");
+		this->m_MaxLevelUpQuest = 1;
+	}
 
 	#endif
 
@@ -3612,6 +3641,14 @@ void CServerInfo::ReadCommonInfo(char* section,char* path) // OK
 	this->m_MasterSkillTreePoint = GetPrivateProfileInt(section,"MasterSkillTreePoint",0,path);
 
 	this->m_MasterSkillTreeMaxLevel = GetPrivateProfileInt(section,"MasterSkillTreeMaxLevel",0,path);
+
+	// FIX: si el master esta activo pero el tope quedo en 0, nadie podria
+	// subir un solo master level.
+	if(this->m_MasterSkillTree != 0 && this->m_MasterSkillTreeMaxLevel <= 0)
+	{
+		LogAdd(LOG_ALERT,"[Balance] MasterSkillTreeMaxLevel invalido, ajustado a 200");
+		this->m_MasterSkillTreeMaxLevel = 200;
+	}
 
 	#endif
 

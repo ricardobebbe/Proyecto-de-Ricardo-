@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[Mu]Misiones — Servidor MU Online 97x</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<header class="cabecera">
+  <div class="contenedor barra">
+    <a href="#inicio" class="logo">
+      <span class="logo-mu">MU</span><span class="logo-txt">Misiones</span>
+      <span class="chip">97x</span>
+    </a>
+    <nav class="menu">
+      <a href="#inicio">Inicio</a>
+      <a href="#novedades">Novedades</a>
+      <a href="#ranking">Ranking</a>
+      <a href="#tienda">Tienda</a>
+      <a href="#descargas">Descargas</a>
+    </nav>
+    <div class="acciones" id="acciones"></div>
+  </div>
+</header>
+
+<!-- ================= INICIO ================= -->
+<section class="hero" id="inicio">
+  <div class="contenedor hero-in">
+    <span class="etiqueta">Season 6 · Cliente 97x</span>
+    <h1>Volvé al MU de verdad</h1>
+    <p class="bajada">
+      Servidor <b>hard clásico</b>: la experiencia se gana jugando, no reseteando.
+      Sin pay-to-win, con balance corregido y economía real entre jugadores.
+    </p>
+    <div class="hero-btns">
+      <button class="btn btn-grande" data-abrir="registro">Crear cuenta gratis</button>
+      <a class="btn btn-borde btn-grande" href="#descargas">Descargar juego</a>
+    </div>
+
+    <div class="stats" id="stats">
+      <div class="stat"><b id="s-online">—</b><span>Jugadores online</span></div>
+      <div class="stat"><b id="s-cuentas">—</b><span>Cuentas creadas</span></div>
+      <div class="stat"><b id="s-pjs">—</b><span>Personajes</span></div>
+      <div class="stat"><b>350</b><span>Nivel máximo</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= RATES ================= -->
+<section class="seccion">
+  <div class="contenedor">
+    <h2>Configuración del servidor</h2>
+    <p class="sub">Valores reales, tomados de la configuración del GameServer.</p>
+    <div class="grid-4">
+      <div class="tarjeta"><span class="ico">⚔️</span><b>Experiencia x20</b>
+        <p>Progresión lenta y disfrutable. Los VIP suben hasta x50.</p></div>
+      <div class="tarjeta"><span class="ico">💎</span><b>Drop 10%</b>
+        <p>Los ítems valen. Excelentes al 0,5%, nada regalado.</p></div>
+      <div class="tarjeta"><span class="ico">🔄</span><b>Reset en 350</b>
+        <p>150 puntos por reset, hasta 3 por día. Sin resets infinitos.</p></div>
+      <div class="tarjeta"><span class="ico">🛡️</span><b>PvP balanceado</b>
+        <p>Daño al 70% en PvP y 80% en PvM. Las peleas duran.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= NOVEDADES ================= -->
+<section class="seccion alt" id="novedades">
+  <div class="contenedor">
+    <h2>Novedades</h2>
+    <p class="sub">Lo último del servidor.</p>
+    <div class="noticias" id="noticias"></div>
+  </div>
+</section>
+
+<!-- ================= RANKING ================= -->
+<section class="seccion" id="ranking">
+  <div class="contenedor">
+    <h2>Top 10 jugadores</h2>
+    <p class="sub">Ordenado por resets y nivel.</p>
+    <div class="tabla-caja">
+      <table class="tabla">
+        <thead><tr><th>#</th><th>Personaje</th><th>Clase</th><th>Nivel</th><th>Resets</th></tr></thead>
+        <tbody id="tb-ranking"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TIENDA ================= -->
+<section class="seccion alt" id="tienda">
+  <div class="contenedor">
+    <h2>Tienda</h2>
+    <p class="sub">Comprá créditos y canjealos por rangos VIP.</p>
+
+    <h3 class="sub-titulo">Paquetes de créditos</h3>
+    <div class="grid-3" id="paquetes"></div>
+
+    <h3 class="sub-titulo">Rangos VIP</h3>
+    <div class="grid-3" id="vips"></div>
+  </div>
+</section>
+
+<!-- ================= DESCARGAS ================= -->
+<section class="seccion" id="descargas">
+  <div class="contenedor">
+    <h2>Descargas</h2>
+    <p class="sub">Todo lo que necesitás para jugar.</p>
+    <div class="grid-3">
+      <div class="tarjeta desc">
+        <span class="ico">🎮</span><b>Cliente completo</b>
+        <p>Cliente 97x listo para jugar. Descomprimí y ejecutá <code>main.exe</code>.</p>
+        <span class="btn btn-borde btn-chico">Próximamente</span>
+      </div>
+      <div class="tarjeta desc">
+        <span class="ico">🔧</span><b>Parche de balance</b>
+        <p>Última actualización con las correcciones de experiencia y combate.</p>
+        <span class="btn btn-borde btn-chico">Próximamente</span>
+      </div>
+      <div class="tarjeta desc">
+        <span class="ico">📖</span><b>Cómo empezar</b>
+        <p>Creá tu cuenta, descargá el cliente y conectate al servidor.</p>
+        <button class="btn btn-chico" data-abrir="registro">Crear cuenta</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="pie">
+  <div class="contenedor">
+    <p><b>[Mu]Misiones</b> — Servidor privado de MU Online · Season 6 · Cliente 97x</p>
+    <p class="chico">Sitio de demostración. Los datos se guardan localmente, no en la base del servidor.</p>
+  </div>
+</footer>
+
+<!-- ================= MODALES ================= -->
+<div class="modal" id="modal">
+  <div class="modal-caja">
+    <button class="cerrar" id="cerrar">&times;</button>
+
+    <!-- registro -->
+    <div class="panel-modal" data-panel="registro">
+      <h3>Crear cuenta</h3>
+      <p class="modal-sub">Es gratis y toma un minuto.</p>
+      <form id="f-registro">
+        <label>Usuario <small>4 a 10 caracteres, letras y números</small>
+          <input name="usuario" maxlength="10" autocomplete="username" required></label>
+        <label>Email
+          <input name="email" type="email" autocomplete="email" required></label>
+        <label>Contraseña <small>4 a 10 caracteres</small>
+          <input name="clave" type="password" maxlength="10" autocomplete="new-password" required></label>
+        <label>Repetir contraseña
+          <input name="clave2" type="password" maxlength="10" autocomplete="new-password" required></label>
+        <div class="aviso" id="av-registro"></div>
+        <button class="btn ancho">Crear cuenta</button>
+      </form>
+      <p class="pie-modal">¿Ya tenés cuenta? <a href="#" data-ir="login">Iniciar sesión</a></p>
+    </div>
+
+    <!-- login -->
+    <div class="panel-modal" data-panel="login">
+      <h3>Iniciar sesión</h3>
+      <p class="modal-sub">Entrá a tu panel de cuenta.</p>
+      <form id="f-login">
+        <label>Usuario<input name="usuario" autocomplete="username" required></label>
+        <label>Contraseña<input name="clave" type="password" autocomplete="current-password" required></label>
+        <div class="aviso" id="av-login"></div>
+        <button class="btn ancho">Entrar</button>
+      </form>
+      <p class="pie-modal">¿No tenés cuenta? <a href="#" data-ir="registro">Registrate</a></p>
+    </div>
+
+    <!-- panel de cuenta -->
+    <div class="panel-modal" data-panel="cuenta">
+      <h3>Mi cuenta</h3>
+      <div id="caja-cuenta"></div>
+      <button class="btn btn-borde ancho" id="b-salir">Cerrar sesión</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="app.js"></script>
+</body>
+</html>

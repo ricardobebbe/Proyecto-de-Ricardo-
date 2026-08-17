@@ -6,7 +6,7 @@ CustomerName = [Mu]Misiones
 CustomerHardwareId = 
 	
 ;==================================================
-; Server Settings (RESTAURADOS ORIGINALES PARA CONEXI�N)
+; Server Settings (RESTAURADOS ORIGINALES PARA CONEXION)
 ;==================================================
 ServerName = V.97x
 ServerCode = 0
@@ -52,7 +52,7 @@ WriteChaosMixLog = 1
 ; AntiFlood Settings
 ;==================================================
 WriteSystemAntifloodLog = 1
-MaxIpConnection = 100
+MaxIpConnection = 4
 BannedDurationTemporal = 60000
 
 ;==================================================
@@ -100,7 +100,7 @@ UserHealthBarSwitch = 1
 ; PK Settings
 ;==================================================
 NonPK = 0
-PKLimitCount = 9999
+PKLimitCount = 6
 PKLimitFree = 0
 PKDownTime1 = 3600
 PKDownTime2 = 3700
@@ -113,7 +113,7 @@ TradeSwitch = 1
 ;==================================================
 ; Personal Shop Settings
 ;==================================================
-PersonalShopSwitch = 0
+PersonalShopSwitch = 1
 
 ;==================================================
 ; Duel Settings
@@ -159,68 +159,68 @@ ElfBufferDefenseConstB = 3
 ;==================================================
 ; Experience Settings (CORREGIDO: Multiple nivel activo)
 ;==================================================
-AddExperienceRate_AL0 = 100
-AddExperienceRate_AL1 = 800
-AddExperienceRate_AL2 = 900
-AddExperienceRate_AL3 = 700
-AddMasterExperienceRate_AL0 = 0
-AddMasterExperienceRate_AL1 = 0
-AddMasterExperienceRate_AL2 = 0
-AddMasterExperienceRate_AL3 = 0
+AddExperienceRate_AL0 = 20
+AddExperienceRate_AL1 = 30
+AddExperienceRate_AL2 = 40
+AddExperienceRate_AL3 = 50
+AddMasterExperienceRate_AL0 = 20
+AddMasterExperienceRate_AL1 = 30
+AddMasterExperienceRate_AL2 = 40
+AddMasterExperienceRate_AL3 = 50
 MinMasterExperienceMonsterLevel_AL0 = 10
 MinMasterExperienceMonsterLevel_AL1 = 10
 MinMasterExperienceMonsterLevel_AL2 = 10
 MinMasterExperienceMonsterLevel_AL3 = 50
-AddEventExperienceRate_AL0 = 500
-AddEventExperienceRate_AL1 = 500
-AddEventExperienceRate_AL2 = 500
-AddEventExperienceRate_AL3 = 500
-AddQuestExperienceRate_AL0 = 500
-AddQuestExperienceRate_AL1 = 500
-AddQuestExperienceRate_AL2 = 500
-AddQuestExperienceRate_AL3 = 500
-OffAttackExperienceRate_AL0 = 100
-OffAttackExperienceRate_AL1 = 500
-OffAttackExperienceRate_AL2 = 800
-OffAttackExperienceRate_AL3 = 800
-AutoResetExperienceRate_AL0 = 200
-AutoResetExperienceRate_AL1 = 800
-AutoResetExperienceRate_AL2 = 900
-AutoResetExperienceRate_AL3 = 900
+AddEventExperienceRate_AL0 = 40
+AddEventExperienceRate_AL1 = 50
+AddEventExperienceRate_AL2 = 60
+AddEventExperienceRate_AL3 = 70
+AddQuestExperienceRate_AL0 = 40
+AddQuestExperienceRate_AL1 = 50
+AddQuestExperienceRate_AL2 = 60
+AddQuestExperienceRate_AL3 = 70
+OffAttackExperienceRate_AL0 = 10
+OffAttackExperienceRate_AL1 = 15
+OffAttackExperienceRate_AL2 = 20
+OffAttackExperienceRate_AL3 = 25
+AutoResetExperienceRate_AL0 = 20
+AutoResetExperienceRate_AL1 = 30
+AutoResetExperienceRate_AL2 = 40
+AutoResetExperienceRate_AL3 = 50
 
 ;==================================================
 ; Item Drop Settings
 ;==================================================
 ItemDropTime = 10
-ItemDropRate_AL0 = 50
-ItemDropRate_AL1 = 60
-ItemDropRate_AL2 = 60
-ItemDropRate_AL3 = 70
-ExcellentItemDropRate_AL0 = 2000
-ExcellentItemDropRate_AL1 = 2000
-ExcellentItemDropRate_AL2 = 2000
-ExcellentItemDropRate_AL3 = 2000
-ExcItemDropRate_AL0 = 2000
-ExcItemDropRate_AL1 = 2000
-ExcItemDropRate_AL2 = 2000
-ExcItemDropRate_AL3 = 2000
+ItemDropRate_AL0 = 10
+ItemDropRate_AL1 = 12
+ItemDropRate_AL2 = 14
+ItemDropRate_AL3 = 16
+ExcellentItemDropRate_AL0 = 50
+ExcellentItemDropRate_AL1 = 60
+ExcellentItemDropRate_AL2 = 70
+ExcellentItemDropRate_AL3 = 80
+ExcItemDropRate_AL0 = 50
+ExcItemDropRate_AL1 = 60
+ExcItemDropRate_AL2 = 70
+ExcItemDropRate_AL3 = 80
 
 ;==================================================
 ; Money Drop Settings
 ;==================================================
 MoneyDropTime = 10
-MoneyAmountDropRate_AL0 = 20
-MoneyAmountDropRate_AL1 = 20
-MoneyAmountDropRate_AL2 = 20
-MoneyAmountDropRate_AL3 = 30
+MoneyAmountDropRate_AL0 = 10
+MoneyAmountDropRate_AL1 = 12
+MoneyAmountDropRate_AL2 = 14
+MoneyAmountDropRate_AL3 = 16
 
 ;==================================================
 ; Advanced Money Drop Settings
 ;==================================================
-MoneyValue_AL0 = 1000
-MoneyValue_AL1 = 1000
-MoneyValue_AL2 = 1000
-MoneyValue_AL3 = 1000
+MoneyValue_AL0 = 300
+MoneyValue_AL1 = 350
+MoneyValue_AL2 = 400
+MoneyValue_AL3 = 450
 
 ;==================================================
 ; Item Durability Settings
@@ -247,9 +247,9 @@ TradeItemBlockLucky = 0
 ;==================================================
 ; Level Up Settings (CORREGIDO: MaxLevelUp en 5 soluciona la exp congelada)
 ;==================================================
-MaxLevelUp = 5
-MaxLevelUpEvent = 5
-MaxLevelUpQuest = 5
+MaxLevelUp = 1
+MaxLevelUpEvent = 1
+MaxLevelUpQuest = 1
 MaxStatPoint_AL0 = 32767
 MaxStatPoint_AL1 = 32767
 MaxStatPoint_AL2 = 32767
@@ -258,14 +258,14 @@ MaxStatPointCMD_AL0 = 32767
 MaxStatPointCMD_AL1 = 32767
 MaxStatPointCMD_AL2 = 32767
 MaxStatPointCMD_AL3 = 32767
-DWLevelUpPoint = 5
-DKLevelUpPoint = 5
-FELevelUpPoint = 5
+DWLevelUpPoint = 6
+DKLevelUpPoint = 6
+FELevelUpPoint = 6
 MGLevelUpPoint = 7
 DLLevelUpPoint = 7
-SULevelUpPoint = 5
+SULevelUpPoint = 6
 RFLevelUpPoint = 7
-PlusStatPoint = 1
+PlusStatPoint = 2
 
 ;==================================================
 ; Criar Character Settings
@@ -445,7 +445,7 @@ EliteShieldPotionRate = 65
 PotionDelay = 300
 
 ;==================================================
-; Transforma��o Ring Settings
+; Transformacion Ring Settings
 ;==================================================
 TransformationRing1 = 2
 TransformationRing2 = 7

@@ -25,3 +25,9 @@ Obj/
 *.opensdf
 *.VC.db
 *.VC.VC.opendb
+
+# Paquetes de entrega generados
+entrega/
+
+# Datos locales del sitio de demo
+sitio/datos.json
